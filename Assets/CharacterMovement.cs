@@ -7,6 +7,7 @@ public class CharacterMovement : MonoBehaviour
 {
 
     Animator animator;
+    Animator headAnim;
 
     PlayerInput input;
 
@@ -35,8 +36,10 @@ public class CharacterMovement : MonoBehaviour
 
     float rotationFactorPerFrame = 10f;
 
+    float characterControllerY = 0.5f;
 
-     void Awake()
+
+    void Awake()
     {
         input = new PlayerInput();
         characterController = GetComponent<CharacterController>();
@@ -47,8 +50,10 @@ public class CharacterMovement : MonoBehaviour
         sitHash = Animator.StringToHash("isSitting");
         clapHash = Animator.StringToHash("isClapping");
 
-        
-        
+
+        //GameObject head = transform.Find("head(Clone)").gameObject;
+        //headAnim = GetComponentInChildren<Animator>();
+
 
         input.CharacterMovement.Movement.started += onMovementInput;
         input.CharacterMovement.Movement.performed += onMovementInput;
@@ -72,18 +77,46 @@ public class CharacterMovement : MonoBehaviour
     void onMovementInput(InputAction.CallbackContext ctx)
     {
         currentMovementInput = ctx.ReadValue<Vector2>();
-        currentMovement.x = currentMovementInput.x;
-        currentMovement.z = currentMovementInput.y;
+        if (!isSitting)
+        {
+            currentMovement.x = currentMovementInput.x;
+            currentMovement.z = currentMovementInput.y;
+        }
+        
         
     }
     void onSitInput(InputAction.CallbackContext ctx)
     {
-        
         sitInput = ctx.ReadValueAsButton();
-        if(sitInput && !isWalking && !isRaisingHand)
+
+        float radius = 0.5f;
+        Collider[] hitColliders = Physics.OverlapSphere(transform.position, radius, ~0, QueryTriggerInteraction.Collide);
+        for (int i = 0; i < hitColliders.Length; i++)
         {
-            animator.SetBool(sitHash, true);
+            if (hitColliders[i].CompareTag("Chair"))
+            {
+                // Do something with the object
+                Debug.Log("Chair found: " + hitColliders[i].gameObject.name);
+                // Move the player to the chair position
+                transform.position = hitColliders[i].transform.position + new Vector3(0, 0, 0.2f);
+                transform.rotation = hitColliders[i].transform.rotation;
+                transform.Rotate(90, 0, 0);
+                if(sitInput && !isWalking && !isRaisingHand)
+                {
+                    animator.SetBool(sitHash, true);
+                    characterController.center = new Vector3(0,characterControllerY, 0.36f);
+                }
+            }
         }
+
+        if (headAnim)
+        {
+            headAnim.CrossFade(sitHash, 0.1f);
+        }
+        
+        
+
+        
     }
     void onStandInput(InputAction.CallbackContext ctx)
     {
@@ -92,7 +125,13 @@ public class CharacterMovement : MonoBehaviour
         if(standInput && isSitting)
         {
             animator.SetBool(sitHash, false);
+            Invoke("resetCharacterControllerCenter", 1.5f);
         }
+    }
+
+    void resetCharacterControllerCenter()
+    {
+        characterController.center = new Vector3(0, characterControllerY, 0f);
     }
 
     void onRaiseHandInput(InputAction.CallbackContext ctx)
@@ -157,7 +196,7 @@ public class CharacterMovement : MonoBehaviour
             {
                 Quaternion targetRotation = Quaternion.LookRotation(positionToLookAt);
                 transform.rotation = Quaternion.Slerp(currentRotation, targetRotation, rotationFactorPerFrame * Time.deltaTime);
-                Debug.Log("rotating, is sitting : " + isSitting);
+                //Debug.Log("rotating, is sitting : " + isSitting);
             }
         }
         
@@ -169,10 +208,14 @@ public class CharacterMovement : MonoBehaviour
         {
             float groundedGrav = -0.05f;
             currentMovement.y = groundedGrav;
+
+            //characterController.Move(currentMovement * Time.deltaTime);
         } else
         {
             float gravity = -9.8f;
             currentMovement.y = gravity;
+
+            characterController.Move(currentMovement * Time.deltaTime);
         }
     }
 
@@ -187,6 +230,22 @@ public class CharacterMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
+        float speed = 10f;
+        if (characterController.isGrounded)
+        {
+            Vector3 moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            moveDirection = transform.TransformDirection(moveDirection);
+            moveDirection *= speed;
+            characterController.Move(moveDirection * Time.deltaTime);
+        }
+        else
+        {
+            characterController.Move(Physics.gravity * Time.deltaTime);
+        }
+        */
+        //Debug.Log(isSitting);
+
         updateParameters();
         handleWalking();
         handleRotation();
@@ -200,6 +259,7 @@ public class CharacterMovement : MonoBehaviour
      void OnEnable()
     {
         input.Enable();
+        characterController.enabled = true;
     }
 
      void OnDisable()

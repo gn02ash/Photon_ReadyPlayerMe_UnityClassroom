@@ -1,0 +1,417 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ChairDetection::OnTriggerEnter(UnityEngine.Collider)
+extern void ChairDetection_OnTriggerEnter_m12282284F524C3A3CDE0338BFEBE2A7575377386 (void);
+// 0x00000002 System.Void ChairDetection::OnTriggerExit(UnityEngine.Collider)
+extern void ChairDetection_OnTriggerExit_mB3630CBEAE8DEB1206691EAF8B688201C503EC7B (void);
+// 0x00000003 System.Void ChairDetection::Update()
+extern void ChairDetection_Update_m69BA5154B776F96A3CB133792A0FE0D3D5A75884 (void);
+// 0x00000004 System.Void ChairDetection::.ctor()
+extern void ChairDetection__ctor_m10F7A4CC656BD225257C837DD4564AC7878F2668 (void);
+// 0x00000005 System.Void CharacterMovement::Awake()
+extern void CharacterMovement_Awake_m58C0B9590A2599D398ABEF85EFC49FCAE7359B1F (void);
+// 0x00000006 System.Void CharacterMovement::onMovementInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void CharacterMovement_onMovementInput_mCC361F4ECC2C8F5F42BB9CD50EA94BF6E4D0A436 (void);
+// 0x00000007 System.Void CharacterMovement::onSitInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void CharacterMovement_onSitInput_mD6779250F0FAB84E3E3123CEB11A981160A7F776 (void);
+// 0x00000008 System.Void CharacterMovement::onStandInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void CharacterMovement_onStandInput_m1702A3E28CFCDD6CAE8E1A821315D17CFEF30C68 (void);
+// 0x00000009 System.Void CharacterMovement::resetCharacterControllerCenter()
+extern void CharacterMovement_resetCharacterControllerCenter_m9E36EE2226B6F8CA1855623D9F23F959772BE32E (void);
+// 0x0000000A System.Void CharacterMovement::onRaiseHandInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void CharacterMovement_onRaiseHandInput_m4F18FD1325F291864B8EED62DFF9F0B9C2D5294A (void);
+// 0x0000000B System.Void CharacterMovement::stopRaisingHand()
+extern void CharacterMovement_stopRaisingHand_mFB39E23F66F8E52F73628642ADD5BC5B61BAD245 (void);
+// 0x0000000C System.Void CharacterMovement::onClapInput(UnityEngine.InputSystem.InputAction/CallbackContext)
+extern void CharacterMovement_onClapInput_m34F1F79ECE4A54D3249831FC2AB752FC3EE66597 (void);
+// 0x0000000D System.Void CharacterMovement::stopClapping()
+extern void CharacterMovement_stopClapping_m889E310F2F55E5208530B42C715B799085BEBE42 (void);
+// 0x0000000E System.Void CharacterMovement::Start()
+extern void CharacterMovement_Start_m5793AA7D5A1F340CD5B77EC619F663DA22116C39 (void);
+// 0x0000000F System.Void CharacterMovement::handleWalking()
+extern void CharacterMovement_handleWalking_m32D264CE912ACADA2CC82A1B96AFF738C0268891 (void);
+// 0x00000010 System.Void CharacterMovement::handleRotation()
+extern void CharacterMovement_handleRotation_mC052A1531F34DC3C35D910377E035B8730C08899 (void);
+// 0x00000011 System.Void CharacterMovement::handleGravity()
+extern void CharacterMovement_handleGravity_m3997C1549FFEE20707016C7D27C749CDC2D77994 (void);
+// 0x00000012 System.Void CharacterMovement::updateParameters()
+extern void CharacterMovement_updateParameters_mF173301C5D951F90AABEE637E25D1AC1A284C185 (void);
+// 0x00000013 System.Void CharacterMovement::Update()
+extern void CharacterMovement_Update_mAC9BC2614C2AF0CF75EE46D855727EE29EB8BBAE (void);
+// 0x00000014 System.Void CharacterMovement::OnEnable()
+extern void CharacterMovement_OnEnable_m407191E704927FE7B5502516A89C681C35EDCAB5 (void);
+// 0x00000015 System.Void CharacterMovement::OnDisable()
+extern void CharacterMovement_OnDisable_m1B6E55A43FD7F49E0C5AB45FEF2F6FB0E6D4705A (void);
+// 0x00000016 System.Void CharacterMovement::.ctor()
+extern void CharacterMovement__ctor_mAC2DD71D615E1B0D05E751051F490C1408DD3BC9 (void);
+// 0x00000017 System.Void SALSA_Template_CustomAudioAnalysisPlugin::Start()
+extern void SALSA_Template_CustomAudioAnalysisPlugin_Start_m4C874D1581A4B0B2E51B680386BA7D845B4382F5 (void);
+// 0x00000018 System.Single SALSA_Template_CustomAudioAnalysisPlugin::CalcSimpleMaxPeakValue(System.Int32,System.Single[])
+extern void SALSA_Template_CustomAudioAnalysisPlugin_CalcSimpleMaxPeakValue_mC85A91A3795A4BD237F8155683D7DC023FE07D74 (void);
+// 0x00000019 System.Void SALSA_Template_CustomAudioAnalysisPlugin::.ctor()
+extern void SALSA_Template_CustomAudioAnalysisPlugin__ctor_m5CAEDA35513C3CAECD148750DB7C4016B56AD160 (void);
+// 0x0000001A System.Void SALSA_Template_EventControllerSubscriber::OnEnable()
+extern void SALSA_Template_EventControllerSubscriber_OnEnable_m31912951AC5E4F3F4CD51E1BD0ED5470944B3867 (void);
+// 0x0000001B System.Void SALSA_Template_EventControllerSubscriber::OnDisable()
+extern void SALSA_Template_EventControllerSubscriber_OnDisable_mF92AA95F32E8A443DF16D7E4A49302BA1D1282B0 (void);
+// 0x0000001C System.Void SALSA_Template_EventControllerSubscriber::OnAnimationStarting(System.Object,CrazyMinnow.SALSA.EventController/EventControllerNotificationArgs)
+extern void SALSA_Template_EventControllerSubscriber_OnAnimationStarting_mEF176C323A8EB2B4159808FC6B6FD8C5AE284FD8 (void);
+// 0x0000001D System.Void SALSA_Template_EventControllerSubscriber::OnAnimationON(System.Object,CrazyMinnow.SALSA.EventController/EventControllerNotificationArgs)
+extern void SALSA_Template_EventControllerSubscriber_OnAnimationON_mF7ED0FC7E006AD49D14B9E271D7EC0E2A3FB7A8B (void);
+// 0x0000001E System.Void SALSA_Template_EventControllerSubscriber::OnAnimationEnding(System.Object,CrazyMinnow.SALSA.EventController/EventControllerNotificationArgs)
+extern void SALSA_Template_EventControllerSubscriber_OnAnimationEnding_mF72A9FA92B7E787752138A3D754CAF19347202D7 (void);
+// 0x0000001F System.Void SALSA_Template_EventControllerSubscriber::OnAnimationOFF(System.Object,CrazyMinnow.SALSA.EventController/EventControllerNotificationArgs)
+extern void SALSA_Template_EventControllerSubscriber_OnAnimationOFF_m233498893C5C06F09B65EA65F5E55FC1A3B702CB (void);
+// 0x00000020 System.Void SALSA_Template_EventControllerSubscriber::.ctor()
+extern void SALSA_Template_EventControllerSubscriber__ctor_m0730AAD43F580ADA488E87901940A4F74950F2D4 (void);
+// 0x00000021 System.Void SALSA_Template_SalsaEventSubscriber::OnEnable()
+extern void SALSA_Template_SalsaEventSubscriber_OnEnable_m43447CD8D8BB632F4D83581F8B8BBBEF9B888EDD (void);
+// 0x00000022 System.Void SALSA_Template_SalsaEventSubscriber::OnDisable()
+extern void SALSA_Template_SalsaEventSubscriber_OnDisable_m015B18FBA7B62CB315A3716024F5C42AFC6F7111 (void);
+// 0x00000023 System.Void SALSA_Template_SalsaEventSubscriber::OnStoppedSalsaing(System.Object,CrazyMinnow.SALSA.Salsa/SalsaNotificationArgs)
+extern void SALSA_Template_SalsaEventSubscriber_OnStoppedSalsaing_mC1113C20C1298462EF6F84ACC2B53D88850EF589 (void);
+// 0x00000024 System.Void SALSA_Template_SalsaEventSubscriber::OnStartedSalsaing(System.Object,CrazyMinnow.SALSA.Salsa/SalsaNotificationArgs)
+extern void SALSA_Template_SalsaEventSubscriber_OnStartedSalsaing_m78CFC8D543D7FAF62E44EF4BB98627319270A260 (void);
+// 0x00000025 System.Void SALSA_Template_SalsaEventSubscriber::.ctor()
+extern void SALSA_Template_SalsaEventSubscriber__ctor_mE90B54DAF2B82280F7007BD32C0D6E7B08668EE9 (void);
+// 0x00000026 System.Void SALSA_Template_SalsaVisemeTriggerEventSubscriber::OnEnable()
+extern void SALSA_Template_SalsaVisemeTriggerEventSubscriber_OnEnable_m41CEF7E3DDBF5A89900961B5569AF8C0EDA4327B (void);
+// 0x00000027 System.Void SALSA_Template_SalsaVisemeTriggerEventSubscriber::OnDisable()
+extern void SALSA_Template_SalsaVisemeTriggerEventSubscriber_OnDisable_m4C44BE5B1C97A406C88465B729B7983FFDBDF330 (void);
+// 0x00000028 System.Void SALSA_Template_SalsaVisemeTriggerEventSubscriber::SalsaOnVisemeTriggered(System.Object,CrazyMinnow.SALSA.Salsa/SalsaNotificationArgs)
+extern void SALSA_Template_SalsaVisemeTriggerEventSubscriber_SalsaOnVisemeTriggered_mB1A56B2EC3465B39749196D370D33B5C0B6762EB (void);
+// 0x00000029 System.Void SALSA_Template_SalsaVisemeTriggerEventSubscriber::.ctor()
+extern void SALSA_Template_SalsaVisemeTriggerEventSubscriber__ctor_m211889F544598F9E5EF78B8D02F8878F00D12B8D (void);
+// 0x0000002A System.Void Script::Start()
+extern void Script_Start_m26181EB142F9E9D13BB497FAEA9E42CFDC132438 (void);
+// 0x0000002B System.Void Script::Update()
+extern void Script_Update_m3D73B366324BC0BF8F060D1E0CB6B52EAEED1518 (void);
+// 0x0000002C System.Void Script::.ctor()
+extern void Script__ctor_mC411C5D59BEB7BF2105E339FD817C5B1F8EB8451 (void);
+// 0x0000002D UnityEngine.InputSystem.InputActionAsset PlayerInput::get_asset()
+extern void PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998 (void);
+// 0x0000002E System.Void PlayerInput::.ctor()
+extern void PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8 (void);
+// 0x0000002F System.Void PlayerInput::Dispose()
+extern void PlayerInput_Dispose_mED8AB62E19D2B6DF4610354C380D122AF54F60F5 (void);
+// 0x00000030 System.Nullable`1<UnityEngine.InputSystem.InputBinding> PlayerInput::get_bindingMask()
+extern void PlayerInput_get_bindingMask_mE9D628D8534C3F84B6120729E5868509A86FBF50 (void);
+// 0x00000031 System.Void PlayerInput::set_bindingMask(System.Nullable`1<UnityEngine.InputSystem.InputBinding>)
+extern void PlayerInput_set_bindingMask_m32F66DD9FBB010F6F9297F345C4D3D5C5FADC354 (void);
+// 0x00000032 System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>> PlayerInput::get_devices()
+extern void PlayerInput_get_devices_m970521FB3C8BC58D21FBAD5535438670E5B5A76D (void);
+// 0x00000033 System.Void PlayerInput::set_devices(System.Nullable`1<UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputDevice>>)
+extern void PlayerInput_set_devices_mF37D9BFB40C8FE4F6D6AA4B750CE412AD651D7F0 (void);
+// 0x00000034 UnityEngine.InputSystem.Utilities.ReadOnlyArray`1<UnityEngine.InputSystem.InputControlScheme> PlayerInput::get_controlSchemes()
+extern void PlayerInput_get_controlSchemes_m7894888243769B1B8E856FBF1525FE8818F51B50 (void);
+// 0x00000035 System.Boolean PlayerInput::Contains(UnityEngine.InputSystem.InputAction)
+extern void PlayerInput_Contains_mEABB2AA00C1CC1F789CAC71C9B301622ED8EA65E (void);
+// 0x00000036 System.Collections.Generic.IEnumerator`1<UnityEngine.InputSystem.InputAction> PlayerInput::GetEnumerator()
+extern void PlayerInput_GetEnumerator_m718C2FBF1A4AE370122B0CBA506776EBF2A0C4A6 (void);
+// 0x00000037 System.Collections.IEnumerator PlayerInput::System.Collections.IEnumerable.GetEnumerator()
+extern void PlayerInput_System_Collections_IEnumerable_GetEnumerator_m79D4B6BDDF3AC172AEAE8B9C3E140C55CF95D54C (void);
+// 0x00000038 System.Void PlayerInput::Enable()
+extern void PlayerInput_Enable_mE3EC3D4631D753DB2B6EEA9FF407DC0CA920A2E5 (void);
+// 0x00000039 System.Void PlayerInput::Disable()
+extern void PlayerInput_Disable_m9DA10D3B65ECD087D0C78E77A9719D31F1EC23ED (void);
+// 0x0000003A System.Collections.Generic.IEnumerable`1<UnityEngine.InputSystem.InputBinding> PlayerInput::get_bindings()
+extern void PlayerInput_get_bindings_m18B4B8DE3CB2CE5BAA798B334C162667408E8F38 (void);
+// 0x0000003B UnityEngine.InputSystem.InputAction PlayerInput::FindAction(System.String,System.Boolean)
+extern void PlayerInput_FindAction_m742A99ACB197ECCC39B4F25315FA5F29832883F9 (void);
+// 0x0000003C System.Int32 PlayerInput::FindBinding(UnityEngine.InputSystem.InputBinding,UnityEngine.InputSystem.InputAction&)
+extern void PlayerInput_FindBinding_m6214B5095DA36F8751C0C80C7963346EBA298321 (void);
+// 0x0000003D PlayerInput/CharacterMovementActions PlayerInput::get_CharacterMovement()
+extern void PlayerInput_get_CharacterMovement_m40979F873AC2CFEE1283BE4762D8838615077640 (void);
+// 0x0000003E PlayerInput/InteractionsActions PlayerInput::get_Interactions()
+extern void PlayerInput_get_Interactions_mA44F7F3BE7364D1C65FE55989C549057708BE3E6 (void);
+// 0x0000003F System.Void PlayerInput/CharacterMovementActions::.ctor(PlayerInput)
+extern void CharacterMovementActions__ctor_m6749E8A19E419B88927CEA927384AED466DB365E (void);
+// 0x00000040 UnityEngine.InputSystem.InputAction PlayerInput/CharacterMovementActions::get_Movement()
+extern void CharacterMovementActions_get_Movement_mA5D9316FE4CB1C65BE65E386D49694F8AEB7DA38 (void);
+// 0x00000041 UnityEngine.InputSystem.InputActionMap PlayerInput/CharacterMovementActions::Get()
+extern void CharacterMovementActions_Get_mE6FF97F393EFB0280B77FF5DC4FB95E8382F8062 (void);
+// 0x00000042 System.Void PlayerInput/CharacterMovementActions::Enable()
+extern void CharacterMovementActions_Enable_mD79D3F59A81DBF555401D3DA795700693D8D42FD (void);
+// 0x00000043 System.Void PlayerInput/CharacterMovementActions::Disable()
+extern void CharacterMovementActions_Disable_mC9DFE2D25C0B477612DBA4D1AC17D643867C4C51 (void);
+// 0x00000044 System.Boolean PlayerInput/CharacterMovementActions::get_enabled()
+extern void CharacterMovementActions_get_enabled_m0D717B32D10C23CE6E8077C3E5819BB567D367FF (void);
+// 0x00000045 UnityEngine.InputSystem.InputActionMap PlayerInput/CharacterMovementActions::op_Implicit(PlayerInput/CharacterMovementActions)
+extern void CharacterMovementActions_op_Implicit_m8A2F6152F6917FC0440CBC52C9F22EE05CA5804F (void);
+// 0x00000046 System.Void PlayerInput/CharacterMovementActions::SetCallbacks(PlayerInput/ICharacterMovementActions)
+extern void CharacterMovementActions_SetCallbacks_m9A032AA0A1D222EAD9B84F29709AB4203C4C9CB3 (void);
+// 0x00000047 System.Void PlayerInput/InteractionsActions::.ctor(PlayerInput)
+extern void InteractionsActions__ctor_m300698DFB87DEC3B90EA7A86D34B570587DB7260 (void);
+// 0x00000048 UnityEngine.InputSystem.InputAction PlayerInput/InteractionsActions::get_Sit()
+extern void InteractionsActions_get_Sit_mB21F958FFC3139EC24373B8F943FC07CBA201E85 (void);
+// 0x00000049 UnityEngine.InputSystem.InputAction PlayerInput/InteractionsActions::get_Stand()
+extern void InteractionsActions_get_Stand_mDB52DE9C5EF1B4D77B37E984B9C340908A2D37AC (void);
+// 0x0000004A UnityEngine.InputSystem.InputAction PlayerInput/InteractionsActions::get_Clap()
+extern void InteractionsActions_get_Clap_m38255F20772D159119FE5DFF1D1CF0201101C873 (void);
+// 0x0000004B UnityEngine.InputSystem.InputAction PlayerInput/InteractionsActions::get_RaiseHand()
+extern void InteractionsActions_get_RaiseHand_m36192DE50998BE4C7E782C8017008AAA6C9280E3 (void);
+// 0x0000004C UnityEngine.InputSystem.InputActionMap PlayerInput/InteractionsActions::Get()
+extern void InteractionsActions_Get_m328A9035A8686F009A955038F7A4B224526EF5AB (void);
+// 0x0000004D System.Void PlayerInput/InteractionsActions::Enable()
+extern void InteractionsActions_Enable_m6C82C8CD57BDFEDC017006F18AF7242B434208DB (void);
+// 0x0000004E System.Void PlayerInput/InteractionsActions::Disable()
+extern void InteractionsActions_Disable_m8B627566EE3AF9992DB55DEF512AC2035079C42D (void);
+// 0x0000004F System.Boolean PlayerInput/InteractionsActions::get_enabled()
+extern void InteractionsActions_get_enabled_m252F0D029E89550DE8BA2C6841FA1AC5DCBC62C0 (void);
+// 0x00000050 UnityEngine.InputSystem.InputActionMap PlayerInput/InteractionsActions::op_Implicit(PlayerInput/InteractionsActions)
+extern void InteractionsActions_op_Implicit_m0124B7DC41CAB4AACCA1E985E6355CC14A74E9C6 (void);
+// 0x00000051 System.Void PlayerInput/InteractionsActions::SetCallbacks(PlayerInput/IInteractionsActions)
+extern void InteractionsActions_SetCallbacks_m1C0FBA6DBD22E71B91F7985BA11C82809931EAE4 (void);
+// 0x00000052 System.Void PlayerInput/ICharacterMovementActions::OnMovement(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000053 System.Void PlayerInput/IInteractionsActions::OnSit(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000054 System.Void PlayerInput/IInteractionsActions::OnStand(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000055 System.Void PlayerInput/IInteractionsActions::OnClap(UnityEngine.InputSystem.InputAction/CallbackContext)
+// 0x00000056 System.Void PlayerInput/IInteractionsActions::OnRaiseHand(UnityEngine.InputSystem.InputAction/CallbackContext)
+static Il2CppMethodPointer s_methodPointers[86] = 
+{
+	ChairDetection_OnTriggerEnter_m12282284F524C3A3CDE0338BFEBE2A7575377386,
+	ChairDetection_OnTriggerExit_mB3630CBEAE8DEB1206691EAF8B688201C503EC7B,
+	ChairDetection_Update_m69BA5154B776F96A3CB133792A0FE0D3D5A75884,
+	ChairDetection__ctor_m10F7A4CC656BD225257C837DD4564AC7878F2668,
+	CharacterMovement_Awake_m58C0B9590A2599D398ABEF85EFC49FCAE7359B1F,
+	CharacterMovement_onMovementInput_mCC361F4ECC2C8F5F42BB9CD50EA94BF6E4D0A436,
+	CharacterMovement_onSitInput_mD6779250F0FAB84E3E3123CEB11A981160A7F776,
+	CharacterMovement_onStandInput_m1702A3E28CFCDD6CAE8E1A821315D17CFEF30C68,
+	CharacterMovement_resetCharacterControllerCenter_m9E36EE2226B6F8CA1855623D9F23F959772BE32E,
+	CharacterMovement_onRaiseHandInput_m4F18FD1325F291864B8EED62DFF9F0B9C2D5294A,
+	CharacterMovement_stopRaisingHand_mFB39E23F66F8E52F73628642ADD5BC5B61BAD245,
+	CharacterMovement_onClapInput_m34F1F79ECE4A54D3249831FC2AB752FC3EE66597,
+	CharacterMovement_stopClapping_m889E310F2F55E5208530B42C715B799085BEBE42,
+	CharacterMovement_Start_m5793AA7D5A1F340CD5B77EC619F663DA22116C39,
+	CharacterMovement_handleWalking_m32D264CE912ACADA2CC82A1B96AFF738C0268891,
+	CharacterMovement_handleRotation_mC052A1531F34DC3C35D910377E035B8730C08899,
+	CharacterMovement_handleGravity_m3997C1549FFEE20707016C7D27C749CDC2D77994,
+	CharacterMovement_updateParameters_mF173301C5D951F90AABEE637E25D1AC1A284C185,
+	CharacterMovement_Update_mAC9BC2614C2AF0CF75EE46D855727EE29EB8BBAE,
+	CharacterMovement_OnEnable_m407191E704927FE7B5502516A89C681C35EDCAB5,
+	CharacterMovement_OnDisable_m1B6E55A43FD7F49E0C5AB45FEF2F6FB0E6D4705A,
+	CharacterMovement__ctor_mAC2DD71D615E1B0D05E751051F490C1408DD3BC9,
+	SALSA_Template_CustomAudioAnalysisPlugin_Start_m4C874D1581A4B0B2E51B680386BA7D845B4382F5,
+	SALSA_Template_CustomAudioAnalysisPlugin_CalcSimpleMaxPeakValue_mC85A91A3795A4BD237F8155683D7DC023FE07D74,
+	SALSA_Template_CustomAudioAnalysisPlugin__ctor_m5CAEDA35513C3CAECD148750DB7C4016B56AD160,
+	SALSA_Template_EventControllerSubscriber_OnEnable_m31912951AC5E4F3F4CD51E1BD0ED5470944B3867,
+	SALSA_Template_EventControllerSubscriber_OnDisable_mF92AA95F32E8A443DF16D7E4A49302BA1D1282B0,
+	SALSA_Template_EventControllerSubscriber_OnAnimationStarting_mEF176C323A8EB2B4159808FC6B6FD8C5AE284FD8,
+	SALSA_Template_EventControllerSubscriber_OnAnimationON_mF7ED0FC7E006AD49D14B9E271D7EC0E2A3FB7A8B,
+	SALSA_Template_EventControllerSubscriber_OnAnimationEnding_mF72A9FA92B7E787752138A3D754CAF19347202D7,
+	SALSA_Template_EventControllerSubscriber_OnAnimationOFF_m233498893C5C06F09B65EA65F5E55FC1A3B702CB,
+	SALSA_Template_EventControllerSubscriber__ctor_m0730AAD43F580ADA488E87901940A4F74950F2D4,
+	SALSA_Template_SalsaEventSubscriber_OnEnable_m43447CD8D8BB632F4D83581F8B8BBBEF9B888EDD,
+	SALSA_Template_SalsaEventSubscriber_OnDisable_m015B18FBA7B62CB315A3716024F5C42AFC6F7111,
+	SALSA_Template_SalsaEventSubscriber_OnStoppedSalsaing_mC1113C20C1298462EF6F84ACC2B53D88850EF589,
+	SALSA_Template_SalsaEventSubscriber_OnStartedSalsaing_m78CFC8D543D7FAF62E44EF4BB98627319270A260,
+	SALSA_Template_SalsaEventSubscriber__ctor_mE90B54DAF2B82280F7007BD32C0D6E7B08668EE9,
+	SALSA_Template_SalsaVisemeTriggerEventSubscriber_OnEnable_m41CEF7E3DDBF5A89900961B5569AF8C0EDA4327B,
+	SALSA_Template_SalsaVisemeTriggerEventSubscriber_OnDisable_m4C44BE5B1C97A406C88465B729B7983FFDBDF330,
+	SALSA_Template_SalsaVisemeTriggerEventSubscriber_SalsaOnVisemeTriggered_mB1A56B2EC3465B39749196D370D33B5C0B6762EB,
+	SALSA_Template_SalsaVisemeTriggerEventSubscriber__ctor_m211889F544598F9E5EF78B8D02F8878F00D12B8D,
+	Script_Start_m26181EB142F9E9D13BB497FAEA9E42CFDC132438,
+	Script_Update_m3D73B366324BC0BF8F060D1E0CB6B52EAEED1518,
+	Script__ctor_mC411C5D59BEB7BF2105E339FD817C5B1F8EB8451,
+	PlayerInput_get_asset_mB150BFBAFA2BC91504C640B0065EF84C41EEF998,
+	PlayerInput__ctor_m24FD924FB39A9A023CDEA8F6916EEC47B471B3A8,
+	PlayerInput_Dispose_mED8AB62E19D2B6DF4610354C380D122AF54F60F5,
+	PlayerInput_get_bindingMask_mE9D628D8534C3F84B6120729E5868509A86FBF50,
+	PlayerInput_set_bindingMask_m32F66DD9FBB010F6F9297F345C4D3D5C5FADC354,
+	PlayerInput_get_devices_m970521FB3C8BC58D21FBAD5535438670E5B5A76D,
+	PlayerInput_set_devices_mF37D9BFB40C8FE4F6D6AA4B750CE412AD651D7F0,
+	PlayerInput_get_controlSchemes_m7894888243769B1B8E856FBF1525FE8818F51B50,
+	PlayerInput_Contains_mEABB2AA00C1CC1F789CAC71C9B301622ED8EA65E,
+	PlayerInput_GetEnumerator_m718C2FBF1A4AE370122B0CBA506776EBF2A0C4A6,
+	PlayerInput_System_Collections_IEnumerable_GetEnumerator_m79D4B6BDDF3AC172AEAE8B9C3E140C55CF95D54C,
+	PlayerInput_Enable_mE3EC3D4631D753DB2B6EEA9FF407DC0CA920A2E5,
+	PlayerInput_Disable_m9DA10D3B65ECD087D0C78E77A9719D31F1EC23ED,
+	PlayerInput_get_bindings_m18B4B8DE3CB2CE5BAA798B334C162667408E8F38,
+	PlayerInput_FindAction_m742A99ACB197ECCC39B4F25315FA5F29832883F9,
+	PlayerInput_FindBinding_m6214B5095DA36F8751C0C80C7963346EBA298321,
+	PlayerInput_get_CharacterMovement_m40979F873AC2CFEE1283BE4762D8838615077640,
+	PlayerInput_get_Interactions_mA44F7F3BE7364D1C65FE55989C549057708BE3E6,
+	CharacterMovementActions__ctor_m6749E8A19E419B88927CEA927384AED466DB365E,
+	CharacterMovementActions_get_Movement_mA5D9316FE4CB1C65BE65E386D49694F8AEB7DA38,
+	CharacterMovementActions_Get_mE6FF97F393EFB0280B77FF5DC4FB95E8382F8062,
+	CharacterMovementActions_Enable_mD79D3F59A81DBF555401D3DA795700693D8D42FD,
+	CharacterMovementActions_Disable_mC9DFE2D25C0B477612DBA4D1AC17D643867C4C51,
+	CharacterMovementActions_get_enabled_m0D717B32D10C23CE6E8077C3E5819BB567D367FF,
+	CharacterMovementActions_op_Implicit_m8A2F6152F6917FC0440CBC52C9F22EE05CA5804F,
+	CharacterMovementActions_SetCallbacks_m9A032AA0A1D222EAD9B84F29709AB4203C4C9CB3,
+	InteractionsActions__ctor_m300698DFB87DEC3B90EA7A86D34B570587DB7260,
+	InteractionsActions_get_Sit_mB21F958FFC3139EC24373B8F943FC07CBA201E85,
+	InteractionsActions_get_Stand_mDB52DE9C5EF1B4D77B37E984B9C340908A2D37AC,
+	InteractionsActions_get_Clap_m38255F20772D159119FE5DFF1D1CF0201101C873,
+	InteractionsActions_get_RaiseHand_m36192DE50998BE4C7E782C8017008AAA6C9280E3,
+	InteractionsActions_Get_m328A9035A8686F009A955038F7A4B224526EF5AB,
+	InteractionsActions_Enable_m6C82C8CD57BDFEDC017006F18AF7242B434208DB,
+	InteractionsActions_Disable_m8B627566EE3AF9992DB55DEF512AC2035079C42D,
+	InteractionsActions_get_enabled_m252F0D029E89550DE8BA2C6841FA1AC5DCBC62C0,
+	InteractionsActions_op_Implicit_m0124B7DC41CAB4AACCA1E985E6355CC14A74E9C6,
+	InteractionsActions_SetCallbacks_m1C0FBA6DBD22E71B91F7985BA11C82809931EAE4,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
+extern void CharacterMovementActions__ctor_m6749E8A19E419B88927CEA927384AED466DB365E_AdjustorThunk (void);
+extern void CharacterMovementActions_get_Movement_mA5D9316FE4CB1C65BE65E386D49694F8AEB7DA38_AdjustorThunk (void);
+extern void CharacterMovementActions_Get_mE6FF97F393EFB0280B77FF5DC4FB95E8382F8062_AdjustorThunk (void);
+extern void CharacterMovementActions_Enable_mD79D3F59A81DBF555401D3DA795700693D8D42FD_AdjustorThunk (void);
+extern void CharacterMovementActions_Disable_mC9DFE2D25C0B477612DBA4D1AC17D643867C4C51_AdjustorThunk (void);
+extern void CharacterMovementActions_get_enabled_m0D717B32D10C23CE6E8077C3E5819BB567D367FF_AdjustorThunk (void);
+extern void CharacterMovementActions_SetCallbacks_m9A032AA0A1D222EAD9B84F29709AB4203C4C9CB3_AdjustorThunk (void);
+extern void InteractionsActions__ctor_m300698DFB87DEC3B90EA7A86D34B570587DB7260_AdjustorThunk (void);
+extern void InteractionsActions_get_Sit_mB21F958FFC3139EC24373B8F943FC07CBA201E85_AdjustorThunk (void);
+extern void InteractionsActions_get_Stand_mDB52DE9C5EF1B4D77B37E984B9C340908A2D37AC_AdjustorThunk (void);
+extern void InteractionsActions_get_Clap_m38255F20772D159119FE5DFF1D1CF0201101C873_AdjustorThunk (void);
+extern void InteractionsActions_get_RaiseHand_m36192DE50998BE4C7E782C8017008AAA6C9280E3_AdjustorThunk (void);
+extern void InteractionsActions_Get_m328A9035A8686F009A955038F7A4B224526EF5AB_AdjustorThunk (void);
+extern void InteractionsActions_Enable_m6C82C8CD57BDFEDC017006F18AF7242B434208DB_AdjustorThunk (void);
+extern void InteractionsActions_Disable_m8B627566EE3AF9992DB55DEF512AC2035079C42D_AdjustorThunk (void);
+extern void InteractionsActions_get_enabled_m252F0D029E89550DE8BA2C6841FA1AC5DCBC62C0_AdjustorThunk (void);
+extern void InteractionsActions_SetCallbacks_m1C0FBA6DBD22E71B91F7985BA11C82809931EAE4_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[17] = 
+{
+	{ 0x0600003F, CharacterMovementActions__ctor_m6749E8A19E419B88927CEA927384AED466DB365E_AdjustorThunk },
+	{ 0x06000040, CharacterMovementActions_get_Movement_mA5D9316FE4CB1C65BE65E386D49694F8AEB7DA38_AdjustorThunk },
+	{ 0x06000041, CharacterMovementActions_Get_mE6FF97F393EFB0280B77FF5DC4FB95E8382F8062_AdjustorThunk },
+	{ 0x06000042, CharacterMovementActions_Enable_mD79D3F59A81DBF555401D3DA795700693D8D42FD_AdjustorThunk },
+	{ 0x06000043, CharacterMovementActions_Disable_mC9DFE2D25C0B477612DBA4D1AC17D643867C4C51_AdjustorThunk },
+	{ 0x06000044, CharacterMovementActions_get_enabled_m0D717B32D10C23CE6E8077C3E5819BB567D367FF_AdjustorThunk },
+	{ 0x06000046, CharacterMovementActions_SetCallbacks_m9A032AA0A1D222EAD9B84F29709AB4203C4C9CB3_AdjustorThunk },
+	{ 0x06000047, InteractionsActions__ctor_m300698DFB87DEC3B90EA7A86D34B570587DB7260_AdjustorThunk },
+	{ 0x06000048, InteractionsActions_get_Sit_mB21F958FFC3139EC24373B8F943FC07CBA201E85_AdjustorThunk },
+	{ 0x06000049, InteractionsActions_get_Stand_mDB52DE9C5EF1B4D77B37E984B9C340908A2D37AC_AdjustorThunk },
+	{ 0x0600004A, InteractionsActions_get_Clap_m38255F20772D159119FE5DFF1D1CF0201101C873_AdjustorThunk },
+	{ 0x0600004B, InteractionsActions_get_RaiseHand_m36192DE50998BE4C7E782C8017008AAA6C9280E3_AdjustorThunk },
+	{ 0x0600004C, InteractionsActions_Get_m328A9035A8686F009A955038F7A4B224526EF5AB_AdjustorThunk },
+	{ 0x0600004D, InteractionsActions_Enable_m6C82C8CD57BDFEDC017006F18AF7242B434208DB_AdjustorThunk },
+	{ 0x0600004E, InteractionsActions_Disable_m8B627566EE3AF9992DB55DEF512AC2035079C42D_AdjustorThunk },
+	{ 0x0600004F, InteractionsActions_get_enabled_m252F0D029E89550DE8BA2C6841FA1AC5DCBC62C0_AdjustorThunk },
+	{ 0x06000051, InteractionsActions_SetCallbacks_m1C0FBA6DBD22E71B91F7985BA11C82809931EAE4_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[86] = 
+{
+	3770,
+	3770,
+	4709,
+	4709,
+	4709,
+	3889,
+	3889,
+	3889,
+	4709,
+	3889,
+	4709,
+	3889,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	4709,
+	1714,
+	4709,
+	4709,
+	4709,
+	2162,
+	2162,
+	2162,
+	2162,
+	4709,
+	4709,
+	4709,
+	2162,
+	2162,
+	4709,
+	4709,
+	4709,
+	2162,
+	4709,
+	4709,
+	4709,
+	4709,
+	4613,
+	4709,
+	4709,
+	4449,
+	3621,
+	4447,
+	3619,
+	4458,
+	2688,
+	4613,
+	4613,
+	4709,
+	4709,
+	4613,
+	1683,
+	1478,
+	4789,
+	4790,
+	3770,
+	4613,
+	4613,
+	4709,
+	4709,
+	4529,
+	6885,
+	3770,
+	3770,
+	4613,
+	4613,
+	4613,
+	4613,
+	4613,
+	4709,
+	4709,
+	4529,
+	6886,
+	3770,
+	0,
+	0,
+	0,
+	0,
+	0,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	86,
+	s_methodPointers,
+	17,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
