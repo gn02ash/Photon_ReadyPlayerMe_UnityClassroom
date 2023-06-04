@@ -1,7 +1,12 @@
+*.bc filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
+*.unity3d filter=lfs diff=lfs merge=lfs -text
+ArtifactDB filter=lfs diff=lfs merge=lfs -text
 Library/Bee/artifacts/WebGL/GameAssembly/master_WebGL_wasm/GameAssembly.bc filter=lfs diff=lfs merge=lfs -text
 Assets/scenetest/plant2/source/Gerbera_final.obj filter=lfs diff=lfs merge=lfs -text
 Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.bc filter=lfs diff=lfs merge=lfs -text
-*.bc filter=lfs diff=lfs merge=lfs -text
 Library/Bee/artifacts/WebGL/webgl.data filter=lfs diff=lfs merge=lfs -text
 Assets/Full[[:space:]]avatar/Ch31_nonPBR.fbx filter=lfs diff=lfs merge=lfs -text
 Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
