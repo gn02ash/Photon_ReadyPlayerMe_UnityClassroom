@@ -338,18 +338,18 @@ IL2CPP_EXTERN_C String_t* _stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E
 IL2CPP_EXTERN_C String_t* _stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520;
 IL2CPP_EXTERN_C String_t* _stringLiteral807D31E7D618CFE25644A0B838EBD88C978E78F1;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Insert_mA92B83F973FB95C659066E38F975266A82781288_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_mBB0834285CA3155F375FB93327E51E35ADA652A8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m7F8A2C64FB277D2E5F22096BD170311CAE6BB5D9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m1733F3D0927028C67ADD808F9E5808F07053C114_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m40CC53AA08CACE00E704271718B2EC1EA8370005_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_BaselineInternal_mEB097370DAFBC11A25FBAB6F7659B8A8937D88D3_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_MeasureInternal_mBB82E0057A8C4E58268564EF52F13D2232303912_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* YogaNode__ctor_m824433D9174C4325E87EC380CD5EB5F10C20A35C_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -1453,13 +1453,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D6479
 // System.Void System.Collections.Generic.List`1<System.Object>::RemoveAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Empty<System.Object>()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_TisRuntimeObject_m42BB34F154440C9F0AC402FC3E9BD08C8D678F21_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_TisRuntimeObject_mA90CDE158774C34A28C07CEEA9E9EA2A61618238_gshared_inline (const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::SizeOf<UnityEngine.UIElements.TextVertex>()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_gshared (const RuntimeMethod* method) ;
 // System.Void Unity.Collections.NativeArray`1<UnityEngine.UIElements.TextVertex>::.ctor(System.Int32,Unity.Collections.Allocator,Unity.Collections.NativeArrayOptions)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_gshared (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656* __this, int32_t ___length0, int32_t ___allocator1, int32_t ___options2, const RuntimeMethod* method) ;
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafePtr<UnityEngine.UIElements.TextVertex>(Unity.Collections.NativeArray`1<T>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E_gshared (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 ___nativeArray0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7_gshared (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 ___nativeArray0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::Invoke(T)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_gshared_inline (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, bool ___obj0, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Object>::Invoke(T)
@@ -1470,11 +1470,11 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m783EC8C6244
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Boolean System.IntPtr::op_Equality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
 // System.Void System.InvalidOperationException::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___message0, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.Yoga.Native::YGConfigNew()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB (const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.YogaConfig::.ctor(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4 (YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345* __this, intptr_t ___ygConfig0, const RuntimeMethod* method) ;
 // System.Void System.Object::Finalize()
@@ -1482,124 +1482,124 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_Finalize_mC98C96301CCABFE00F1A7EF
 // System.IntPtr UnityEngine.Yoga.YogaConfig::get_Handle()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t YogaConfig_get_Handle_m7E2D8171E4E8AA98BC1D886218B6207D602281DD (YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345* __this, const RuntimeMethod* method) ;
 // System.Boolean System.IntPtr::op_Inequality(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1 (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B (intptr_t ___value10, intptr_t ___value21, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGConfigFree(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m198862BC2FB3B175A26C67839EAA617CA317D448 (intptr_t ___config0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m39FFBA6301AAACAFE0570ABA725972240550981C (intptr_t ___config0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.Native::YGConfigGetUseWebDefaults(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977 (intptr_t ___config0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2 (intptr_t ___config0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGConfigSetUseWebDefaults(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229 (intptr_t ___config0, bool ___useWebDefaults1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E (intptr_t ___config0, bool ___useWebDefaults1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGConfigSetPointScaleFactor(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1 (intptr_t ___config0, float ___pixelsInPoint1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9 (intptr_t ___config0, float ___pixelsInPoint1, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.Yoga.Native::YGConfigGetDefault()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A (const RuntimeMethod* method) ;
 // System.Boolean System.Single::IsNaN(System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_m684B090AA2F895FD91821CA8684CBC11D784E4DD_inline (float ___f0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___f0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeFreeInternal(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F (intptr_t ___ygNode0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC (intptr_t ___ygNode0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGConfigFreeInternal(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A (intptr_t ___config0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C (intptr_t ___config0, const RuntimeMethod* method) ;
 // System.Void* System.IntPtr::op_Explicit(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294 (intptr_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF (intptr_t ___value0, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaSize UnityEngine.Yoga.YogaNode::MeasureInternal(UnityEngine.Yoga.YogaNode,System.Single,UnityEngine.Yoga.YogaMeasureMode,System.Single,UnityEngine.Yoga.YogaMeasureMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA YogaNode_MeasureInternal_mBB82E0057A8C4E58268564EF52F13D2232303912 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.YogaNode::BaselineInternal(UnityEngine.Yoga.YogaNode,System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_BaselineInternal_mEB097370DAFBC11A25FBAB6F7659B8A8937D88D3 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.Yoga.Native::YGNodeNewWithConfig(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4 (intptr_t ___config0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD (intptr_t ___config0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeFree(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m9E5FEC6827B8296A5B674569008027150E1980FE (intptr_t ___ygNode0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m65A5C6F9FAF9C804FE3299AF793B314D89C940CA (intptr_t ___ygNode0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeSetConfig(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966 (intptr_t ___ygNode0, intptr_t ___config1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82 (intptr_t ___ygNode0, intptr_t ___config1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.Native::YGNodeIsDirty(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeMarkDirty(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.Native::YGNodeGetHasNewLayout(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeCopyStyle(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B (intptr_t ___dstNode0, intptr_t ___srcNode1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9 (intptr_t ___dstNode0, intptr_t ___srcNode1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexDirection(System.IntPtr,UnityEngine.Yoga.YogaFlexDirection)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF (intptr_t ___node0, int32_t ___flexDirection1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F (intptr_t ___node0, int32_t ___flexDirection1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetJustifyContent(System.IntPtr,UnityEngine.Yoga.YogaJustify)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B (intptr_t ___node0, int32_t ___justifyContent1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D (intptr_t ___node0, int32_t ___justifyContent1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetDisplay(System.IntPtr,UnityEngine.Yoga.YogaDisplay)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97 (intptr_t ___node0, int32_t ___display1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70 (intptr_t ___node0, int32_t ___display1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignItems(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4 (intptr_t ___node0, int32_t ___alignItems1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C (intptr_t ___node0, int32_t ___alignItems1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignSelf(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12 (intptr_t ___node0, int32_t ___alignSelf1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9 (intptr_t ___node0, int32_t ___alignSelf1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignContent(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945 (intptr_t ___node0, int32_t ___alignContent1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402 (intptr_t ___node0, int32_t ___alignContent1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPositionType(System.IntPtr,UnityEngine.Yoga.YogaPositionType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0 (intptr_t ___node0, int32_t ___positionType1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855 (intptr_t ___node0, int32_t ___positionType1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexWrap(System.IntPtr,UnityEngine.Yoga.YogaWrap)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlex(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C (intptr_t ___node0, float ___flex1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A (intptr_t ___node0, float ___flex1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexGrow(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB (intptr_t ___node0, float ___flexGrow1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16 (intptr_t ___node0, float ___flexGrow1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexShrink(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635 (intptr_t ___node0, float ___flexShrink1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5 (intptr_t ___node0, float ___flexShrink1, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaUnit UnityEngine.Yoga.YogaValue::get_Unit()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t YogaValue_get_Unit_m4387357877C0D183FAFD5A3857AEF4C3E52CA900 (YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.YogaValue::get_Value()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A (YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasis(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidthAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB (intptr_t ___node0, float ___height1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeightAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972 (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64 (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9 (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44 (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetLeft(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetTop(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetRight(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetBottom(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetWidth(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetHeight(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetOverflow(System.IntPtr,UnityEngine.Yoga.YogaOverflow)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) ;
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Yoga.YogaNode>::get_Count()
 inline int32_t List_1_get_Count_m1733F3D0927028C67ADD808F9E5808F07053C114_inline (List_1_t84B666107A8A3ECB0F5A24B0243137D056DA9165* __this, const RuntimeMethod* method)
 {
 	return ((  int32_t (*) (List_1_t84B666107A8A3ECB0F5A24B0243137D056DA9165*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeSetHasNewLayout(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA (intptr_t ___node0, bool ___hasNewLayout1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E (intptr_t ___node0, bool ___hasNewLayout1, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Yoga.YogaNode>::.ctor(System.Int32)
 inline void List_1__ctor_m7F8A2C64FB277D2E5F22096BD170311CAE6BB5D9 (List_1_t84B666107A8A3ECB0F5A24B0243137D056DA9165* __this, int32_t ___capacity0, const RuntimeMethod* method)
 {
@@ -1613,7 +1613,7 @@ inline void List_1_Insert_mA92B83F973FB95C659066E38F975266A82781288 (List_1_t84B
 // System.Void System.WeakReference::.ctor(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WeakReference__ctor_m5F9E2F970CD85965A003C0B37ABDBFAA1F5CF241 (WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E* __this, RuntimeObject* ___target0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeInsertChild(System.IntPtr,System.IntPtr,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9 (intptr_t ___node0, intptr_t ___child1, uint32_t ___index2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503 (intptr_t ___node0, intptr_t ___child1, uint32_t ___index2, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1<UnityEngine.Yoga.YogaNode>::get_Item(System.Int32)
 inline YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* List_1_get_Item_m40CC53AA08CACE00E704271718B2EC1EA8370005 (List_1_t84B666107A8A3ECB0F5A24B0243137D056DA9165* __this, int32_t ___index0, const RuntimeMethod* method)
 {
@@ -1625,60 +1625,60 @@ inline void List_1_RemoveAt_mBB0834285CA3155F375FB93327E51E35ADA652A8 (List_1_t8
 	((  void (*) (List_1_t84B666107A8A3ECB0F5A24B0243137D056DA9165*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___index0, method);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeRemoveChild(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C (intptr_t ___node0, intptr_t ___child1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68 (intptr_t ___node0, intptr_t ___child1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.YogaNode::RemoveAt(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_RemoveAt_m344D767FF02FB69813F270953ACFEE28E5DEF83F (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, int32_t ___index0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.YogaNode::get_IsBaselineDefined()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaNode_get_IsBaselineDefined_m7E3BFBBB4F59F44881E6A58B342FABB672119DF5 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGSetManagedObject(System.IntPtr,UnityEngine.Yoga.YogaNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71 (intptr_t ___ygNode0, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A (intptr_t ___ygNode0, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeRemoveMeasureFunc(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeSetMeasureFunc(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643 (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D (intptr_t ___node0, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaDirection UnityEngine.Yoga.Native::YGNodeStyleGetDirection(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B (intptr_t ___node0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618 (intptr_t ___node0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeCalculateLayout(System.IntPtr,System.Single,System.Single,UnityEngine.Yoga.YogaDirection)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89 (intptr_t ___node0, float ___availableWidth1, float ___availableHeight2, int32_t ___parentDirection3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F (intptr_t ___node0, float ___availableWidth1, float ___availableHeight2, int32_t ___parentDirection3, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaSize UnityEngine.Yoga.MeasureFunction::Invoke(UnityEngine.Yoga.YogaNode,System.Single,UnityEngine.Yoga.YogaMeasureMode,System.Single,UnityEngine.Yoga.YogaMeasureMode)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA MeasureFunction_Invoke_m280560A27915B9D2F3D7E75056A63084925EEFCE_inline (MeasureFunction_t60EBED1328F5328D4FA7E26335967E59E73B4D09* __this, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.BaselineFunction::Invoke(UnityEngine.Yoga.YogaNode,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float BaselineFunction_Invoke_m2DDB6CB96A11C1AF2F557FB363F99BA3A2E6E109_inline (BaselineFunction_t13AFADEF52F63320B2159C237635948AEB801679* __this, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Empty<UnityEngine.Yoga.YogaNode>()
-inline RuntimeObject* Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_inline (const RuntimeMethod* method)
+inline RuntimeObject* Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_inline (const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (const RuntimeMethod*))Enumerable_Empty_TisRuntimeObject_m42BB34F154440C9F0AC402FC3E9BD08C8D678F21_gshared_inline)(method);
+	return ((  RuntimeObject* (*) (const RuntimeMethod*))Enumerable_Empty_TisRuntimeObject_mA90CDE158774C34A28C07CEEA9E9EA2A61618238_gshared_inline)(method);
 }
 // System.Void UnityEngine.Yoga.YogaNode::SetStylePosition(UnityEngine.Yoga.YogaEdge,UnityEngine.Yoga.YogaValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStylePosition_m17081B8019875ACCC6D5215A1FB0D6B64C9FD7CF (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, int32_t ___edge0, YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C ___value1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPositionPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPosition(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968 (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.YogaNode::SetStyleMargin(UnityEngine.Yoga.YogaEdge,UnityEngine.Yoga.YogaValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStyleMargin_m9F59AA83FE83F289CC286EF0C33F8558055A8065 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, int32_t ___edge0, YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C ___value1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMarginPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMarginAuto(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.YogaNode::SetStylePadding(UnityEngine.Yoga.YogaEdge,UnityEngine.Yoga.YogaValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStylePadding_m4591446410152C5EFEEFC41D208431CEDFBBF707 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* __this, int32_t ___edge0, YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C ___value1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPaddingPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A (intptr_t ___node0, int32_t ___edge1, float ___border2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD (intptr_t ___node0, int32_t ___edge1, float ___border2, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.YogaConstants::IsUndefined(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaConstants_IsUndefined_m315EAE3D71B71011D7AE90F2F5C0617AC55DEDD9 (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaConstants_IsUndefined_m1BD66A8B7482CB49C9D4B0241E88CCE8EB0743FB (float ___value0, const RuntimeMethod* method) ;
 // System.Boolean System.Single::Equals(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Single_Equals_m97C79E2B80F39214DB3F7E714FF2BCA45A0A8BF9 (float* __this, float ___obj0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Yoga.YogaValue::Equals(UnityEngine.Yoga.YogaValue)
@@ -1690,66 +1690,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetHashCode_mC3F1E099D1CF165C2
 // System.Int32 UnityEngine.Yoga.YogaValue::GetHashCode()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t YogaValue_GetHashCode_m8E287A9A127C7B15B870756A948C3BB6C4A12672 (YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C* __this, const RuntimeMethod* method) ;
 // UnityEngine.Yoga.YogaValue UnityEngine.Yoga.YogaValue::Point(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Point_mA1955877796F9582C8F3B9ADDA817CD2B87E613E (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Point_m1EF4416D27335FE09A3CD7D3CD8307763FA991BE (float ___value0, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogError(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.Vector2::get_zero()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::DoGetCursorPosition(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetCursorPosition_mAEAD8A317ED0799C7E73E42B4C35E910A207ECB2 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorPosition2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetCursorPosition_m88B61DC7C5E4F17AC5E75F54D9B9B9F56F14F290 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorPosition2, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A (String_t* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___value0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextWidth(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_mF671B342B6C2A9F38853382C13D120BF7607521C (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_mC1ADB603729FAA6D6437B1E2031224A386FE1F9F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextHeight(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_m374A26A5446E96D6873007CD5C612116FCC8C411 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_m917EE94AF5471D5E962AB3BEB0C7592A7F917BC2 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) ;
 // System.Int32 Unity.Collections.LowLevel.Unsafe.UnsafeUtility::SizeOf<UnityEngine.UIElements.TextVertex>()
-inline int32_t UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F (const RuntimeMethod* method)
+inline int32_t UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19 (const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_gshared)(method);
+	return ((  int32_t (*) (const RuntimeMethod*))UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_gshared)(method);
 }
 // System.Void UnityEngine.UIElements.TextNative::GetVertices(UnityEngine.UIElements.TextNativeSettings,System.IntPtr,System.Int32,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_m2E6319DEDC0E387F6A1E4EC21E4B627F564243D3 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_m21E5914758FA0C969689CAA41EE14D265DAEED05 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) ;
 // System.Void Unity.Collections.NativeArray`1<UnityEngine.UIElements.TextVertex>::.ctor(System.Int32,Unity.Collections.Allocator,Unity.Collections.NativeArrayOptions)
 inline void NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656* __this, int32_t ___length0, int32_t ___allocator1, int32_t ___options2, const RuntimeMethod* method)
 {
 	((  void (*) (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656*, int32_t, int32_t, int32_t, const RuntimeMethod*))NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_gshared)(__this, ___length0, ___allocator1, ___options2, method);
 }
 // System.Void* Unity.Collections.LowLevel.Unsafe.NativeArrayUnsafeUtility::GetUnsafePtr<UnityEngine.UIElements.TextVertex>(Unity.Collections.NativeArray`1<T>)
-inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 ___nativeArray0, const RuntimeMethod* method)
+inline void* NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7 (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 ___nativeArray0, const RuntimeMethod* method)
 {
-	return ((  void* (*) (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E_gshared)(___nativeArray0, method);
+	return ((  void* (*) (NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656, const RuntimeMethod*))NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7_gshared)(___nativeArray0, method);
 }
 // System.IntPtr System.IntPtr::op_Explicit(System.Void*)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_m04BEF6277775C13DD8A986812AAA3FCEC32DCCBE (void* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D (void* ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Assert(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Assert_mC95931BE797761A2D7800908C0BA4B41D68B3216 (bool ___condition0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Assert_m6E778CACD0F440E2DEA9ACDD9330A22DAF16E96D (bool ___condition0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector2::.ctor(System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___x0, float ___y1, const RuntimeMethod* method) ;
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::DoGetOffset(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetOffset_m81701C0CC518A6EFCE0D31835A151A116C6E3D27 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetOffset_m65E9D221159D69B6AA2F3B9F93EB010A5709BE05 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Vector3::get_magnitude()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextWidth_Injected(UnityEngine.UIElements.TextNativeSettings&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) ;
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextHeight_Injected(UnityEngine.UIElements.TextNativeSettings&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.TextNative::DoGetCursorPosition_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,System.Int32,UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, int32_t ___cursorPosition2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, int32_t ___cursorPosition2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.TextNative::GetVertices_Injected(UnityEngine.UIElements.TextNativeSettings&,System.IntPtr,System.Int32,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.TextNative::DoGetOffset_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret2, const RuntimeMethod* method) ;
 // System.Void System.Action::Invoke()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72B845424072887B5F3A51FC3808E_inline (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Combine(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00 (Delegate_t* ___a0, Delegate_t* ___b1, const RuntimeMethod* method) ;
 // System.Delegate System.Delegate::Remove(System.Delegate,System.Delegate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Delegate_t* Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3 (Delegate_t* ___source0, Delegate_t* ___value1, const RuntimeMethod* method) ;
 // System.Void System.Action`1<System.Boolean>::Invoke(T)
 inline void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* __this, bool ___obj0, const RuntimeMethod* method)
 {
@@ -1766,21 +1766,21 @@ inline void Action_1_Invoke_m783EC8C62449882812B741E4DE67BF3106686D9C_inline (Ac
 	((  void (*) (Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2*, intptr_t, const RuntimeMethod*))Action_1_Invoke_m783EC8C62449882812B741E4DE67BF3106686D9C_gshared_inline)(__this, ___obj0, method);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RegisterIntermediateRenderer_Injected(UnityEngine.Camera,UnityEngine.Material,UnityEngine.Matrix4x4&,UnityEngine.Bounds&,System.Int32,System.Int32,System.Boolean,System.Int32,System.UInt64,System.Int32,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.UIR.Utility::SetScissorRect_Injected(UnityEngine.RectInt&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___scissorRect0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___scissorRect0, const RuntimeMethod* method) ;
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::CreateStencilState_Injected(UnityEngine.Rendering.StencilState&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9* ___stencilState0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479 (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9* ___stencilState0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.UIR.Utility::GetActiveViewport_Injected(UnityEngine.RectInt&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___ret0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___ret0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.UIElements.UIR.Utility::GetUnityProjectionMatrix_Injected(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___ret0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___ret0, const RuntimeMethod* method) ;
 // System.Void Unity.Profiling.ProfilerMarker::.ctor(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0A8B71E0301F592AF8891560150E55699C8_inline (ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD* __this, String_t* ___name0, const RuntimeMethod* method) ;
 // System.Int32 System.BitConverter::SingleToInt32Bits(System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mA1902D40966CA4C89A8974B10E5680A06E88566B_inline (float ___value0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___value0, const RuntimeMethod* method) ;
 // System.IntPtr Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility::CreateMarker(System.String,System.UInt16,Unity.Profiling.LowLevel.MarkerFlags,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ProfilerUnsafeUtility_CreateMarker_m27DDE00D41B95677982DBFCE074D45B79E50C7CC (String_t* ___name0, uint16_t ___categoryId1, uint16_t ___flags2, int32_t ___metadataCount3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ProfilerUnsafeUtility_CreateMarker_mC5E1AAB8CC1F0342065DF85BA3334445ED754E64 (String_t* ___name0, uint16_t ___categoryId1, uint16_t ___flags2, int32_t ___metadataCount3, const RuntimeMethod* method) ;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2154,7 +2154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // UnityEngine.Yoga.YogaSize UnityEngine.Yoga.MeasureOutput::Make(System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA MeasureOutput_Make_m164C17D1EEB5DCFB522C4A5D1CD43F56B7F9F15C (float ___width0, float ___height1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA MeasureOutput_Make_m19BCA4677D3255795D936162FB6DE021C2C89E83 (float ___width0, float ___height1, const RuntimeMethod* method) 
 {
 	YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -2200,19 +2200,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8
 		intptr_t L_0 = ___ygConfig0;
 		__this->____ygConfig_1 = L_0;
 		intptr_t L_1 = __this->____ygConfig_1;
-		bool L_2;
-		L_2 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_1, (0), NULL);
-		V_0 = L_2;
-		bool L_3 = V_0;
-		if (!L_3)
+		intptr_t L_2 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_3;
+		L_3 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_1, L_2, NULL);
+		V_0 = L_3;
+		bool L_4 = V_0;
+		if (!L_4)
 		{
 			goto IL_002f;
 		}
 	}
 	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_4 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_5 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_5, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4_RuntimeMethod_var)));
 	}
 
 IL_002f:
@@ -2225,7 +2226,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__ctor_m81D3E486916576BD67674E
 {
 	{
 		intptr_t L_0;
-		L_0 = Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E(NULL);
+		L_0 = Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB(NULL);
 		YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4(__this, L_0, NULL);
 		return;
 	}
@@ -2262,7 +2263,7 @@ FINALLY_002b:
 				intptr_t L_2;
 				L_2 = YogaConfig_get_Handle_m7E2D8171E4E8AA98BC1D886218B6207D602281DD(L_1, NULL);
 				bool L_3;
-				L_3 = IntPtr_op_Inequality_m2F715312CBFCE7E1A81D0689F68B97218E37E5D1(L_0, L_2, NULL);
+				L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B(L_0, L_2, NULL);
 				V_0 = L_3;
 				bool L_4 = V_0;
 				if (!L_4)
@@ -2273,7 +2274,7 @@ FINALLY_002b:
 			{
 				intptr_t L_5;
 				L_5 = YogaConfig_get_Handle_m7E2D8171E4E8AA98BC1D886218B6207D602281DD(__this, NULL);
-				Native_YGConfigFree_m198862BC2FB3B175A26C67839EAA617CA317D448(L_5, NULL);
+				Native_YGConfigFree_m39FFBA6301AAACAFE0570ABA725972240550981C(L_5, NULL);
 			}
 
 IL_0029_1:
@@ -2316,7 +2317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaConfig_get_UseWebDefaults_mB64415ACF
 	{
 		intptr_t L_0 = __this->____ygConfig_1;
 		bool L_1;
-		L_1 = Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977(L_0, NULL);
+		L_1 = Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -2333,7 +2334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig_set_UseWebDefaults_m96AB3442B
 	{
 		intptr_t L_0 = __this->____ygConfig_1;
 		bool L_1 = ___value0;
-		Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229(L_0, L_1, NULL);
+		Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -2343,12 +2344,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig_set_PointScaleFactor_mF61D0EF
 	{
 		intptr_t L_0 = __this->____ygConfig_1;
 		float L_1 = ___value0;
-		Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1(L_0, L_1, NULL);
+		Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9(L_0, L_1, NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Yoga.YogaConfig::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__cctor_m399106957D1C93E2B758F91F5640515D57D03E25 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__cctor_m2CBFE98AAE90596CBB749697AAE1973B2AE051FC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2358,7 +2359,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__cctor_m399106957D1C93E2B758F
 	}
 	{
 		intptr_t L_0;
-		L_0 = Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E(NULL);
+		L_0 = Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A(NULL);
 		YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345* L_1 = (YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345*)il2cpp_codegen_object_new(YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345_il2cpp_TypeInfo_var);
 		YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848516F2CBCD2FABF4(L_1, L_0, NULL);
 		((YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345_StaticFields*)il2cpp_codegen_static_fields_for(YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345_il2cpp_TypeInfo_var))->___Default_0 = L_1;
@@ -2375,13 +2376,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaConfig__cctor_m399106957D1C93E2B758F
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Boolean UnityEngine.Yoga.YogaConstants::IsUndefined(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaConstants_IsUndefined_m315EAE3D71B71011D7AE90F2F5C0617AC55DEDD9 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaConstants_IsUndefined_m1BD66A8B7482CB49C9D4B0241E88CCE8EB0743FB (float ___value0, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	{
 		float L_0 = ___value0;
 		bool L_1;
-		L_1 = Single_IsNaN_m684B090AA2F895FD91821CA8684CBC11D784E4DD_inline(L_0, NULL);
+		L_1 = Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000a;
 	}
@@ -2401,17 +2402,17 @@ IL_000a:
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.IntPtr UnityEngine.Yoga.Native::YGNodeNewWithConfig(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4 (intptr_t ___config0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD (intptr_t ___config0, const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4_ftn) (intptr_t);
-	static Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD_ftn) (intptr_t);
+	static Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeNewWithConfig(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeNewWithConfig(System.IntPtr)");
 	intptr_t icallRetVal = _il2cpp_icall_func(___config0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeFree(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m9E5FEC6827B8296A5B674569008027150E1980FE (intptr_t ___ygNode0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m65A5C6F9FAF9C804FE3299AF793B314D89C940CA (intptr_t ___ygNode0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2422,11 +2423,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m9E5FEC6827B8296A5B674
 	bool V_0 = false;
 	{
 		intptr_t L_0 = ___ygNode0;
-		bool L_1;
-		L_1 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_0, (0), NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		intptr_t L_1 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_0, L_1, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
 		{
 			goto IL_0012;
 		}
@@ -2437,8 +2439,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFree_m9E5FEC6827B8296A5B674
 
 IL_0012:
 	{
-		intptr_t L_3 = ___ygNode0;
-		Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F(L_3, NULL);
+		intptr_t L_4 = ___ygNode0;
+		Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC(L_4, NULL);
 	}
 
 IL_0019:
@@ -2447,54 +2449,54 @@ IL_0019:
 	}
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeFreeInternal(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F (intptr_t ___ygNode0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC (intptr_t ___ygNode0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F_ftn) (intptr_t);
-	static Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC_ftn) (intptr_t);
+	static Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeFreeInternal_m60521071D72CE5C994D4C27179E01D36FCF72C1F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeFreeInternal(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeFreeInternal_mF1AB16FC5A940C05E458238DBFC5BC0A04D40AFC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeFreeInternal(System.IntPtr)");
 	_il2cpp_icall_func(___ygNode0);
 }
 // System.Void UnityEngine.Yoga.Native::YGSetManagedObject(System.IntPtr,UnityEngine.Yoga.YogaNode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71 (intptr_t ___ygNode0, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A (intptr_t ___ygNode0, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71_ftn) (intptr_t, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA*);
-	static Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A_ftn) (intptr_t, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA*);
+	static Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGSetManagedObject(System.IntPtr,UnityEngine.Yoga.YogaNode)");
+	_il2cpp_icall_func = (Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGSetManagedObject(System.IntPtr,UnityEngine.Yoga.YogaNode)");
 	_il2cpp_icall_func(___ygNode0, ___node1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeSetConfig(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966 (intptr_t ___ygNode0, intptr_t ___config1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82 (intptr_t ___ygNode0, intptr_t ___config1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966_ftn) (intptr_t, intptr_t);
-	static Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82_ftn) (intptr_t, intptr_t);
+	static Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetConfig(System.IntPtr,System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetConfig(System.IntPtr,System.IntPtr)");
 	_il2cpp_icall_func(___ygNode0, ___config1);
 }
 // System.IntPtr UnityEngine.Yoga.Native::YGConfigGetDefault()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A (const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E_ftn) ();
-	static Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A_ftn) ();
+	static Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigGetDefault_m917168A4E8FA4CC2005973DB2C7CD87BC035C96E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigGetDefault()");
+	_il2cpp_icall_func = (Native_YGConfigGetDefault_m89E2B96C9637A2A250147771D3C6FEAC4D0F458A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigGetDefault()");
 	intptr_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.IntPtr UnityEngine.Yoga.Native::YGConfigNew()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB (const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E_ftn) ();
-	static Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB_ftn) ();
+	static Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigNew_mF7FEFE8A2720C25879AF4FE4980871A8A79E965E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigNew()");
+	_il2cpp_icall_func = (Native_YGConfigNew_m11896EDBABF4FAE5486DD882CBF71AB15D3B1EEB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigNew()");
 	intptr_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.Void UnityEngine.Yoga.Native::YGConfigFree(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m198862BC2FB3B175A26C67839EAA617CA317D448 (intptr_t ___config0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m39FFBA6301AAACAFE0570ABA725972240550981C (intptr_t ___config0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2505,11 +2507,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m198862BC2FB3B175A26
 	bool V_0 = false;
 	{
 		intptr_t L_0 = ___config0;
-		bool L_1;
-		L_1 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_0, (0), NULL);
-		V_0 = L_1;
-		bool L_2 = V_0;
-		if (!L_2)
+		intptr_t L_1 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_2;
+		L_2 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_0, L_1, NULL);
+		V_0 = L_2;
+		bool L_3 = V_0;
+		if (!L_3)
 		{
 			goto IL_0012;
 		}
@@ -2520,8 +2523,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFree_m198862BC2FB3B175A26
 
 IL_0012:
 	{
-		intptr_t L_3 = ___config0;
-		Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A(L_3, NULL);
+		intptr_t L_4 = ___config0;
+		Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C(L_4, NULL);
 	}
 
 IL_0019:
@@ -2530,598 +2533,598 @@ IL_0019:
 	}
 }
 // System.Void UnityEngine.Yoga.Native::YGConfigFreeInternal(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A (intptr_t ___config0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C (intptr_t ___config0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A_ftn) (intptr_t);
-	static Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C_ftn) (intptr_t);
+	static Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigFreeInternal_m358F0E85047319077713EEE97547C8B372930A2A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigFreeInternal(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGConfigFreeInternal_m63E4F7ECDAA151F463EFE996C63586FACD11BB4C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigFreeInternal(System.IntPtr)");
 	_il2cpp_icall_func(___config0);
 }
 // System.Void UnityEngine.Yoga.Native::YGConfigSetUseWebDefaults(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229 (intptr_t ___config0, bool ___useWebDefaults1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E (intptr_t ___config0, bool ___useWebDefaults1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229_ftn) (intptr_t, bool);
-	static Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E_ftn) (intptr_t, bool);
+	static Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigSetUseWebDefaults_m3FE3F425CF46BF1D635E9A46ADBB36A70C494229_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigSetUseWebDefaults(System.IntPtr,System.Boolean)");
+	_il2cpp_icall_func = (Native_YGConfigSetUseWebDefaults_mBA0DEB8659A98F62BD44F809D80DB1B21B9AC55E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigSetUseWebDefaults(System.IntPtr,System.Boolean)");
 	_il2cpp_icall_func(___config0, ___useWebDefaults1);
 }
 // System.Boolean UnityEngine.Yoga.Native::YGConfigGetUseWebDefaults(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977 (intptr_t ___config0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2 (intptr_t ___config0, const RuntimeMethod* method) 
 {
-	typedef bool (*Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977_ftn) (intptr_t);
-	static Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977_ftn _il2cpp_icall_func;
+	typedef bool (*Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2_ftn) (intptr_t);
+	static Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigGetUseWebDefaults_m59FA5C9CB4C476D492ECC25E5448AC9D2BDDA977_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigGetUseWebDefaults(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGConfigGetUseWebDefaults_m0F1759A9663FF89B89F3BE95E66B761375602DE2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigGetUseWebDefaults(System.IntPtr)");
 	bool icallRetVal = _il2cpp_icall_func(___config0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.Yoga.Native::YGConfigSetPointScaleFactor(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1 (intptr_t ___config0, float ___pixelsInPoint1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9 (intptr_t ___config0, float ___pixelsInPoint1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1_ftn) (intptr_t, float);
-	static Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9_ftn) (intptr_t, float);
+	static Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGConfigSetPointScaleFactor_m15305FABF31635D5F42C30DE0781B60BB82F63B1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigSetPointScaleFactor(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGConfigSetPointScaleFactor_m691E9B0FC19C5C2864A5239B27E8ABC2E00D70D9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGConfigSetPointScaleFactor(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___config0, ___pixelsInPoint1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeInsertChild(System.IntPtr,System.IntPtr,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9 (intptr_t ___node0, intptr_t ___child1, uint32_t ___index2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503 (intptr_t ___node0, intptr_t ___child1, uint32_t ___index2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9_ftn) (intptr_t, intptr_t, uint32_t);
-	static Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503_ftn) (intptr_t, intptr_t, uint32_t);
+	static Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeInsertChild(System.IntPtr,System.IntPtr,System.UInt32)");
+	_il2cpp_icall_func = (Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeInsertChild(System.IntPtr,System.IntPtr,System.UInt32)");
 	_il2cpp_icall_func(___node0, ___child1, ___index2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeRemoveChild(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C (intptr_t ___node0, intptr_t ___child1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68 (intptr_t ___node0, intptr_t ___child1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C_ftn) (intptr_t, intptr_t);
-	static Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68_ftn) (intptr_t, intptr_t);
+	static Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeRemoveChild(System.IntPtr,System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeRemoveChild(System.IntPtr,System.IntPtr)");
 	_il2cpp_icall_func(___node0, ___child1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeCalculateLayout(System.IntPtr,System.Single,System.Single,UnityEngine.Yoga.YogaDirection)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89 (intptr_t ___node0, float ___availableWidth1, float ___availableHeight2, int32_t ___parentDirection3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F (intptr_t ___node0, float ___availableWidth1, float ___availableHeight2, int32_t ___parentDirection3, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89_ftn) (intptr_t, float, float, int32_t);
-	static Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F_ftn) (intptr_t, float, float, int32_t);
+	static Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeCalculateLayout(System.IntPtr,System.Single,System.Single,UnityEngine.Yoga.YogaDirection)");
+	_il2cpp_icall_func = (Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeCalculateLayout(System.IntPtr,System.Single,System.Single,UnityEngine.Yoga.YogaDirection)");
 	_il2cpp_icall_func(___node0, ___availableWidth1, ___availableHeight2, ___parentDirection3);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeMarkDirty(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89_ftn) (intptr_t);
-	static Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8_ftn) (intptr_t);
+	static Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeMarkDirty(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeMarkDirty(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Boolean UnityEngine.Yoga.Native::YGNodeIsDirty(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef bool (*Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1_ftn) (intptr_t);
-	static Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1_ftn _il2cpp_icall_func;
+	typedef bool (*Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68_ftn) (intptr_t);
+	static Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeIsDirty(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeIsDirty(System.IntPtr)");
 	bool icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeCopyStyle(System.IntPtr,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B (intptr_t ___dstNode0, intptr_t ___srcNode1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9 (intptr_t ___dstNode0, intptr_t ___srcNode1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B_ftn) (intptr_t, intptr_t);
-	static Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9_ftn) (intptr_t, intptr_t);
+	static Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeCopyStyle(System.IntPtr,System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeCopyStyle(System.IntPtr,System.IntPtr)");
 	_il2cpp_icall_func(___dstNode0, ___srcNode1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeSetMeasureFunc(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643_ftn) (intptr_t);
-	static Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D_ftn) (intptr_t);
+	static Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetMeasureFunc(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetMeasureFunc(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeRemoveMeasureFunc(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A_ftn) (intptr_t);
-	static Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363_ftn) (intptr_t);
+	static Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeRemoveMeasureFunc(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeRemoveMeasureFunc(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeMeasureInvoke(UnityEngine.Yoga.YogaNode,System.Single,UnityEngine.Yoga.YogaMeasureMode,System.Single,UnityEngine.Yoga.YogaMeasureMode,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMeasureInvoke_mAE8E00280ED5522C07C630B135A9ECD9A0AC9441 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, intptr_t ___returnValueAddress5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeMeasureInvoke_mCDB590CFD8E79635FFA4C9E787FEC4AA48D2A448 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, intptr_t ___returnValueAddress5, const RuntimeMethod* method) 
 {
 	{
 		intptr_t L_0 = ___returnValueAddress5;
 		void* L_1;
-		L_1 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_0, NULL);
+		L_1 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_0, NULL);
 		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_2 = ___node0;
 		float L_3 = ___width1;
 		int32_t L_4 = ___widthMode2;
 		float L_5 = ___height3;
 		int32_t L_6 = ___heightMode4;
 		YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA L_7;
-		L_7 = YogaNode_MeasureInternal_mBB82E0057A8C4E58268564EF52F13D2232303912(L_2, L_3, L_4, L_5, L_6, NULL);
+		L_7 = YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0(L_2, L_3, L_4, L_5, L_6, NULL);
 		*(YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA*)L_1 = L_7;
 		return;
 	}
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeBaselineInvoke(UnityEngine.Yoga.YogaNode,System.Single,System.Single,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeBaselineInvoke_m68F86D69C1E31AAB5A6EF330B5656AD5F29C72FC (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, intptr_t ___returnValueAddress3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeBaselineInvoke_m6EDF6191EEF3C742BF22A6E6232D3EA8E6F4C5E0 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, intptr_t ___returnValueAddress3, const RuntimeMethod* method) 
 {
 	{
 		intptr_t L_0 = ___returnValueAddress3;
 		void* L_1;
-		L_1 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_0, NULL);
+		L_1 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_0, NULL);
 		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_2 = ___node0;
 		float L_3 = ___width1;
 		float L_4 = ___height2;
 		float L_5;
-		L_5 = YogaNode_BaselineInternal_mEB097370DAFBC11A25FBAB6F7659B8A8937D88D3(L_2, L_3, L_4, NULL);
+		L_5 = YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757(L_2, L_3, L_4, NULL);
 		*((float*)L_1) = (float)L_5;
 		return;
 	}
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeSetHasNewLayout(System.IntPtr,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA (intptr_t ___node0, bool ___hasNewLayout1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E (intptr_t ___node0, bool ___hasNewLayout1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA_ftn) (intptr_t, bool);
-	static Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E_ftn) (intptr_t, bool);
+	static Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetHasNewLayout(System.IntPtr,System.Boolean)");
+	_il2cpp_icall_func = (Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeSetHasNewLayout(System.IntPtr,System.Boolean)");
 	_il2cpp_icall_func(___node0, ___hasNewLayout1);
 }
 // System.Boolean UnityEngine.Yoga.Native::YGNodeGetHasNewLayout(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef bool (*Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5_ftn) (intptr_t);
-	static Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5_ftn _il2cpp_icall_func;
+	typedef bool (*Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E_ftn) (intptr_t);
+	static Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeGetHasNewLayout(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeGetHasNewLayout(System.IntPtr)");
 	bool icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // UnityEngine.Yoga.YogaDirection UnityEngine.Yoga.Native::YGNodeStyleGetDirection(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef int32_t (*Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B_ftn) (intptr_t);
-	static Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B_ftn _il2cpp_icall_func;
+	typedef int32_t (*Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618_ftn) (intptr_t);
+	static Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleGetDirection(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleGetDirection(System.IntPtr)");
 	int32_t icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexDirection(System.IntPtr,UnityEngine.Yoga.YogaFlexDirection)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF (intptr_t ___node0, int32_t ___flexDirection1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F (intptr_t ___node0, int32_t ___flexDirection1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexDirection(System.IntPtr,UnityEngine.Yoga.YogaFlexDirection)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexDirection(System.IntPtr,UnityEngine.Yoga.YogaFlexDirection)");
 	_il2cpp_icall_func(___node0, ___flexDirection1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetJustifyContent(System.IntPtr,UnityEngine.Yoga.YogaJustify)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B (intptr_t ___node0, int32_t ___justifyContent1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D (intptr_t ___node0, int32_t ___justifyContent1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetJustifyContent(System.IntPtr,UnityEngine.Yoga.YogaJustify)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetJustifyContent(System.IntPtr,UnityEngine.Yoga.YogaJustify)");
 	_il2cpp_icall_func(___node0, ___justifyContent1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignContent(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945 (intptr_t ___node0, int32_t ___alignContent1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402 (intptr_t ___node0, int32_t ___alignContent1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignContent(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignContent(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
 	_il2cpp_icall_func(___node0, ___alignContent1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignItems(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4 (intptr_t ___node0, int32_t ___alignItems1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C (intptr_t ___node0, int32_t ___alignItems1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignItems(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignItems(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
 	_il2cpp_icall_func(___node0, ___alignItems1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetAlignSelf(System.IntPtr,UnityEngine.Yoga.YogaAlign)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12 (intptr_t ___node0, int32_t ___alignSelf1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9 (intptr_t ___node0, int32_t ___alignSelf1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignSelf(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetAlignSelf(System.IntPtr,UnityEngine.Yoga.YogaAlign)");
 	_il2cpp_icall_func(___node0, ___alignSelf1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPositionType(System.IntPtr,UnityEngine.Yoga.YogaPositionType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0 (intptr_t ___node0, int32_t ___positionType1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855 (intptr_t ___node0, int32_t ___positionType1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPositionType(System.IntPtr,UnityEngine.Yoga.YogaPositionType)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPositionType(System.IntPtr,UnityEngine.Yoga.YogaPositionType)");
 	_il2cpp_icall_func(___node0, ___positionType1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexWrap(System.IntPtr,UnityEngine.Yoga.YogaWrap)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexWrap(System.IntPtr,UnityEngine.Yoga.YogaWrap)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexWrap(System.IntPtr,UnityEngine.Yoga.YogaWrap)");
 	_il2cpp_icall_func(___node0, ___flexWrap1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetOverflow(System.IntPtr,UnityEngine.Yoga.YogaOverflow)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755 (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E (intptr_t ___node0, int32_t ___flexWrap1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetOverflow(System.IntPtr,UnityEngine.Yoga.YogaOverflow)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetOverflow(System.IntPtr,UnityEngine.Yoga.YogaOverflow)");
 	_il2cpp_icall_func(___node0, ___flexWrap1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetDisplay(System.IntPtr,UnityEngine.Yoga.YogaDisplay)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97 (intptr_t ___node0, int32_t ___display1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70 (intptr_t ___node0, int32_t ___display1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetDisplay(System.IntPtr,UnityEngine.Yoga.YogaDisplay)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetDisplay(System.IntPtr,UnityEngine.Yoga.YogaDisplay)");
 	_il2cpp_icall_func(___node0, ___display1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlex(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C (intptr_t ___node0, float ___flex1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A (intptr_t ___node0, float ___flex1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlex(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlex(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___flex1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexGrow(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB (intptr_t ___node0, float ___flexGrow1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16 (intptr_t ___node0, float ___flexGrow1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexGrow(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexGrow(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___flexGrow1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexShrink(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635 (intptr_t ___node0, float ___flexShrink1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5 (intptr_t ___node0, float ___flexShrink1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexShrink(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexShrink(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___flexShrink1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasis(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasis(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasis(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___flexBasis1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3 (intptr_t ___node0, float ___flexBasis1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___flexBasis1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10_ftn) (intptr_t);
-	static Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33_ftn) (intptr_t);
+	static Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisAuto(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetFlexBasisAuto(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidth(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidth(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___width1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711 (intptr_t ___node0, float ___width1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidthPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidthPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___width1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetWidthAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5_ftn) (intptr_t);
-	static Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9_ftn) (intptr_t);
+	static Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidthAuto(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetWidthAuto(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeight(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeight(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___height1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB (intptr_t ___node0, float ___height1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23 (intptr_t ___node0, float ___height1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeightPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeightPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___height1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetHeightAuto(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4_ftn) (intptr_t);
-	static Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454_ftn) (intptr_t);
+	static Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeightAuto(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetHeightAuto(System.IntPtr)");
 	_il2cpp_icall_func(___node0);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinWidth(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinWidth(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___minWidth1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2 (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A (intptr_t ___node0, float ___minWidth1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinWidthPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinWidthPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___minWidth1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44 (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinHeight(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinHeight(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___minHeight1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMinHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9 (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A (intptr_t ___node0, float ___minHeight1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinHeightPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMinHeightPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___minHeight1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidth(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972 (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64 (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidth(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidth(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___maxWidth1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidthPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B (intptr_t ___node0, float ___maxWidth1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidthPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxWidthPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___maxWidth1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeight(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeight(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeight(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___maxHeight1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeightPercent(System.IntPtr,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34 (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A (intptr_t ___node0, float ___maxHeight1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34_ftn) (intptr_t, float);
-	static Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A_ftn) (intptr_t, float);
+	static Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeightPercent(System.IntPtr,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMaxHeightPercent(System.IntPtr,System.Single)");
 	_il2cpp_icall_func(___node0, ___maxHeight1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPosition(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968 (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPosition(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPosition(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___position2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPositionPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC (intptr_t ___node0, int32_t ___edge1, float ___position2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPositionPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPositionPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___position2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___margin2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMarginPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12 (intptr_t ___node0, int32_t ___edge1, float ___margin2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMarginPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMarginPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___margin2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetMarginAuto(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17_ftn) (intptr_t, int32_t);
-	static Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2_ftn) (intptr_t, int32_t);
+	static Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMarginAuto(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetMarginAuto(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
 	_il2cpp_icall_func(___node0, ___edge1);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___padding2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetPaddingPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6 (intptr_t ___node0, int32_t ___edge1, float ___padding2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPaddingPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetPaddingPercent(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___padding2);
 }
 // System.Void UnityEngine.Yoga.Native::YGNodeStyleSetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A (intptr_t ___node0, int32_t ___edge1, float ___border2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD (intptr_t ___node0, int32_t ___edge1, float ___border2, const RuntimeMethod* method) 
 {
-	typedef void (*Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A_ftn) (intptr_t, int32_t, float);
-	static Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A_ftn _il2cpp_icall_func;
+	typedef void (*Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD_ftn) (intptr_t, int32_t, float);
+	static Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
+	_il2cpp_icall_func = (Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeStyleSetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge,System.Single)");
 	_il2cpp_icall_func(___node0, ___edge1, ___border2);
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetLeft(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetLeft(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetLeft(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetTop(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetTop(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetTop(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetRight(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetRight(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetRight(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetBottom(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetBottom(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetBottom(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetWidth(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetWidth(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetWidth(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetHeight(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254 (intptr_t ___node0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596 (intptr_t ___node0, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254_ftn) (intptr_t);
-	static Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596_ftn) (intptr_t);
+	static Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetHeight(System.IntPtr)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetHeight(System.IntPtr)");
 	float icallRetVal = _il2cpp_icall_func(___node0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B_ftn) (intptr_t, int32_t);
-	static Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17_ftn) (intptr_t, int32_t);
+	static Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetMargin(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
 	float icallRetVal = _il2cpp_icall_func(___node0, ___edge1);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106_ftn) (intptr_t, int32_t);
-	static Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA_ftn) (intptr_t, int32_t);
+	static Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetPadding(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
 	float icallRetVal = _il2cpp_icall_func(___node0, ___edge1);
 	return icallRetVal;
 }
 // System.Single UnityEngine.Yoga.Native::YGNodeLayoutGetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861 (intptr_t ___node0, int32_t ___edge1, const RuntimeMethod* method) 
 {
-	typedef float (*Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497_ftn) (intptr_t, int32_t);
-	static Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497_ftn _il2cpp_icall_func;
+	typedef float (*Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861_ftn) (intptr_t, int32_t);
+	static Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
+	_il2cpp_icall_func = (Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Yoga.Native::YGNodeLayoutGetBorder(System.IntPtr,UnityEngine.Yoga.YogaEdge)");
 	float icallRetVal = _il2cpp_icall_func(___node0, ___edge1);
 	return icallRetVal;
 }
@@ -3181,22 +3184,23 @@ IL_0014:
 		intptr_t L_4;
 		L_4 = YogaConfig_get_Handle_m7E2D8171E4E8AA98BC1D886218B6207D602281DD(L_3, NULL);
 		intptr_t L_5;
-		L_5 = Native_YGNodeNewWithConfig_m4BADFC3F80863E78BDB5FA46F61C471BCF1E84D4(L_4, NULL);
+		L_5 = Native_YGNodeNewWithConfig_m6F611BD851C531FBCBB7E5BCC06886089DAF92FD(L_4, NULL);
 		__this->____ygNode_0 = L_5;
 		intptr_t L_6 = __this->____ygNode_0;
-		bool L_7;
-		L_7 = IntPtr_op_Equality_m73759B51FE326460AC87A0E386480226EF2FABED(L_6, (0), NULL);
-		V_0 = L_7;
-		bool L_8 = V_0;
-		if (!L_8)
+		intptr_t L_7 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		bool L_8;
+		L_8 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271(L_6, L_7, NULL);
+		V_0 = L_8;
+		bool L_9 = V_0;
+		if (!L_9)
 		{
 			goto IL_004f;
 		}
 	}
 	{
-		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_9 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
-		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_9, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode__ctor_m824433D9174C4325E87EC380CD5EB5F10C20A35C_RuntimeMethod_var)));
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_10 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode__ctor_m824433D9174C4325E87EC380CD5EB5F10C20A35C_RuntimeMethod_var)));
 	}
 
 IL_004f:
@@ -3222,7 +3226,7 @@ FINALLY_0010:
 		try
 		{// begin try (depth: 1)
 			intptr_t L_0 = __this->____ygNode_0;
-			Native_YGNodeFree_m9E5FEC6827B8296A5B674569008027150E1980FE(L_0, NULL);
+			Native_YGNodeFree_m65A5C6F9FAF9C804FE3299AF793B314D89C940CA(L_0, NULL);
 			goto IL_0018;
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -3276,7 +3280,7 @@ IL_000c:
 		YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345* L_4 = __this->____config_1;
 		intptr_t L_5;
 		L_5 = YogaConfig_get_Handle_m7E2D8171E4E8AA98BC1D886218B6207D602281DD(L_4, NULL);
-		Native_YGNodeSetConfig_mF882824F130DCE227D2B48A57D2BBC3C74B52966(L_3, L_5, NULL);
+		Native_YGNodeSetConfig_m2550E140E21149C6CDEC2DCB80DD9E9D48895F82(L_3, L_5, NULL);
 		return;
 	}
 }
@@ -3287,7 +3291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaNode_get_IsDirty_m24743ABB33BC9F32F9
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		bool L_1;
-		L_1 = Native_YGNodeIsDirty_mBD46D37EBADC5461AE91B0C95B8FD646D9780BD1(L_0, NULL);
+		L_1 = Native_YGNodeIsDirty_m3D3979D37CB7D3FC3EF5F0986A3AEEC3CB5A4C68(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3303,7 +3307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_MarkDirty_mCCCABC1717DCAF3E3138
 {
 	{
 		intptr_t L_0 = __this->____ygNode_0;
-		Native_YGNodeMarkDirty_m8107F56D4BE2A266294A39F0430A56423DC78D89(L_0, NULL);
+		Native_YGNodeMarkDirty_m198894367903C588630F3798F546B7FBFDB3D3D8(L_0, NULL);
 		return;
 	}
 }
@@ -3314,7 +3318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool YogaNode_get_HasNewLayout_m801E00B631071
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		bool L_1;
-		L_1 = Native_YGNodeGetHasNewLayout_m0A7DE10C4D95B992479353AAE7135C27A003A9C5(L_0, NULL);
+		L_1 = Native_YGNodeGetHasNewLayout_m1448EE1836A9A2D0DC3FDB8D38F0655E2E0ECD9E(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3364,7 +3368,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_CopyStyle_mB3AFC6604AA23297A7DA
 		intptr_t L_0 = __this->____ygNode_0;
 		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_1 = ___srcNode0;
 		intptr_t L_2 = L_1->____ygNode_0;
-		Native_YGNodeCopyStyle_m9D5D2CBA0B40C0D5431F74947B8706729D42394B(L_0, L_2, NULL);
+		Native_YGNodeCopyStyle_mB8ACE09355CEE68478C8198F30788AE536D2D1B9(L_0, L_2, NULL);
 		return;
 	}
 }
@@ -3374,7 +3378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_FlexDirection_mFF74AB011A46
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetFlexDirection_m150F6EFCFD965963E9D206226396317AD48DF3BF(L_0, L_1, NULL);
+		Native_YGNodeStyleSetFlexDirection_m572CB2FFCA3A4F9E4D6F1D8809C410A19BD82C9F(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3384,7 +3388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_JustifyContent_m008464E5DA3
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetJustifyContent_mA45440CBEA3DD733B9C5031DC7C94BBFF7B4541B(L_0, L_1, NULL);
+		Native_YGNodeStyleSetJustifyContent_m1DA9A504EB3BD07A61941C692C02DD400E44C73D(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3394,7 +3398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Display_mCD8A7B298E87852734
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetDisplay_m76EE649F8BBBD773A069E95E51EBE3EFCD94EA97(L_0, L_1, NULL);
+		Native_YGNodeStyleSetDisplay_mEB1ABE291C84FAEF8112585734A05F5989905B70(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3404,7 +3408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_AlignItems_m8443F468878AF72
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetAlignItems_m897DD75F642F60F5684E37E6CC30D2D62898AFE4(L_0, L_1, NULL);
+		Native_YGNodeStyleSetAlignItems_mBC30EB43D186C9F977B415445CD8906CA3DAF61C(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3414,7 +3418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_AlignSelf_mD678D097FA3DB20E
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetAlignSelf_m32AF1214C3B0A5E56E9706659A828143B92ABF12(L_0, L_1, NULL);
+		Native_YGNodeStyleSetAlignSelf_m4AF9BC14BF935EC05DF59AB5C4A613D2DF9AECA9(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3424,7 +3428,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_AlignContent_m9AC19A64AAAAC
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetAlignContent_m436932D80EAA2FFF82EA5DD41AA220A47D9D3945(L_0, L_1, NULL);
+		Native_YGNodeStyleSetAlignContent_m4F8EBDBC68466EF490CA01F81FD5945C9CCF5402(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3434,7 +3438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_PositionType_m958F7BB665C87
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetPositionType_m26C36EE82EE28CE1E1106D75A4A642FFC18D8FD0(L_0, L_1, NULL);
+		Native_YGNodeStyleSetPositionType_mD284119C6D3D043671B09CCFF6C1C864F1D41855(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3444,7 +3448,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Wrap_m01F365128F74AC617966A
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetFlexWrap_mC611BBFF56FC26E6A93CE874A8CD61435CE65E37(L_0, L_1, NULL);
+		Native_YGNodeStyleSetFlexWrap_mC9EACF4137A84B413EB0C8C3315D308435FD58D5(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3454,7 +3458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Flex_mCFCB82869C82DD5CB4015
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetFlex_mFF7012530FCC88266A00BF7A69940DAC6EB1ED6C(L_0, L_1, NULL);
+		Native_YGNodeStyleSetFlex_m0378FB3565379BF2A86E4D32D4CF3D527FC22D7A(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3464,7 +3468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_FlexGrow_m884FDA11A3F7FAF05
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetFlexGrow_m56C8FB64F02228A7CDE449E0405C82BDBEDDBDFB(L_0, L_1, NULL);
+		Native_YGNodeStyleSetFlexGrow_mC5D64E0AFD69DCA7D43867F0AFAAC5AAF43CAC16(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3474,7 +3478,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_FlexShrink_m30FC430AB92EB6F
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetFlexShrink_m7ACF9472AC51523670FE7640F7ACD4875ADA4635(L_0, L_1, NULL);
+		Native_YGNodeStyleSetFlexShrink_mBEB442044933F36011FB1C5D48DC6BB565F22EE5(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3497,7 +3501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_FlexBasis_m24CCC6C38C461235
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetFlexBasisPercent_m22672DC96B27B4C7E0A7D23A974E3449AE64FB0A(L_2, L_3, NULL);
+		Native_YGNodeStyleSetFlexBasisPercent_m53E89CA73D54E0D61C0AE43E46E71880B19E71A3(L_2, L_3, NULL);
 		goto IL_0059;
 	}
 
@@ -3514,7 +3518,7 @@ IL_0026:
 	}
 	{
 		intptr_t L_6 = __this->____ygNode_0;
-		Native_YGNodeStyleSetFlexBasisAuto_mA6B5F8FCD81C4328EF6A32011889345B3C90EA10(L_6, NULL);
+		Native_YGNodeStyleSetFlexBasisAuto_m75E0FE2D72735385BD4B768E7E6595BEB2767B33(L_6, NULL);
 		goto IL_0059;
 	}
 
@@ -3523,7 +3527,7 @@ IL_0044:
 		intptr_t L_7 = __this->____ygNode_0;
 		float L_8;
 		L_8 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetFlexBasis_m7D3390C0993FFB845708254B32A52AE907581352(L_7, L_8, NULL);
+		Native_YGNodeStyleSetFlexBasis_mA8EAC51EB221DAA641C0C113B1C888EEC8C134A9(L_7, L_8, NULL);
 	}
 
 IL_0059:
@@ -3550,7 +3554,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Width_mA267DDF44981884C4C63
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetWidthPercent_m7051570F172E071DE73F1D6FE3FC0C24D9AB0866(L_2, L_3, NULL);
+		Native_YGNodeStyleSetWidthPercent_m0E5E9A14D79DA3097D850A1399E815C7EB5C1711(L_2, L_3, NULL);
 		goto IL_0059;
 	}
 
@@ -3567,7 +3571,7 @@ IL_0026:
 	}
 	{
 		intptr_t L_6 = __this->____ygNode_0;
-		Native_YGNodeStyleSetWidthAuto_mF7E15C1BD54ED04A538A7E6374473FF32CA3EBF5(L_6, NULL);
+		Native_YGNodeStyleSetWidthAuto_mC0573A277B1B16B80CC8A9791C4477AF191EB0C9(L_6, NULL);
 		goto IL_0059;
 	}
 
@@ -3576,7 +3580,7 @@ IL_0044:
 		intptr_t L_7 = __this->____ygNode_0;
 		float L_8;
 		L_8 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetWidth_m8E500EE5BF635FEBD32F63D73C08CBB6D308D555(L_7, L_8, NULL);
+		Native_YGNodeStyleSetWidth_m51B0C20BC69889051707A5656AC8E923214BCE28(L_7, L_8, NULL);
 	}
 
 IL_0059:
@@ -3603,7 +3607,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Height_m4AFF9C286F42919CA1C
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetHeightPercent_mB14285FBEEBB58E99F5329AFDFA55345EB1503BB(L_2, L_3, NULL);
+		Native_YGNodeStyleSetHeightPercent_mB51BB945080154E9C68427923798645B681F3F23(L_2, L_3, NULL);
 		goto IL_0059;
 	}
 
@@ -3620,7 +3624,7 @@ IL_0026:
 	}
 	{
 		intptr_t L_6 = __this->____ygNode_0;
-		Native_YGNodeStyleSetHeightAuto_m80090E2A427A05BF4B310680DD6137E300B5E9A4(L_6, NULL);
+		Native_YGNodeStyleSetHeightAuto_mD0A25B33B11FE4A31513388555CCF2666C961454(L_6, NULL);
 		goto IL_0059;
 	}
 
@@ -3629,7 +3633,7 @@ IL_0044:
 		intptr_t L_7 = __this->____ygNode_0;
 		float L_8;
 		L_8 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetHeight_mD587BA4AE75897D9E335F6D7DD084CB579CB2F71(L_7, L_8, NULL);
+		Native_YGNodeStyleSetHeight_m2E2855E43F07820F05EB8B4EA48E772A8984D405(L_7, L_8, NULL);
 	}
 
 IL_0059:
@@ -3655,7 +3659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_MaxWidth_m18194AF8ECC926D70
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMaxWidthPercent_m8134B86C8E0BDD36B6910E6E69A496F4C1B60A0A(L_2, L_3, NULL);
+		Native_YGNodeStyleSetMaxWidthPercent_m629E9CC47E379D44E9772713BA95FD7EB8F3E49B(L_2, L_3, NULL);
 		goto IL_003b;
 	}
 
@@ -3664,7 +3668,7 @@ IL_0026:
 		intptr_t L_4 = __this->____ygNode_0;
 		float L_5;
 		L_5 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMaxWidth_m9ACC3DD5528EA7831590E5FCF9A9674263048972(L_4, L_5, NULL);
+		Native_YGNodeStyleSetMaxWidth_mFA9603DDDDF6E0858A17A52AE09848F917B59A64(L_4, L_5, NULL);
 	}
 
 IL_003b:
@@ -3690,7 +3694,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_MaxHeight_m25F7366BA8516D5C
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMaxHeightPercent_mA145490CBEE28201E08E6132A32CF5CB6C9FEC34(L_2, L_3, NULL);
+		Native_YGNodeStyleSetMaxHeightPercent_mDD919E0532D33DE34AFA75DA7FCD918AE710C12A(L_2, L_3, NULL);
 		goto IL_003b;
 	}
 
@@ -3699,7 +3703,7 @@ IL_0026:
 		intptr_t L_4 = __this->____ygNode_0;
 		float L_5;
 		L_5 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMaxHeight_m92DE27BA06CD74FB4B70D1173880EE9DEEA08268(L_4, L_5, NULL);
+		Native_YGNodeStyleSetMaxHeight_m53E372211ECD5CF9E338EB92FC6E812AD16E57A5(L_4, L_5, NULL);
 	}
 
 IL_003b:
@@ -3725,7 +3729,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_MinWidth_mC876A8736AA69BC61
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMinWidthPercent_m24384D17BBA8CD168C0D5D452D116DE4876DB7A2(L_2, L_3, NULL);
+		Native_YGNodeStyleSetMinWidthPercent_m511DBAB717BE516FD441F65AE02AC96E7C28DC2A(L_2, L_3, NULL);
 		goto IL_003b;
 	}
 
@@ -3734,7 +3738,7 @@ IL_0026:
 		intptr_t L_4 = __this->____ygNode_0;
 		float L_5;
 		L_5 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMinWidth_mFD0182554D716A2CBF44278D8DEC7D48828A7618(L_4, L_5, NULL);
+		Native_YGNodeStyleSetMinWidth_mD4BAEFA7CC9566284701288E58C9E8FFF90D0DC5(L_4, L_5, NULL);
 	}
 
 IL_003b:
@@ -3760,7 +3764,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_MinHeight_mB3301DB6766234FE
 		intptr_t L_2 = __this->____ygNode_0;
 		float L_3;
 		L_3 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMinHeightPercent_m4945109EAD0F65DB30AFBF93751102462C2B03E9(L_2, L_3, NULL);
+		Native_YGNodeStyleSetMinHeightPercent_mAD8DF2A468F3BED78662C0FFA09384C31953B18A(L_2, L_3, NULL);
 		goto IL_003b;
 	}
 
@@ -3769,7 +3773,7 @@ IL_0026:
 		intptr_t L_4 = __this->____ygNode_0;
 		float L_5;
 		L_5 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value0), NULL);
-		Native_YGNodeStyleSetMinHeight_m85D89605026C54D1A71F01AC8948430EDC966EFE(L_4, L_5, NULL);
+		Native_YGNodeStyleSetMinHeight_mE3932DE6D89F927AB48EE46B75D66A3619680E44(L_4, L_5, NULL);
 	}
 
 IL_003b:
@@ -3784,7 +3788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutX_mEEE47120D6DB656AC
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetLeft_m6E5B560CDA74FFA7A3C762A90D791A59A0860976(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetLeft_m96B29A4AE1C66E0FEF096DA5050CEC94442C459A(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3802,7 +3806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutY_m79DCF02D705920434
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetTop_m60CDD8A7A2D1623D0014FD3505F758F07D856ED2(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetTop_m5372EE7B9E7CDE267BF9BF0FFC355CB4FD288297(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3820,7 +3824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutRight_mEBCE0188575C7
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetRight_m83E1CADD797933807D34DD9073762C4990D2BF10(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetRight_m0068329B2B59D0DBBB0DEC009D5B0F1F655B3540(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3838,7 +3842,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutBottom_m2F6857AB410F
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetBottom_m8725DE50F08BAB04FD8254183DAAB6F75C641457(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetBottom_m6F4451718486D0A549E1D5BEA7C8501DB62ACDA4(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3856,7 +3860,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutWidth_mF68064634C568
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetWidth_mE2410FE497C00ABA40E053D0FD4A203ABB88CD9D(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetWidth_m9D52EC9FB8D5FCC5EE14E070C9092237211EA492(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3874,7 +3878,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutHeight_m0A56155F1B06
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetHeight_mC423C0EB25D27AE7F74387F7C9A6C6898B87B254(L_0, NULL);
+		L_1 = Native_YGNodeLayoutGetHeight_m5D2329F68FBBBA67CDEE3E673C787C2548514596(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000f;
 	}
@@ -3891,7 +3895,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_Overflow_m5DD8FEB426E1376D2
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		int32_t L_1 = ___value0;
-		Native_YGNodeStyleSetOverflow_m14D9D8F8BC2E38729E18E22B28D9CB640A3E1755(L_0, L_1, NULL);
+		Native_YGNodeStyleSetOverflow_mF50DB42B8D5EA25253E77D8F9EBDBA8A4CC8034E(L_0, L_1, NULL);
 		return;
 	}
 }
@@ -3943,7 +3947,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_MarkLayoutSeen_m899C39B9392134C
 {
 	{
 		intptr_t L_0 = __this->____ygNode_0;
-		Native_YGNodeSetHasNewLayout_m22EA7B1DA4E2AA20DEDBE1AD1A776A1D303E30DA(L_0, (bool)0, NULL);
+		Native_YGNodeSetHasNewLayout_mBE5DBEC31B5DC5AD534B332B102ACDBD8B657D3E(L_0, (bool)0, NULL);
 		return;
 	}
 }
@@ -3991,7 +3995,7 @@ IL_001c:
 		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_9 = ___node1;
 		intptr_t L_10 = L_9->____ygNode_0;
 		int32_t L_11 = ___index0;
-		Native_YGNodeInsertChild_mA5D0DFFDFD846F112A7FDCE846CF9A5231280CB9(L_8, L_10, L_11, NULL);
+		Native_YGNodeInsertChild_m3D9EEA4EF0E478F0D04C0C074BFB046FDB103503(L_8, L_10, L_11, NULL);
 		return;
 	}
 }
@@ -4021,7 +4025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_RemoveAt_m344D767FF02FB69813F27
 		intptr_t L_6 = __this->____ygNode_0;
 		YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* L_7 = V_0;
 		intptr_t L_8 = L_7->____ygNode_0;
-		Native_YGNodeRemoveChild_m98FE1F99F5233E763801CAEFE89272AB264A1F0C(L_6, L_8, NULL);
+		Native_YGNodeRemoveChild_m2C8E3F3B387CE8961A8881B5BB77530B60058D68(L_6, L_8, NULL);
 		return;
 	}
 }
@@ -4106,22 +4110,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetMeasureFunction_mD658FA9C054
 	}
 	{
 		intptr_t L_5 = __this->____ygNode_0;
-		Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71(L_5, (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA*)NULL, NULL);
+		Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A(L_5, (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA*)NULL, NULL);
 	}
 
 IL_002d:
 	{
 		intptr_t L_6 = __this->____ygNode_0;
-		Native_YGNodeRemoveMeasureFunc_m69C7422D474A3E47CD52CF2742FE5F8A682F632A(L_6, NULL);
+		Native_YGNodeRemoveMeasureFunc_m4228A419D4F5A31A523E74B9114DB57F3E446363(L_6, NULL);
 		goto IL_0057;
 	}
 
 IL_003c:
 	{
 		intptr_t L_7 = __this->____ygNode_0;
-		Native_YGSetManagedObject_m2CCD688B498F6519A453E4FA30E6F81F31F68B71(L_7, __this, NULL);
+		Native_YGSetManagedObject_m956D442A7E5D175AB52901C54E4F1456691F8C5A(L_7, __this, NULL);
 		intptr_t L_8 = __this->____ygNode_0;
-		Native_YGNodeSetMeasureFunc_mBC3464D096E2B65400DAA28A6AC49BFE40569643(L_8, NULL);
+		Native_YGNodeSetMeasureFunc_mF3175AEA27BA26593CDAE27E2C47E08C3AB2F56D(L_8, NULL);
 	}
 
 IL_0057:
@@ -4138,13 +4142,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_CalculateLayout_mF1185A522FA0E6
 		float L_2 = ___height1;
 		intptr_t L_3 = __this->____ygNode_0;
 		int32_t L_4;
-		L_4 = Native_YGNodeStyleGetDirection_mE3F698167ADF40E414DCF74E394EF6393395216B(L_3, NULL);
-		Native_YGNodeCalculateLayout_m54489A4F0F5B1B991920DB4953E3CD7D23376B89(L_0, L_1, L_2, L_4, NULL);
+		L_4 = Native_YGNodeStyleGetDirection_mD05F2B74EA9428572D5DA28B6B906E4A52568618(L_3, NULL);
+		Native_YGNodeCalculateLayout_m61971612B736E4A072F2CE9607360F3A0E46CC0F(L_0, L_1, L_2, L_4, NULL);
 		return;
 	}
 }
 // UnityEngine.Yoga.YogaSize UnityEngine.Yoga.YogaNode::MeasureInternal(UnityEngine.Yoga.YogaNode,System.Single,UnityEngine.Yoga.YogaMeasureMode,System.Single,UnityEngine.Yoga.YogaMeasureMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA YogaNode_MeasureInternal_mBB82E0057A8C4E58268564EF52F13D2232303912 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, int32_t ___widthMode2, float ___height3, int32_t ___heightMode4, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	YogaSize_tA276812CB1E90E7AA2028A9474EA6EA46B3B38EA V_1;
@@ -4181,7 +4185,7 @@ IL_0010:
 	{
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_4 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral807D31E7D618CFE25644A0B838EBD88C978E78F1)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode_MeasureInternal_mBB82E0057A8C4E58268564EF52F13D2232303912_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0_RuntimeMethod_var)));
 	}
 
 IL_0020:
@@ -4206,7 +4210,7 @@ IL_0034:
 	}
 }
 // System.Single UnityEngine.Yoga.YogaNode::BaselineInternal(UnityEngine.Yoga.YogaNode,System.Single,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_BaselineInternal_mEB097370DAFBC11A25FBAB6F7659B8A8937D88D3 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757 (YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA* ___node0, float ___width1, float ___height2, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	float V_1 = 0.0f;
@@ -4242,7 +4246,7 @@ IL_0010:
 	{
 		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_4 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
 		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_4, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2EB7EACAE6B3BFBFD70862A8840592343396CF46)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode_BaselineInternal_mEB097370DAFBC11A25FBAB6F7659B8A8937D88D3_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757_RuntimeMethod_var)));
 	}
 
 IL_0020:
@@ -4270,7 +4274,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YogaNode_GetEnumerator_m93CA3A
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_t1A289AA616E33E751647D01D6EEEB0565390CC17_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -4285,7 +4289,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YogaNode_GetEnumerator_m93CA3A
 	}
 	{
 		RuntimeObject* L_1;
-		L_1 = Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_inline(Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_RuntimeMethod_var);
+		L_1 = Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_inline(Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_RuntimeMethod_var);
 		RuntimeObject* L_2;
 		L_2 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Yoga.YogaNode>::GetEnumerator() */, IEnumerable_1_t1A289AA616E33E751647D01D6EEEB0565390CC17_il2cpp_TypeInfo_var, L_1);
 		G_B3_0 = L_2;
@@ -4318,7 +4322,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YogaNode_System_Collections_IE
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IEnumerable_1_t1A289AA616E33E751647D01D6EEEB0565390CC17_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
@@ -4333,7 +4337,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* YogaNode_System_Collections_IE
 	}
 	{
 		RuntimeObject* L_1;
-		L_1 = Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_inline(Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m5F185515F94E7B13787034072EAB772730FA75A8_RuntimeMethod_var);
+		L_1 = Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_inline(Enumerable_Empty_TisYogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_m4485546A3BF44A4910BBCCC57011E15CB49F3BE6_RuntimeMethod_var);
 		RuntimeObject* L_2;
 		L_2 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.IEnumerable`1<UnityEngine.Yoga.YogaNode>::GetEnumerator() */, IEnumerable_1_t1A289AA616E33E751647D01D6EEEB0565390CC17_il2cpp_TypeInfo_var, L_1);
 		G_B3_0 = L_2;
@@ -4415,7 +4419,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStylePosition_m17081B8019875
 		int32_t L_3 = ___edge0;
 		float L_4;
 		L_4 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetPositionPercent_m0B220FFEEAAC8D66B48BAFD10DFC91AD4FD1072B(L_2, L_3, L_4, NULL);
+		Native_YGNodeStyleSetPositionPercent_m6EBB551060750C05ED566CCB896C65810C1BB6BC(L_2, L_3, L_4, NULL);
 		goto IL_003d;
 	}
 
@@ -4425,7 +4429,7 @@ IL_0027:
 		int32_t L_6 = ___edge0;
 		float L_7;
 		L_7 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetPosition_m5F2C22B45049D8A1D038B8B25BB7ED4F1BCBD968(L_5, L_6, L_7, NULL);
+		Native_YGNodeStyleSetPosition_m6F05627862225682B30DEE270AF5DBC92A3F5E4A(L_5, L_6, L_7, NULL);
 	}
 
 IL_003d:
@@ -4489,7 +4493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStyleMargin_m9F59AA83FE83F28
 		int32_t L_3 = ___edge0;
 		float L_4;
 		L_4 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetMarginPercent_mE967F7476BD0D973E61FCE5662DC1FD0874EDBDF(L_2, L_3, L_4, NULL);
+		Native_YGNodeStyleSetMarginPercent_m55403B2B8AB39FDB5A3DB015876D5F050CBE2E12(L_2, L_3, L_4, NULL);
 		goto IL_005c;
 	}
 
@@ -4507,7 +4511,7 @@ IL_0027:
 	{
 		intptr_t L_7 = __this->____ygNode_0;
 		int32_t L_8 = ___edge0;
-		Native_YGNodeStyleSetMarginAuto_mE08483C5081E2AE8E6DBA5E782B72B072C1B8A17(L_7, L_8, NULL);
+		Native_YGNodeStyleSetMarginAuto_m35CD57DCE2F418647FB611724CD0B06ED5EA91D2(L_7, L_8, NULL);
 		goto IL_005c;
 	}
 
@@ -4517,7 +4521,7 @@ IL_0046:
 		int32_t L_10 = ___edge0;
 		float L_11;
 		L_11 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetMargin_m7785C8F0BFB107B19C71F301ADC044B7821DD8F6(L_9, L_10, L_11, NULL);
+		Native_YGNodeStyleSetMargin_m3A70ED59754A7D67E27CE780CBCBB6A4DF585C72(L_9, L_10, L_11, NULL);
 	}
 
 IL_005c:
@@ -4580,7 +4584,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_SetStylePadding_m4591446410152C
 		int32_t L_3 = ___edge0;
 		float L_4;
 		L_4 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetPaddingPercent_mD46DCE885F761260AD11E120D17C573AE4E1A463(L_2, L_3, L_4, NULL);
+		Native_YGNodeStyleSetPaddingPercent_m38A7998A22EF0102C503F240323511654889D7C6(L_2, L_3, L_4, NULL);
 		goto IL_003d;
 	}
 
@@ -4590,7 +4594,7 @@ IL_0027:
 		int32_t L_6 = ___edge0;
 		float L_7;
 		L_7 = YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C112A((&___value1), NULL);
-		Native_YGNodeStyleSetPadding_mAFC55FBA93FFB5DC4B86DA5B6574E9C3DD727F53(L_5, L_6, L_7, NULL);
+		Native_YGNodeStyleSetPadding_m4EF83ED5DC1934CCE14E4AADEA8A730D2889CAAC(L_5, L_6, L_7, NULL);
 	}
 
 IL_003d:
@@ -4604,7 +4608,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_BorderLeftWidth_m6F0ADE17EA
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A(L_0, 0, L_1, NULL);
+		Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD(L_0, 0, L_1, NULL);
 		return;
 	}
 }
@@ -4614,7 +4618,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_BorderTopWidth_m39A26DC4E61
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A(L_0, 1, L_1, NULL);
+		Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD(L_0, 1, L_1, NULL);
 		return;
 	}
 }
@@ -4624,7 +4628,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_BorderRightWidth_m047EE6ECC
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A(L_0, 2, L_1, NULL);
+		Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD(L_0, 2, L_1, NULL);
 		return;
 	}
 }
@@ -4634,7 +4638,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void YogaNode_set_BorderBottomWidth_m10BD7CB2
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1 = ___value0;
-		Native_YGNodeStyleSetBorder_m8F54DC0939E0B80CA94377F2E70F377DAD37E45A(L_0, 3, L_1, NULL);
+		Native_YGNodeStyleSetBorder_m2FC91E730F7299CD56EC8904D2F14371B9B98BFD(L_0, 3, L_1, NULL);
 		return;
 	}
 }
@@ -4645,7 +4649,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutMarginLeft_mBBDC00F4
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B(L_0, 0, NULL);
+		L_1 = Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17(L_0, 0, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4663,7 +4667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutMarginTop_m010905C6D
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B(L_0, 1, NULL);
+		L_1 = Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17(L_0, 1, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4681,7 +4685,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutMarginRight_mE6BDC38
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B(L_0, 2, NULL);
+		L_1 = Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17(L_0, 2, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4699,7 +4703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutMarginBottom_m46D999
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetMargin_mF652440347917736559C418261B120953A70E42B(L_0, 3, NULL);
+		L_1 = Native_YGNodeLayoutGetMargin_mCB0EE80823095ADFCA2A8F0A2067DD5B450B0F17(L_0, 3, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4717,7 +4721,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutPaddingLeft_m315AB18
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106(L_0, 0, NULL);
+		L_1 = Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA(L_0, 0, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4735,7 +4739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutPaddingTop_m76AB547D
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106(L_0, 1, NULL);
+		L_1 = Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA(L_0, 1, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4753,7 +4757,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutPaddingRight_m3AB914
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106(L_0, 2, NULL);
+		L_1 = Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA(L_0, 2, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4771,7 +4775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutPaddingBottom_m08100
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetPadding_m6732C0B3A36F53EE252248B834992E9E36966106(L_0, 3, NULL);
+		L_1 = Native_YGNodeLayoutGetPadding_mE1699ADBB745BBCA574BAE8DB57CA430A1224BBA(L_0, 3, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4789,7 +4793,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutBorderLeft_mC799A7EC
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497(L_0, 0, NULL);
+		L_1 = Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861(L_0, 0, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4807,7 +4811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutBorderTop_m5FEAEE25D
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497(L_0, 1, NULL);
+		L_1 = Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861(L_0, 1, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4825,7 +4829,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutBorderRight_mC22B436
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497(L_0, 2, NULL);
+		L_1 = Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861(L_0, 2, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4843,7 +4847,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float YogaNode_get_LayoutBorderBottom_m067868
 	{
 		intptr_t L_0 = __this->____ygNode_0;
 		float L_1;
-		L_1 = Native_YGNodeLayoutGetBorder_mE2599ACF460B0212F479303CA784D6EC7AC06497(L_0, 3, NULL);
+		L_1 = Native_YGNodeLayoutGetBorder_m5F0B38BD792C29209B64DE9F6C0CD6950146A861(L_0, 3, NULL);
 		V_0 = L_1;
 		goto IL_0010;
 	}
@@ -4921,7 +4925,7 @@ IL2CPP_EXTERN_C  float YogaValue_get_Value_m142314AA36484CD328E08A06D6A750F5CA1C
 	return _returnValue;
 }
 // UnityEngine.Yoga.YogaValue UnityEngine.Yoga.YogaValue::Point(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Point_mA1955877796F9582C8F3B9ADDA817CD2B87E613E (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Point_m1EF4416D27335FE09A3CD7D3CD8307763FA991BE (float ___value0, const RuntimeMethod* method) 
 {
 	YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -4937,7 +4941,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19
 		(&V_0)->___value_0 = L_0;
 		float L_1 = ___value0;
 		bool L_2;
-		L_2 = YogaConstants_IsUndefined_m315EAE3D71B71011D7AE90F2F5C0617AC55DEDD9(L_1, NULL);
+		L_2 = YogaConstants_IsUndefined_m1BD66A8B7482CB49C9D4B0241E88CCE8EB0743FB(L_1, NULL);
 		G_B1_0 = (&V_0);
 		if (L_2)
 		{
@@ -5146,7 +5150,7 @@ IL2CPP_EXTERN_C  int32_t YogaValue_GetHashCode_m8E287A9A127C7B15B870756A948C3BB6
 	return _returnValue;
 }
 // UnityEngine.Yoga.YogaValue UnityEngine.Yoga.YogaValue::Auto()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Auto_m73BFEAE3C23C6B9BD11BFD462B007BF7A6A58C96 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Auto_m2410501B6BB747D8290711BB328EB5FF7EAF73B5 (const RuntimeMethod* method) 
 {
 	YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -5168,7 +5172,7 @@ IL_0021:
 	}
 }
 // UnityEngine.Yoga.YogaValue UnityEngine.Yoga.YogaValue::Percent(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Percent_m9AE97691AE76135B4BAD62C862884D5240D7C8C2 (float ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_Percent_m3A88462FA1C96A48737C78DC5B538B5CC7331C18 (float ___value0, const RuntimeMethod* method) 
 {
 	YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -5184,7 +5188,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19
 		(&V_0)->___value_0 = L_0;
 		float L_1 = ___value0;
 		bool L_2;
-		L_2 = YogaConstants_IsUndefined_m315EAE3D71B71011D7AE90F2F5C0617AC55DEDD9(L_1, NULL);
+		L_2 = YogaConstants_IsUndefined_m1BD66A8B7482CB49C9D4B0241E88CCE8EB0743FB(L_1, NULL);
 		G_B1_0 = (&V_0);
 		if (L_2)
 		{
@@ -5219,14 +5223,14 @@ IL_0028:
 	}
 }
 // UnityEngine.Yoga.YogaValue UnityEngine.Yoga.YogaValue::op_Implicit(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_op_Implicit_mEDC38BD42737237B50A97DB49530A6DDE4E10DA3 (float ___pointValue0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C YogaValue_op_Implicit_m4E6C27B18E3D7AEAB238CD7E520852BF732F28F7 (float ___pointValue0, const RuntimeMethod* method) 
 {
 	YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		float L_0 = ___pointValue0;
 		YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C L_1;
-		L_1 = YogaValue_Point_mA1955877796F9582C8F3B9ADDA817CD2B87E613E(L_0, NULL);
+		L_1 = YogaValue_Point_m1EF4416D27335FE09A3CD7D3CD8307763FA991BE(L_0, NULL);
 		V_0 = L_1;
 		goto IL_000a;
 	}
@@ -5292,7 +5296,7 @@ IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF4006
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::GetCursorPosition(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_GetCursorPosition_m9A8419CDFCAB340843812AF3E257C910A7F7B098 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorIndex2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_GetCursorPosition_mF7B2D51841761A24623EE9DCAA354F30CB9523F4 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorIndex2, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5310,7 +5314,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_1 = L_0.___font_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
-		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -5320,9 +5324,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
-		L_4 = Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline(NULL);
+		L_4 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
 		V_1 = L_4;
 		goto IL_0030;
 	}
@@ -5333,7 +5337,7 @@ IL_0025:
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_6 = ___rect1;
 		int32_t L_7 = ___cursorIndex2;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
-		L_8 = TextNative_DoGetCursorPosition_mAEAD8A317ED0799C7E73E42B4C35E910A207ECB2(L_5, L_6, L_7, NULL);
+		L_8 = TextNative_DoGetCursorPosition_m88B61DC7C5E4F17AC5E75F54D9B9B9F56F14F290(L_5, L_6, L_7, NULL);
 		V_1 = L_8;
 		goto IL_0030;
 	}
@@ -5345,7 +5349,7 @@ IL_0030:
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::ComputeTextWidth(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextWidth_mDA393E1AFE8CAC48EF710CD2EAE73FF7508B2999 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextWidth_mE3A73219F780DB79A4BFCEA91CA1C4DB9AF7F00F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5363,7 +5367,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextWidth_mDA393E1AFE
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_1 = L_0.___font_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
-		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -5373,7 +5377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextWidth_mDA393E1AFE
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
 		V_1 = (0.0f);
 		goto IL_0045;
 	}
@@ -5383,7 +5387,7 @@ IL_0025:
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_4 = ___settings0;
 		String_t* L_5 = L_4.___text_0;
 		bool L_6;
-		L_6 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_5, NULL);
+		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
 		V_2 = L_6;
 		bool L_7 = V_2;
 		if (!L_7)
@@ -5400,7 +5404,7 @@ IL_003c:
 	{
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_8 = ___settings0;
 		float L_9;
-		L_9 = TextNative_DoComputeTextWidth_mF671B342B6C2A9F38853382C13D120BF7607521C(L_8, NULL);
+		L_9 = TextNative_DoComputeTextWidth_mC1ADB603729FAA6D6437B1E2031224A386FE1F9F(L_8, NULL);
 		V_1 = L_9;
 		goto IL_0045;
 	}
@@ -5412,7 +5416,7 @@ IL_0045:
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::ComputeTextHeight(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextHeight_mD1C7FF36C467891987154FD9A1643964B481F6C4 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextHeight_m2DB34E72014B203E83A17A7321793ED979D36AD8 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5430,7 +5434,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextHeight_mD1C7FF36C
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_1 = L_0.___font_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
-		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -5440,7 +5444,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextHeight_mD1C7FF36C
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
 		V_1 = (0.0f);
 		goto IL_0045;
 	}
@@ -5450,7 +5454,7 @@ IL_0025:
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_4 = ___settings0;
 		String_t* L_5 = L_4.___text_0;
 		bool L_6;
-		L_6 = String_IsNullOrEmpty_m54CF0907E7C4F3AFB2E796A13DC751ECBB8DB64A(L_5, NULL);
+		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
 		V_2 = L_6;
 		bool L_7 = V_2;
 		if (!L_7)
@@ -5467,7 +5471,7 @@ IL_003c:
 	{
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_8 = ___settings0;
 		float L_9;
-		L_9 = TextNative_DoComputeTextHeight_m374A26A5446E96D6873007CD5C612116FCC8C411(L_8, NULL);
+		L_9 = TextNative_DoComputeTextHeight_m917EE94AF5471D5E962AB3BEB0C7592A7F917BC2(L_8, NULL);
 		V_1 = L_9;
 		goto IL_0045;
 	}
@@ -5479,16 +5483,16 @@ IL_0045:
 	}
 }
 // Unity.Collections.NativeArray`1<UnityEngine.UIElements.TextVertex> UnityEngine.UIElements.TextNative::GetVertices(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 TextNative_GetVertices_m4741D7ABAE348124849C8CF071EB17654C933065 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 TextNative_GetVertices_m877716FCDD7F1D2C5849487C88691A5BA2441088 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -5500,51 +5504,52 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NativeArray_1_t8B2EB0176812FFDC7FF26382470CBF
 	{
 		V_0 = 0;
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_0 = ___settings0;
-		int32_t L_1;
-		L_1 = UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F(UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_RuntimeMethod_var);
-		TextNative_GetVertices_m2E6319DEDC0E387F6A1E4EC21E4B627F564243D3(L_0, (0), L_1, (&V_0), NULL);
-		int32_t L_2 = V_0;
-		NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB((&V_1), L_2, 2, 0, NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_RuntimeMethod_var);
+		intptr_t L_1 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		int32_t L_2;
+		L_2 = UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19(UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_RuntimeMethod_var);
+		TextNative_GetVertices_m21E5914758FA0C969689CAA41EE14D265DAEED05(L_0, L_1, L_2, (&V_0), NULL);
 		int32_t L_3 = V_0;
-		V_2 = (bool)((((int32_t)L_3) > ((int32_t)0))? 1 : 0);
-		bool L_4 = V_2;
-		if (!L_4)
+		NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB((&V_1), L_3, 2, 0, NativeArray_1__ctor_mA0072316B099B9C974C6E435A3E22C7A2A9F7FFB_RuntimeMethod_var);
+		int32_t L_4 = V_0;
+		V_2 = (bool)((((int32_t)L_4) > ((int32_t)0))? 1 : 0);
+		bool L_5 = V_2;
+		if (!L_5)
 		{
 			goto IL_0053;
 		}
 	}
 	{
-		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_5 = ___settings0;
-		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_6 = V_1;
-		void* L_7;
-		L_7 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E(L_6, NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m7C3D9701BB9D5B63570CD59CEDB98E72945D8F7E_RuntimeMethod_var);
-		intptr_t L_8;
-		L_8 = IntPtr_op_Explicit_m04BEF6277775C13DD8A986812AAA3FCEC32DCCBE(L_7, NULL);
-		int32_t L_9;
-		L_9 = UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F(UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_m039A24F9D07F9513076C3F4D0A4F3DB8F14E720F_RuntimeMethod_var);
-		TextNative_GetVertices_m2E6319DEDC0E387F6A1E4EC21E4B627F564243D3(L_5, L_8, L_9, (&V_0), NULL);
-		int32_t L_10 = V_0;
-		int32_t L_11;
-		L_11 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_1))->___m_Length_1);
+		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_6 = ___settings0;
+		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_7 = V_1;
+		void* L_8;
+		L_8 = NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7(L_7, NativeArrayUnsafeUtility_GetUnsafePtr_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mB71B93B1CC56845E3673C6C82279BA7A395475C7_RuntimeMethod_var);
+		intptr_t L_9;
+		L_9 = IntPtr_op_Explicit_mE2CEC14C61FD5E2159A03EA2AD97F5CDC5BB9F4D(L_8, NULL);
+		int32_t L_10;
+		L_10 = UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19(UnsafeUtility_SizeOf_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mA7798253D03E86FE4ACF94B4097B20FD2475EB19_RuntimeMethod_var);
+		TextNative_GetVertices_m21E5914758FA0C969689CAA41EE14D265DAEED05(L_6, L_9, L_10, (&V_0), NULL);
+		int32_t L_11 = V_0;
+		int32_t L_12;
+		L_12 = IL2CPP_NATIVEARRAY_GET_LENGTH(((&V_1))->___m_Length_1);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Assert_mC95931BE797761A2D7800908C0BA4B41D68B3216((bool)((((int32_t)L_10) == ((int32_t)L_11))? 1 : 0), NULL);
+		Debug_Assert_m6E778CACD0F440E2DEA9ACDD9330A22DAF16E96D((bool)((((int32_t)L_11) == ((int32_t)L_12))? 1 : 0), NULL);
 	}
 
 IL_0053:
 	{
-		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_12 = V_1;
-		V_3 = L_12;
+		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_13 = V_1;
+		V_3 = L_13;
 		goto IL_0057;
 	}
 
 IL_0057:
 	{
-		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_13 = V_3;
-		return L_13;
+		NativeArray_1_t8B2EB0176812FFDC7FF26382470CBFDCA595A656 L_14 = V_3;
+		return L_14;
 	}
 }
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::GetOffset(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_GetOffset_mEB1BDADC4C9C6FE281B942A6A8E542EFFA73067C (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___screenRect1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_GetOffset_mBBAE5C3304645D4295B723ABC9245AD6751ECD36 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___screenRect1, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5567,7 +5572,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		Font_tC95270EA3198038970422D78B74A7F2E218A96B6* L_1 = L_0.___font_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
-		L_2 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_2 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		V_0 = L_2;
 		bool L_3 = V_0;
 		if (!L_3)
@@ -5577,7 +5582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m059825802BB6AF7EA9693FEBEEB0D85F59A3E38E(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(_stringLiteral67BE3EF2BBE376CBFE6CC45672B2C7742A3C2520, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
 		memset((&L_4), 0, sizeof(L_4));
 		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_4), (0.0f), (0.0f), /*hidden argument*/NULL);
@@ -5611,7 +5616,7 @@ IL_0040:
 		TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 L_8 = ___settings0;
 		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9 = ___screenRect1;
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
-		L_10 = TextNative_DoGetOffset_m81701C0CC518A6EFCE0D31835A151A116C6E3D27(L_8, L_9, NULL);
+		L_10 = TextNative_DoGetOffset_m65E9D221159D69B6AA2F3B9F93EB010A5709BE05(L_8, L_9, NULL);
 		V_1 = L_10;
 		goto IL_004f;
 	}
@@ -5623,7 +5628,7 @@ IL_004f:
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::ComputeTextScaling(UnityEngine.Matrix4x4,System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextScaling_mFACFE42E518E28F8F5F0A8F9C5E55874492846AF (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___worldMatrix0, float ___pixelsPerPoint1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_ComputeTextScaling_mB18E1C1AD82EAD2A557414E4634F2F89149FFA2B (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___worldMatrix0, float ___pixelsPerPoint1, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
@@ -5664,102 +5669,102 @@ IL_004f:
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextWidth(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_mF671B342B6C2A9F38853382C13D120BF7607521C (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_mC1ADB603729FAA6D6437B1E2031224A386FE1F9F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
 {
 	{
 		float L_0;
-		L_0 = TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6((&___settings0), NULL);
+		L_0 = TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F((&___settings0), NULL);
 		return L_0;
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextHeight(UnityEngine.UIElements.TextNativeSettings)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_m374A26A5446E96D6873007CD5C612116FCC8C411 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_m917EE94AF5471D5E962AB3BEB0C7592A7F917BC2 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, const RuntimeMethod* method) 
 {
 	{
 		float L_0;
-		L_0 = TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F((&___settings0), NULL);
+		L_0 = TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B((&___settings0), NULL);
 		return L_0;
 	}
 }
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::DoGetCursorPosition(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetCursorPosition_mAEAD8A317ED0799C7E73E42B4C35E910A207ECB2 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorPosition2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetCursorPosition_m88B61DC7C5E4F17AC5E75F54D9B9B9F56F14F290 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, int32_t ___cursorPosition2, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		int32_t L_0 = ___cursorPosition2;
-		TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A((&___settings0), (&___rect1), L_0, (&V_0), NULL);
+		TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA((&___settings0), (&___rect1), L_0, (&V_0), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = V_0;
 		return L_1;
 	}
 }
 // System.Void UnityEngine.UIElements.TextNative::GetVertices(UnityEngine.UIElements.TextNativeSettings,System.IntPtr,System.Int32,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_m2E6319DEDC0E387F6A1E4EC21E4B627F564243D3 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_m21E5914758FA0C969689CAA41EE14D265DAEED05 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) 
 {
 	{
 		intptr_t L_0 = ___buffer1;
 		int32_t L_1 = ___vertexSize2;
 		int32_t* L_2 = ___vertexCount3;
-		TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB((&___settings0), L_0, L_1, L_2, NULL);
+		TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F((&___settings0), L_0, L_1, L_2, NULL);
 		return;
 	}
 }
 // UnityEngine.Vector2 UnityEngine.UIElements.TextNative::DoGetOffset(UnityEngine.UIElements.TextNativeSettings,UnityEngine.Rect)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetOffset_m81701C0CC518A6EFCE0D31835A151A116C6E3D27 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 TextNative_DoGetOffset_m65E9D221159D69B6AA2F3B9F93EB010A5709BE05 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062 ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___rect1, const RuntimeMethod* method) 
 {
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3((&___settings0), (&___rect1), (&V_0), NULL);
+		TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156((&___settings0), (&___rect1), (&V_0), NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = V_0;
 		return L_0;
 	}
 }
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextWidth_Injected(UnityEngine.UIElements.TextNativeSettings&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) 
 {
-	typedef float (*TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*);
-	static TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6_ftn _il2cpp_icall_func;
+	typedef float (*TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*);
+	static TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextNative_DoComputeTextWidth_Injected_m832A23884A1921FC860D54A9DBCBADCF04CB9CA6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoComputeTextWidth_Injected(UnityEngine.UIElements.TextNativeSettings&)");
+	_il2cpp_icall_func = (TextNative_DoComputeTextWidth_Injected_m1E6872A8C0AC95CFDF74C202595553A1E470472F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoComputeTextWidth_Injected(UnityEngine.UIElements.TextNativeSettings&)");
 	float icallRetVal = _il2cpp_icall_func(___settings0);
 	return icallRetVal;
 }
 // System.Single UnityEngine.UIElements.TextNative::DoComputeTextHeight_Injected(UnityEngine.UIElements.TextNativeSettings&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, const RuntimeMethod* method) 
 {
-	typedef float (*TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*);
-	static TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F_ftn _il2cpp_icall_func;
+	typedef float (*TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*);
+	static TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextNative_DoComputeTextHeight_Injected_mD0EC2D63EDD10174D19CFC3857DE5B3044C5D34F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoComputeTextHeight_Injected(UnityEngine.UIElements.TextNativeSettings&)");
+	_il2cpp_icall_func = (TextNative_DoComputeTextHeight_Injected_m69A3B288A6F117F0A596A2B7222C398D6008AE7B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoComputeTextHeight_Injected(UnityEngine.UIElements.TextNativeSettings&)");
 	float icallRetVal = _il2cpp_icall_func(___settings0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.UIElements.TextNative::DoGetCursorPosition_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,System.Int32,UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, int32_t ___cursorPosition2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, int32_t ___cursorPosition2, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret3, const RuntimeMethod* method) 
 {
-	typedef void (*TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*, int32_t, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
-	static TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A_ftn _il2cpp_icall_func;
+	typedef void (*TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*, int32_t, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
+	static TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextNative_DoGetCursorPosition_Injected_mAD8D158E7386FA45FA016351E743768652385B3A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoGetCursorPosition_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,System.Int32,UnityEngine.Vector2&)");
+	_il2cpp_icall_func = (TextNative_DoGetCursorPosition_Injected_mC5C07A73AF3CC29F5E6333E7CF1D33DF1633B9BA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoGetCursorPosition_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,System.Int32,UnityEngine.Vector2&)");
 	_il2cpp_icall_func(___settings0, ___rect1, ___cursorPosition2, ___ret3);
 }
 // System.Void UnityEngine.UIElements.TextNative::GetVertices_Injected(UnityEngine.UIElements.TextNativeSettings&,System.IntPtr,System.Int32,System.Int32&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, intptr_t ___buffer1, int32_t ___vertexSize2, int32_t* ___vertexCount3, const RuntimeMethod* method) 
 {
-	typedef void (*TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, intptr_t, int32_t, int32_t*);
-	static TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB_ftn _il2cpp_icall_func;
+	typedef void (*TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, intptr_t, int32_t, int32_t*);
+	static TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextNative_GetVertices_Injected_m9B662FC79B3E164892A3BDEEA4067EF6CC41E3FB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::GetVertices_Injected(UnityEngine.UIElements.TextNativeSettings&,System.IntPtr,System.Int32,System.Int32&)");
+	_il2cpp_icall_func = (TextNative_GetVertices_Injected_mB5CAF8BEBFB7228E06BD36FB3B9C188C1A12127F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::GetVertices_Injected(UnityEngine.UIElements.TextNativeSettings&,System.IntPtr,System.Int32,System.Int32&)");
 	_il2cpp_icall_func(___settings0, ___buffer1, ___vertexSize2, ___vertexCount3);
 }
 // System.Void UnityEngine.UIElements.TextNative::DoGetOffset_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,UnityEngine.Vector2&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156 (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062* ___settings0, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* ___rect1, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___ret2, const RuntimeMethod* method) 
 {
-	typedef void (*TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
-	static TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3_ftn _il2cpp_icall_func;
+	typedef void (*TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156_ftn) (TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062*, Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*);
+	static TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (TextNative_DoGetOffset_Injected_m20970D3264C1D91549D7845DF00A1C5BAA494ED3_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoGetOffset_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,UnityEngine.Vector2&)");
+	_il2cpp_icall_func = (TextNative_DoGetOffset_Injected_m5A58EA8CF5C12A4E039224EFFD860A022BC15156_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.TextNative::DoGetOffset_Injected(UnityEngine.UIElements.TextNativeSettings&,UnityEngine.Rect&,UnityEngine.Vector2&)");
 	_il2cpp_icall_func(___settings0, ___rect1, ___ret2);
 }
 #ifdef __clang__
@@ -5771,7 +5776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextNative_DoGetOffset_Injected_m20970D3
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void UnityEngine.UIElements.UIElementsRuntimeUtilityNative::RepaintOverlayPanels()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_RepaintOverlayPanels_m9F9B960B858876372942CEADDB1527DF98503A9D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_RepaintOverlayPanels_m346BC3BDB4713023D04B36C35E1D5C20465A815A (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5806,7 +5811,7 @@ IL_0012:
 	}
 }
 // System.Void UnityEngine.UIElements.UIElementsRuntimeUtilityNative::UpdateRuntimePanels()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_UpdateRuntimePanels_mADFB4DA9D98A7A7A5D9DA06C4870560FA96910F9 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_UpdateRuntimePanels_mB08CCB60AFCD7B71AA0E1F50DF697BFCFA8DC376 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5841,30 +5846,30 @@ IL_0012:
 	}
 }
 // System.Void UnityEngine.UIElements.UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_mF2DB7B25BFB9E0EC485CD6EDA1DABFEDA61C68F6 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_m04D189811F7F648F186D5976D21EDF13BA986A71 (const RuntimeMethod* method) 
 {
-	typedef void (*UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_mF2DB7B25BFB9E0EC485CD6EDA1DABFEDA61C68F6_ftn) ();
-	static UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_mF2DB7B25BFB9E0EC485CD6EDA1DABFEDA61C68F6_ftn _il2cpp_icall_func;
+	typedef void (*UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_m04D189811F7F648F186D5976D21EDF13BA986A71_ftn) ();
+	static UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_m04D189811F7F648F186D5976D21EDF13BA986A71_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_mF2DB7B25BFB9E0EC485CD6EDA1DABFEDA61C68F6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback()");
+	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_RegisterPlayerloopCallback_m04D189811F7F648F186D5976D21EDF13BA986A71_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback()");
 	_il2cpp_icall_func();
 }
 // System.Void UnityEngine.UIElements.UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_mBA667716C3B6341DF99E03EB4F760463A42BE9DA (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_m412B040F225984650BD09B9E8693AF6127D97ADF (const RuntimeMethod* method) 
 {
-	typedef void (*UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_mBA667716C3B6341DF99E03EB4F760463A42BE9DA_ftn) ();
-	static UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_mBA667716C3B6341DF99E03EB4F760463A42BE9DA_ftn _il2cpp_icall_func;
+	typedef void (*UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_m412B040F225984650BD09B9E8693AF6127D97ADF_ftn) ();
+	static UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_m412B040F225984650BD09B9E8693AF6127D97ADF_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_mBA667716C3B6341DF99E03EB4F760463A42BE9DA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback()");
+	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_UnregisterPlayerloopCallback_m412B040F225984650BD09B9E8693AF6127D97ADF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback()");
 	_il2cpp_icall_func();
 }
 // System.Void UnityEngine.UIElements.UIElementsRuntimeUtilityNative::VisualElementCreation()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_VisualElementCreation_mC2040C48791455FEF1ED2E80174A2D075CDA993D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_VisualElementCreation_m4FEEF03A1322277172416B770CB029247D7FCDFD (const RuntimeMethod* method) 
 {
-	typedef void (*UIElementsRuntimeUtilityNative_VisualElementCreation_mC2040C48791455FEF1ED2E80174A2D075CDA993D_ftn) ();
-	static UIElementsRuntimeUtilityNative_VisualElementCreation_mC2040C48791455FEF1ED2E80174A2D075CDA993D_ftn _il2cpp_icall_func;
+	typedef void (*UIElementsRuntimeUtilityNative_VisualElementCreation_m4FEEF03A1322277172416B770CB029247D7FCDFD_ftn) ();
+	static UIElementsRuntimeUtilityNative_VisualElementCreation_m4FEEF03A1322277172416B770CB029247D7FCDFD_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_VisualElementCreation_mC2040C48791455FEF1ED2E80174A2D075CDA993D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::VisualElementCreation()");
+	_il2cpp_icall_func = (UIElementsRuntimeUtilityNative_VisualElementCreation_m4FEEF03A1322277172416B770CB029247D7FCDFD_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIElementsRuntimeUtilityNative::VisualElementCreation()");
 	_il2cpp_icall_func();
 }
 #ifdef __clang__
@@ -5892,7 +5897,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_VisualEle
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void UnityEngine.UIElements.UIR.Utility::add_GraphicsResourcesRecreate(System.Action`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_GraphicsResourcesRecreate_m11A4A0B4368B22DE41056758D2A4208AB871DF54 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_GraphicsResourcesRecreate_m7500B21EEAD18C1D395CA679C4C1B2A10AE1B962 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5917,7 +5922,7 @@ IL_0006:
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = V_1;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)Castclass((RuntimeObject*)L_4, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = V_2;
@@ -5937,7 +5942,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::remove_GraphicsResourcesRecreate(System.Action`1<System.Boolean>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_GraphicsResourcesRecreate_m7EFCE9A98AA841D4CAC8F1781359500A32559105 (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_GraphicsResourcesRecreate_mB4DF54BC3B178674658360B438A1CA823A1C73AC (Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -5962,7 +5967,7 @@ IL_0006:
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_2 = V_1;
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C*)Castclass((RuntimeObject*)L_4, Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t10DCB0C07D0D3C565CEACADC80D1152B35A45F6C* L_5 = V_2;
@@ -5982,7 +5987,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::add_EngineUpdate(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_EngineUpdate_mFD3568341033913331E4CAA041B0A0F5E78D58B0 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_EngineUpdate_m06DF99E8301C5BD159A6AAE914BDCF808BA92B32 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6007,7 +6012,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
@@ -6027,7 +6032,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::remove_EngineUpdate(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_EngineUpdate_mFCD631B1906D9C0B0162B359F5D27D4B569C3971 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_EngineUpdate_mF7A954E84FC896CC63CB68CAF8A5235F835FF2D7 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6052,7 +6057,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
@@ -6072,7 +6077,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::add_FlushPendingResources(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_FlushPendingResources_m0603289F1CA8051CA6248A8A3769EF185113A768 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_FlushPendingResources_m9A930FD6215580544B7AFAB6CA57D9581833FBEA (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6097,7 +6102,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
@@ -6117,7 +6122,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::remove_FlushPendingResources(System.Action)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_FlushPendingResources_m1547E32B87BD90E968B2E8B51B2AD206C1A3A311 (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_FlushPendingResources_mBA31F8A56E659DE7298C2656B05D835178E5EE0D (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6142,7 +6147,7 @@ IL_0006:
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_2 = V_1;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)CastclassSealed((RuntimeObject*)L_4, Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_5 = V_2;
@@ -6162,7 +6167,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::add_RegisterIntermediateRenderers(System.Action`1<UnityEngine.Camera>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_RegisterIntermediateRenderers_m7B68C3555B2795D696838A82FB7F7F3F1BDD0A0A (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_RegisterIntermediateRenderers_m7E13A9C3E01341D429E0999F89F580232FFC6429 (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6187,7 +6192,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_2 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*)Castclass((RuntimeObject*)L_4, Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
@@ -6207,7 +6212,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::remove_RegisterIntermediateRenderers(System.Action`1<UnityEngine.Camera>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_RegisterIntermediateRenderers_m33218BE02318488C8196C0C4B314809B5BA15B1B (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_RegisterIntermediateRenderers_mEF3C851756F576BD728BD8BFFE5C5A64597539E5 (Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6232,7 +6237,7 @@ IL_0006:
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_2 = V_1;
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA*)Castclass((RuntimeObject*)L_4, Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t268986DA4CF361AC17B40338506A83AFB35832EA* L_5 = V_2;
@@ -6252,7 +6257,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::add_RenderNodeExecute(System.Action`1<System.IntPtr>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_RenderNodeExecute_mC630B888D39B3CE6D6B254491C9992451FAECD77 (Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_add_RenderNodeExecute_mA892466BF824D857F435453B8EA832382DC3314A (Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6277,7 +6282,7 @@ IL_0006:
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_2 = V_1;
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Combine_m8B9D24CED35033C7FC56501DFE650F5CB7FF012C(L_2, L_3, NULL);
+		L_4 = Delegate_Combine_m1F725AEF318BE6F0426863490691A6F4606E7D00(L_2, L_3, NULL);
 		V_2 = ((Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2*)Castclass((RuntimeObject*)L_4, Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_5 = V_2;
@@ -6297,7 +6302,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::remove_RenderNodeExecute(System.Action`1<System.IntPtr>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_RenderNodeExecute_m3C6D90276B125884F2B00A025ABC14AA76049C8A (Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* ___value0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_remove_RenderNodeExecute_m240A07023F25797A1827351E49329A02A122AD6C (Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* ___value0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6322,7 +6327,7 @@ IL_0006:
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_2 = V_1;
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_3 = ___value0;
 		Delegate_t* L_4;
-		L_4 = Delegate_Remove_m40506877934EC1AD4ADAE57F5E97AF0BC0F96116(L_2, L_3, NULL);
+		L_4 = Delegate_Remove_m8B7DD5661308FA972E23CA1CC3FC9CEB355504E3(L_2, L_3, NULL);
 		V_2 = ((Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2*)Castclass((RuntimeObject*)L_4, Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2_il2cpp_TypeInfo_var));
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		Action_1_t2DF1ED40E3084E997390FF52F462390882271FE2* L_5 = V_2;
@@ -6342,7 +6347,7 @@ IL_0006:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseGraphicsResourcesRecreate(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseGraphicsResourcesRecreate_m0501A6352C072455A5524B718A859768DD71B373 (bool ___recreate0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseGraphicsResourcesRecreate_m836B6EF1199237DBF417FA6F803ECD85E221201B (bool ___recreate0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6379,7 +6384,7 @@ IL_0013:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseEngineUpdate()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseEngineUpdate_mDEB8F6DCB0D42B6FDBF178D51F3AAAE5E7726CEB (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseEngineUpdate_m7AB4CDD154B44E8B1E224F5BC180640AD1749B1F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6410,7 +6415,7 @@ IL_001a:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseFlushPendingResources()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseFlushPendingResources_m7F4B9153DB09CE954D0625F04C2682CDC65A58C2 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseFlushPendingResources_mB13980DB6EAEE1060226EB7DFA6CCEEB57D9CE68 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6446,7 +6451,7 @@ IL_0012:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseRegisterIntermediateRenderers(UnityEngine.Camera)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRegisterIntermediateRenderers_mCF9B113F6CBF24039CD28343E6FDE82ABB78D18B (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRegisterIntermediateRenderers_mABFC7BADB09B3ADECB04E0E4D1B52ECD161C9F9E (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6483,7 +6488,7 @@ IL_0013:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseRenderNodeAdd(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeAdd_mBEFE7A4093DD6669BE5FDF15C6A3808881D6D0C5 (intptr_t ___userData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeAdd_mC61730515A6F1CB102C9D98DB7A85763EBDF5D96 (intptr_t ___userData0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6520,7 +6525,7 @@ IL_0013:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseRenderNodeExecute(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeExecute_m8A18D92E0CB6FA1CD0AA1E439164142F56705798 (intptr_t ___userData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeExecute_mA31EAEA7E25A4EB997B70359272900579DAA5446 (intptr_t ___userData0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6557,7 +6562,7 @@ IL_0013:
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RaiseRenderNodeCleanup(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeCleanup_mEF4A55AD5C19506566901C4CD5CFC29C1FD3EBA7 (intptr_t ___userData0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RaiseRenderNodeCleanup_mEF39A08F8A41ACDD38F7BF073F5B3B545A048B0C (intptr_t ___userData0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6594,54 +6599,54 @@ IL_0013:
 	}
 }
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::AllocateBuffer(System.Int32,System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C (int32_t ___elementCount0, int32_t ___elementStride1, bool ___vertexBuffer2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114 (int32_t ___elementCount0, int32_t ___elementStride1, bool ___vertexBuffer2, const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C_ftn) (int32_t, int32_t, bool);
-	static Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114_ftn) (int32_t, int32_t, bool);
+	static Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_AllocateBuffer_m79C0A0B1748A573ABF499E8589F206628F06005C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::AllocateBuffer(System.Int32,System.Int32,System.Boolean)");
+	_il2cpp_icall_func = (Utility_AllocateBuffer_m8DC30A1D8EF56C1F02B665FF7E60887E30A21114_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::AllocateBuffer(System.Int32,System.Int32,System.Boolean)");
 	intptr_t icallRetVal = _il2cpp_icall_func(___elementCount0, ___elementStride1, ___vertexBuffer2);
 	return icallRetVal;
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::FreeBuffer(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C (intptr_t ___buffer0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B (intptr_t ___buffer0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C_ftn) (intptr_t);
-	static Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C_ftn _il2cpp_icall_func;
+	typedef void (*Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B_ftn) (intptr_t);
+	static Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_FreeBuffer_m710B8442D3809F3E10202F0FD5076A6C63B92F7C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::FreeBuffer(System.IntPtr)");
+	_il2cpp_icall_func = (Utility_FreeBuffer_m3994CCBBB9E8C8B063CC8554EE0DFBE244EA427B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::FreeBuffer(System.IntPtr)");
 	_il2cpp_icall_func(___buffer0);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::UpdateBufferRanges(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A (intptr_t ___buffer0, intptr_t ___ranges1, int32_t ___rangeCount2, int32_t ___writeRangeStart3, int32_t ___writeRangeEnd4, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA (intptr_t ___buffer0, intptr_t ___ranges1, int32_t ___rangeCount2, int32_t ___writeRangeStart3, int32_t ___writeRangeEnd4, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A_ftn) (intptr_t, intptr_t, int32_t, int32_t, int32_t);
-	static Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A_ftn _il2cpp_icall_func;
+	typedef void (*Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA_ftn) (intptr_t, intptr_t, int32_t, int32_t, int32_t);
+	static Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_UpdateBufferRanges_m7E4FAAD598CA0D57796007E65D2822A781F0B07A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::UpdateBufferRanges(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)");
+	_il2cpp_icall_func = (Utility_UpdateBufferRanges_mDAE14652D11D1AABBF39FD3AC71CC8B3A0880DAA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::UpdateBufferRanges(System.IntPtr,System.IntPtr,System.Int32,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___buffer0, ___ranges1, ___rangeCount2, ___writeRangeStart3, ___writeRangeEnd4);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SetVectorArray(UnityEngine.MaterialPropertyBlock,System.Int32,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetVectorArray_m6C8F08342C9D3D33A183B29536DA13B07E2763FA (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___props0, int32_t ___name1, intptr_t ___vector4s2, int32_t ___count3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetVectorArray_m36650D854AAE55F689FF622D36CC2AC0B9FD7FB1 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___props0, int32_t ___name1, intptr_t ___vector4s2, int32_t ___count3, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_SetVectorArray_m6C8F08342C9D3D33A183B29536DA13B07E2763FA_ftn) (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*, int32_t, intptr_t, int32_t);
-	static Utility_SetVectorArray_m6C8F08342C9D3D33A183B29536DA13B07E2763FA_ftn _il2cpp_icall_func;
+	typedef void (*Utility_SetVectorArray_m36650D854AAE55F689FF622D36CC2AC0B9FD7FB1_ftn) (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*, int32_t, intptr_t, int32_t);
+	static Utility_SetVectorArray_m36650D854AAE55F689FF622D36CC2AC0B9FD7FB1_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_SetVectorArray_m6C8F08342C9D3D33A183B29536DA13B07E2763FA_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetVectorArray(UnityEngine.MaterialPropertyBlock,System.Int32,System.IntPtr,System.Int32)");
+	_il2cpp_icall_func = (Utility_SetVectorArray_m36650D854AAE55F689FF622D36CC2AC0B9FD7FB1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetVectorArray(UnityEngine.MaterialPropertyBlock,System.Int32,System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___props0, ___name1, ___vector4s2, ___count3);
 }
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::GetVertexDeclaration(UnityEngine.Rendering.VertexAttributeDescriptor[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_GetVertexDeclaration_mE471CC1D9A47B11E64E4DF232E0732FAF8B1AF33 (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___vertexAttributes0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_GetVertexDeclaration_mB8CDEF6DF2CBA67EE88C0FB666CDC338556F329F (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2* ___vertexAttributes0, const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Utility_GetVertexDeclaration_mE471CC1D9A47B11E64E4DF232E0732FAF8B1AF33_ftn) (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*);
-	static Utility_GetVertexDeclaration_mE471CC1D9A47B11E64E4DF232E0732FAF8B1AF33_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Utility_GetVertexDeclaration_mB8CDEF6DF2CBA67EE88C0FB666CDC338556F329F_ftn) (VertexAttributeDescriptorU5BU5D_t5D10E60612F12777F59B7E33939F9075DB0E02B2*);
+	static Utility_GetVertexDeclaration_mB8CDEF6DF2CBA67EE88C0FB666CDC338556F329F_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_GetVertexDeclaration_mE471CC1D9A47B11E64E4DF232E0732FAF8B1AF33_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetVertexDeclaration(UnityEngine.Rendering.VertexAttributeDescriptor[])");
+	_il2cpp_icall_func = (Utility_GetVertexDeclaration_mB8CDEF6DF2CBA67EE88C0FB666CDC338556F329F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetVertexDeclaration(UnityEngine.Rendering.VertexAttributeDescriptor[])");
 	intptr_t icallRetVal = _il2cpp_icall_func(___vertexAttributes0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RegisterIntermediateRenderer(UnityEngine.Camera,UnityEngine.Material,UnityEngine.Matrix4x4,UnityEngine.Bounds,System.Int32,System.Int32,System.Boolean,System.Int32,System.UInt64,System.Int32,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_m46C340A1198D0D39E65E65550B9D697BAAB1F617 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_m19E56570934E5AE455A1FE959EAB203D284DA4FA (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6661,30 +6666,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_m46
 		intptr_t L_8 = ___userData10;
 		int32_t L_9 = ___userDataSize11;
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2(L_0, L_1, (&___transform2), (&___aabb3), L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
+		Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64(L_0, L_1, (&___transform2), (&___aabb3), L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::DrawRanges(System.IntPtr,System.IntPtr*,System.Int32,System.IntPtr,System.Int32,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_DrawRanges_m5C054AC5885504B35399A861D70E9492DBC957A6 (intptr_t ___ib0, intptr_t* ___vertexStreams1, int32_t ___streamCount2, intptr_t ___ranges3, int32_t ___rangeCount4, intptr_t ___vertexDecl5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_DrawRanges_m6F5AE31B6A857DB71F66A2662C6EBE1B218B6FF4 (intptr_t ___ib0, intptr_t* ___vertexStreams1, int32_t ___streamCount2, intptr_t ___ranges3, int32_t ___rangeCount4, intptr_t ___vertexDecl5, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_DrawRanges_m5C054AC5885504B35399A861D70E9492DBC957A6_ftn) (intptr_t, intptr_t*, int32_t, intptr_t, int32_t, intptr_t);
-	static Utility_DrawRanges_m5C054AC5885504B35399A861D70E9492DBC957A6_ftn _il2cpp_icall_func;
+	typedef void (*Utility_DrawRanges_m6F5AE31B6A857DB71F66A2662C6EBE1B218B6FF4_ftn) (intptr_t, intptr_t*, int32_t, intptr_t, int32_t, intptr_t);
+	static Utility_DrawRanges_m6F5AE31B6A857DB71F66A2662C6EBE1B218B6FF4_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_DrawRanges_m5C054AC5885504B35399A861D70E9492DBC957A6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::DrawRanges(System.IntPtr,System.IntPtr*,System.Int32,System.IntPtr,System.Int32,System.IntPtr)");
+	_il2cpp_icall_func = (Utility_DrawRanges_m6F5AE31B6A857DB71F66A2662C6EBE1B218B6FF4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::DrawRanges(System.IntPtr,System.IntPtr*,System.Int32,System.IntPtr,System.Int32,System.IntPtr)");
 	_il2cpp_icall_func(___ib0, ___vertexStreams1, ___streamCount2, ___ranges3, ___rangeCount4, ___vertexDecl5);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SetPropertyBlock(UnityEngine.MaterialPropertyBlock)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetPropertyBlock_m186F7D4B9C21DB895748F5B7E01F5AB6DB286AA5 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___props0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetPropertyBlock_m04316F1E2FCAF1F9DDBEBDFE542EEBC3120C4EA4 (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___props0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_SetPropertyBlock_m186F7D4B9C21DB895748F5B7E01F5AB6DB286AA5_ftn) (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*);
-	static Utility_SetPropertyBlock_m186F7D4B9C21DB895748F5B7E01F5AB6DB286AA5_ftn _il2cpp_icall_func;
+	typedef void (*Utility_SetPropertyBlock_m04316F1E2FCAF1F9DDBEBDFE542EEBC3120C4EA4_ftn) (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*);
+	static Utility_SetPropertyBlock_m04316F1E2FCAF1F9DDBEBDFE542EEBC3120C4EA4_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_SetPropertyBlock_m186F7D4B9C21DB895748F5B7E01F5AB6DB286AA5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetPropertyBlock(UnityEngine.MaterialPropertyBlock)");
+	_il2cpp_icall_func = (Utility_SetPropertyBlock_m04316F1E2FCAF1F9DDBEBDFE542EEBC3120C4EA4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetPropertyBlock(UnityEngine.MaterialPropertyBlock)");
 	_il2cpp_icall_func(___props0);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SetScissorRect(UnityEngine.RectInt)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_m088F8070879B9480C4A6E12EB3229E9EEB718245 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___scissorRect0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_mFB429FC493F3679035007BF759880159DDBFC049 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 ___scissorRect0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6694,21 +6699,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_m088F8070879B9480
 	}
 	{
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993((&___scissorRect0), NULL);
+		Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610((&___scissorRect0), NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::DisableScissor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_DisableScissor_m2FD26952211AEA29D4AD48204857F4C096E8B6B6 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_DisableScissor_m7B52FA0EC1106927817854145DA8A862B3F2624C (const RuntimeMethod* method) 
 {
-	typedef void (*Utility_DisableScissor_m2FD26952211AEA29D4AD48204857F4C096E8B6B6_ftn) ();
-	static Utility_DisableScissor_m2FD26952211AEA29D4AD48204857F4C096E8B6B6_ftn _il2cpp_icall_func;
+	typedef void (*Utility_DisableScissor_m7B52FA0EC1106927817854145DA8A862B3F2624C_ftn) ();
+	static Utility_DisableScissor_m7B52FA0EC1106927817854145DA8A862B3F2624C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_DisableScissor_m2FD26952211AEA29D4AD48204857F4C096E8B6B6_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::DisableScissor()");
+	_il2cpp_icall_func = (Utility_DisableScissor_m7B52FA0EC1106927817854145DA8A862B3F2624C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::DisableScissor()");
 	_il2cpp_icall_func();
 }
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::CreateStencilState(UnityEngine.Rendering.StencilState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_m41C69707D8046FB8BE53B7866A7370AA9A1BB871 (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9 ___stencilState0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_mDC1F4473214745D1BE75D104081E73B52CCD043B (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9 ___stencilState0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6719,69 +6724,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_m41C69707
 	{
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
 		intptr_t L_0;
-		L_0 = Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B((&___stencilState0), NULL);
+		L_0 = Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479((&___stencilState0), NULL);
 		return L_0;
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SetStencilState(System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetStencilState_m7F941AD337300C43989A9096E9396E3CC7D6979D (intptr_t ___stencilState0, int32_t ___stencilRef1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetStencilState_m6F1F46336FF696C8C6A360B5E0CB344AC193A9E1 (intptr_t ___stencilState0, int32_t ___stencilRef1, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_SetStencilState_m7F941AD337300C43989A9096E9396E3CC7D6979D_ftn) (intptr_t, int32_t);
-	static Utility_SetStencilState_m7F941AD337300C43989A9096E9396E3CC7D6979D_ftn _il2cpp_icall_func;
+	typedef void (*Utility_SetStencilState_m6F1F46336FF696C8C6A360B5E0CB344AC193A9E1_ftn) (intptr_t, int32_t);
+	static Utility_SetStencilState_m6F1F46336FF696C8C6A360B5E0CB344AC193A9E1_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_SetStencilState_m7F941AD337300C43989A9096E9396E3CC7D6979D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetStencilState(System.IntPtr,System.Int32)");
+	_il2cpp_icall_func = (Utility_SetStencilState_m6F1F46336FF696C8C6A360B5E0CB344AC193A9E1_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetStencilState(System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___stencilState0, ___stencilRef1);
 }
 // System.Boolean UnityEngine.UIElements.UIR.Utility::HasMappedBufferRange()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Utility_HasMappedBufferRange_m43535D979D7B03DAE2140D2A4DDF29A9B77CB92B (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Utility_HasMappedBufferRange_m9701BED18820E4604C7C46DD1615E1272483C043 (const RuntimeMethod* method) 
 {
-	typedef bool (*Utility_HasMappedBufferRange_m43535D979D7B03DAE2140D2A4DDF29A9B77CB92B_ftn) ();
-	static Utility_HasMappedBufferRange_m43535D979D7B03DAE2140D2A4DDF29A9B77CB92B_ftn _il2cpp_icall_func;
+	typedef bool (*Utility_HasMappedBufferRange_m9701BED18820E4604C7C46DD1615E1272483C043_ftn) ();
+	static Utility_HasMappedBufferRange_m9701BED18820E4604C7C46DD1615E1272483C043_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_HasMappedBufferRange_m43535D979D7B03DAE2140D2A4DDF29A9B77CB92B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::HasMappedBufferRange()");
+	_il2cpp_icall_func = (Utility_HasMappedBufferRange_m9701BED18820E4604C7C46DD1615E1272483C043_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::HasMappedBufferRange()");
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.UInt32 UnityEngine.UIElements.UIR.Utility::InsertCPUFence()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Utility_InsertCPUFence_m8200A4F7724581FDE487AF45E4D9B6B9FFEF883E (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Utility_InsertCPUFence_m8FC65EF05973588366BC403C8807897CEE7CF440 (const RuntimeMethod* method) 
 {
-	typedef uint32_t (*Utility_InsertCPUFence_m8200A4F7724581FDE487AF45E4D9B6B9FFEF883E_ftn) ();
-	static Utility_InsertCPUFence_m8200A4F7724581FDE487AF45E4D9B6B9FFEF883E_ftn _il2cpp_icall_func;
+	typedef uint32_t (*Utility_InsertCPUFence_m8FC65EF05973588366BC403C8807897CEE7CF440_ftn) ();
+	static Utility_InsertCPUFence_m8FC65EF05973588366BC403C8807897CEE7CF440_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_InsertCPUFence_m8200A4F7724581FDE487AF45E4D9B6B9FFEF883E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::InsertCPUFence()");
+	_il2cpp_icall_func = (Utility_InsertCPUFence_m8FC65EF05973588366BC403C8807897CEE7CF440_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::InsertCPUFence()");
 	uint32_t icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
 // System.Boolean UnityEngine.UIElements.UIR.Utility::CPUFencePassed(System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Utility_CPUFencePassed_mF2311BE2687767B2BD1952FBFC46E6BBA7753969 (uint32_t ___fence0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Utility_CPUFencePassed_mBF5F842311E4ABF3DE18E9CA26A3684C21D836A5 (uint32_t ___fence0, const RuntimeMethod* method) 
 {
-	typedef bool (*Utility_CPUFencePassed_mF2311BE2687767B2BD1952FBFC46E6BBA7753969_ftn) (uint32_t);
-	static Utility_CPUFencePassed_mF2311BE2687767B2BD1952FBFC46E6BBA7753969_ftn _il2cpp_icall_func;
+	typedef bool (*Utility_CPUFencePassed_mBF5F842311E4ABF3DE18E9CA26A3684C21D836A5_ftn) (uint32_t);
+	static Utility_CPUFencePassed_mBF5F842311E4ABF3DE18E9CA26A3684C21D836A5_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_CPUFencePassed_mF2311BE2687767B2BD1952FBFC46E6BBA7753969_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::CPUFencePassed(System.UInt32)");
+	_il2cpp_icall_func = (Utility_CPUFencePassed_mBF5F842311E4ABF3DE18E9CA26A3684C21D836A5_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::CPUFencePassed(System.UInt32)");
 	bool icallRetVal = _il2cpp_icall_func(___fence0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::WaitForCPUFencePassed(System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_WaitForCPUFencePassed_mACEE12861CF9457367124C6137464CD2D8F3CB36 (uint32_t ___fence0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_WaitForCPUFencePassed_m5DC66BA62BAA3A503311E5EFE480BA763BA40CBB (uint32_t ___fence0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_WaitForCPUFencePassed_mACEE12861CF9457367124C6137464CD2D8F3CB36_ftn) (uint32_t);
-	static Utility_WaitForCPUFencePassed_mACEE12861CF9457367124C6137464CD2D8F3CB36_ftn _il2cpp_icall_func;
+	typedef void (*Utility_WaitForCPUFencePassed_m5DC66BA62BAA3A503311E5EFE480BA763BA40CBB_ftn) (uint32_t);
+	static Utility_WaitForCPUFencePassed_m5DC66BA62BAA3A503311E5EFE480BA763BA40CBB_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_WaitForCPUFencePassed_mACEE12861CF9457367124C6137464CD2D8F3CB36_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::WaitForCPUFencePassed(System.UInt32)");
+	_il2cpp_icall_func = (Utility_WaitForCPUFencePassed_m5DC66BA62BAA3A503311E5EFE480BA763BA40CBB_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::WaitForCPUFencePassed(System.UInt32)");
 	_il2cpp_icall_func(___fence0);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SyncRenderThread()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SyncRenderThread_mBC093FC01ADBC4307BABCE385DC19B2C6C38F65F (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SyncRenderThread_m4A7091ECD29F7A1CEF970D70F52F8C19696D6010 (const RuntimeMethod* method) 
 {
-	typedef void (*Utility_SyncRenderThread_mBC093FC01ADBC4307BABCE385DC19B2C6C38F65F_ftn) ();
-	static Utility_SyncRenderThread_mBC093FC01ADBC4307BABCE385DC19B2C6C38F65F_ftn _il2cpp_icall_func;
+	typedef void (*Utility_SyncRenderThread_m4A7091ECD29F7A1CEF970D70F52F8C19696D6010_ftn) ();
+	static Utility_SyncRenderThread_m4A7091ECD29F7A1CEF970D70F52F8C19696D6010_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_SyncRenderThread_mBC093FC01ADBC4307BABCE385DC19B2C6C38F65F_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SyncRenderThread()");
+	_il2cpp_icall_func = (Utility_SyncRenderThread_m4A7091ECD29F7A1CEF970D70F52F8C19696D6010_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SyncRenderThread()");
 	_il2cpp_icall_func();
 }
 // UnityEngine.RectInt UnityEngine.UIElements.UIR.Utility::GetActiveViewport()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 Utility_GetActiveViewport_m6219330120AEDFC96C9AA0EE75023E9431EB189D (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 Utility_GetActiveViewport_mDB9165183361EBE3D7D6D673EA147472C7FC9F14 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6793,40 +6798,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RectInt_t1744D10E1063135DA9D574F95205B98DAC60
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0((&V_0), NULL);
+		Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D((&V_0), NULL);
 		RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8 L_0 = V_0;
 		return L_0;
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::ProfileDrawChainBegin()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_ProfileDrawChainBegin_m1105D022C7484592F020401C02ABEDA4237BD6DF (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_ProfileDrawChainBegin_m28C587F98561B8F4C6ED13AEEE83430A25D3F83B (const RuntimeMethod* method) 
 {
-	typedef void (*Utility_ProfileDrawChainBegin_m1105D022C7484592F020401C02ABEDA4237BD6DF_ftn) ();
-	static Utility_ProfileDrawChainBegin_m1105D022C7484592F020401C02ABEDA4237BD6DF_ftn _il2cpp_icall_func;
+	typedef void (*Utility_ProfileDrawChainBegin_m28C587F98561B8F4C6ED13AEEE83430A25D3F83B_ftn) ();
+	static Utility_ProfileDrawChainBegin_m28C587F98561B8F4C6ED13AEEE83430A25D3F83B_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_ProfileDrawChainBegin_m1105D022C7484592F020401C02ABEDA4237BD6DF_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::ProfileDrawChainBegin()");
+	_il2cpp_icall_func = (Utility_ProfileDrawChainBegin_m28C587F98561B8F4C6ED13AEEE83430A25D3F83B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::ProfileDrawChainBegin()");
 	_il2cpp_icall_func();
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::ProfileDrawChainEnd()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_ProfileDrawChainEnd_m6445051B594B0DDCD869D4751398DAD3AAA28A01 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_ProfileDrawChainEnd_mF3602959ACC39C6EAE6429CC58172A06851E050D (const RuntimeMethod* method) 
 {
-	typedef void (*Utility_ProfileDrawChainEnd_m6445051B594B0DDCD869D4751398DAD3AAA28A01_ftn) ();
-	static Utility_ProfileDrawChainEnd_m6445051B594B0DDCD869D4751398DAD3AAA28A01_ftn _il2cpp_icall_func;
+	typedef void (*Utility_ProfileDrawChainEnd_mF3602959ACC39C6EAE6429CC58172A06851E050D_ftn) ();
+	static Utility_ProfileDrawChainEnd_mF3602959ACC39C6EAE6429CC58172A06851E050D_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_ProfileDrawChainEnd_m6445051B594B0DDCD869D4751398DAD3AAA28A01_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::ProfileDrawChainEnd()");
+	_il2cpp_icall_func = (Utility_ProfileDrawChainEnd_mF3602959ACC39C6EAE6429CC58172A06851E050D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::ProfileDrawChainEnd()");
 	_il2cpp_icall_func();
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::NotifyOfUIREvents(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_NotifyOfUIREvents_mB355BB746BD3C095223AB96CC5C39669A61C922B (bool ___subscribe0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_NotifyOfUIREvents_m84DA51777B615A0FA57AE784519A530F23434B47 (bool ___subscribe0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_NotifyOfUIREvents_mB355BB746BD3C095223AB96CC5C39669A61C922B_ftn) (bool);
-	static Utility_NotifyOfUIREvents_mB355BB746BD3C095223AB96CC5C39669A61C922B_ftn _il2cpp_icall_func;
+	typedef void (*Utility_NotifyOfUIREvents_m84DA51777B615A0FA57AE784519A530F23434B47_ftn) (bool);
+	static Utility_NotifyOfUIREvents_m84DA51777B615A0FA57AE784519A530F23434B47_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_NotifyOfUIREvents_mB355BB746BD3C095223AB96CC5C39669A61C922B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::NotifyOfUIREvents(System.Boolean)");
+	_il2cpp_icall_func = (Utility_NotifyOfUIREvents_m84DA51777B615A0FA57AE784519A530F23434B47_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::NotifyOfUIREvents(System.Boolean)");
 	_il2cpp_icall_func(___subscribe0);
 }
 // UnityEngine.Matrix4x4 UnityEngine.UIElements.UIR.Utility::GetUnityProjectionMatrix()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Utility_GetUnityProjectionMatrix_mA019D5445D1641B0CD89A79DDDE8B1B7E5FE0EBB (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 Utility_GetUnityProjectionMatrix_mDAA7B9D416768C0A81392BE9F27D551650EFF1D9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6838,13 +6843,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		il2cpp_codegen_runtime_class_init_inline(Utility_t8BCC393462C6270211734BE47CF5350F05EC97AD_il2cpp_TypeInfo_var);
-		Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D((&V_0), NULL);
+		Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81((&V_0), NULL);
 		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_0 = V_0;
 		return L_0;
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility__cctor_mCB0529D224E4D67079BC12BA37789C20EE0D5980 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility__cctor_m8AD41F9B37AF2853080C9A52DEFDCE5E6693C3FC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6862,55 +6867,55 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility__cctor_mCB0529D224E4D67079BC12BA
 	}
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::RegisterIntermediateRenderer_Injected(UnityEngine.Camera,UnityEngine.Material,UnityEngine.Matrix4x4&,UnityEngine.Bounds&,System.Int32,System.Int32,System.Boolean,System.Int32,System.UInt64,System.Int32,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___camera0, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___material1, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___transform2, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* ___aabb3, int32_t ___renderLayer4, int32_t ___shadowCasting5, bool ___receiveShadows6, int32_t ___sameDistanceSortPriority7, uint64_t ___sceneCullingMask8, int32_t ___rendererCallbackFlags9, intptr_t ___userData10, int32_t ___userDataSize11, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*, int32_t, int32_t, bool, int32_t, uint64_t, int32_t, intptr_t, int32_t);
-	static Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2_ftn _il2cpp_icall_func;
+	typedef void (*Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64_ftn) (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184*, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*, Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*, Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3*, int32_t, int32_t, bool, int32_t, uint64_t, int32_t, intptr_t, int32_t);
+	static Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_RegisterIntermediateRenderer_Injected_m95245CEE2B093C661065C6262AD1BD16CF171BE2_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::RegisterIntermediateRenderer_Injected(UnityEngine.Camera,UnityEngine.Material,UnityEngine.Matrix4x4&,UnityEngine.Bounds&,System.Int32,System.Int32,System.Boolean,System.Int32,System.UInt64,System.Int32,System.IntPtr,System.Int32)");
+	_il2cpp_icall_func = (Utility_RegisterIntermediateRenderer_Injected_m4CBBCDD753216F330B41766DA7C0D217FE281D64_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::RegisterIntermediateRenderer_Injected(UnityEngine.Camera,UnityEngine.Material,UnityEngine.Matrix4x4&,UnityEngine.Bounds&,System.Int32,System.Int32,System.Boolean,System.Int32,System.UInt64,System.Int32,System.IntPtr,System.Int32)");
 	_il2cpp_icall_func(___camera0, ___material1, ___transform2, ___aabb3, ___renderLayer4, ___shadowCasting5, ___receiveShadows6, ___sameDistanceSortPriority7, ___sceneCullingMask8, ___rendererCallbackFlags9, ___userData10, ___userDataSize11);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::SetScissorRect_Injected(UnityEngine.RectInt&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___scissorRect0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___scissorRect0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993_ftn) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8*);
-	static Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993_ftn _il2cpp_icall_func;
+	typedef void (*Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610_ftn) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8*);
+	static Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_SetScissorRect_Injected_m713B7CE9313C2696047C98A6AFC339C8BAFA8993_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetScissorRect_Injected(UnityEngine.RectInt&)");
+	_il2cpp_icall_func = (Utility_SetScissorRect_Injected_m333581839C1FABCFAEE7EFBDF945ECEF7CCAE610_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::SetScissorRect_Injected(UnityEngine.RectInt&)");
 	_il2cpp_icall_func(___scissorRect0);
 }
 // System.IntPtr UnityEngine.UIElements.UIR.Utility::CreateStencilState_Injected(UnityEngine.Rendering.StencilState&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9* ___stencilState0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479 (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9* ___stencilState0, const RuntimeMethod* method) 
 {
-	typedef intptr_t (*Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B_ftn) (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9*);
-	static Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B_ftn _il2cpp_icall_func;
+	typedef intptr_t (*Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479_ftn) (StencilState_tBE5F7C1134E50C5E93B45A626D4FB4690F1C91A9*);
+	static Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_CreateStencilState_Injected_mF7304A13703CB8BBC4E5E2CE66EAF56AEC117C8B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::CreateStencilState_Injected(UnityEngine.Rendering.StencilState&)");
+	_il2cpp_icall_func = (Utility_CreateStencilState_Injected_m47D217E56E67F17F06B389BF566BF0566D0F5479_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::CreateStencilState_Injected(UnityEngine.Rendering.StencilState&)");
 	intptr_t icallRetVal = _il2cpp_icall_func(___stencilState0);
 	return icallRetVal;
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::GetActiveViewport_Injected(UnityEngine.RectInt&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0 (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___ret0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8* ___ret0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0_ftn) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8*);
-	static Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0_ftn _il2cpp_icall_func;
+	typedef void (*Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D_ftn) (RectInt_t1744D10E1063135DA9D574F95205B98DAC600CB8*);
+	static Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_GetActiveViewport_Injected_m60650AF751F179D62E35B34CCC6E2068291F0CB0_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetActiveViewport_Injected(UnityEngine.RectInt&)");
+	_il2cpp_icall_func = (Utility_GetActiveViewport_Injected_mA7FB4F05C7BDF5ABC71D228CE66B33954507C46D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetActiveViewport_Injected(UnityEngine.RectInt&)");
 	_il2cpp_icall_func(___ret0);
 }
 // System.Void UnityEngine.UIElements.UIR.Utility::GetUnityProjectionMatrix_Injected(UnityEngine.Matrix4x4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___ret0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81 (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6* ___ret0, const RuntimeMethod* method) 
 {
-	typedef void (*Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D_ftn) (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*);
-	static Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D_ftn _il2cpp_icall_func;
+	typedef void (*Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81_ftn) (Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*);
+	static Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Utility_GetUnityProjectionMatrix_Injected_m8DE89F47F848B2071774E05D2F23DA10435E643D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetUnityProjectionMatrix_Injected(UnityEngine.Matrix4x4&)");
+	_il2cpp_icall_func = (Utility_GetUnityProjectionMatrix_Injected_m9E6F597B899AD99C931FBAFC0363B6F6E666CA81_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.UIElements.UIR.Utility::GetUnityProjectionMatrix_Injected(UnityEngine.Matrix4x4&)");
 	_il2cpp_icall_func(___ret0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_m684B090AA2F895FD91821CA8684CBC11D784E4DD_inline (float ___f0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_mFE637F6ECA9F7697CE8EFF56427858F4C5EDF75D_inline (float ___f0, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -6922,7 +6927,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Single_IsNaN_m684B090AA2F895
 		float L_0 = ___f0;
 		il2cpp_codegen_runtime_class_init_inline(BitConverter_t6E99605185963BC12B3D369E13F2B88997E64A27_il2cpp_TypeInfo_var);
 		int32_t L_1;
-		L_1 = BitConverter_SingleToInt32Bits_mA1902D40966CA4C89A8974B10E5680A06E88566B_inline(L_0, NULL);
+		L_1 = BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline(L_0, NULL);
 		return (bool)((((int32_t)((int32_t)(L_1&((int32_t)2147483647LL)))) > ((int32_t)((int32_t)2139095040)))? 1 : 0);
 	}
 }
@@ -6936,7 +6941,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float BaselineFunction_Invoke_m2D
 	typedef float (*FunctionPointerType) (RuntimeObject*, YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA*, float, float, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___node0, ___width1, ___height2, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m009B92B5D35AB02BD1610C2E1ACCE7C9CF964A6E_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -7019,7 +7024,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_mDD68B0
 	{
 		String_t* L_0 = ___name0;
 		intptr_t L_1;
-		L_1 = ProfilerUnsafeUtility_CreateMarker_m27DDE00D41B95677982DBFCE074D45B79E50C7CC(L_0, (uint16_t)1, 0, 0, NULL);
+		L_1 = ProfilerUnsafeUtility_CreateMarker_mC5E1AAB8CC1F0342065DF85BA3334445ED754E64(L_0, (uint16_t)1, 0, 0, NULL);
 		__this->___m_Ptr_0 = L_1;
 		return;
 	}
@@ -7031,7 +7036,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_TisRuntimeObject_m42BB34F154440C9F0AC402FC3E9BD08C8D678F21_gshared_inline (const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Empty_TisRuntimeObject_mA90CDE158774C34A28C07CEEA9E9EA2A61618238_gshared_inline (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 0));
@@ -7054,7 +7059,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_m783EC8C6244
 	typedef void (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___obj0, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mA1902D40966CA4C89A8974B10E5680A06E88566B_inline (float ___value0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t BitConverter_SingleToInt32Bits_mC760C7CFC89725E3CF68DC45BE3A9A42A7E7DA73_inline (float ___value0, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = *((int32_t*)((uintptr_t)(&___value0)));

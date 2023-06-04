@@ -137,11 +137,11 @@ extern void CinemachineBlendListCamera__ctor_m90660A98A6ED5C8ECFCDF652585F12EFA4
 // 0x0000003E UnityEngine.Camera Cinemachine.CinemachineBrain::get_OutputCamera()
 extern void CinemachineBrain_get_OutputCamera_m1568A7744F9BB298C982829FC39B109309372C31 (void);
 // 0x0000003F Cinemachine.ICinemachineCamera Cinemachine.CinemachineBrain::get_SoloCamera()
-extern void CinemachineBrain_get_SoloCamera_mFAAD6BBE45585D9DD797198FC01058C6F11BDF1A (void);
+extern void CinemachineBrain_get_SoloCamera_m67BF8A681B5B36B2CA6A805D658B5A820566B8D9 (void);
 // 0x00000040 System.Void Cinemachine.CinemachineBrain::set_SoloCamera(Cinemachine.ICinemachineCamera)
-extern void CinemachineBrain_set_SoloCamera_m439AB7B2CA0D934AD6077F97D593C9D09D69BBED (void);
+extern void CinemachineBrain_set_SoloCamera_m36932C5D48A60ED8C5D09FA4BA122597F0EABE98 (void);
 // 0x00000041 UnityEngine.Color Cinemachine.CinemachineBrain::GetSoloGUIColor()
-extern void CinemachineBrain_GetSoloGUIColor_mEC62C62FD11EA634FA82E938C5CCC29C99BA48D3 (void);
+extern void CinemachineBrain_GetSoloGUIColor_m52EAD28FC43A8FB8E68D9B81D31196203717746F (void);
 // 0x00000042 UnityEngine.Vector3 Cinemachine.CinemachineBrain::get_DefaultWorldUp()
 extern void CinemachineBrain_get_DefaultWorldUp_m6A39EB2B1E0E480FB48E43F5DB484146FEB8F2E5 (void);
 // 0x00000043 System.Void Cinemachine.CinemachineBrain::OnEnable()
@@ -169,7 +169,7 @@ extern void CinemachineBrain_UpdateVirtualCameras_m209254C78DF1F06E11EA4CF30C7F9
 // 0x0000004E Cinemachine.ICinemachineCamera Cinemachine.CinemachineBrain::get_ActiveVirtualCamera()
 extern void CinemachineBrain_get_ActiveVirtualCamera_m0AEE8E6E46E3235D9ADE864DA6BE7BB57F2D86D7 (void);
 // 0x0000004F Cinemachine.ICinemachineCamera Cinemachine.CinemachineBrain::DeepCamBFromBlend(Cinemachine.CinemachineBlend)
-extern void CinemachineBrain_DeepCamBFromBlend_mA36957D5CBCC3AA562C2A359C4D6F726F3C1321D (void);
+extern void CinemachineBrain_DeepCamBFromBlend_mA590E041B46933535A30A3F007BA2B83E7BE40CD (void);
 // 0x00000050 System.Boolean Cinemachine.CinemachineBrain::IsLiveInBlend(Cinemachine.ICinemachineCamera)
 extern void CinemachineBrain_IsLiveInBlend_m2A0E5AD2048B66FA82E7CB01A83335907B1941CB (void);
 // 0x00000051 System.Boolean Cinemachine.CinemachineBrain::get_IsBlending()
@@ -203,7 +203,7 @@ extern void CinemachineBrain_PushStateToUnityCamera_m052D86E4AADB90FC7816637DCE4
 // 0x0000005F System.Void Cinemachine.CinemachineBrain::.ctor()
 extern void CinemachineBrain__ctor_m516DC64F86617E7E269C399E53E69F06BF176690 (void);
 // 0x00000060 System.Void Cinemachine.CinemachineBrain::.cctor()
-extern void CinemachineBrain__cctor_m1D1E30304F9F67194689F822CA383AFBD7FC2F99 (void);
+extern void CinemachineBrain__cctor_m0922906BE096A29914CAFDDE952DE34C0F5A208E (void);
 // 0x00000061 System.Void Cinemachine.CinemachineBrain/BrainEvent::.ctor()
 extern void BrainEvent__ctor_mCAE49277912EB5AFFBA23BBBD84697BC258A56D7 (void);
 // 0x00000062 System.Void Cinemachine.CinemachineBrain/VcamActivatedEvent::.ctor()
@@ -277,7 +277,7 @@ extern void CinemachineClearShot_OnTransitionFromCamera_mCD2B8D5BB280F63D0E7E26A
 // 0x00000084 System.Void Cinemachine.CinemachineClearShot::.ctor()
 extern void CinemachineClearShot__ctor_m08FE4B603DA5147A26D2F588496C2D29B4CA4407 (void);
 // 0x00000085 System.Void Cinemachine.CinemachineClearShot/<>c::.cctor()
-extern void U3CU3Ec__cctor_m6EBE3965332A84B91D432C46F95C9C1A0C4BDC10 (void);
+extern void U3CU3Ec__cctor_m862E9E374DE10AA80B867C44F2270190CAE8FB00 (void);
 // 0x00000086 System.Void Cinemachine.CinemachineClearShot/<>c::.ctor()
 extern void U3CU3Ec__ctor_m9BE881E5BAC3662017282D2C1215496CB6A6088F (void);
 // 0x00000087 System.Int32 Cinemachine.CinemachineClearShot/<>c::<Randomize>b__47_0(Cinemachine.CinemachineClearShot/Pair,Cinemachine.CinemachineClearShot/Pair)
@@ -309,17 +309,17 @@ extern void CinemachineCollider_GetWalkingDirection_mC5607290A0F1FB8EDAC4AE40128
 // 0x00000094 System.Single Cinemachine.CinemachineCollider::GetPushBackDistance(UnityEngine.Ray,UnityEngine.Plane,System.Single,UnityEngine.Vector3)
 extern void CinemachineCollider_GetPushBackDistance_m327096D12B295C2A3D536767D22302B0D90722F2 (void);
 // 0x00000095 System.Single Cinemachine.CinemachineCollider::ClampRayToBounds(UnityEngine.Ray,System.Single,UnityEngine.Bounds)
-extern void CinemachineCollider_ClampRayToBounds_m5BB57D008F7DA4CAF2E22B96F3D78153E9EA71DE (void);
+extern void CinemachineCollider_ClampRayToBounds_m1ECEE60359130905CFE336780028F27C584C223C (void);
 // 0x00000096 UnityEngine.Vector3 Cinemachine.CinemachineCollider::RespectCameraRadius(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void CinemachineCollider_RespectCameraRadius_mCB35CD04F62EDCBE0A154B3EC455D33029F380C6 (void);
 // 0x00000097 System.Boolean Cinemachine.CinemachineCollider::CheckForTargetObstructions(Cinemachine.CameraState)
 extern void CinemachineCollider_CheckForTargetObstructions_mBE0D7797C4F714F6532ECF0428225FCC7717EBE9 (void);
 // 0x00000098 System.Boolean Cinemachine.CinemachineCollider::IsTargetOffscreen(Cinemachine.CameraState)
-extern void CinemachineCollider_IsTargetOffscreen_mC880662B6AD9AEF48B1EF30D614DB9F04C0E0C06 (void);
+extern void CinemachineCollider_IsTargetOffscreen_m92E26E85E88FE62A1C918DEF9728DE9FB46D5A7D (void);
 // 0x00000099 System.Void Cinemachine.CinemachineCollider::.ctor()
 extern void CinemachineCollider__ctor_m444FCEC0E8391FB73605BDF0C844292EA81BDF12 (void);
 // 0x0000009A System.Void Cinemachine.CinemachineCollider::.cctor()
-extern void CinemachineCollider__cctor_mB568BEE124ABB9EF334CFA82580EDCBEE33FF955 (void);
+extern void CinemachineCollider__cctor_m5A26E23CA4A900A4A0C35BFB46F4EBD893459106 (void);
 // 0x0000009B System.Void Cinemachine.CinemachineCollider/VcamExtraState::AddPointToDebugPath(UnityEngine.Vector3)
 extern void VcamExtraState_AddPointToDebugPath_m5787D51C699C1557B53987E5134067F98C6B8296 (void);
 // 0x0000009C System.Single Cinemachine.CinemachineCollider/VcamExtraState::ApplyDistanceSmoothing(System.Single,System.Single)
@@ -419,7 +419,7 @@ extern void CinemachineFreeLook_OnValidate_m363CFBDA6195290F8CA67B2217CF1CF0F080
 // 0x000000CB Cinemachine.CinemachineVirtualCamera Cinemachine.CinemachineFreeLook::GetRig(System.Int32)
 extern void CinemachineFreeLook_GetRig_mC818384734A05604CCA51B5D6EA87FD91692CE01 (void);
 // 0x000000CC System.String[] Cinemachine.CinemachineFreeLook::get_RigNames()
-extern void CinemachineFreeLook_get_RigNames_m4CA5DF303CCECE4C801B72C0C24034CF322D49AF (void);
+extern void CinemachineFreeLook_get_RigNames_m2D9317645B40626F534D57764C904CB434416D66 (void);
 // 0x000000CD System.Void Cinemachine.CinemachineFreeLook::OnEnable()
 extern void CinemachineFreeLook_OnEnable_m5751340BED71741D4B1ED9EB5D613DC8CCEEEBB9 (void);
 // 0x000000CE System.Void Cinemachine.CinemachineFreeLook::UpdateInputAxisProvider()
@@ -605,7 +605,7 @@ extern void CinemachineSmoothPath__ctor_m803C3FD43A12B6D618F661D748EFB66D7D8D5CE
 // 0x00000128 UnityEngine.Vector4 Cinemachine.CinemachineSmoothPath/Waypoint::get_AsVector4()
 extern void Waypoint_get_AsVector4_mA3935DAA3EBC69BEF2DDD1AA4DA077A0B520FA97 (void);
 // 0x00000129 Cinemachine.CinemachineSmoothPath/Waypoint Cinemachine.CinemachineSmoothPath/Waypoint::FromVector4(UnityEngine.Vector4)
-extern void Waypoint_FromVector4_mBD87C18C465737B156CA5ACAB23542E4596443BF (void);
+extern void Waypoint_FromVector4_m4BC6E89C093AE2B43B656C0B016927580FA0523A (void);
 // 0x0000012A System.String Cinemachine.CinemachineStateDrivenCamera::get_Description()
 extern void CinemachineStateDrivenCamera_get_Description_m7DAF9ACF241B7726B73AE384C54F69B9D544C898 (void);
 // 0x0000012B Cinemachine.ICinemachineCamera Cinemachine.CinemachineStateDrivenCamera::get_LiveChild()
@@ -645,7 +645,7 @@ extern void CinemachineStateDrivenCamera_get_ChildCameras_mD8D60F4EA1F55C1939166
 // 0x0000013C System.Boolean Cinemachine.CinemachineStateDrivenCamera::get_IsBlending()
 extern void CinemachineStateDrivenCamera_get_IsBlending_mFCDE3B87EE0174789D932F463D24D14DF7439487 (void);
 // 0x0000013D System.Int32 Cinemachine.CinemachineStateDrivenCamera::CreateFakeHash(System.Int32,UnityEngine.AnimationClip)
-extern void CinemachineStateDrivenCamera_CreateFakeHash_m62F6A83FF85A2C43E8E1344F3587889007D1BD9B (void);
+extern void CinemachineStateDrivenCamera_CreateFakeHash_mAF4399836F328EB3C463A7B2A7770A5AB2139438 (void);
 // 0x0000013E System.Int32 Cinemachine.CinemachineStateDrivenCamera::LookupFakeHash(System.Int32,UnityEngine.AnimationClip)
 extern void CinemachineStateDrivenCamera_LookupFakeHash_mBF568073EFB952D5BA865BAE8276784223E1A0E6 (void);
 // 0x0000013F System.Void Cinemachine.CinemachineStateDrivenCamera::InvalidateListOfChildren()
@@ -683,9 +683,9 @@ extern void CinemachineStoryboard_DestroyCanvas_m809C169B130220231748965F4BFB3FB
 // 0x0000014F System.Void Cinemachine.CinemachineStoryboard::PlaceImage(Cinemachine.CinemachineStoryboard/CanvasInfo,System.Single)
 extern void CinemachineStoryboard_PlaceImage_mC8B2650D936D682C2C031D89FF260DCD4F92FBDB (void);
 // 0x00000150 System.Void Cinemachine.CinemachineStoryboard::StaticBlendingHandler(Cinemachine.CinemachineBrain)
-extern void CinemachineStoryboard_StaticBlendingHandler_m9631B0CB18F7AD2C97E52341D22ACC2D5841D1BC (void);
+extern void CinemachineStoryboard_StaticBlendingHandler_mCB24F0CFB83E0D0E42A6BEE8EA45681FDA02336A (void);
 // 0x00000151 System.Void Cinemachine.CinemachineStoryboard::InitializeModule()
-extern void CinemachineStoryboard_InitializeModule_m061AC423ED6520526C4C55ADE4D998DE80531379 (void);
+extern void CinemachineStoryboard_InitializeModule_mB460164515FB890392CD51A78F9D6FC1029571F7 (void);
 // 0x00000152 System.Void Cinemachine.CinemachineStoryboard::.ctor()
 extern void CinemachineStoryboard__ctor_m13A6C495D5EE7EE171921D6A313B6D95083ED19E (void);
 // 0x00000153 System.Void Cinemachine.CinemachineStoryboard/CanvasInfo::.ctor()
@@ -717,7 +717,7 @@ extern void CinemachineTargetGroup_GetWeightedBoundsForMember_m66E0FB67C1A1A678A
 // 0x00000163 UnityEngine.Bounds Cinemachine.CinemachineTargetGroup::GetViewSpaceBoundingBox(UnityEngine.Matrix4x4)
 extern void CinemachineTargetGroup_GetViewSpaceBoundingBox_m0DEE6D2517C2D3A0030E2EEEC44A71A08B0275E2 (void);
 // 0x00000164 UnityEngine.BoundingSphere Cinemachine.CinemachineTargetGroup::WeightedMemberBounds(Cinemachine.CinemachineTargetGroup/Target,UnityEngine.Vector3,System.Single)
-extern void CinemachineTargetGroup_WeightedMemberBounds_m831A7C63D6DE5A222A5D2641B372E07AF859297D (void);
+extern void CinemachineTargetGroup_WeightedMemberBounds_mE19BC71847C61D281DD7774973DE335D0BCDE5B6 (void);
 // 0x00000165 System.Void Cinemachine.CinemachineTargetGroup::DoUpdate()
 extern void CinemachineTargetGroup_DoUpdate_m9DD03ECB2BB8D0D2FF159EE022D977BCE8F60D7E (void);
 // 0x00000166 UnityEngine.BoundingSphere Cinemachine.CinemachineTargetGroup::CalculateBoundingSphere(System.Single)
@@ -782,7 +782,7 @@ extern void CinemachineVirtualCamera_GetCinemachineComponent_m26F31BE8B9E3891C9E
 // 0x00000185 System.Void Cinemachine.CinemachineVirtualCamera::UpdateComponentPipeline()
 extern void CinemachineVirtualCamera_UpdateComponentPipeline_mDC1BF9D6E71CA7CEFEB8539E13BAD7E12DAB11A1 (void);
 // 0x00000186 System.Void Cinemachine.CinemachineVirtualCamera::SetFlagsForHiddenChild(UnityEngine.GameObject)
-extern void CinemachineVirtualCamera_SetFlagsForHiddenChild_mBC48F74140EF572DB75E09AB4B40464BCA332448 (void);
+extern void CinemachineVirtualCamera_SetFlagsForHiddenChild_mE805AF7C54CF7D4517F230702B793D142F667C8B (void);
 // 0x00000187 Cinemachine.CameraState Cinemachine.CinemachineVirtualCamera::CalculateNewState(UnityEngine.Vector3,System.Single)
 extern void CinemachineVirtualCamera_CalculateNewState_mEAC1B5563F4C5BD1868E591DBE70EC359C27AE31 (void);
 // 0x00000188 System.Void Cinemachine.CinemachineVirtualCamera::OnTargetObjectWarped(UnityEngine.Transform,UnityEngine.Vector3)
@@ -816,7 +816,7 @@ extern void DestroyPipelineDelegate_BeginInvoke_m2902F0B20085FB754D94A373177CBE6
 // 0x00000196 System.Void Cinemachine.CinemachineVirtualCamera/DestroyPipelineDelegate::EndInvoke(System.IAsyncResult)
 extern void DestroyPipelineDelegate_EndInvoke_mBCC8462D17B7FDB6058C446202AAEBBDB9515D46 (void);
 // 0x00000197 System.Void Cinemachine.CinemachineVirtualCamera/<>c::.cctor()
-extern void U3CU3Ec__cctor_m5C55F17AEAEEFA023973776DB010B54D0D2F8456 (void);
+extern void U3CU3Ec__cctor_m1637EA016B94B271146109003881DB288843D058 (void);
 // 0x00000198 System.Void Cinemachine.CinemachineVirtualCamera/<>c::.ctor()
 extern void U3CU3Ec__ctor_m0BD6B99048AA4888057E840317CE80F3789BBE8D (void);
 // 0x00000199 System.Int32 Cinemachine.CinemachineVirtualCamera/<>c::<UpdateComponentPipeline>b__38_0(Cinemachine.CinemachineComponentBase,Cinemachine.CinemachineComponentBase)
@@ -844,7 +844,7 @@ extern void Cinemachine3rdPersonFollow_PositionCamera_m13334AE8E5681B0F83EB4DC65
 // 0x000001A4 System.Void Cinemachine.Cinemachine3rdPersonFollow::GetRigPositions(UnityEngine.Vector3&,UnityEngine.Vector3&,UnityEngine.Vector3&)
 extern void Cinemachine3rdPersonFollow_GetRigPositions_m030DC36FC5FC04F030AAE5DD1DDE3C586F73C534 (void);
 // 0x000001A5 UnityEngine.Quaternion Cinemachine.Cinemachine3rdPersonFollow::GetHeading(UnityEngine.Quaternion,UnityEngine.Vector3)
-extern void Cinemachine3rdPersonFollow_GetHeading_mAF350E9785F2314EFD8016F12B0ED596E6C66843 (void);
+extern void Cinemachine3rdPersonFollow_GetHeading_m4D3086385158A48B3E83FD7960931CF2EFD52535 (void);
 // 0x000001A6 System.Void Cinemachine.Cinemachine3rdPersonFollow::GetRawRigPositions(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Vector3&,UnityEngine.Vector3&)
 extern void Cinemachine3rdPersonFollow_GetRawRigPositions_mDE2296B2034978F905A1C9CBAA202EFB174CB1D5 (void);
 // 0x000001A7 UnityEngine.Vector3 Cinemachine.Cinemachine3rdPersonFollow::ResolveCollisions(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single,System.Single&)
@@ -948,7 +948,7 @@ extern void CinemachineFramingTransposer_GetTargetHeight_m5CD0304B16E7442B6BA592
 // 0x000001D8 UnityEngine.Vector3 Cinemachine.CinemachineFramingTransposer::ComputeGroupBounds(Cinemachine.ICinemachineTargetGroup,Cinemachine.CameraState&)
 extern void CinemachineFramingTransposer_ComputeGroupBounds_mD7044C4EFA049F1BD91607D7EB5FE2F26E7A78D2 (void);
 // 0x000001D9 UnityEngine.Bounds Cinemachine.CinemachineFramingTransposer::GetScreenSpaceGroupBoundingBox(Cinemachine.ICinemachineTargetGroup,UnityEngine.Vector3&,UnityEngine.Quaternion)
-extern void CinemachineFramingTransposer_GetScreenSpaceGroupBoundingBox_mD6B121234F24AC755C1485C22B9A486625B3F58D (void);
+extern void CinemachineFramingTransposer_GetScreenSpaceGroupBoundingBox_mFA7FD0E686444062F3A538809B553D27B1C292AF (void);
 // 0x000001DA System.Void Cinemachine.CinemachineFramingTransposer::.ctor()
 extern void CinemachineFramingTransposer__ctor_mDC6AE4489F2CBA1B667DDE193E2C1D1C3D3332D5 (void);
 // 0x000001DB System.Void Cinemachine.CinemachineGroupComposer::OnValidate()
@@ -968,7 +968,7 @@ extern void CinemachineGroupComposer_MutateCameraState_mBA96192C982AF7399B01AD3F
 // 0x000001E2 System.Single Cinemachine.CinemachineGroupComposer::GetTargetHeight(UnityEngine.Vector2)
 extern void CinemachineGroupComposer_GetTargetHeight_mE81E9435860ADF221E7DD164A4ADF411AB4C740A (void);
 // 0x000001E3 UnityEngine.Bounds Cinemachine.CinemachineGroupComposer::GetScreenSpaceGroupBoundingBox(Cinemachine.ICinemachineTargetGroup,UnityEngine.Matrix4x4,UnityEngine.Vector3&)
-extern void CinemachineGroupComposer_GetScreenSpaceGroupBoundingBox_m567C86F8FB8092CF4BABDE712030C3E1772A22A9 (void);
+extern void CinemachineGroupComposer_GetScreenSpaceGroupBoundingBox_m23D17E79BBF0D8E56FFD0269BC4C5C8F33BD251A (void);
 // 0x000001E4 System.Void Cinemachine.CinemachineGroupComposer::.ctor()
 extern void CinemachineGroupComposer__ctor_m971E14E2A389C00A5DB8E27648BC6143D96CDFAC (void);
 // 0x000001E5 System.Boolean Cinemachine.CinemachineHardLockToTarget::get_IsValid()
@@ -1028,7 +1028,7 @@ extern void UpdateHeadingDelegate_BeginInvoke_mF9371D7AA17A9372F2FAB2891F8E66CA6
 // 0x00000200 System.Single Cinemachine.CinemachineOrbitalTransposer/UpdateHeadingDelegate::EndInvoke(System.IAsyncResult)
 extern void UpdateHeadingDelegate_EndInvoke_mCF8E24E08925233FAA0FB6E5AFAFEFCF67FBE8CF (void);
 // 0x00000201 System.Void Cinemachine.CinemachineOrbitalTransposer/<>c::.cctor()
-extern void U3CU3Ec__cctor_mC4BBE7E060D7D62BDA15539A4E1FB07BEC64C7BC (void);
+extern void U3CU3Ec__cctor_mDB41F389E9ACDC6A49924D0DDF6BF908E627676B (void);
 // 0x00000202 System.Void Cinemachine.CinemachineOrbitalTransposer/<>c::.ctor()
 extern void U3CU3Ec__ctor_m86741AB1B49B0E3932CA01086C2B7FAFC221C361 (void);
 // 0x00000203 System.Single Cinemachine.CinemachineOrbitalTransposer/<>c::<.ctor>b__30_0(Cinemachine.CinemachineOrbitalTransposer,System.Single,UnityEngine.Vector3)
@@ -1050,7 +1050,7 @@ extern void CinemachinePOV_MutateCameraState_m7D3F0F0979A4D487630A47A0BDB8B6C01F
 // 0x0000020B UnityEngine.Vector2 Cinemachine.CinemachinePOV::GetRecenterTarget()
 extern void CinemachinePOV_GetRecenterTarget_m222F334C80D4ABBD48B9284A6EFCF6C0B853460A (void);
 // 0x0000020C System.Single Cinemachine.CinemachinePOV::NormalizeAngle(System.Single)
-extern void CinemachinePOV_NormalizeAngle_m44F87A756F3A1DE1CBCB5C4F776C86B837B2D68E (void);
+extern void CinemachinePOV_NormalizeAngle_m5A686B3609FF6019E1B4BBC07F1A374FD1B17B4A (void);
 // 0x0000020D System.Void Cinemachine.CinemachinePOV::ForceCameraPosition(UnityEngine.Vector3,UnityEngine.Quaternion)
 extern void CinemachinePOV_ForceCameraPosition_m454958C55A58DD989A25D0443138AADBF608BB52 (void);
 // 0x0000020E System.Boolean Cinemachine.CinemachinePOV::OnTransitionFromCamera(Cinemachine.ICinemachineCamera,UnityEngine.Vector3,System.Single,Cinemachine.CinemachineVirtualCameraBase/TransitionParams&)
@@ -1175,7 +1175,7 @@ extern void CameraState_get_FinalPosition_m4D482D1F3E008068C2151FC24FD85CB6F603A
 // 0x0000024A UnityEngine.Quaternion Cinemachine.CameraState::get_FinalOrientation()
 extern void CameraState_get_FinalOrientation_m65D23E9A3C9264408AB177483C74FD609EFAB4B3 (void);
 // 0x0000024B Cinemachine.CameraState Cinemachine.CameraState::get_Default()
-extern void CameraState_get_Default_mBF6F22B14C83DD400EF9F53BB8EACB240BD79398 (void);
+extern void CameraState_get_Default_m21CC49BBB9A1FF0D582E3CEEC9C1F63C3F068DF8 (void);
 // 0x0000024C System.Int32 Cinemachine.CameraState::get_NumCustomBlendables()
 extern void CameraState_get_NumCustomBlendables_mA7FC428A3F135FA88769EC45E2C5521F2D1169DB (void);
 // 0x0000024D System.Void Cinemachine.CameraState::set_NumCustomBlendables(System.Int32)
@@ -1187,17 +1187,17 @@ extern void CameraState_FindCustomBlendable_m141410A5E7FF4B985E2D3979D72BF80F398
 // 0x00000250 System.Void Cinemachine.CameraState::AddCustomBlendable(Cinemachine.CameraState/CustomBlendable)
 extern void CameraState_AddCustomBlendable_m1DA24CB5A397752C33B6A1773CFF38F02505AD3C (void);
 // 0x00000251 Cinemachine.CameraState Cinemachine.CameraState::Lerp(Cinemachine.CameraState,Cinemachine.CameraState,System.Single)
-extern void CameraState_Lerp_mEF27BCEB2B6B51C4E1A2F8E5D5826963D0C787CD (void);
+extern void CameraState_Lerp_m0BAAA9D6CC903E2656ACE05FDE2C930FE24D3E98 (void);
 // 0x00000252 System.Single Cinemachine.CameraState::InterpolateFOV(System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void CameraState_InterpolateFOV_m282EABB08641EDA6F6AA12818B9BE6D76639AFE1 (void);
+extern void CameraState_InterpolateFOV_mB963D73A017B25550381245B5976BBE7DE77502F (void);
 // 0x00000253 UnityEngine.Vector3 Cinemachine.CameraState::ApplyPosBlendHint(UnityEngine.Vector3,Cinemachine.CameraState/BlendHintValue,UnityEngine.Vector3,Cinemachine.CameraState/BlendHintValue,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void CameraState_ApplyPosBlendHint_m652243F6FEEC671040EE65DDF83A1446305357CC (void);
+extern void CameraState_ApplyPosBlendHint_m61F39F5911D34F49768E601B72C17CDBFFB26D1C (void);
 // 0x00000254 UnityEngine.Quaternion Cinemachine.CameraState::ApplyRotBlendHint(UnityEngine.Quaternion,Cinemachine.CameraState/BlendHintValue,UnityEngine.Quaternion,Cinemachine.CameraState/BlendHintValue,UnityEngine.Quaternion,UnityEngine.Quaternion)
-extern void CameraState_ApplyRotBlendHint_mF25F7D3F9315C2CE92CBB65CC06D519C228C3571 (void);
+extern void CameraState_ApplyRotBlendHint_m25B6966D775F36A71929C4EA0404328034EBA09E (void);
 // 0x00000255 UnityEngine.Vector3 Cinemachine.CameraState::InterpolatePosition(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
 extern void CameraState_InterpolatePosition_m0754A646434C49674356B584F9BDBB67B0D4F707 (void);
 // 0x00000256 System.Void Cinemachine.CameraState::.cctor()
-extern void CameraState__cctor_m9BBB4AD958A7ABC70589EEDE18AF906E59EFF584 (void);
+extern void CameraState__cctor_m53E682EB8F41BE2DA635516A8A6DCEF8EEF8DA0F (void);
 // 0x00000257 System.Void Cinemachine.CameraState/CustomBlendable::.ctor(UnityEngine.Object,System.Single)
 extern void CustomBlendable__ctor_mF38BF574AF05E415A01A2A46E506DE6B5086B303 (void);
 // 0x00000258 System.Single Cinemachine.CinemachineBlend::get_BlendWeight()
@@ -1358,11 +1358,11 @@ extern void CinemachineComponentBase_get_RequiresUserInput_m45F5AFF5AB81E3E6562E
 // 0x000002A7 System.Void Cinemachine.CinemachineComponentBase::.ctor()
 extern void CinemachineComponentBase__ctor_mFA2A3C88B75CD71B7F359220C38B253AC1353B19 (void);
 // 0x000002A8 Cinemachine.CinemachineCore Cinemachine.CinemachineCore::get_Instance()
-extern void CinemachineCore_get_Instance_m761793890717527703D6C8BB3AC64FEC93745A85 (void);
+extern void CinemachineCore_get_Instance_m437A8089CC851778BA1ABABA3041B24B8D8B7E9B (void);
 // 0x000002A9 System.Single Cinemachine.CinemachineCore::get_DeltaTime()
-extern void CinemachineCore_get_DeltaTime_mAB96E48F9C319BC81A7CF28AD5ABBA505A1921D3 (void);
+extern void CinemachineCore_get_DeltaTime_m0ED50D97C4B5327468BFA2A426E4F8B2F4078F48 (void);
 // 0x000002AA System.Single Cinemachine.CinemachineCore::get_CurrentTime()
-extern void CinemachineCore_get_CurrentTime_mE95A89B5053FB5D86EB1E2D855CDC9E4D4CC5459 (void);
+extern void CinemachineCore_get_CurrentTime_mFA05B621BE52910A8C3A304CB715257011C9A782 (void);
 // 0x000002AB System.Int32 Cinemachine.CinemachineCore::get_BrainCount()
 extern void CinemachineCore_get_BrainCount_m464F67F700D9EF3D2F486C14C215578AFC8BE080 (void);
 // 0x000002AC Cinemachine.CinemachineBrain Cinemachine.CinemachineCore::GetActiveBrain(System.Int32)
@@ -1390,9 +1390,9 @@ extern void CinemachineCore_UpdateAllActiveVirtualCameras_m89205DECAC84E31CFF442
 // 0x000002B7 System.Void Cinemachine.CinemachineCore::UpdateVirtualCamera(Cinemachine.CinemachineVirtualCameraBase,UnityEngine.Vector3,System.Single)
 extern void CinemachineCore_UpdateVirtualCamera_m8AD0E1834C19A941F246C0BD9661ED575CAA84B1 (void);
 // 0x000002B8 System.Void Cinemachine.CinemachineCore::InitializeModule()
-extern void CinemachineCore_InitializeModule_m94C75CE22045FDE75335D9FED460CDA9DC7808E3 (void);
+extern void CinemachineCore_InitializeModule_m3AF5A969E84D95E78CD79107015F033FF4EB364F (void);
 // 0x000002B9 UnityEngine.Transform Cinemachine.CinemachineCore::GetUpdateTarget(Cinemachine.CinemachineVirtualCameraBase)
-extern void CinemachineCore_GetUpdateTarget_m661B19E2772A2C9D76357300C1CD50190AF7812F (void);
+extern void CinemachineCore_GetUpdateTarget_m3007FAAA1292808633CDFF235EADB297B8506282 (void);
 // 0x000002BA Cinemachine.UpdateTracker/UpdateClock Cinemachine.CinemachineCore::GetVcamUpdateStatus(Cinemachine.CinemachineVirtualCameraBase)
 extern void CinemachineCore_GetVcamUpdateStatus_m6864417D5726747911A8FD36CFE4BF7BC2551ADC (void);
 // 0x000002BB System.Boolean Cinemachine.CinemachineCore::IsLive(Cinemachine.ICinemachineCamera)
@@ -1410,7 +1410,7 @@ extern void CinemachineCore_OnTargetObjectWarped_m39BF4DE7271E080415FDB67E1C32C8
 // 0x000002C1 System.Void Cinemachine.CinemachineCore::.ctor()
 extern void CinemachineCore__ctor_m2F77D083353903E3CC95FC46D88EFE627D6FC2D4 (void);
 // 0x000002C2 System.Void Cinemachine.CinemachineCore::.cctor()
-extern void CinemachineCore__cctor_mFE671E10ADAC3FF520E959CF6C38C6C168BD0692 (void);
+extern void CinemachineCore__cctor_m206AFF5C9C6BE921CCFBB41D19902D33EF70EC37 (void);
 // 0x000002C3 System.Void Cinemachine.CinemachineCore/AxisInputDelegate::.ctor(System.Object,System.IntPtr)
 extern void AxisInputDelegate__ctor_m8D7FED117FA4DDE1BBDC08B5158E73E2FACFF7B6 (void);
 // 0x000002C4 System.Single Cinemachine.CinemachineCore/AxisInputDelegate::Invoke(System.String)
@@ -1430,7 +1430,7 @@ extern void GetBlendOverrideDelegate_EndInvoke_m299DDA873DCE525E30CCB9621E6EB9BF
 // 0x000002CB System.Void Cinemachine.CinemachineCore/UpdateStatus::.ctor()
 extern void UpdateStatus__ctor_mD7EB6573750445A83891060458B7305AB1899583 (void);
 // 0x000002CC System.Void Cinemachine.CinemachineCore/<>c::.cctor()
-extern void U3CU3Ec__cctor_mAC5FA9989008F9C66BCE9B98A2F877D7E02A12F9 (void);
+extern void U3CU3Ec__cctor_m88CAF6DA4D43FD43D6B42F407696C49FE93DF489 (void);
 // 0x000002CD System.Void Cinemachine.CinemachineCore/<>c::.ctor()
 extern void U3CU3Ec__ctor_m0FE2AE12D8ED3BA533A9FE180F290766D49099AD (void);
 // 0x000002CE System.Int32 Cinemachine.CinemachineCore/<>c::<GetVirtualCamera>b__30_0(Cinemachine.CinemachineVirtualCameraBase,Cinemachine.CinemachineVirtualCameraBase)
@@ -1676,7 +1676,7 @@ extern void CinemachineVirtualCameraBase_OnBeforeSerialize_mAFFE51C4E0C07640C310
 // 0x0000034E System.Void Cinemachine.CinemachineVirtualCameraBase::.ctor()
 extern void CinemachineVirtualCameraBase__ctor_m1BACC836C669C0C52C8A891BAB34E09821F21C46 (void);
 // 0x0000034F System.Void Cinemachine.CinemachineVirtualCameraBase/<>c::.cctor()
-extern void U3CU3Ec__cctor_m5CC1A0F3A4C4521BECB5C8C04577F801DA9234DD (void);
+extern void U3CU3Ec__cctor_m83F07ABBB95DE062E87E35CA344B44AF2F9C7495 (void);
 // 0x00000350 System.Void Cinemachine.CinemachineVirtualCameraBase/<>c::.ctor()
 extern void U3CU3Ec__ctor_m1B1FF86140C80F51640B1FBB220C7086D68D0D30 (void);
 // 0x00000351 System.Boolean Cinemachine.CinemachineVirtualCameraBase/<>c::<RequiresUserInput>b__66_0(Cinemachine.CinemachineExtension)
@@ -1694,7 +1694,7 @@ extern void ConfinerOven_Initialize_mADD22CBAFC68A82D01306799A2AB5162B5BC9583 (v
 // 0x00000357 System.Void Cinemachine.ConfinerOven::BakeConfiner(System.Single)
 extern void ConfinerOven_BakeConfiner_mB6F563C71AE4CBECBEE74F4A76770B09EE74348F (void);
 // 0x00000358 UnityEngine.Rect Cinemachine.ConfinerOven::GetPolygonBoundingBox(System.Collections.Generic.List`1<System.Collections.Generic.List`1<UnityEngine.Vector2>>&)
-extern void ConfinerOven_GetPolygonBoundingBox_mC082D37AD660ECEF58083E6C14641A6DEE9CF739 (void);
+extern void ConfinerOven_GetPolygonBoundingBox_mA0B1E405965638610AB5198AB00DB73D3CEC565D (void);
 // 0x00000359 System.Void Cinemachine.ConfinerOven::ComputeSkeleton(System.Collections.Generic.List`1<Cinemachine.ConfinerOven/PolygonSolution>&)
 extern void ConfinerOven_ComputeSkeleton_m2A6AEFD2CDFD6118D366D55A4A1176BEC4C21716 (void);
 // 0x0000035A System.Single Cinemachine.ConfinerOven/BakedSolution::get_FrustumHeight()
@@ -1710,15 +1710,15 @@ extern void BakedSolution_ConfinePoint_mE43B748BAE673FA3E44EAB0EF05478C0FE4AA949
 // 0x0000035F System.Boolean Cinemachine.ConfinerOven/BakedSolution::IsInsideOriginal(Cinemachine.ClipperLib/IntPoint)
 extern void BakedSolution_IsInsideOriginal_m037456531799E4209A658ABE8D0F72DA81A4BC5D (void);
 // 0x00000360 System.Single Cinemachine.ConfinerOven/BakedSolution::ClosestPointOnSegment(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void BakedSolution_ClosestPointOnSegment_m625EE7D289094ED1663ED5F4359F437D5230BFC5 (void);
+extern void BakedSolution_ClosestPointOnSegment_mCD314B5CB8725EFBDC4264C8D36DF3B5ECEF5108 (void);
 // 0x00000361 Cinemachine.ClipperLib/IntPoint Cinemachine.ConfinerOven/BakedSolution::IntPointLerp(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Single)
-extern void BakedSolution_IntPointLerp_m00028ED99D2D38C2B5BCCB7398C6DA00128FFB0A (void);
+extern void BakedSolution_IntPointLerp_m719812B6404410BF62032BC6DCE0A9CD729AFAB4 (void);
 // 0x00000362 System.Boolean Cinemachine.ConfinerOven/BakedSolution::DoesIntersectOriginal(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
 extern void BakedSolution_DoesIntersectOriginal_m5055B98BDAF6F10D8F19BFBF8C0ADFC5ABD297EE (void);
 // 0x00000363 System.Int32 Cinemachine.ConfinerOven/BakedSolution::FindIntersection(Cinemachine.ClipperLib/IntPoint&,Cinemachine.ClipperLib/IntPoint&,Cinemachine.ClipperLib/IntPoint&,Cinemachine.ClipperLib/IntPoint&)
-extern void BakedSolution_FindIntersection_mED92783C4252D508619C5C4241792BBA0FA39123 (void);
+extern void BakedSolution_FindIntersection_mC5B880D5AB3CFCA35837A27BC906CAEC0B2C8ACC (void);
 // 0x00000364 System.Double Cinemachine.ConfinerOven/BakedSolution::IntPointDiffSqrMagnitude(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void BakedSolution_IntPointDiffSqrMagnitude_m48E091A0F2E864873AEF72CA98D3A9D627303BEE (void);
+extern void BakedSolution_IntPointDiffSqrMagnitude_m4C8EF2CFB60F160974B53FB21C40712E740196D2 (void);
 // 0x00000365 System.Single Cinemachine.ConfinerOven/AspectStretcher::get_Aspect()
 extern void AspectStretcher_get_Aspect_m506D4C16F8E6AE36198ACCAE2C4AFEED14552272 (void);
 // 0x00000366 System.Void Cinemachine.ConfinerOven/AspectStretcher::.ctor(System.Single,System.Single)
@@ -1763,7 +1763,7 @@ extern void LensSettings_get_IsPhysicalCamera_m6AD402DF51FEFD48DC4813C53C10D034B
 // 0x00000382 System.Void Cinemachine.LensSettings::set_IsPhysicalCamera(System.Boolean)
 extern void LensSettings_set_IsPhysicalCamera_m818868B1BD841C9DBD8B9DCBBAE69A14D099D5E9 (void);
 // 0x00000383 Cinemachine.LensSettings Cinemachine.LensSettings::FromCamera(UnityEngine.Camera)
-extern void LensSettings_FromCamera_m9696208442FC13D81DAD0822FF50C908150AD921 (void);
+extern void LensSettings_FromCamera_m3A279A7BFABD4F4D4ADA789C44122E5608626693 (void);
 // 0x00000384 System.Void Cinemachine.LensSettings::SnapshotCameraReadOnlyProperties(UnityEngine.Camera)
 extern void LensSettings_SnapshotCameraReadOnlyProperties_mBFE20278097AE1A1D51AC775347F47AB84E32F4D (void);
 // 0x00000385 System.Void Cinemachine.LensSettings::SnapshotCameraReadOnlyProperties(Cinemachine.LensSettings&)
@@ -1771,13 +1771,13 @@ extern void LensSettings_SnapshotCameraReadOnlyProperties_mEF4FCF04C9AE103AAFE9C
 // 0x00000386 System.Void Cinemachine.LensSettings::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void LensSettings__ctor_mA347110802F0FE6F33CD4D92461CADF6B1B93F59 (void);
 // 0x00000387 Cinemachine.LensSettings Cinemachine.LensSettings::Lerp(Cinemachine.LensSettings,Cinemachine.LensSettings,System.Single)
-extern void LensSettings_Lerp_mC2FB90FBCCACFC3BFB8B35971CE0F034D11D8865 (void);
+extern void LensSettings_Lerp_mC7E1E297C8E3750B6997616993572DDBCEDDC590 (void);
 // 0x00000388 System.Void Cinemachine.LensSettings::Validate()
 extern void LensSettings_Validate_m2C9ABCED7FE02F0C7B575CFADB77493DEEA03B01 (void);
 // 0x00000389 System.Void Cinemachine.LensSettings::.cctor()
-extern void LensSettings__cctor_m744EAC9475923BC6968EED30A7399B349A4BFFBE (void);
+extern void LensSettings__cctor_m85AA3809A95F2865AA4677633CBDF7EB7917CF6E (void);
 // 0x0000038A UnityEngine.Vector3 Cinemachine.NoiseSettings::GetCombinedFilterResults(Cinemachine.NoiseSettings/TransformNoiseParams[],System.Single,UnityEngine.Vector3)
-extern void NoiseSettings_GetCombinedFilterResults_mE35B3A4E1826146B200499B62617F8E629434F20 (void);
+extern void NoiseSettings_GetCombinedFilterResults_m5F4C940ACF6542F9F08BDE0D4E3E1622AAABD739 (void);
 // 0x0000038B System.Single Cinemachine.NoiseSettings::get_SignalDuration()
 extern void NoiseSettings_get_SignalDuration_mC7F19EFCFBABC1DA89A8B227811C88AA1BE7A40F (void);
 // 0x0000038C System.Void Cinemachine.NoiseSettings::GetSignal(System.Single,UnityEngine.Vector3&,UnityEngine.Quaternion&)
@@ -1789,21 +1789,21 @@ extern void NoiseParams_GetValueAt_mDDE2123C634874F162FAFAD1270E443FD9C13F7B (vo
 // 0x0000038F UnityEngine.Vector3 Cinemachine.NoiseSettings/TransformNoiseParams::GetValueAt(System.Single,UnityEngine.Vector3)
 extern void TransformNoiseParams_GetValueAt_m541D9F21055D8F6F727E24C5A3D2C26B7044D4F0 (void);
 // 0x00000390 System.Void Cinemachine.RuntimeUtility::DestroyObject(UnityEngine.Object)
-extern void RuntimeUtility_DestroyObject_mDBE05B0F1FC4938B278FA2F86FE35F4CDE7B6BA8 (void);
+extern void RuntimeUtility_DestroyObject_mEEBC4EE2A429B4E4D00EC07BA62044C9FF8E8A18 (void);
 // 0x00000391 System.Boolean Cinemachine.RuntimeUtility::IsPrefab(UnityEngine.GameObject)
-extern void RuntimeUtility_IsPrefab_m4FB7D31427712FFD3A99A2FFC88B8253AA34A71C (void);
+extern void RuntimeUtility_IsPrefab_m98872C6B07F84AAF4C91F87F490562A4935ACF9D (void);
 // 0x00000392 System.Boolean Cinemachine.RuntimeUtility::RaycastIgnoreTag(UnityEngine.Ray,UnityEngine.RaycastHit&,System.Single,System.Int32,System.String&)
-extern void RuntimeUtility_RaycastIgnoreTag_m95689FAE4AD87AC1A7E3DCD11CDE10EDC2FE0AAD (void);
+extern void RuntimeUtility_RaycastIgnoreTag_m7532A8E173E44D2952124031C7973B87FE322B49 (void);
 // 0x00000393 System.Boolean Cinemachine.RuntimeUtility::SphereCastIgnoreTag(UnityEngine.Vector3,System.Single,UnityEngine.Vector3,UnityEngine.RaycastHit&,System.Single,System.Int32,System.String&)
-extern void RuntimeUtility_SphereCastIgnoreTag_m87978D006531BAD6403611588E8D68DE989270A8 (void);
+extern void RuntimeUtility_SphereCastIgnoreTag_m0C12A9B6676E60CB82EF263F23F86296456DC4BD (void);
 // 0x00000394 UnityEngine.SphereCollider Cinemachine.RuntimeUtility::GetScratchCollider()
-extern void RuntimeUtility_GetScratchCollider_m1A1BCFAFA8D3C7D61C7A153363AFD225A5591213 (void);
+extern void RuntimeUtility_GetScratchCollider_m91C5D854E7110AF1A5F570FFC246BB18181B8AFA (void);
 // 0x00000395 System.Void Cinemachine.RuntimeUtility::DestroyScratchCollider()
-extern void RuntimeUtility_DestroyScratchCollider_m9A1C54492DCE4CD322DAA566818F06CA6F06988E (void);
+extern void RuntimeUtility_DestroyScratchCollider_m4364DE7BEF85A175A66261E184D0A58BA4F62D5C (void);
 // 0x00000396 UnityEngine.AnimationCurve Cinemachine.RuntimeUtility::NormalizeCurve(UnityEngine.AnimationCurve,System.Boolean,System.Boolean)
-extern void RuntimeUtility_NormalizeCurve_m404B01B3F5E60EFD61CC88062B26CF899A8510CD (void);
+extern void RuntimeUtility_NormalizeCurve_m0EAB5ED8DAFF226807EDD5A2D0B3876FBB5263F1 (void);
 // 0x00000397 System.Void Cinemachine.RuntimeUtility::.cctor()
-extern void RuntimeUtility__cctor_m5D2A67DB478A47F4311D08E5B97DE85A50FF7D8A (void);
+extern void RuntimeUtility__cctor_m7D751C759A76C02DBF3757EB06AFB5DB01914E0F (void);
 // 0x00000398 System.Single Cinemachine.ISignalSource6D::get_SignalDuration()
 // 0x00000399 System.Void Cinemachine.ISignalSource6D::GetSignal(System.Single,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 // 0x0000039A System.Single Cinemachine.SignalSourceAsset::get_SignalDuration()
@@ -1811,27 +1811,27 @@ extern void RuntimeUtility__cctor_m5D2A67DB478A47F4311D08E5B97DE85A50FF7D8A (voi
 // 0x0000039C System.Void Cinemachine.SignalSourceAsset::.ctor()
 extern void SignalSourceAsset__ctor_mC0043F9E30AE0206A5124C695C6F511EA43B83DA (void);
 // 0x0000039D Cinemachine.TargetPositionCache/Mode Cinemachine.TargetPositionCache::get_CacheMode()
-extern void TargetPositionCache_get_CacheMode_mDCBA178980BB6A8FEEC18CA1238F52FFDFC8B5A4 (void);
+extern void TargetPositionCache_get_CacheMode_m01290EDF84037C27C4ACDD03ED9F0E0D16215AD0 (void);
 // 0x0000039E System.Void Cinemachine.TargetPositionCache::set_CacheMode(Cinemachine.TargetPositionCache/Mode)
-extern void TargetPositionCache_set_CacheMode_m39D422AC753C0F3ECD1843A46055908CB2F1AC81 (void);
+extern void TargetPositionCache_set_CacheMode_mF13D07A7F20356D8F2631BF7C238AF542CA2DE77 (void);
 // 0x0000039F System.Boolean Cinemachine.TargetPositionCache::get_IsRecording()
-extern void TargetPositionCache_get_IsRecording_mC876F236B5289AF3BEDD3CAABFD9B6FEB5642404 (void);
+extern void TargetPositionCache_get_IsRecording_m5B0EF7A6DC7DCC938FA7600255944B1353CC982F (void);
 // 0x000003A0 System.Boolean Cinemachine.TargetPositionCache::get_CurrentPlaybackTimeValid()
-extern void TargetPositionCache_get_CurrentPlaybackTimeValid_m6693DE3738668BE6CDF4820DB1980E7ADA624629 (void);
+extern void TargetPositionCache_get_CurrentPlaybackTimeValid_m93FCE647A563303A9390A2409B58FF9702CC9F09 (void);
 // 0x000003A1 System.Boolean Cinemachine.TargetPositionCache::get_IsEmpty()
-extern void TargetPositionCache_get_IsEmpty_mF5736A82B3487951C48A1A4A58842C61042BDEBA (void);
+extern void TargetPositionCache_get_IsEmpty_mDBD8C0F5EAE840127C82EC96E682119CE1E4D67C (void);
 // 0x000003A2 Cinemachine.TargetPositionCache/TimeRange Cinemachine.TargetPositionCache::get_CacheTimeRange()
-extern void TargetPositionCache_get_CacheTimeRange_m01487B0CDA459171753BF29E4B7D8DE108563EA2 (void);
+extern void TargetPositionCache_get_CacheTimeRange_m3594D3F35DCD95F2A0A1133E871343D3AD37EC5A (void);
 // 0x000003A3 System.Boolean Cinemachine.TargetPositionCache::get_HasCurrentTime()
-extern void TargetPositionCache_get_HasCurrentTime_m143562F778152928D6FE2E609F81786513F6ED2F (void);
+extern void TargetPositionCache_get_HasCurrentTime_mCB98DBD74426664E1D6E7F5F5DEE8AA2D38352C9 (void);
 // 0x000003A4 System.Void Cinemachine.TargetPositionCache::ClearCache()
-extern void TargetPositionCache_ClearCache_mAE7B688099DB8612C49DBF79DE4E2CB69DC49EE4 (void);
+extern void TargetPositionCache_ClearCache_m8A8D824AC7D0D548512228B7934901D36091BE63 (void);
 // 0x000003A5 System.Void Cinemachine.TargetPositionCache::CreatePlaybackCurves()
-extern void TargetPositionCache_CreatePlaybackCurves_m02F9B0C6E77D6BCDFF2E8B1C95CFF489D59CABFC (void);
+extern void TargetPositionCache_CreatePlaybackCurves_m61C5C2979270EE52949A1FC610A1C1DE53E99FD3 (void);
 // 0x000003A6 UnityEngine.Vector3 Cinemachine.TargetPositionCache::GetTargetPosition(UnityEngine.Transform)
-extern void TargetPositionCache_GetTargetPosition_mCDF3A7BC3F9A5BBE4B810888FDB91DD208D226BE (void);
+extern void TargetPositionCache_GetTargetPosition_m86454680691707EEE6E70984ED39E00821B60B2E (void);
 // 0x000003A7 UnityEngine.Quaternion Cinemachine.TargetPositionCache::GetTargetRotation(UnityEngine.Transform)
-extern void TargetPositionCache_GetTargetRotation_m1F1CFCAE1D3EB7FAED5AFF662687E69BA43FFA6B (void);
+extern void TargetPositionCache_GetTargetRotation_m882B2051C458EB18BCF332AFB00112484F31C9EF (void);
 // 0x000003A8 System.Void Cinemachine.TargetPositionCache::.ctor()
 extern void TargetPositionCache__ctor_m2CCD00DBBBA03A2852EDBD724FC1A386F9F9B814 (void);
 // 0x000003A9 System.Int32 Cinemachine.TargetPositionCache/CacheCurve::get_Count()
@@ -1845,9 +1845,9 @@ extern void CacheCurve_AddUntil_mBF186D5A7181FBC89C6870525C47887BBB8DD571 (void)
 // 0x000003AD Cinemachine.TargetPositionCache/CacheCurve/Item Cinemachine.TargetPositionCache/CacheCurve::Evaluate(System.Single)
 extern void CacheCurve_Evaluate_m5C353080800042A73C91D598EC009771A77ABB8C (void);
 // 0x000003AE Cinemachine.TargetPositionCache/CacheCurve/Item Cinemachine.TargetPositionCache/CacheCurve/Item::Lerp(Cinemachine.TargetPositionCache/CacheCurve/Item,Cinemachine.TargetPositionCache/CacheCurve/Item,System.Single)
-extern void Item_Lerp_m00ED73C2C7360082027CAC5ED63996A68419184F (void);
+extern void Item_Lerp_mE80C14D381D6951A33443B59D2B4439911D98363 (void);
 // 0x000003AF Cinemachine.TargetPositionCache/CacheCurve/Item Cinemachine.TargetPositionCache/CacheCurve/Item::get_Empty()
-extern void Item_get_Empty_m81CACF85EC7FE0AF4CD5049400EC0903885CBAB0 (void);
+extern void Item_get_Empty_m09EC22FCDCCA6A75C1FFE623F2AE7789D55A7E2B (void);
 // 0x000003B0 System.Void Cinemachine.TargetPositionCache/CacheEntry::AddRawItem(System.Single,System.Boolean,UnityEngine.Transform)
 extern void CacheEntry_AddRawItem_mB7B07DE2B9D0E5152DFD3788547F22FF4C2688D9 (void);
 // 0x000003B1 System.Void Cinemachine.TargetPositionCache/CacheEntry::CreateCurves()
@@ -1859,21 +1859,21 @@ extern void TimeRange_get_IsEmpty_mB51E1F97CF61DD08C502385B2AFC72C6A7F68BCB (voi
 // 0x000003B4 System.Boolean Cinemachine.TargetPositionCache/TimeRange::Contains(System.Single)
 extern void TimeRange_Contains_mF974E5E36DD20BD63B5B09564B09800AB30CF6B6 (void);
 // 0x000003B5 Cinemachine.TargetPositionCache/TimeRange Cinemachine.TargetPositionCache/TimeRange::get_Empty()
-extern void TimeRange_get_Empty_mB353CC5699F40F0B8B82BE8DC415CBF9F7C65709 (void);
+extern void TimeRange_get_Empty_m5DA39A592AAFE2830C9EBED3C119E1CABE417D10 (void);
 // 0x000003B6 System.Void Cinemachine.TargetPositionCache/TimeRange::Include(System.Single)
 extern void TimeRange_Include_mC1E0A1214F4C3A6FC7F15728A3EB9C398B96F1B2 (void);
 // 0x000003B7 System.Void Cinemachine.UpdateTracker::InitializeModule()
-extern void UpdateTracker_InitializeModule_m8B6DDBEF07FFE925F00AC435D3097F130717BB37 (void);
+extern void UpdateTracker_InitializeModule_mE6A6DDA8C4EF428E778BD799277089B43F3E933B (void);
 // 0x000003B8 System.Void Cinemachine.UpdateTracker::UpdateTargets(Cinemachine.UpdateTracker/UpdateClock)
-extern void UpdateTracker_UpdateTargets_m38F573506FAEF3C3FE5BEB7473329BE5BC881BDB (void);
+extern void UpdateTracker_UpdateTargets_mA2095E5739702F84976027C24FA0B8AC37562BA9 (void);
 // 0x000003B9 Cinemachine.UpdateTracker/UpdateClock Cinemachine.UpdateTracker::GetPreferredUpdate(UnityEngine.Transform)
-extern void UpdateTracker_GetPreferredUpdate_mD732203EFCADD3FDA40E9C9D7C68CE382839BCCA (void);
+extern void UpdateTracker_GetPreferredUpdate_mCA810B7D3B87B3A511764993265DFDC2F246C3E8 (void);
 // 0x000003BA System.Void Cinemachine.UpdateTracker::OnUpdate(Cinemachine.UpdateTracker/UpdateClock)
-extern void UpdateTracker_OnUpdate_mC1BB9EE5C4BEFB511B3C2F1C54E11E7BF8C48784 (void);
+extern void UpdateTracker_OnUpdate_m89A8FE83B9271FE8D7F03CA25F20DE6BD06D489A (void);
 // 0x000003BB System.Void Cinemachine.UpdateTracker::.ctor()
 extern void UpdateTracker__ctor_mBE6F79EBEEE48D9C75839E7CF7952105F4E1C6C1 (void);
 // 0x000003BC System.Void Cinemachine.UpdateTracker::.cctor()
-extern void UpdateTracker__cctor_m69246149926CC992ACD2E21383FA6542E8A0C4F5 (void);
+extern void UpdateTracker__cctor_mE2A4318EC8695B882C24BB0252A9A7FB46581637 (void);
 // 0x000003BD Cinemachine.UpdateTracker/UpdateClock Cinemachine.UpdateTracker/UpdateStatus::get_PreferredUpdate()
 extern void UpdateStatus_get_PreferredUpdate_m31E0BC5E8BDA920C47D2D04EE51BB8060BAE3FD9 (void);
 // 0x000003BE System.Void Cinemachine.UpdateTracker/UpdateStatus::set_PreferredUpdate(Cinemachine.UpdateTracker/UpdateClock)
@@ -1891,7 +1891,7 @@ extern void CinemachineInputProvider_OnDisable_m64B4EAD22EC11413F99123C76E3BC2AC
 // 0x000003C4 System.Void Cinemachine.CinemachineInputProvider::.ctor()
 extern void CinemachineInputProvider__ctor_mD407437EB55A2B44CCBC5212077431E81B122A66 (void);
 // 0x000003C5 UnityEngine.InputSystem.InputAction Cinemachine.CinemachineInputProvider::<ResolveForPlayer>g__GetFirstMatch|7_0(UnityEngine.InputSystem.Users.InputUser&,UnityEngine.InputSystem.InputActionReference)
-extern void CinemachineInputProvider_U3CResolveForPlayerU3Eg__GetFirstMatchU7C7_0_mD367287C8293CE2A4862EE4FD3F46A84A1A7C6A6 (void);
+extern void CinemachineInputProvider_U3CResolveForPlayerU3Eg__GetFirstMatchU7C7_0_m3ADD855E00E795B9BE33D798EA2DD3D8E09EB7B8 (void);
 // 0x000003C6 System.Void Cinemachine.CinemachineInputProvider/<>c__DisplayClass7_0::.ctor()
 extern void U3CU3Ec__DisplayClass7_0__ctor_mF98AC1D50BE3684CFF345BF9C2309B14C50C544E (void);
 // 0x000003C7 System.Boolean Cinemachine.CinemachineInputProvider/<>c__DisplayClass7_0::<ResolveForPlayer>b__1(UnityEngine.InputSystem.InputAction)
@@ -1975,9 +1975,9 @@ extern void CinemachineImpulseDefinitionPropertyAttribute__ctor_m33901999C6EBE50
 // 0x000003EE System.Void Cinemachine.CinemachineImpulseDefinition::OnValidate()
 extern void CinemachineImpulseDefinition_OnValidate_mC9E8C5D4227DB0C7467BBDE0004C424B72C083ED (void);
 // 0x000003EF System.Void Cinemachine.CinemachineImpulseDefinition::CreateStandardShapes()
-extern void CinemachineImpulseDefinition_CreateStandardShapes_m9CC1CFFF6C277183A8D0EBC1649A61874CFA5893 (void);
+extern void CinemachineImpulseDefinition_CreateStandardShapes_m0D05D8A81C5CE6473AC7F8A52BFD502FFECB2924 (void);
 // 0x000003F0 UnityEngine.AnimationCurve Cinemachine.CinemachineImpulseDefinition::GetStandardCurve(Cinemachine.CinemachineImpulseDefinition/ImpulseShapes)
-extern void CinemachineImpulseDefinition_GetStandardCurve_mE731DEA10655DF32977EB36CA7695CD19DD89597 (void);
+extern void CinemachineImpulseDefinition_GetStandardCurve_mDFBFBA8FDF8DCC1BCC7F7498E1908DB4189D40E7 (void);
 // 0x000003F1 UnityEngine.AnimationCurve Cinemachine.CinemachineImpulseDefinition::get_ImpulseCurve()
 extern void CinemachineImpulseDefinition_get_ImpulseCurve_mAA1558EAB001196015FCCE60BB8DF3200AEC5C4E (void);
 // 0x000003F2 System.Void Cinemachine.CinemachineImpulseDefinition::CreateEvent(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -2017,11 +2017,11 @@ extern void CinemachineImpulseChannelPropertyAttribute__ctor_m26E7D8A1C8D4278939
 // 0x00000403 System.Void Cinemachine.CinemachineImpulseManager::.ctor()
 extern void CinemachineImpulseManager__ctor_m29FD2A34BDDE38151BEEADBEDE5A966E91FFC143 (void);
 // 0x00000404 Cinemachine.CinemachineImpulseManager Cinemachine.CinemachineImpulseManager::get_Instance()
-extern void CinemachineImpulseManager_get_Instance_m60CAF899B8E71E36C8DF7072CAB6448A970E7D02 (void);
+extern void CinemachineImpulseManager_get_Instance_mCBBB7EE190D29704E4F44241A50BC2F6F23EB179 (void);
 // 0x00000405 System.Void Cinemachine.CinemachineImpulseManager::InitializeModule()
-extern void CinemachineImpulseManager_InitializeModule_m8F194C4BB5A26A4A66390EA192D3CF9DF16648A6 (void);
+extern void CinemachineImpulseManager_InitializeModule_m7383E0726196C358A3DBC6574F9082010E318FEE (void);
 // 0x00000406 System.Single Cinemachine.CinemachineImpulseManager::EvaluateDissipationScale(System.Single,System.Single)
-extern void CinemachineImpulseManager_EvaluateDissipationScale_m9210CFEA7341A4025B8164E415A7C4789F265D4C (void);
+extern void CinemachineImpulseManager_EvaluateDissipationScale_m0913FA74400EE4645D1F48867FED336DD6C03239 (void);
 // 0x00000407 System.Boolean Cinemachine.CinemachineImpulseManager::GetImpulseAt(UnityEngine.Vector3,System.Boolean,System.Int32,UnityEngine.Vector3&,UnityEngine.Quaternion&)
 extern void CinemachineImpulseManager_GetImpulseAt_m60503248A6E51D9CB74F28148A982D8FA5C57D04 (void);
 // 0x00000408 System.Single Cinemachine.CinemachineImpulseManager::get_CurrentTime()
@@ -2033,7 +2033,7 @@ extern void CinemachineImpulseManager_AddImpulseEvent_m248DA95ECD499D4B501E282B5
 // 0x0000040B System.Void Cinemachine.CinemachineImpulseManager::Clear()
 extern void CinemachineImpulseManager_Clear_mA6DC571A238EB0C4C7B07C06D2263B5743FB82BA (void);
 // 0x0000040C Cinemachine.CinemachineImpulseManager/EnvelopeDefinition Cinemachine.CinemachineImpulseManager/EnvelopeDefinition::Default()
-extern void EnvelopeDefinition_Default_m0400FA6F5054C586ADBC8512A1205D09A5933C80 (void);
+extern void EnvelopeDefinition_Default_m57F738873D011A83AAC0BFF7DCED3A74BAC13E06 (void);
 // 0x0000040D System.Single Cinemachine.CinemachineImpulseManager/EnvelopeDefinition::get_Duration()
 extern void EnvelopeDefinition_get_Duration_m3CF863DC6B71344BE096AD9CBFC6C86AD2FF634C (void);
 // 0x0000040E System.Single Cinemachine.CinemachineImpulseManager/EnvelopeDefinition::GetValueAt(System.Single)
@@ -2133,27 +2133,27 @@ extern void Int128__ctor_mC6B960C84486E99631A6B965A0D0357EFC13756D (void);
 // 0x0000043D System.Boolean Cinemachine.ClipperLib/Int128::IsNegative()
 extern void Int128_IsNegative_mC7705DD6A31CD27D6F86081FB8E63A61FC51DBEE (void);
 // 0x0000043E System.Boolean Cinemachine.ClipperLib/Int128::op_Equality(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_Equality_m4213DBECB5B0D867316A921C301F89330CBE72A7 (void);
+extern void Int128_op_Equality_mF1F30DB2596C14A9FC5571B629156D0AEFE92456 (void);
 // 0x0000043F System.Boolean Cinemachine.ClipperLib/Int128::op_Inequality(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_Inequality_mD56DECF94879844FD4C3451844817E221BC65EC7 (void);
+extern void Int128_op_Inequality_m02FCB8EE852ED36C0C9E915C42641CA84C436328 (void);
 // 0x00000440 System.Boolean Cinemachine.ClipperLib/Int128::Equals(System.Object)
 extern void Int128_Equals_m3A1780C1A972388F69135020EA85391611CF4777 (void);
 // 0x00000441 System.Int32 Cinemachine.ClipperLib/Int128::GetHashCode()
 extern void Int128_GetHashCode_m03339EA88F9C7443DD7F84339389F35A70703484 (void);
 // 0x00000442 System.Boolean Cinemachine.ClipperLib/Int128::op_GreaterThan(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_GreaterThan_m86776EE35DA00299DB3DFE8F89758509D8C19937 (void);
+extern void Int128_op_GreaterThan_m849AB9CDB36CF25794F5FE1A318FAFA40D0DCBE1 (void);
 // 0x00000443 System.Boolean Cinemachine.ClipperLib/Int128::op_LessThan(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_LessThan_m8D2130B4CF29E2B6F2D30C58A76C01172CC10273 (void);
+extern void Int128_op_LessThan_m9FE58A2EBB1CDB6B8B25FC546BEDF387F0C7AC39 (void);
 // 0x00000444 Cinemachine.ClipperLib/Int128 Cinemachine.ClipperLib/Int128::op_Addition(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_Addition_mE1B37A27AD3D001ABCE1757DA9F27038809FCC8D (void);
+extern void Int128_op_Addition_mD0A0D022CBA36F57EA01A2AFBAE91041818348F8 (void);
 // 0x00000445 Cinemachine.ClipperLib/Int128 Cinemachine.ClipperLib/Int128::op_Subtraction(Cinemachine.ClipperLib/Int128,Cinemachine.ClipperLib/Int128)
-extern void Int128_op_Subtraction_m823EAD0286231EDAA181B020180996EB26CED077 (void);
+extern void Int128_op_Subtraction_m3786F47F422FA9FD0AD62DC0B102B065704BCF24 (void);
 // 0x00000446 Cinemachine.ClipperLib/Int128 Cinemachine.ClipperLib/Int128::op_UnaryNegation(Cinemachine.ClipperLib/Int128)
-extern void Int128_op_UnaryNegation_m566DB2DF4E563B1C50E57C16CB042A10AE08AC2D (void);
+extern void Int128_op_UnaryNegation_m5D1CBD65C37A7819B4F2B398F894768719D043D7 (void);
 // 0x00000447 System.Double Cinemachine.ClipperLib/Int128::op_Explicit(Cinemachine.ClipperLib/Int128)
-extern void Int128_op_Explicit_m335077E70DBA14588E839D8669F373F67329EE85 (void);
+extern void Int128_op_Explicit_m76E4BD7F4E70AD040E37C08649DCBB9FDA5D89AD (void);
 // 0x00000448 Cinemachine.ClipperLib/Int128 Cinemachine.ClipperLib/Int128::Int128Mul(System.Int64,System.Int64)
-extern void Int128_Int128Mul_m2EBA5FEC3A0EB6AFDF8FE42EB49602773294EA2A (void);
+extern void Int128_Int128Mul_m09B7DC6DFEAFA7226B5B0DC71BA6EDE669E48EBB (void);
 // 0x00000449 System.Void Cinemachine.ClipperLib/IntPoint::.ctor(System.Int64,System.Int64)
 extern void IntPoint__ctor_mD85ED4713EDE2C713D37C9CD776B791F21C048E1 (void);
 // 0x0000044A System.Void Cinemachine.ClipperLib/IntPoint::.ctor(System.Double,System.Double)
@@ -2161,9 +2161,9 @@ extern void IntPoint__ctor_mA161A7BD0009BE271681C45C59B291FDB224616E (void);
 // 0x0000044B System.Void Cinemachine.ClipperLib/IntPoint::.ctor(Cinemachine.ClipperLib/IntPoint)
 extern void IntPoint__ctor_m64D954CC64AF3DEB13E5E64F544E46789983BDEB (void);
 // 0x0000044C System.Boolean Cinemachine.ClipperLib/IntPoint::op_Equality(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void IntPoint_op_Equality_mE7276E6304261E4207A7FF656A31C67256DDE17C (void);
+extern void IntPoint_op_Equality_m1895B2D711859DD40BE3B629806686F2EB454FC5 (void);
 // 0x0000044D System.Boolean Cinemachine.ClipperLib/IntPoint::op_Inequality(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void IntPoint_op_Inequality_m5D488DA15469145E5AEA5579A373F1D43A5F4470 (void);
+extern void IntPoint_op_Inequality_m6755E58DA3258E1041F8C8C1A0DBB6AA20497EC4 (void);
 // 0x0000044E System.Boolean Cinemachine.ClipperLib/IntPoint::Equals(System.Object)
 extern void IntPoint_Equals_m6E23677EC9306F8D66DD717865D49A3E9A9BAB5E (void);
 // 0x0000044F System.Int32 Cinemachine.ClipperLib/IntPoint::GetHashCode()
@@ -2193,7 +2193,7 @@ extern void OutPt__ctor_mB35AA5D0B77A19A8611ED4C8B748BE311B413C80 (void);
 // 0x0000045B System.Void Cinemachine.ClipperLib/Join::.ctor()
 extern void Join__ctor_m0275B6A7878993163832BBF4D62AEDAB9058D665 (void);
 // 0x0000045C System.Boolean Cinemachine.ClipperLib/ClipperBase::near_zero(System.Double)
-extern void ClipperBase_near_zero_mFEFFF680DB2394C3A2B9E7191EA79B8645204A1F (void);
+extern void ClipperBase_near_zero_mDAFA25942FF6D795F79D917BD5A178F5085E0504 (void);
 // 0x0000045D System.Boolean Cinemachine.ClipperLib/ClipperBase::get_PreserveCollinear()
 extern void ClipperBase_get_PreserveCollinear_mF23688F07E4141A6BB90080B464208DF71B73328 (void);
 // 0x0000045E System.Void Cinemachine.ClipperLib/ClipperBase::set_PreserveCollinear(System.Boolean)
@@ -2201,7 +2201,7 @@ extern void ClipperBase_set_PreserveCollinear_m53E7942B8B6AE1A1C850791D7FB63C094
 // 0x0000045F System.Void Cinemachine.ClipperLib/ClipperBase::Swap(System.Int64&,System.Int64&)
 extern void ClipperBase_Swap_mF999B5BD7A715214B574ED4F7A74092F67F9A836 (void);
 // 0x00000460 System.Boolean Cinemachine.ClipperLib/ClipperBase::IsHorizontal(Cinemachine.ClipperLib/TEdge)
-extern void ClipperBase_IsHorizontal_mC5D18FBAFCA54F1668FFEB484E6CA7B2D4ED79F7 (void);
+extern void ClipperBase_IsHorizontal_m018DF969F9BD306E460CBA58013819081441C411 (void);
 // 0x00000461 System.Boolean Cinemachine.ClipperLib/ClipperBase::PointIsVertex(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/OutPt)
 extern void ClipperBase_PointIsVertex_m59600D27C1BACB19FC117EF15967FA90933D8A33 (void);
 // 0x00000462 System.Boolean Cinemachine.ClipperLib/ClipperBase::PointOnLineSegment(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Boolean)
@@ -2209,11 +2209,11 @@ extern void ClipperBase_PointOnLineSegment_m0FD505D256EC78BFBAFEC71564228375FFF9
 // 0x00000463 System.Boolean Cinemachine.ClipperLib/ClipperBase::PointOnPolygon(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/OutPt,System.Boolean)
 extern void ClipperBase_PointOnPolygon_m0D2EBFA14EEFE915C44B56321B5BBD18DC44D536 (void);
 // 0x00000464 System.Boolean Cinemachine.ClipperLib/ClipperBase::SlopesEqual(Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/TEdge,System.Boolean)
-extern void ClipperBase_SlopesEqual_m9D0E26E50A1B1296BEE322044378BBD3639C7469 (void);
+extern void ClipperBase_SlopesEqual_m2FD334595102DCBC8C3DEBCD7A84BCF4A30F8A4F (void);
 // 0x00000465 System.Boolean Cinemachine.ClipperLib/ClipperBase::SlopesEqual(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Boolean)
-extern void ClipperBase_SlopesEqual_m299542D589A2D9F996A3950CFBEF1AB9F6DBE80A (void);
+extern void ClipperBase_SlopesEqual_mAA286348A715F1648DDF94B0D6D79AA678A438F7 (void);
 // 0x00000466 System.Boolean Cinemachine.ClipperLib/ClipperBase::SlopesEqual(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Boolean)
-extern void ClipperBase_SlopesEqual_m799422401A99E18BD3B0349CD4995E1C5F67DB4E (void);
+extern void ClipperBase_SlopesEqual_mFEBD4FD4B503A8D4CB75DD1E0B870B71E1BC580B (void);
 // 0x00000467 System.Void Cinemachine.ClipperLib/ClipperBase::.ctor()
 extern void ClipperBase__ctor_mDD73F9BB8C4F62B9182AD325A825ECFC5B0FC2B8 (void);
 // 0x00000468 System.Void Cinemachine.ClipperLib/ClipperBase::Clear()
@@ -2249,7 +2249,7 @@ extern void ClipperBase_ReverseHorizontal_m763FCD506B30C857C7C100FD33F2CB0BBEC75
 // 0x00000477 System.Void Cinemachine.ClipperLib/ClipperBase::Reset()
 extern void ClipperBase_Reset_mC6F18D6EBC923A5D2BDBCAACDCCF2BA3E6A70B52 (void);
 // 0x00000478 Cinemachine.ClipperLib/IntRect Cinemachine.ClipperLib/ClipperBase::GetBounds(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>)
-extern void ClipperBase_GetBounds_m7972B5C443FD66D5DC548B321A12EDA89E813F39 (void);
+extern void ClipperBase_GetBounds_mC13AB297ABF4C0D5C98672C33C9B8358242A0ED7 (void);
 // 0x00000479 System.Void Cinemachine.ClipperLib/ClipperBase::InsertScanbeam(System.Int64)
 extern void ClipperBase_InsertScanbeam_m69EAA6C8EF670077B1CA2FE21CE5CC8060294417 (void);
 // 0x0000047A System.Boolean Cinemachine.ClipperLib/ClipperBase::PopScanbeam(System.Int64&)
@@ -2349,9 +2349,9 @@ extern void Clipper_AppendPolygon_m737BF9DD8CA443E80402E3E7ABC2C32EFD839F1C (voi
 // 0x000004A9 System.Void Cinemachine.ClipperLib/Clipper::ReversePolyPtLinks(Cinemachine.ClipperLib/OutPt)
 extern void Clipper_ReversePolyPtLinks_m10B9631CBBD7C03F36B509D8F5BDA2BE7B6D6FC5 (void);
 // 0x000004AA System.Void Cinemachine.ClipperLib/Clipper::SwapSides(Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/TEdge)
-extern void Clipper_SwapSides_m24D413651468CE3C48AFC58D4881F156E56B41A4 (void);
+extern void Clipper_SwapSides_mD8D5422E34AAED12D88D5FAEC03E3562FDFE4413 (void);
 // 0x000004AB System.Void Cinemachine.ClipperLib/Clipper::SwapPolyIndexes(Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/TEdge)
-extern void Clipper_SwapPolyIndexes_m5285F90D21E3F79EEF808E1D578BDA4C91E5A5A2 (void);
+extern void Clipper_SwapPolyIndexes_m8D0C37CBD6054A5AD310E5FA0642D0EFFF32D445 (void);
 // 0x000004AC System.Void Cinemachine.ClipperLib/Clipper::IntersectEdges(Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/IntPoint)
 extern void Clipper_IntersectEdges_m38A4C149A9CAA52BBB887233919F6D3770B0C6CB (void);
 // 0x000004AD System.Void Cinemachine.ClipperLib/Clipper::DeleteFromSEL(Cinemachine.ClipperLib/TEdge)
@@ -2381,15 +2381,15 @@ extern void Clipper_BuildIntersectList_m6B5DA2A81AF660F5471A530B97383E223BEECB66
 // 0x000004B9 System.Boolean Cinemachine.ClipperLib/Clipper::EdgesAdjacent(Cinemachine.ClipperLib/IntersectNode)
 extern void Clipper_EdgesAdjacent_m8CB2FDA541E506262090D1B39A8585158A4CDD50 (void);
 // 0x000004BA System.Int32 Cinemachine.ClipperLib/Clipper::IntersectNodeSort(Cinemachine.ClipperLib/IntersectNode,Cinemachine.ClipperLib/IntersectNode)
-extern void Clipper_IntersectNodeSort_m92A9DE90C7A7BB9F7D5B24E8DA206F88C4E33ACC (void);
+extern void Clipper_IntersectNodeSort_m7D01712EAA690EC202397BBA1ACD1844C762DDBB (void);
 // 0x000004BB System.Boolean Cinemachine.ClipperLib/Clipper::FixupIntersectionOrder()
 extern void Clipper_FixupIntersectionOrder_m11A6732B2BAE536BDCEFD38A652944B153C2BE9F (void);
 // 0x000004BC System.Void Cinemachine.ClipperLib/Clipper::ProcessIntersectList()
 extern void Clipper_ProcessIntersectList_mB3ADFF851F65B6F8CC05E1E5CB46265779E862E1 (void);
 // 0x000004BD System.Int64 Cinemachine.ClipperLib/Clipper::Round(System.Double)
-extern void Clipper_Round_m78ACE5F3E2024496D033C4573B6815ED5F07BA47 (void);
+extern void Clipper_Round_m045C6DD247A771A5626C5E50CA5C133836D294B2 (void);
 // 0x000004BE System.Int64 Cinemachine.ClipperLib/Clipper::TopX(Cinemachine.ClipperLib/TEdge,System.Int64)
-extern void Clipper_TopX_mBE390994D85F273792EB61B438ABB1979436F6E1 (void);
+extern void Clipper_TopX_mEAAE42DE6C0AD711F8BC435773AD506749A62102 (void);
 // 0x000004BF System.Void Cinemachine.ClipperLib/Clipper::IntersectPoint(Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/TEdge,Cinemachine.ClipperLib/IntPoint&)
 extern void Clipper_IntersectPoint_mE17B6245017EAD8BEA10EDBAF03A182AEABCCFEE (void);
 // 0x000004C0 System.Void Cinemachine.ClipperLib/Clipper::ProcessEdgesAtTopOfScanbeam(System.Int64)
@@ -2397,9 +2397,9 @@ extern void Clipper_ProcessEdgesAtTopOfScanbeam_m7AF18AD101770BC5E9FF00A769F2AA8
 // 0x000004C1 System.Void Cinemachine.ClipperLib/Clipper::DoMaxima(Cinemachine.ClipperLib/TEdge)
 extern void Clipper_DoMaxima_mFAFCF9A9E0A4CB22C57EBDEC6564493006160F18 (void);
 // 0x000004C2 System.Void Cinemachine.ClipperLib/Clipper::ReversePaths(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>)
-extern void Clipper_ReversePaths_mDAD0E86A5CF0B7B0D5F77EFC8A948C5DEF88E250 (void);
+extern void Clipper_ReversePaths_m2BF00831C6F40C9DA37A2EA51B2E5E7735E9F2E2 (void);
 // 0x000004C3 System.Boolean Cinemachine.ClipperLib/Clipper::Orientation(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>)
-extern void Clipper_Orientation_mD13687369D060652D837C17410C20FD2A4076907 (void);
+extern void Clipper_Orientation_mCCFCAC82598BB2359FAC352A25CC7CD9DF71E406 (void);
 // 0x000004C4 System.Int32 Cinemachine.ClipperLib/Clipper::PointCount(Cinemachine.ClipperLib/OutPt)
 extern void Clipper_PointCount_m5DAEA2750B49726731544F0F61B694295D5A4FC8 (void);
 // 0x000004C5 System.Void Cinemachine.ClipperLib/Clipper::BuildResult(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>)
@@ -2419,11 +2419,11 @@ extern void Clipper_JoinHorz_mA2DA78D8763F8883DEB40BA70E79D306CB306FF4 (void);
 // 0x000004CC System.Boolean Cinemachine.ClipperLib/Clipper::JoinPoints(Cinemachine.ClipperLib/Join,Cinemachine.ClipperLib/OutRec,Cinemachine.ClipperLib/OutRec)
 extern void Clipper_JoinPoints_m8DE3553CA0E63A41839CCECB808BAAD4CD30CA70 (void);
 // 0x000004CD System.Int32 Cinemachine.ClipperLib/Clipper::PointInPolygon(Cinemachine.ClipperLib/IntPoint,System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>)
-extern void Clipper_PointInPolygon_m6F2F0393CA62314927E50B596E77A458B9E25F2B (void);
+extern void Clipper_PointInPolygon_mBEDDABD4FDE3DCA3142EE3D6341E5B41E243ADB6 (void);
 // 0x000004CE System.Int32 Cinemachine.ClipperLib/Clipper::PointInPolygon(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/OutPt)
-extern void Clipper_PointInPolygon_mD7A60FC46720ADBD0F3CD0F9797F926BD4962052 (void);
+extern void Clipper_PointInPolygon_m6B65511BF890F9C19B1CE324C3F4A7016EF3404B (void);
 // 0x000004CF System.Boolean Cinemachine.ClipperLib/Clipper::Poly2ContainsPoly1(Cinemachine.ClipperLib/OutPt,Cinemachine.ClipperLib/OutPt)
-extern void Clipper_Poly2ContainsPoly1_m9C29D2A89382A0EF84C0CBFD3D9EF0BC38CDA952 (void);
+extern void Clipper_Poly2ContainsPoly1_mB4ACD78F9B8E488BF07BF33B77C7494796A22ED4 (void);
 // 0x000004D0 System.Void Cinemachine.ClipperLib/Clipper::FixupFirstLefts1(Cinemachine.ClipperLib/OutRec,Cinemachine.ClipperLib/OutRec)
 extern void Clipper_FixupFirstLefts1_m65E2AA48CBB7DF4953C93306CC38293E73751B37 (void);
 // 0x000004D1 System.Void Cinemachine.ClipperLib/Clipper::FixupFirstLefts2(Cinemachine.ClipperLib/OutRec,Cinemachine.ClipperLib/OutRec)
@@ -2431,7 +2431,7 @@ extern void Clipper_FixupFirstLefts2_m3628DAEB783FFA0C15CC88FE7D5A43031780BD19 (
 // 0x000004D2 System.Void Cinemachine.ClipperLib/Clipper::FixupFirstLefts3(Cinemachine.ClipperLib/OutRec,Cinemachine.ClipperLib/OutRec)
 extern void Clipper_FixupFirstLefts3_m5FE8223D4C067F2405FB9E5397CAC2E91B799EBB (void);
 // 0x000004D3 Cinemachine.ClipperLib/OutRec Cinemachine.ClipperLib/Clipper::ParseFirstLeft(Cinemachine.ClipperLib/OutRec)
-extern void Clipper_ParseFirstLeft_m88BDBE29115710E575C61F507816C2C661B32C86 (void);
+extern void Clipper_ParseFirstLeft_mB314AD38EE3F6A8E49A1D7889FA2F60EF818F3AD (void);
 // 0x000004D4 System.Void Cinemachine.ClipperLib/Clipper::JoinCommonEdges()
 extern void Clipper_JoinCommonEdges_m1144D7D13B127B352BEE7B56E194E6FA5223144E (void);
 // 0x000004D5 System.Void Cinemachine.ClipperLib/Clipper::UpdateOutPtIdxs(Cinemachine.ClipperLib/OutRec)
@@ -2439,47 +2439,47 @@ extern void Clipper_UpdateOutPtIdxs_mC571A93028E6202AB3531A1F6583EDEF411E70AB (v
 // 0x000004D6 System.Void Cinemachine.ClipperLib/Clipper::DoSimplePolygons()
 extern void Clipper_DoSimplePolygons_m2B00FD05078E3E8689721DC7C62FA9EEBF9744A4 (void);
 // 0x000004D7 System.Double Cinemachine.ClipperLib/Clipper::Area(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>)
-extern void Clipper_Area_m2760354539B085C806907E2409045FAA37B13222 (void);
+extern void Clipper_Area_mA39460C41233FBD033C7222201D33F5A56DC4661 (void);
 // 0x000004D8 System.Double Cinemachine.ClipperLib/Clipper::Area(Cinemachine.ClipperLib/OutRec)
 extern void Clipper_Area_mF674418737AC1594BFB2CD37162839CBC117A13E (void);
 // 0x000004D9 System.Double Cinemachine.ClipperLib/Clipper::Area(Cinemachine.ClipperLib/OutPt)
 extern void Clipper_Area_mFA662DAA8CD3045CAAE005E591ACC6782AB49164 (void);
 // 0x000004DA System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::SimplifyPolygon(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,Cinemachine.ClipperLib/PolyFillType)
-extern void Clipper_SimplifyPolygon_mE00CBD86233FDD967053DFC58571C3AD062F927D (void);
+extern void Clipper_SimplifyPolygon_m5D964DFAFE6251CB5230892673D1825829A41608 (void);
 // 0x000004DB System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::SimplifyPolygons(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>,Cinemachine.ClipperLib/PolyFillType)
-extern void Clipper_SimplifyPolygons_m102A12285CCD7F2BD21FB4D463E2B0CAE4DE7C18 (void);
+extern void Clipper_SimplifyPolygons_mC43520F605202A488565AB6AC98609C829BC27B7 (void);
 // 0x000004DC System.Double Cinemachine.ClipperLib/Clipper::DistanceSqrd(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void Clipper_DistanceSqrd_m8D133FBDA90C2BA3F10945FADEFB97DDEDF73B36 (void);
+extern void Clipper_DistanceSqrd_mE09149587060D3E1E2613F6A466F22BFAC784871 (void);
 // 0x000004DD System.Double Cinemachine.ClipperLib/Clipper::DistanceFromLineSqrd(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void Clipper_DistanceFromLineSqrd_m154C0881754023004941826C24EB5EAC2092C5BB (void);
+extern void Clipper_DistanceFromLineSqrd_m83EB8AD5E4740D6D2C9E05A3A50B6AB7B93125C2 (void);
 // 0x000004DE System.Boolean Cinemachine.ClipperLib/Clipper::SlopesNearCollinear(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Double)
-extern void Clipper_SlopesNearCollinear_m1B48785099E9646E7AF9E6E03928008E7C89C9CB (void);
+extern void Clipper_SlopesNearCollinear_m995CC508199595093168D5AE1B06C6B029092DE4 (void);
 // 0x000004DF System.Boolean Cinemachine.ClipperLib/Clipper::PointsAreClose(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint,System.Double)
-extern void Clipper_PointsAreClose_m5D399E5605835F6491FE2CC4ACCFA4AC76BAA151 (void);
+extern void Clipper_PointsAreClose_mB37FFCEA3A853FD6D1FB9EB698C6ED444B5438DB (void);
 // 0x000004E0 Cinemachine.ClipperLib/OutPt Cinemachine.ClipperLib/Clipper::ExcludeOp(Cinemachine.ClipperLib/OutPt)
-extern void Clipper_ExcludeOp_mD10FABCFA590AEBF84F3A5E4050AF63F8FD745E8 (void);
+extern void Clipper_ExcludeOp_m0BF04A50C9B809D52528BA1C2F3E1488B1D4A469 (void);
 // 0x000004E1 System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint> Cinemachine.ClipperLib/Clipper::CleanPolygon(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Double)
-extern void Clipper_CleanPolygon_m857A36C7AA73F1E088EEBEC414A563CFC798C59D (void);
+extern void Clipper_CleanPolygon_m983259D79EA94E281D1F6EC14BEFDC191BBDEAEA (void);
 // 0x000004E2 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::CleanPolygons(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>,System.Double)
-extern void Clipper_CleanPolygons_m0929BD05F5F7CB9B57AFE24406AB96493A2D6EC3 (void);
+extern void Clipper_CleanPolygons_mAB8185A21A022A9A5240A2378F651D8A34B8FBB1 (void);
 // 0x000004E3 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::Minkowski(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Boolean,System.Boolean)
-extern void Clipper_Minkowski_mA4C45C4324C560BA2AC6FFCEAFC597117F732711 (void);
+extern void Clipper_Minkowski_mD85E9DDB9CAF5B69BBA8B4DC2E4E2D58FB81F32A (void);
 // 0x000004E4 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::MinkowskiSum(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Boolean)
-extern void Clipper_MinkowskiSum_mA05B8CB7C4ABEC214C970B2A4DC97D59BA7F2E76 (void);
+extern void Clipper_MinkowskiSum_m29ABD52399BCF104E8685795B86F0E1A2A28C1C1 (void);
 // 0x000004E5 System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint> Cinemachine.ClipperLib/Clipper::TranslatePath(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,Cinemachine.ClipperLib/IntPoint)
-extern void Clipper_TranslatePath_m4724076FB0E44F9E061E764C5C8CDB1024735DA0 (void);
+extern void Clipper_TranslatePath_mF158D477E0B6F15F4A22EC080212529506ECB08E (void);
 // 0x000004E6 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::MinkowskiSum(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>,System.Boolean)
-extern void Clipper_MinkowskiSum_mA035DFEC207008FB955B19295DB4CC735F4995E3 (void);
+extern void Clipper_MinkowskiSum_m02D0DB720CCF4A9A76EFC0BFF6B0BA477D1B6D3C (void);
 // 0x000004E7 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::MinkowskiDiff(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>)
-extern void Clipper_MinkowskiDiff_m0A3C6B6DFB0CD8FDFDEE49F556EC486DCB81E8DE (void);
+extern void Clipper_MinkowskiDiff_mE2847469BCCD1BD028179E51C352DF12D9473C04 (void);
 // 0x000004E8 System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::PolyTreeToPaths(Cinemachine.ClipperLib/PolyTree)
-extern void Clipper_PolyTreeToPaths_mE7E47A2D8887702322A0CF5CEE28CC643C3442FC (void);
+extern void Clipper_PolyTreeToPaths_m9E06A3B3F6527EF442C636FB195AC7E67A0C38AF (void);
 // 0x000004E9 System.Void Cinemachine.ClipperLib/Clipper::AddPolyNodeToPaths(Cinemachine.ClipperLib/PolyNode,Cinemachine.ClipperLib/Clipper/NodeType,System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>)
-extern void Clipper_AddPolyNodeToPaths_m32516A640091C709C3A461CF3FCB76DA576E4CD5 (void);
+extern void Clipper_AddPolyNodeToPaths_m94EC1CD2E0DBD0759A9C448163D82A373025BEE4 (void);
 // 0x000004EA System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::OpenPathsFromPolyTree(Cinemachine.ClipperLib/PolyTree)
-extern void Clipper_OpenPathsFromPolyTree_m60B3BD586C2DF182BA041DB0C925AA5DDD66C4C0 (void);
+extern void Clipper_OpenPathsFromPolyTree_mF1221E00B6D25AFAECFA106E1CFC43137BB42EE4 (void);
 // 0x000004EB System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>> Cinemachine.ClipperLib/Clipper::ClosedPathsFromPolyTree(Cinemachine.ClipperLib/PolyTree)
-extern void Clipper_ClosedPathsFromPolyTree_m463AA287E42AE952B8A574B513F94FEBE953B669 (void);
+extern void Clipper_ClosedPathsFromPolyTree_mFDF300DCFD546952007701D71C87A90E86CE0874 (void);
 // 0x000004EC System.Double Cinemachine.ClipperLib/ClipperOffset::get_ArcTolerance()
 extern void ClipperOffset_get_ArcTolerance_m25B298CB94489BE792C4EF8870B396D2158C3E92 (void);
 // 0x000004ED System.Void Cinemachine.ClipperLib/ClipperOffset::set_ArcTolerance(System.Double)
@@ -2493,7 +2493,7 @@ extern void ClipperOffset__ctor_mEC075A2F9B5E587A9D06CF9E45A555417C69D158 (void)
 // 0x000004F1 System.Void Cinemachine.ClipperLib/ClipperOffset::Clear()
 extern void ClipperOffset_Clear_mED8C219339D64A95987DB230DFE13C32FEC9CF87 (void);
 // 0x000004F2 System.Int64 Cinemachine.ClipperLib/ClipperOffset::Round(System.Double)
-extern void ClipperOffset_Round_m640ABD2308C0D4D924AC941921904B24E1F6F00C (void);
+extern void ClipperOffset_Round_m5FB50144D5D0ABDE18741EC99B86BAF660F25F4F (void);
 // 0x000004F3 System.Void Cinemachine.ClipperLib/ClipperOffset::AddPath(System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>,Cinemachine.ClipperLib/JoinType,Cinemachine.ClipperLib/EndType)
 extern void ClipperOffset_AddPath_m30CDF70BFA54E89D99CBDD267D513347A6D46EEA (void);
 // 0x000004F4 System.Void Cinemachine.ClipperLib/ClipperOffset::AddPaths(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>,Cinemachine.ClipperLib/JoinType,Cinemachine.ClipperLib/EndType)
@@ -2501,7 +2501,7 @@ extern void ClipperOffset_AddPaths_m48B4B426171D6EEAE676FCDA8E55F6FBBCEE66A8 (vo
 // 0x000004F5 System.Void Cinemachine.ClipperLib/ClipperOffset::FixOrientations()
 extern void ClipperOffset_FixOrientations_m32685E41D88FB8B7FC06282DA7C128E197C7C518 (void);
 // 0x000004F6 Cinemachine.ClipperLib/DoublePoint Cinemachine.ClipperLib/ClipperOffset::GetUnitNormal(Cinemachine.ClipperLib/IntPoint,Cinemachine.ClipperLib/IntPoint)
-extern void ClipperOffset_GetUnitNormal_m0B59615A1CC0761BF616DF887B144FE6502FC528 (void);
+extern void ClipperOffset_GetUnitNormal_mE79775AAC5E47077FE6EC3003830E30BA5D42786 (void);
 // 0x000004F7 System.Void Cinemachine.ClipperLib/ClipperOffset::DoOffset(System.Double)
 extern void ClipperOffset_DoOffset_m21188ACCDBCEA566BFD6DEE0D03F9B5340CEF009 (void);
 // 0x000004F8 System.Void Cinemachine.ClipperLib/ClipperOffset::Execute(System.Collections.Generic.List`1<System.Collections.Generic.List`1<Cinemachine.ClipperLib/IntPoint>>&,System.Double)
@@ -2525,13 +2525,13 @@ extern void CinemachinePostProcessing__ctor_mCB4146D6BBBE2356147A9DB6D2E0F349B89
 // 0x00000501 System.Void Cinemachine.PostFX.CinemachineVolumeSettings::.ctor()
 extern void CinemachineVolumeSettings__ctor_mB23ECA31DF611267B81182121229A3B5EF12014B (void);
 // 0x00000502 System.Void Cinemachine.Utility.CinemachineDebug::ReleaseScreenPos(UnityEngine.Object)
-extern void CinemachineDebug_ReleaseScreenPos_mFF92D5D7AF6902FE80339C872BE9DDEB7517BDF9 (void);
+extern void CinemachineDebug_ReleaseScreenPos_m6C54E91372A22F7D171D8D91C454DF06E95A6593 (void);
 // 0x00000503 UnityEngine.Rect Cinemachine.Utility.CinemachineDebug::GetScreenPos(UnityEngine.Object,System.String,UnityEngine.GUIStyle)
-extern void CinemachineDebug_GetScreenPos_m83EB9F49FA225AE0A22A4B7FA9BACB94FB1C4A3D (void);
+extern void CinemachineDebug_GetScreenPos_m1C7476476BC6BB8D907CCF2D4B946C8B029872D8 (void);
 // 0x00000504 System.Text.StringBuilder Cinemachine.Utility.CinemachineDebug::SBFromPool()
-extern void CinemachineDebug_SBFromPool_m6F20FF73A5A0C5B5CD7D53ADC0887782A70DB5E5 (void);
+extern void CinemachineDebug_SBFromPool_mAA83D56A38ECFD61FC135792DC0778A7B152938D (void);
 // 0x00000505 System.Void Cinemachine.Utility.CinemachineDebug::ReturnToPool(System.Text.StringBuilder)
-extern void CinemachineDebug_ReturnToPool_m486386674DD5B04481BC7B3FAB351E6122EE8630 (void);
+extern void CinemachineDebug_ReturnToPool_mBFBCCF1AEE29E2BD115AF5BCD172BBB8B95C5EA7 (void);
 // 0x00000506 System.Void Cinemachine.Utility.CinemachineDebug::.ctor()
 extern void CinemachineDebug__ctor_mAF77C21C69B520883959BEC3DE58BBDD83CE5F8E (void);
 // 0x00000507 System.Void Cinemachine.Utility.CinemachineDebug/OnGUIDelegate::.ctor(System.Object,System.IntPtr)
@@ -2583,15 +2583,15 @@ extern void PositionPredictor_PredictPosition_mB280F23A4D236037F339758BDEC4AD2DE
 // 0x00000525 System.Void Cinemachine.Utility.PositionPredictor::.ctor()
 extern void PositionPredictor__ctor_m98DC334F817608D8CA4FA09966193AA59A16DB25 (void);
 // 0x00000526 System.Single Cinemachine.Utility.Damper::DecayConstant(System.Single,System.Single)
-extern void Damper_DecayConstant_m2B4374D14857EA333A14F8642E911A9CA67932B9 (void);
+extern void Damper_DecayConstant_m66A0B4920185F5E89CB4ACA436BBA7DDDB7AFBBC (void);
 // 0x00000527 System.Single Cinemachine.Utility.Damper::DecayedRemainder(System.Single,System.Single,System.Single)
-extern void Damper_DecayedRemainder_mA6F8C7A10DA912B47DB78DA8A892734AA7EC6FD8 (void);
+extern void Damper_DecayedRemainder_mFDDE3E237019D299FCB912A50836D5B89714F048 (void);
 // 0x00000528 System.Single Cinemachine.Utility.Damper::Damp(System.Single,System.Single,System.Single)
-extern void Damper_Damp_mFB62278C063E2CAA706D30E8D68AF55D50AE95D2 (void);
+extern void Damper_Damp_m3245F3453DB74DE11801C6EE15F163D5EAFC0CE4 (void);
 // 0x00000529 UnityEngine.Vector3 Cinemachine.Utility.Damper::Damp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
-extern void Damper_Damp_mC9AFD35CB8F0ADFC8A169489A0F839CE52891D62 (void);
+extern void Damper_Damp_m3FF6416E2538374C5805A252094351151793F5E7 (void);
 // 0x0000052A UnityEngine.Vector3 Cinemachine.Utility.Damper::Damp(UnityEngine.Vector3,System.Single,System.Single)
-extern void Damper_Damp_mF0862EDA3BDC1B7119E3E6310B12B2DA72420E47 (void);
+extern void Damper_Damp_mBBBCCE7F67FF9678EE42AA0B0EBD7BC4FFEF2FB9 (void);
 // 0x0000052B System.Void Cinemachine.Utility.HeadingTracker::.ctor(System.Int32)
 extern void HeadingTracker__ctor_m65E930C6FC3B44B9DE66B61332E4A960A14BE25B (void);
 // 0x0000052C System.Int32 Cinemachine.Utility.HeadingTracker::get_FilterSize()
@@ -2599,7 +2599,7 @@ extern void HeadingTracker_get_FilterSize_mEF06A6674D9D5FE8F1802922DECACF11BA7BE
 // 0x0000052D System.Void Cinemachine.Utility.HeadingTracker::ClearHistory()
 extern void HeadingTracker_ClearHistory_m220EDE26052383AFAD5F74F885541BF3797352A5 (void);
 // 0x0000052E System.Single Cinemachine.Utility.HeadingTracker::Decay(System.Single)
-extern void HeadingTracker_Decay_m66C3EA4E1471E7B820E2A15BF950BF959865655A (void);
+extern void HeadingTracker_Decay_mCBB06FF8B9BC4A154A4EFC9DA910854ED0FB25F8 (void);
 // 0x0000052F System.Void Cinemachine.Utility.HeadingTracker::Add(UnityEngine.Vector3)
 extern void HeadingTracker_Add_m9FC794FA982A8598BC1FA0DB46EFAA7507CB861D (void);
 // 0x00000530 System.Void Cinemachine.Utility.HeadingTracker::PopBottom()
@@ -2609,61 +2609,61 @@ extern void HeadingTracker_DecayHistory_m9E2B8A0731C6C492AE78B36925860F4A3EFA1BB
 // 0x00000532 UnityEngine.Vector3 Cinemachine.Utility.HeadingTracker::GetReliableHeading()
 extern void HeadingTracker_GetReliableHeading_m3277A5C1F94F1269E38655527EB71AACF594F695 (void);
 // 0x00000533 UnityEngine.Vector3 Cinemachine.Utility.SplineHelpers::Bezier3(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void SplineHelpers_Bezier3_m935102CE5B6C97AD8712C946E3D8C0CB83FBB724 (void);
+extern void SplineHelpers_Bezier3_mB25BD7261EDA22A9FB162738403E6DC66F70F326 (void);
 // 0x00000534 UnityEngine.Vector3 Cinemachine.Utility.SplineHelpers::BezierTangent3(System.Single,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void SplineHelpers_BezierTangent3_m72E63A4B34652A914979345566179CBC3719FB62 (void);
+extern void SplineHelpers_BezierTangent3_m0CAB33B99E4DD03F36C592C5A95BCDC52C16BF27 (void);
 // 0x00000535 System.Single Cinemachine.Utility.SplineHelpers::Bezier1(System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void SplineHelpers_Bezier1_m246A08965553DC26A27A1F63929FC22FA93D7561 (void);
+extern void SplineHelpers_Bezier1_mAA7872DF66FA529E419AE4B19F25BDD9B28A7041 (void);
 // 0x00000536 System.Single Cinemachine.Utility.SplineHelpers::BezierTangent1(System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void SplineHelpers_BezierTangent1_mFEDEF82B9449F9CD6D69E9CB93B5F3A28B28E053 (void);
+extern void SplineHelpers_BezierTangent1_m41F1633A4094E5701EB543B445C8C1051CC4AA21 (void);
 // 0x00000537 System.Void Cinemachine.Utility.SplineHelpers::ComputeSmoothControlPoints(UnityEngine.Vector4[]&,UnityEngine.Vector4[]&,UnityEngine.Vector4[]&)
-extern void SplineHelpers_ComputeSmoothControlPoints_m6D9485358028E3E22A2C17DF2DEFFAF3C02553C2 (void);
+extern void SplineHelpers_ComputeSmoothControlPoints_mF56B274A09DF5E4E77BC1BD1903C423FE9F1391A (void);
 // 0x00000538 System.Void Cinemachine.Utility.SplineHelpers::ComputeSmoothControlPointsLooped(UnityEngine.Vector4[]&,UnityEngine.Vector4[]&,UnityEngine.Vector4[]&)
-extern void SplineHelpers_ComputeSmoothControlPointsLooped_m3CAA020B6DAF02B0E35C3E36835DC8EE0FF80B51 (void);
+extern void SplineHelpers_ComputeSmoothControlPointsLooped_m8B1901AC903B71584D7A4F381F723F2DF41D319F (void);
 // 0x00000539 System.Boolean Cinemachine.Utility.UnityVectorExtensions::IsNaN(UnityEngine.Vector2)
-extern void UnityVectorExtensions_IsNaN_m7D80634831EFB70EAA220F8BC40AED2DA1AACD1F (void);
+extern void UnityVectorExtensions_IsNaN_m9E064699098E04ADD8B174395C1902E85BBCC179 (void);
 // 0x0000053A System.Boolean Cinemachine.Utility.UnityVectorExtensions::IsNaN(UnityEngine.Vector3)
-extern void UnityVectorExtensions_IsNaN_mFD2329D414446624BFC5A378316DA3C37DB46B6F (void);
+extern void UnityVectorExtensions_IsNaN_mAED27A1EFF752377901140C13A7B586561F23745 (void);
 // 0x0000053B System.Single Cinemachine.Utility.UnityVectorExtensions::ClosestPointOnSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityVectorExtensions_ClosestPointOnSegment_m61531154C237946B52BAA9A92209350D56870B0E (void);
+extern void UnityVectorExtensions_ClosestPointOnSegment_m5AF0D62D87EF8EF307260D87EA85BE2A4C35B85D (void);
 // 0x0000053C System.Single Cinemachine.Utility.UnityVectorExtensions::ClosestPointOnSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
-extern void UnityVectorExtensions_ClosestPointOnSegment_mA7F89705FAF6FECD7E45FDD22C88F8F236010955 (void);
+extern void UnityVectorExtensions_ClosestPointOnSegment_m53E511FE9498F8B6FE6A0A001F2EE476BF4235A5 (void);
 // 0x0000053D UnityEngine.Vector3 Cinemachine.Utility.UnityVectorExtensions::ProjectOntoPlane(UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityVectorExtensions_ProjectOntoPlane_mBBA5D8DA7E6B626A800731A0FE6BADF7C4220D9B (void);
+extern void UnityVectorExtensions_ProjectOntoPlane_m7B4042CE802D9E43593F9290EBCFFC1E1F1568A6 (void);
 // 0x0000053E UnityEngine.Vector2 Cinemachine.Utility.UnityVectorExtensions::SquareNormalize(UnityEngine.Vector2)
-extern void UnityVectorExtensions_SquareNormalize_m6200661A3E987197C3C7AEAC3516E96F6D11F63E (void);
+extern void UnityVectorExtensions_SquareNormalize_mA45A9518904E5EF647E7D598B9ADA28EBF5D8E03 (void);
 // 0x0000053F System.Int32 Cinemachine.Utility.UnityVectorExtensions::FindIntersection(UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&,UnityEngine.Vector2&)
-extern void UnityVectorExtensions_FindIntersection_m2FBBF63C229F43CEBB7C8064784C3C481BEF3DFD (void);
+extern void UnityVectorExtensions_FindIntersection_m679EF9DB24788CA733A9B241B305BF94A1E9ACC8 (void);
 // 0x00000540 System.Single Cinemachine.Utility.UnityVectorExtensions::Cross(UnityEngine.Vector2,UnityEngine.Vector2)
-extern void UnityVectorExtensions_Cross_mF6C7F58D98C3F8A51FFAB0EF9E4CD77DB2BBBD39 (void);
+extern void UnityVectorExtensions_Cross_m4ABE9CEBFA9687AB7A79F2287ABA20A011A514C0 (void);
 // 0x00000541 UnityEngine.Vector2 Cinemachine.Utility.UnityVectorExtensions::Abs(UnityEngine.Vector2)
-extern void UnityVectorExtensions_Abs_m4E617236E1CCFE843CA67854AC8E48AC22323BA9 (void);
+extern void UnityVectorExtensions_Abs_m0091B636E0155F99A8DA16B61C9372C03BB67EDC (void);
 // 0x00000542 UnityEngine.Vector3 Cinemachine.Utility.UnityVectorExtensions::Abs(UnityEngine.Vector3)
-extern void UnityVectorExtensions_Abs_mC5D24C3B25D65CE0B41D778567319DBB0BD0C1D0 (void);
+extern void UnityVectorExtensions_Abs_m00E8851E28863473A992945FDA86B4CA0F388D3E (void);
 // 0x00000543 System.Boolean Cinemachine.Utility.UnityVectorExtensions::IsUniform(UnityEngine.Vector2)
-extern void UnityVectorExtensions_IsUniform_m60E6BF69A0D7B561224DD99B3208090F396CAABE (void);
+extern void UnityVectorExtensions_IsUniform_mD55546C76B4A999CE446261E535AF27FC7AD76AB (void);
 // 0x00000544 System.Boolean Cinemachine.Utility.UnityVectorExtensions::IsUniform(UnityEngine.Vector3)
-extern void UnityVectorExtensions_IsUniform_mE448507F84485223FD26D1D1927F3D6679FE6899 (void);
+extern void UnityVectorExtensions_IsUniform_mAC18FF2205B1497324CFF4EF53ACF5D2D64A89E5 (void);
 // 0x00000545 System.Boolean Cinemachine.Utility.UnityVectorExtensions::AlmostZero(UnityEngine.Vector3)
-extern void UnityVectorExtensions_AlmostZero_mB3A4F32774344F1374F65D503CC29C569F5F7D24 (void);
+extern void UnityVectorExtensions_AlmostZero_mDE7F8E130BF5949DFF14AE437C47F086F3E05652 (void);
 // 0x00000546 System.Single Cinemachine.Utility.UnityVectorExtensions::Angle(UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityVectorExtensions_Angle_m531A3EF1C1C1F49B637BB83F3795128D571A2B93 (void);
+extern void UnityVectorExtensions_Angle_mFA715DF39B2BA00E0236B1DD527A53CE159A4C8C (void);
 // 0x00000547 System.Single Cinemachine.Utility.UnityVectorExtensions::SignedAngle(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityVectorExtensions_SignedAngle_mEC66BAD4357C0F5F7ADE082AD38AD1FE70649315 (void);
+extern void UnityVectorExtensions_SignedAngle_mA8EE238FB571BF476038E19AAF311CB42605282D (void);
 // 0x00000548 UnityEngine.Quaternion Cinemachine.Utility.UnityVectorExtensions::SafeFromToRotation(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityVectorExtensions_SafeFromToRotation_mD10BFD5052B69EE3D1DE2FE9B74181BD797ACC03 (void);
+extern void UnityVectorExtensions_SafeFromToRotation_m911F765BB02BF6A73073D9FEF708ACED0D55E564 (void);
 // 0x00000549 UnityEngine.Vector3 Cinemachine.Utility.UnityVectorExtensions::SlerpWithReferenceUp(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.Vector3)
-extern void UnityVectorExtensions_SlerpWithReferenceUp_m83DA374F7A9CB98FF5ECE51C91805F11F76E2372 (void);
+extern void UnityVectorExtensions_SlerpWithReferenceUp_m7F71658D673D705E004E2C256CBF33911519A1EC (void);
 // 0x0000054A UnityEngine.Quaternion Cinemachine.Utility.UnityQuaternionExtensions::SlerpWithReferenceUp(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single,UnityEngine.Vector3)
-extern void UnityQuaternionExtensions_SlerpWithReferenceUp_m462C015C97FF4D2E7B7E83B6C1E4A29ED4DD1474 (void);
+extern void UnityQuaternionExtensions_SlerpWithReferenceUp_m8D94F55CE71358BD2A6B38511E97BAB9EDC55464 (void);
 // 0x0000054B UnityEngine.Quaternion Cinemachine.Utility.UnityQuaternionExtensions::Normalized(UnityEngine.Quaternion)
-extern void UnityQuaternionExtensions_Normalized_mECDA291E5D4B3D2D610FE74D89D7F2F7ED0B5E68 (void);
+extern void UnityQuaternionExtensions_Normalized_m62143839CCE5FA1B02E7953C1ABBB217CD9465FC (void);
 // 0x0000054C UnityEngine.Vector2 Cinemachine.Utility.UnityQuaternionExtensions::GetCameraRotationToTarget(UnityEngine.Quaternion,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void UnityQuaternionExtensions_GetCameraRotationToTarget_mDA1EF1466263B671B863D70DABBD50DF9785C2B7 (void);
+extern void UnityQuaternionExtensions_GetCameraRotationToTarget_mFD825219F752B2C979529CDCD655530685428FE5 (void);
 // 0x0000054D UnityEngine.Quaternion Cinemachine.Utility.UnityQuaternionExtensions::ApplyCameraRotation(UnityEngine.Quaternion,UnityEngine.Vector2,UnityEngine.Vector3)
-extern void UnityQuaternionExtensions_ApplyCameraRotation_m75753B356C2E3BC79192192C8C2FC1F512643506 (void);
+extern void UnityQuaternionExtensions_ApplyCameraRotation_m608B85CD86C6BE2FDD571446FA8CA596142C437C (void);
 // 0x0000054E UnityEngine.Rect Cinemachine.Utility.UnityRectExtensions::Inflated(UnityEngine.Rect,UnityEngine.Vector2)
-extern void UnityRectExtensions_Inflated_m11DB3C1DCB766C1D1D5F3CA244BC1F61B66D9568 (void);
+extern void UnityRectExtensions_Inflated_mF5A4FB7F7E25389F1CCB0B0F77C550BECC5ED031 (void);
 static Il2CppMethodPointer s_methodPointers[1358] = 
 {
 	CinemachineCameraOffset_PostPipelineStageCallback_m36D3DE5935DCBF3866D1A04DE6C86232F6870C94,
@@ -2728,9 +2728,9 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineBlendListCamera_AdvanceCurrentInstruction_mC401379B7CD61F5220AAF2B0510CB2833CEBC99D,
 	CinemachineBlendListCamera__ctor_m90660A98A6ED5C8ECFCDF652585F12EFA4D70172,
 	CinemachineBrain_get_OutputCamera_m1568A7744F9BB298C982829FC39B109309372C31,
-	CinemachineBrain_get_SoloCamera_mFAAD6BBE45585D9DD797198FC01058C6F11BDF1A,
-	CinemachineBrain_set_SoloCamera_m439AB7B2CA0D934AD6077F97D593C9D09D69BBED,
-	CinemachineBrain_GetSoloGUIColor_mEC62C62FD11EA634FA82E938C5CCC29C99BA48D3,
+	CinemachineBrain_get_SoloCamera_m67BF8A681B5B36B2CA6A805D658B5A820566B8D9,
+	CinemachineBrain_set_SoloCamera_m36932C5D48A60ED8C5D09FA4BA122597F0EABE98,
+	CinemachineBrain_GetSoloGUIColor_m52EAD28FC43A8FB8E68D9B81D31196203717746F,
 	CinemachineBrain_get_DefaultWorldUp_m6A39EB2B1E0E480FB48E43F5DB484146FEB8F2E5,
 	CinemachineBrain_OnEnable_m1A8E38FFC7712CAFEBF612C52AB10D1252DBDC54,
 	CinemachineBrain_OnDisable_m87D60FA550ECBAE892D61B0AD4C5C90CE921A271,
@@ -2744,7 +2744,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineBrain_GetEffectiveDeltaTime_mDCB1FDB9DB624E5511DD9F5298794C5753977ED9,
 	CinemachineBrain_UpdateVirtualCameras_m209254C78DF1F06E11EA4CF30C7F953BDCED0218,
 	CinemachineBrain_get_ActiveVirtualCamera_m0AEE8E6E46E3235D9ADE864DA6BE7BB57F2D86D7,
-	CinemachineBrain_DeepCamBFromBlend_mA36957D5CBCC3AA562C2A359C4D6F726F3C1321D,
+	CinemachineBrain_DeepCamBFromBlend_mA590E041B46933535A30A3F007BA2B83E7BE40CD,
 	CinemachineBrain_IsLiveInBlend_m2A0E5AD2048B66FA82E7CB01A83335907B1941CB,
 	CinemachineBrain_get_IsBlending_m028DE1EDFAD04881374A33196A718E7673E7B2F3,
 	CinemachineBrain_get_ActiveBlend_mC6FF3504F32F7C30500A98F22BD906D468406ED1,
@@ -2761,7 +2761,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineBrain_LookupBlend_m4C4810AA410AE7A9E3D55E8B1E1DE5478AAE3398,
 	CinemachineBrain_PushStateToUnityCamera_m052D86E4AADB90FC7816637DCE4375D86C44B0D8,
 	CinemachineBrain__ctor_m516DC64F86617E7E269C399E53E69F06BF176690,
-	CinemachineBrain__cctor_m1D1E30304F9F67194689F822CA383AFBD7FC2F99,
+	CinemachineBrain__cctor_m0922906BE096A29914CAFDDE952DE34C0F5A208E,
 	BrainEvent__ctor_mCAE49277912EB5AFFBA23BBBD84697BC258A56D7,
 	VcamActivatedEvent__ctor_m4917789E0C570A5217E093044D8E26D8AD1F7068,
 	BrainFrame_get_Active_m6EB1C7313FF391608D67E752A0AD3541B3D5D5E0,
@@ -2798,7 +2798,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineClearShot_LookupBlend_m0DA62E97306A03CF6C1A0CADF68A0D3E7F45BD26,
 	CinemachineClearShot_OnTransitionFromCamera_mCD2B8D5BB280F63D0E7E26A32E9C9D8C8DA2DCBF,
 	CinemachineClearShot__ctor_m08FE4B603DA5147A26D2F588496C2D29B4CA4407,
-	U3CU3Ec__cctor_m6EBE3965332A84B91D432C46F95C9C1A0C4BDC10,
+	U3CU3Ec__cctor_m862E9E374DE10AA80B867C44F2270190CAE8FB00,
 	U3CU3Ec__ctor_m9BE881E5BAC3662017282D2C1215496CB6A6088F,
 	U3CU3Ec_U3CRandomizeU3Eb__47_0_mCF797FF00E11634FA5A9052E99D7FE4556682B50,
 	CinemachineCollider_IsTargetObscured_m96234E8EC6FBE238EF157CD24CEC943D0BCB5867,
@@ -2814,12 +2814,12 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineCollider_PushCameraBack_mA652E6C1E69285E05F18DA6C4EEFBF6FFF150ED5,
 	CinemachineCollider_GetWalkingDirection_mC5607290A0F1FB8EDAC4AE401280FCAE25DA56D7,
 	CinemachineCollider_GetPushBackDistance_m327096D12B295C2A3D536767D22302B0D90722F2,
-	CinemachineCollider_ClampRayToBounds_m5BB57D008F7DA4CAF2E22B96F3D78153E9EA71DE,
+	CinemachineCollider_ClampRayToBounds_m1ECEE60359130905CFE336780028F27C584C223C,
 	CinemachineCollider_RespectCameraRadius_mCB35CD04F62EDCBE0A154B3EC455D33029F380C6,
 	CinemachineCollider_CheckForTargetObstructions_mBE0D7797C4F714F6532ECF0428225FCC7717EBE9,
-	CinemachineCollider_IsTargetOffscreen_mC880662B6AD9AEF48B1EF30D614DB9F04C0E0C06,
+	CinemachineCollider_IsTargetOffscreen_m92E26E85E88FE62A1C918DEF9728DE9FB46D5A7D,
 	CinemachineCollider__ctor_m444FCEC0E8391FB73605BDF0C844292EA81BDF12,
-	CinemachineCollider__cctor_mB568BEE124ABB9EF334CFA82580EDCBEE33FF955,
+	CinemachineCollider__cctor_m5A26E23CA4A900A4A0C35BFB46F4EBD893459106,
 	VcamExtraState_AddPointToDebugPath_m5787D51C699C1557B53987E5134067F98C6B8296,
 	VcamExtraState_ApplyDistanceSmoothing_m0BB6D66F3143716C66AAC3F7DD85103C7E6589E3,
 	VcamExtraState_UpdateDistanceSmoothing_m585CE40738CF2D7E9EC0BE89C357AD84A40320AC,
@@ -2869,7 +2869,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	VcamExtraState__ctor_m0FB88B41FA5F8BD8063E9D409580F36352C45C1E,
 	CinemachineFreeLook_OnValidate_m363CFBDA6195290F8CA67B2217CF1CF0F080AF08,
 	CinemachineFreeLook_GetRig_mC818384734A05604CCA51B5D6EA87FD91692CE01,
-	CinemachineFreeLook_get_RigNames_m4CA5DF303CCECE4C801B72C0C24034CF322D49AF,
+	CinemachineFreeLook_get_RigNames_m2D9317645B40626F534D57764C904CB434416D66,
 	CinemachineFreeLook_OnEnable_m5751340BED71741D4B1ED9EB5D613DC8CCEEEBB9,
 	CinemachineFreeLook_UpdateInputAxisProvider_m3A81D0027CC71494F03A9F7719377DB881FD5606,
 	CinemachineFreeLook_OnDestroy_m5C53E6195807FE9AEF38B2BF06B88B0F9CCEE566,
@@ -2962,7 +2962,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineSmoothPath_RollAroundForward_m052A750536417A3DAC4E3D063ED0F3A08666476E,
 	CinemachineSmoothPath__ctor_m803C3FD43A12B6D618F661D748EFB66D7D8D5CE9,
 	Waypoint_get_AsVector4_mA3935DAA3EBC69BEF2DDD1AA4DA077A0B520FA97,
-	Waypoint_FromVector4_mBD87C18C465737B156CA5ACAB23542E4596443BF,
+	Waypoint_FromVector4_m4BC6E89C093AE2B43B656C0B016927580FA0523A,
 	CinemachineStateDrivenCamera_get_Description_m7DAF9ACF241B7726B73AE384C54F69B9D544C898,
 	CinemachineStateDrivenCamera_get_LiveChild_m516C9074D2AD76558E48C1D237B0C4598325EA21,
 	CinemachineStateDrivenCamera_set_LiveChild_mE87CE48A20127BE305780929D56EEA8824967D2B,
@@ -2982,7 +2982,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineStateDrivenCamera_OnGuiHandler_m3B5FB8E32B3DD5117D5CF526C60954FE3362C094,
 	CinemachineStateDrivenCamera_get_ChildCameras_mD8D60F4EA1F55C19391664B0AAFB7C52069A5495,
 	CinemachineStateDrivenCamera_get_IsBlending_mFCDE3B87EE0174789D932F463D24D14DF7439487,
-	CinemachineStateDrivenCamera_CreateFakeHash_m62F6A83FF85A2C43E8E1344F3587889007D1BD9B,
+	CinemachineStateDrivenCamera_CreateFakeHash_mAF4399836F328EB3C463A7B2A7770A5AB2139438,
 	CinemachineStateDrivenCamera_LookupFakeHash_mBF568073EFB952D5BA865BAE8276784223E1A0E6,
 	CinemachineStateDrivenCamera_InvalidateListOfChildren_m07ED390483719F9053DB9117792E820F275B0FA0,
 	CinemachineStateDrivenCamera_UpdateListOfChildren_m6CC5B12DF863B54139D694443F28397107605FEE,
@@ -3001,8 +3001,8 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineStoryboard_CreateCanvas_mE4DFBBDB8F034263F315169F6026BF4292026F6C,
 	CinemachineStoryboard_DestroyCanvas_m809C169B130220231748965F4BFB3FBC51338FC2,
 	CinemachineStoryboard_PlaceImage_mC8B2650D936D682C2C031D89FF260DCD4F92FBDB,
-	CinemachineStoryboard_StaticBlendingHandler_m9631B0CB18F7AD2C97E52341D22ACC2D5841D1BC,
-	CinemachineStoryboard_InitializeModule_m061AC423ED6520526C4C55ADE4D998DE80531379,
+	CinemachineStoryboard_StaticBlendingHandler_mCB24F0CFB83E0D0E42A6BEE8EA45681FDA02336A,
+	CinemachineStoryboard_InitializeModule_mB460164515FB890392CD51A78F9D6FC1029571F7,
 	CinemachineStoryboard__ctor_m13A6C495D5EE7EE171921D6A313B6D95083ED19E,
 	CanvasInfo__ctor_m350FBA5D640FFCC2883C94DD425CBBA36DD30449,
 	NULL,
@@ -3021,7 +3021,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineTargetGroup_FindMember_m763EA250DE5BFE070C2CA5751B99CAE734925683,
 	CinemachineTargetGroup_GetWeightedBoundsForMember_m66E0FB67C1A1A678A206DDA7869E48533264A185,
 	CinemachineTargetGroup_GetViewSpaceBoundingBox_m0DEE6D2517C2D3A0030E2EEEC44A71A08B0275E2,
-	CinemachineTargetGroup_WeightedMemberBounds_m831A7C63D6DE5A222A5D2641B372E07AF859297D,
+	CinemachineTargetGroup_WeightedMemberBounds_mE19BC71847C61D281DD7774973DE335D0BCDE5B6,
 	CinemachineTargetGroup_DoUpdate_m9DD03ECB2BB8D0D2FF159EE022D977BCE8F60D7E,
 	CinemachineTargetGroup_CalculateBoundingSphere_mA0461E5E7038DCCCBD5D853D8F8374B1E26C9B6D,
 	CinemachineTargetGroup_CalculateAveragePosition_mE52801E71EFC0BB44E01A8601E1A3A177947E145,
@@ -3055,7 +3055,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	NULL,
 	NULL,
 	CinemachineVirtualCamera_UpdateComponentPipeline_mDC1BF9D6E71CA7CEFEB8539E13BAD7E12DAB11A1,
-	CinemachineVirtualCamera_SetFlagsForHiddenChild_mBC48F74140EF572DB75E09AB4B40464BCA332448,
+	CinemachineVirtualCamera_SetFlagsForHiddenChild_mE805AF7C54CF7D4517F230702B793D142F667C8B,
 	CinemachineVirtualCamera_CalculateNewState_mEAC1B5563F4C5BD1868E591DBE70EC359C27AE31,
 	CinemachineVirtualCamera_OnTargetObjectWarped_m562D2944CECA26CF64C38DC4A59CA72CB67E033C,
 	CinemachineVirtualCamera_ForceCameraPosition_m24428AB9DFFF32E9A93DB9B9CCCE6E25B7637C1F,
@@ -3072,7 +3072,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	DestroyPipelineDelegate_Invoke_mE4428F322828BD410B9C74A0358DF87D3A1983F9,
 	DestroyPipelineDelegate_BeginInvoke_m2902F0B20085FB754D94A373177CBE6D9E7E42E5,
 	DestroyPipelineDelegate_EndInvoke_mBCC8462D17B7FDB6058C446202AAEBBDB9515D46,
-	U3CU3Ec__cctor_m5C55F17AEAEEFA023973776DB010B54D0D2F8456,
+	U3CU3Ec__cctor_m1637EA016B94B271146109003881DB288843D058,
 	U3CU3Ec__ctor_m0BD6B99048AA4888057E840317CE80F3789BBE8D,
 	U3CU3Ec_U3CUpdateComponentPipelineU3Eb__38_0_mB97A4390C0B4AF7335D8A31CABC30B99FC7BFA30,
 	U3CU3Ec_U3CRequiresUserInputU3Eb__47_0_mBF26B23CBD1B39550F819A03518A8857549B0F31,
@@ -3086,7 +3086,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	Cinemachine3rdPersonFollow_OnTargetObjectWarped_mD0303D4A6D9EA4D13150C8C5E93AC843F04B0919,
 	Cinemachine3rdPersonFollow_PositionCamera_m13334AE8E5681B0F83EB4DC65607CCDEBBE7BC4A,
 	Cinemachine3rdPersonFollow_GetRigPositions_m030DC36FC5FC04F030AAE5DD1DDE3C586F73C534,
-	Cinemachine3rdPersonFollow_GetHeading_mAF350E9785F2314EFD8016F12B0ED596E6C66843,
+	Cinemachine3rdPersonFollow_GetHeading_m4D3086385158A48B3E83FD7960931CF2EFD52535,
 	Cinemachine3rdPersonFollow_GetRawRigPositions_mDE2296B2034978F905A1C9CBAA202EFB174CB1D5,
 	Cinemachine3rdPersonFollow_ResolveCollisions_m0803F98237E6C6D08D13173E1FECBDD506860BA4,
 	Cinemachine3rdPersonFollow__ctor_m239FDBE524C3BED33399C39822BBB7A63EFE95E9,
@@ -3138,7 +3138,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineFramingTransposer_MutateCameraState_mCF6C11F8E364980D95EFFEDCE1BDC11FD1877734,
 	CinemachineFramingTransposer_GetTargetHeight_m5CD0304B16E7442B6BA592E7915FE7C2F57D4A64,
 	CinemachineFramingTransposer_ComputeGroupBounds_mD7044C4EFA049F1BD91607D7EB5FE2F26E7A78D2,
-	CinemachineFramingTransposer_GetScreenSpaceGroupBoundingBox_mD6B121234F24AC755C1485C22B9A486625B3F58D,
+	CinemachineFramingTransposer_GetScreenSpaceGroupBoundingBox_mFA7FD0E686444062F3A538809B553D27B1C292AF,
 	CinemachineFramingTransposer__ctor_mDC6AE4489F2CBA1B667DDE193E2C1D1C3D3332D5,
 	CinemachineGroupComposer_OnValidate_m4F578A19AB48C00C385A8AB096DFD5E8C8991D77,
 	CinemachineGroupComposer_get_LastBounds_mC2ABA5C693EB4C5AC2676461601D5F9DC5615623,
@@ -3148,7 +3148,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineGroupComposer_GetMaxDampTime_mED0FCE86105021DEFD27DC6546387EE1AEBEAFA0,
 	CinemachineGroupComposer_MutateCameraState_mBA96192C982AF7399B01AD3FCE14D48F6C27373A,
 	CinemachineGroupComposer_GetTargetHeight_mE81E9435860ADF221E7DD164A4ADF411AB4C740A,
-	CinemachineGroupComposer_GetScreenSpaceGroupBoundingBox_m567C86F8FB8092CF4BABDE712030C3E1772A22A9,
+	CinemachineGroupComposer_GetScreenSpaceGroupBoundingBox_m23D17E79BBF0D8E56FFD0269BC4C5C8F33BD251A,
 	CinemachineGroupComposer__ctor_m971E14E2A389C00A5DB8E27648BC6143D96CDFAC,
 	CinemachineHardLockToTarget_get_IsValid_m3283683207CBE04A66BDE3CC3731D04AD4E11D7F,
 	CinemachineHardLockToTarget_get_Stage_m67CC2097CE1F227F1A4080108D68E8C9D6E21896,
@@ -3178,7 +3178,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	UpdateHeadingDelegate_Invoke_mD63AFD811D3492ECF335D17B0B858E3655D8019A,
 	UpdateHeadingDelegate_BeginInvoke_mF9371D7AA17A9372F2FAB2891F8E66CA67FE5AAE,
 	UpdateHeadingDelegate_EndInvoke_mCF8E24E08925233FAA0FB6E5AFAFEFCF67FBE8CF,
-	U3CU3Ec__cctor_mC4BBE7E060D7D62BDA15539A4E1FB07BEC64C7BC,
+	U3CU3Ec__cctor_mDB41F389E9ACDC6A49924D0DDF6BF908E627676B,
 	U3CU3Ec__ctor_m86741AB1B49B0E3932CA01086C2B7FAFC221C361,
 	U3CU3Ec_U3C_ctorU3Eb__30_0_m9216ED998310150D666FF45C1BD6868BF4BF02DD,
 	CinemachinePOV_get_IsValid_m05C868F4435523397654A39A1BF8593CF0F59ECF,
@@ -3189,7 +3189,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachinePOV_PrePipelineMutateCameraState_mBA43F716320C330EE8502DC1F49CD30512D8DF0B,
 	CinemachinePOV_MutateCameraState_m7D3F0F0979A4D487630A47A0BDB8B6C01F58A4EE,
 	CinemachinePOV_GetRecenterTarget_m222F334C80D4ABBD48B9284A6EFCF6C0B853460A,
-	CinemachinePOV_NormalizeAngle_m44F87A756F3A1DE1CBCB5C4F776C86B837B2D68E,
+	CinemachinePOV_NormalizeAngle_m5A686B3609FF6019E1B4BBC07F1A374FD1B17B4A,
 	CinemachinePOV_ForceCameraPosition_m454958C55A58DD989A25D0443138AADBF608BB52,
 	CinemachinePOV_OnTransitionFromCamera_m491BDC05FF82D94CD9F0F5E381FABD26B836D32F,
 	CinemachinePOV_get_RequiresUserInput_mF3866C5A3BF1A75C3EBF06998987999FC37A558B,
@@ -3252,18 +3252,18 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CameraState_get_CorrectedOrientation_m04987B71E708B14A28973FFF81645C8834FD04E8,
 	CameraState_get_FinalPosition_m4D482D1F3E008068C2151FC24FD85CB6F603AE12,
 	CameraState_get_FinalOrientation_m65D23E9A3C9264408AB177483C74FD609EFAB4B3,
-	CameraState_get_Default_mBF6F22B14C83DD400EF9F53BB8EACB240BD79398,
+	CameraState_get_Default_m21CC49BBB9A1FF0D582E3CEEC9C1F63C3F068DF8,
 	CameraState_get_NumCustomBlendables_mA7FC428A3F135FA88769EC45E2C5521F2D1169DB,
 	CameraState_set_NumCustomBlendables_m599C74DAA99E17F8B5EF87CFD0A6238A81D05AD3,
 	CameraState_GetCustomBlendable_mE19B33F6CEC1B42ACAEB34A0601E48A80577498E,
 	CameraState_FindCustomBlendable_m141410A5E7FF4B985E2D3979D72BF80F398DE57C,
 	CameraState_AddCustomBlendable_m1DA24CB5A397752C33B6A1773CFF38F02505AD3C,
-	CameraState_Lerp_mEF27BCEB2B6B51C4E1A2F8E5D5826963D0C787CD,
-	CameraState_InterpolateFOV_m282EABB08641EDA6F6AA12818B9BE6D76639AFE1,
-	CameraState_ApplyPosBlendHint_m652243F6FEEC671040EE65DDF83A1446305357CC,
-	CameraState_ApplyRotBlendHint_mF25F7D3F9315C2CE92CBB65CC06D519C228C3571,
+	CameraState_Lerp_m0BAAA9D6CC903E2656ACE05FDE2C930FE24D3E98,
+	CameraState_InterpolateFOV_mB963D73A017B25550381245B5976BBE7DE77502F,
+	CameraState_ApplyPosBlendHint_m61F39F5911D34F49768E601B72C17CDBFFB26D1C,
+	CameraState_ApplyRotBlendHint_m25B6966D775F36A71929C4EA0404328034EBA09E,
 	CameraState_InterpolatePosition_m0754A646434C49674356B584F9BDBB67B0D4F707,
-	CameraState__cctor_m9BBB4AD958A7ABC70589EEDE18AF906E59EFF584,
+	CameraState__cctor_m53E682EB8F41BE2DA635516A8A6DCEF8EEF8DA0F,
 	CustomBlendable__ctor_mF38BF574AF05E415A01A2A46E506DE6B5086B303,
 	CinemachineBlend_get_BlendWeight_m0FFFD553C4A1176490E443AF34DC8AB87F0763A7,
 	CinemachineBlend_get_IsValid_m3C10BCF867EF0AA96AAF0A70FF0990808FB7C81C,
@@ -3345,9 +3345,9 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineComponentBase_GetMaxDampTime_mA2159FA6C923F49F9729286A70C304298440B060,
 	CinemachineComponentBase_get_RequiresUserInput_m45F5AFF5AB81E3E6562E2A5F624768A73E6A7170,
 	CinemachineComponentBase__ctor_mFA2A3C88B75CD71B7F359220C38B253AC1353B19,
-	CinemachineCore_get_Instance_m761793890717527703D6C8BB3AC64FEC93745A85,
-	CinemachineCore_get_DeltaTime_mAB96E48F9C319BC81A7CF28AD5ABBA505A1921D3,
-	CinemachineCore_get_CurrentTime_mE95A89B5053FB5D86EB1E2D855CDC9E4D4CC5459,
+	CinemachineCore_get_Instance_m437A8089CC851778BA1ABABA3041B24B8D8B7E9B,
+	CinemachineCore_get_DeltaTime_m0ED50D97C4B5327468BFA2A426E4F8B2F4078F48,
+	CinemachineCore_get_CurrentTime_mFA05B621BE52910A8C3A304CB715257011C9A782,
 	CinemachineCore_get_BrainCount_m464F67F700D9EF3D2F486C14C215578AFC8BE080,
 	CinemachineCore_GetActiveBrain_m0CA11E913913E3A09CFE0C93C612C98936D480D8,
 	CinemachineCore_AddActiveBrain_m48DD0D8000E2EE00E9C4BF642F5CDF04EF5AB819,
@@ -3361,8 +3361,8 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineCore_CameraDisabled_mFFD409EFB372B7C90824BDE0C576EFF56F61285F,
 	CinemachineCore_UpdateAllActiveVirtualCameras_m89205DECAC84E31CFF4420DDB36BDFC70BE37B53,
 	CinemachineCore_UpdateVirtualCamera_m8AD0E1834C19A941F246C0BD9661ED575CAA84B1,
-	CinemachineCore_InitializeModule_m94C75CE22045FDE75335D9FED460CDA9DC7808E3,
-	CinemachineCore_GetUpdateTarget_m661B19E2772A2C9D76357300C1CD50190AF7812F,
+	CinemachineCore_InitializeModule_m3AF5A969E84D95E78CD79107015F033FF4EB364F,
+	CinemachineCore_GetUpdateTarget_m3007FAAA1292808633CDFF235EADB297B8506282,
 	CinemachineCore_GetVcamUpdateStatus_m6864417D5726747911A8FD36CFE4BF7BC2551ADC,
 	CinemachineCore_IsLive_m6F2EBE598087857FF7D04A078563E9972CA52678,
 	CinemachineCore_IsLiveInBlend_mFD1402FFF3B5D0CD0EC90914F89672724F49F778,
@@ -3371,7 +3371,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineCore_FindPotentialTargetBrain_mD4D554DCF27AE5BD2BAEB9D09E37BFBDD9D79B3B,
 	CinemachineCore_OnTargetObjectWarped_m39BF4DE7271E080415FDB67E1C32C8E0C94702E1,
 	CinemachineCore__ctor_m2F77D083353903E3CC95FC46D88EFE627D6FC2D4,
-	CinemachineCore__cctor_mFE671E10ADAC3FF520E959CF6C38C6C168BD0692,
+	CinemachineCore__cctor_m206AFF5C9C6BE921CCFBB41D19902D33EF70EC37,
 	AxisInputDelegate__ctor_m8D7FED117FA4DDE1BBDC08B5158E73E2FACFF7B6,
 	AxisInputDelegate_Invoke_m1C36C70E105C8A9091AED921BB6E7053C99F39CE,
 	AxisInputDelegate_BeginInvoke_m7A4D0E95E70B542E40AF139F3FB6986F2973F30C,
@@ -3381,7 +3381,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	GetBlendOverrideDelegate_BeginInvoke_mC0BD5CA7322A5B456D5955B571EB11D5D6485603,
 	GetBlendOverrideDelegate_EndInvoke_m299DDA873DCE525E30CCB9621E6EB9BF9F897061,
 	UpdateStatus__ctor_mD7EB6573750445A83891060458B7305AB1899583,
-	U3CU3Ec__cctor_mAC5FA9989008F9C66BCE9B98A2F877D7E02A12F9,
+	U3CU3Ec__cctor_m88CAF6DA4D43FD43D6B42F407696C49FE93DF489,
 	U3CU3Ec__ctor_m0FE2AE12D8ED3BA533A9FE180F290766D49099AD,
 	U3CU3Ec_U3CGetVirtualCameraU3Eb__30_0_mD00C1D63B243EAC04AF7754294C5C9998BBB1DEF,
 	CinemachineExtension_get_VirtualCamera_mD9E9C61D2B18DD4B1ECF1B6A12EE5FD3B152376E,
@@ -3512,7 +3512,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineVirtualCameraBase_LegacyUpgrade_m12831751E9E0697F2A87F5B837C714C242796BFE,
 	CinemachineVirtualCameraBase_OnBeforeSerialize_mAFFE51C4E0C07640C3104CF1EC0B808D3A1176C1,
 	CinemachineVirtualCameraBase__ctor_m1BACC836C669C0C52C8A891BAB34E09821F21C46,
-	U3CU3Ec__cctor_m5CC1A0F3A4C4521BECB5C8C04577F801DA9234DD,
+	U3CU3Ec__cctor_m83F07ABBB95DE062E87E35CA344B44AF2F9C7495,
 	U3CU3Ec__ctor_m1B1FF86140C80F51640B1FBB220C7086D68D0D30,
 	U3CU3Ec_U3CRequiresUserInputU3Eb__66_0_m1178F3D4B17F28B357018AF317FF0BDDDD399F89,
 	ConfinerOven__ctor_mB78A13925810CA8FAAAD92AE5F64CC442A2E2E4F,
@@ -3521,7 +3521,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	ConfinerOven_set_State_m1AB5EBA915E1EF83FAFA334DA7DD59388CE3AE6A,
 	ConfinerOven_Initialize_mADD22CBAFC68A82D01306799A2AB5162B5BC9583,
 	ConfinerOven_BakeConfiner_mB6F563C71AE4CBECBEE74F4A76770B09EE74348F,
-	ConfinerOven_GetPolygonBoundingBox_mC082D37AD660ECEF58083E6C14641A6DEE9CF739,
+	ConfinerOven_GetPolygonBoundingBox_mA0B1E405965638610AB5198AB00DB73D3CEC565D,
 	ConfinerOven_ComputeSkeleton_m2A6AEFD2CDFD6118D366D55A4A1176BEC4C21716,
 	BakedSolution_get_FrustumHeight_m50F1AFA0945D14768B4632575A8AFFFFD791861D,
 	BakedSolution__ctor_mA1172BA1CEFBBF4467D64FFF62D0A2C386AC15F4,
@@ -3529,11 +3529,11 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	BakedSolution_IsValid_mF5E6DDB10ABB93FA587A9928C0DD6AAAEF38D632,
 	BakedSolution_ConfinePoint_mE43B748BAE673FA3E44EAB0EF05478C0FE4AA949,
 	BakedSolution_IsInsideOriginal_m037456531799E4209A658ABE8D0F72DA81A4BC5D,
-	BakedSolution_ClosestPointOnSegment_m625EE7D289094ED1663ED5F4359F437D5230BFC5,
-	BakedSolution_IntPointLerp_m00028ED99D2D38C2B5BCCB7398C6DA00128FFB0A,
+	BakedSolution_ClosestPointOnSegment_mCD314B5CB8725EFBDC4264C8D36DF3B5ECEF5108,
+	BakedSolution_IntPointLerp_m719812B6404410BF62032BC6DCE0A9CD729AFAB4,
 	BakedSolution_DoesIntersectOriginal_m5055B98BDAF6F10D8F19BFBF8C0ADFC5ABD297EE,
-	BakedSolution_FindIntersection_mED92783C4252D508619C5C4241792BBA0FA39123,
-	BakedSolution_IntPointDiffSqrMagnitude_m48E091A0F2E864873AEF72CA98D3A9D627303BEE,
+	BakedSolution_FindIntersection_mC5B880D5AB3CFCA35837A27BC906CAEC0B2C8ACC,
+	BakedSolution_IntPointDiffSqrMagnitude_m4C8EF2CFB60F160974B53FB21C40712E740196D2,
 	AspectStretcher_get_Aspect_m506D4C16F8E6AE36198ACCAE2C4AFEED14552272,
 	AspectStretcher__ctor_m84A17187C183823205C2C732202DCBBAA2350852,
 	AspectStretcher_Stretch_m1265459BD5A34090D4174D1D69509C2C53D36A92,
@@ -3564,64 +3564,64 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	LensSettings_get_Aspect_m47C88E8BFBCFA1394AF0259DF528CCC4786A2555,
 	LensSettings_get_IsPhysicalCamera_m6AD402DF51FEFD48DC4813C53C10D034B16F9386,
 	LensSettings_set_IsPhysicalCamera_m818868B1BD841C9DBD8B9DCBBAE69A14D099D5E9,
-	LensSettings_FromCamera_m9696208442FC13D81DAD0822FF50C908150AD921,
+	LensSettings_FromCamera_m3A279A7BFABD4F4D4ADA789C44122E5608626693,
 	LensSettings_SnapshotCameraReadOnlyProperties_mBFE20278097AE1A1D51AC775347F47AB84E32F4D,
 	LensSettings_SnapshotCameraReadOnlyProperties_mEF4FCF04C9AE103AAFE9CDB4531154896BFD660E,
 	LensSettings__ctor_mA347110802F0FE6F33CD4D92461CADF6B1B93F59,
-	LensSettings_Lerp_mC2FB90FBCCACFC3BFB8B35971CE0F034D11D8865,
+	LensSettings_Lerp_mC7E1E297C8E3750B6997616993572DDBCEDDC590,
 	LensSettings_Validate_m2C9ABCED7FE02F0C7B575CFADB77493DEEA03B01,
-	LensSettings__cctor_m744EAC9475923BC6968EED30A7399B349A4BFFBE,
-	NoiseSettings_GetCombinedFilterResults_mE35B3A4E1826146B200499B62617F8E629434F20,
+	LensSettings__cctor_m85AA3809A95F2865AA4677633CBDF7EB7917CF6E,
+	NoiseSettings_GetCombinedFilterResults_m5F4C940ACF6542F9F08BDE0D4E3E1622AAABD739,
 	NoiseSettings_get_SignalDuration_mC7F19EFCFBABC1DA89A8B227811C88AA1BE7A40F,
 	NoiseSettings_GetSignal_m1C4C44CCE78C53D1EECE65EDD5077449964DE65E,
 	NoiseSettings__ctor_mD5112AED5CE668F76D5260B5BB9FD0104A7756C6,
 	NoiseParams_GetValueAt_mDDE2123C634874F162FAFAD1270E443FD9C13F7B,
 	TransformNoiseParams_GetValueAt_m541D9F21055D8F6F727E24C5A3D2C26B7044D4F0,
-	RuntimeUtility_DestroyObject_mDBE05B0F1FC4938B278FA2F86FE35F4CDE7B6BA8,
-	RuntimeUtility_IsPrefab_m4FB7D31427712FFD3A99A2FFC88B8253AA34A71C,
-	RuntimeUtility_RaycastIgnoreTag_m95689FAE4AD87AC1A7E3DCD11CDE10EDC2FE0AAD,
-	RuntimeUtility_SphereCastIgnoreTag_m87978D006531BAD6403611588E8D68DE989270A8,
-	RuntimeUtility_GetScratchCollider_m1A1BCFAFA8D3C7D61C7A153363AFD225A5591213,
-	RuntimeUtility_DestroyScratchCollider_m9A1C54492DCE4CD322DAA566818F06CA6F06988E,
-	RuntimeUtility_NormalizeCurve_m404B01B3F5E60EFD61CC88062B26CF899A8510CD,
-	RuntimeUtility__cctor_m5D2A67DB478A47F4311D08E5B97DE85A50FF7D8A,
+	RuntimeUtility_DestroyObject_mEEBC4EE2A429B4E4D00EC07BA62044C9FF8E8A18,
+	RuntimeUtility_IsPrefab_m98872C6B07F84AAF4C91F87F490562A4935ACF9D,
+	RuntimeUtility_RaycastIgnoreTag_m7532A8E173E44D2952124031C7973B87FE322B49,
+	RuntimeUtility_SphereCastIgnoreTag_m0C12A9B6676E60CB82EF263F23F86296456DC4BD,
+	RuntimeUtility_GetScratchCollider_m91C5D854E7110AF1A5F570FFC246BB18181B8AFA,
+	RuntimeUtility_DestroyScratchCollider_m4364DE7BEF85A175A66261E184D0A58BA4F62D5C,
+	RuntimeUtility_NormalizeCurve_m0EAB5ED8DAFF226807EDD5A2D0B3876FBB5263F1,
+	RuntimeUtility__cctor_m7D751C759A76C02DBF3757EB06AFB5DB01914E0F,
 	NULL,
 	NULL,
 	NULL,
 	NULL,
 	SignalSourceAsset__ctor_mC0043F9E30AE0206A5124C695C6F511EA43B83DA,
-	TargetPositionCache_get_CacheMode_mDCBA178980BB6A8FEEC18CA1238F52FFDFC8B5A4,
-	TargetPositionCache_set_CacheMode_m39D422AC753C0F3ECD1843A46055908CB2F1AC81,
-	TargetPositionCache_get_IsRecording_mC876F236B5289AF3BEDD3CAABFD9B6FEB5642404,
-	TargetPositionCache_get_CurrentPlaybackTimeValid_m6693DE3738668BE6CDF4820DB1980E7ADA624629,
-	TargetPositionCache_get_IsEmpty_mF5736A82B3487951C48A1A4A58842C61042BDEBA,
-	TargetPositionCache_get_CacheTimeRange_m01487B0CDA459171753BF29E4B7D8DE108563EA2,
-	TargetPositionCache_get_HasCurrentTime_m143562F778152928D6FE2E609F81786513F6ED2F,
-	TargetPositionCache_ClearCache_mAE7B688099DB8612C49DBF79DE4E2CB69DC49EE4,
-	TargetPositionCache_CreatePlaybackCurves_m02F9B0C6E77D6BCDFF2E8B1C95CFF489D59CABFC,
-	TargetPositionCache_GetTargetPosition_mCDF3A7BC3F9A5BBE4B810888FDB91DD208D226BE,
-	TargetPositionCache_GetTargetRotation_m1F1CFCAE1D3EB7FAED5AFF662687E69BA43FFA6B,
+	TargetPositionCache_get_CacheMode_m01290EDF84037C27C4ACDD03ED9F0E0D16215AD0,
+	TargetPositionCache_set_CacheMode_mF13D07A7F20356D8F2631BF7C238AF542CA2DE77,
+	TargetPositionCache_get_IsRecording_m5B0EF7A6DC7DCC938FA7600255944B1353CC982F,
+	TargetPositionCache_get_CurrentPlaybackTimeValid_m93FCE647A563303A9390A2409B58FF9702CC9F09,
+	TargetPositionCache_get_IsEmpty_mDBD8C0F5EAE840127C82EC96E682119CE1E4D67C,
+	TargetPositionCache_get_CacheTimeRange_m3594D3F35DCD95F2A0A1133E871343D3AD37EC5A,
+	TargetPositionCache_get_HasCurrentTime_mCB98DBD74426664E1D6E7F5F5DEE8AA2D38352C9,
+	TargetPositionCache_ClearCache_m8A8D824AC7D0D548512228B7934901D36091BE63,
+	TargetPositionCache_CreatePlaybackCurves_m61C5C2979270EE52949A1FC610A1C1DE53E99FD3,
+	TargetPositionCache_GetTargetPosition_m86454680691707EEE6E70984ED39E00821B60B2E,
+	TargetPositionCache_GetTargetRotation_m882B2051C458EB18BCF332AFB00112484F31C9EF,
 	TargetPositionCache__ctor_m2CCD00DBBBA03A2852EDBD724FC1A386F9F9B814,
 	CacheCurve_get_Count_mCC8846F251F4F9C02B89FA7A6FE14FCA89C74DBD,
 	CacheCurve__ctor_m06133A4F30CD9E04416FDF29D25BC8110A86E6A8,
 	CacheCurve_Add_mF90F9432E39BD237C462FF82B83DD3DF1A48A0BA,
 	CacheCurve_AddUntil_mBF186D5A7181FBC89C6870525C47887BBB8DD571,
 	CacheCurve_Evaluate_m5C353080800042A73C91D598EC009771A77ABB8C,
-	Item_Lerp_m00ED73C2C7360082027CAC5ED63996A68419184F,
-	Item_get_Empty_m81CACF85EC7FE0AF4CD5049400EC0903885CBAB0,
+	Item_Lerp_mE80C14D381D6951A33443B59D2B4439911D98363,
+	Item_get_Empty_m09EC22FCDCCA6A75C1FFE623F2AE7789D55A7E2B,
 	CacheEntry_AddRawItem_mB7B07DE2B9D0E5152DFD3788547F22FF4C2688D9,
 	CacheEntry_CreateCurves_m01DAEFFC5B38FB88A32CD9738CCBD0F7E168F385,
 	CacheEntry__ctor_mED77E8B3231C201C296CBFE39CA995FD45AC1EFA,
 	TimeRange_get_IsEmpty_mB51E1F97CF61DD08C502385B2AFC72C6A7F68BCB,
 	TimeRange_Contains_mF974E5E36DD20BD63B5B09564B09800AB30CF6B6,
-	TimeRange_get_Empty_mB353CC5699F40F0B8B82BE8DC415CBF9F7C65709,
+	TimeRange_get_Empty_m5DA39A592AAFE2830C9EBED3C119E1CABE417D10,
 	TimeRange_Include_mC1E0A1214F4C3A6FC7F15728A3EB9C398B96F1B2,
-	UpdateTracker_InitializeModule_m8B6DDBEF07FFE925F00AC435D3097F130717BB37,
-	UpdateTracker_UpdateTargets_m38F573506FAEF3C3FE5BEB7473329BE5BC881BDB,
-	UpdateTracker_GetPreferredUpdate_mD732203EFCADD3FDA40E9C9D7C68CE382839BCCA,
-	UpdateTracker_OnUpdate_mC1BB9EE5C4BEFB511B3C2F1C54E11E7BF8C48784,
+	UpdateTracker_InitializeModule_mE6A6DDA8C4EF428E778BD799277089B43F3E933B,
+	UpdateTracker_UpdateTargets_mA2095E5739702F84976027C24FA0B8AC37562BA9,
+	UpdateTracker_GetPreferredUpdate_mCA810B7D3B87B3A511764993265DFDC2F246C3E8,
+	UpdateTracker_OnUpdate_m89A8FE83B9271FE8D7F03CA25F20DE6BD06D489A,
 	UpdateTracker__ctor_mBE6F79EBEEE48D9C75839E7CF7952105F4E1C6C1,
-	UpdateTracker__cctor_m69246149926CC992ACD2E21383FA6542E8A0C4F5,
+	UpdateTracker__cctor_mE2A4318EC8695B882C24BB0252A9A7FB46581637,
 	UpdateStatus_get_PreferredUpdate_m31E0BC5E8BDA920C47D2D04EE51BB8060BAE3FD9,
 	UpdateStatus_set_PreferredUpdate_mD1E743C821F5D01F8643FBB4C11E274CC266D91A,
 	UpdateStatus__ctor_mB7FBA4B732BDB2DCDDCF719176D7FDCB1C8D3EA1,
@@ -3630,7 +3630,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineInputProvider_ResolveForPlayer_mBC7763E40BD8E978D1C030402B8A47FF13A668A9,
 	CinemachineInputProvider_OnDisable_m64B4EAD22EC11413F99123C76E3BC2AC59C1FE7A,
 	CinemachineInputProvider__ctor_mD407437EB55A2B44CCBC5212077431E81B122A66,
-	CinemachineInputProvider_U3CResolveForPlayerU3Eg__GetFirstMatchU7C7_0_mD367287C8293CE2A4862EE4FD3F46A84A1A7C6A6,
+	CinemachineInputProvider_U3CResolveForPlayerU3Eg__GetFirstMatchU7C7_0_m3ADD855E00E795B9BE33D798EA2DD3D8E09EB7B8,
 	U3CU3Ec__DisplayClass7_0__ctor_mF98AC1D50BE3684CFF345BF9C2309B14C50C544E,
 	U3CU3Ec__DisplayClass7_0_U3CResolveForPlayerU3Eb__1_m2258459485E7ECD621E7DF2486752AF5105C5526,
 	CinemachineTriggerAction_Filter_mCB26261B2A07B948A5ECDC34528692F0576CEF3F,
@@ -3672,8 +3672,8 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineFixedSignal__ctor_m6E4EB146C0D95EEE4E904171259E075DF24DC84E,
 	CinemachineImpulseDefinitionPropertyAttribute__ctor_m33901999C6EBE50D4ED2C2A04BB515F97C7D7368,
 	CinemachineImpulseDefinition_OnValidate_mC9E8C5D4227DB0C7467BBDE0004C424B72C083ED,
-	CinemachineImpulseDefinition_CreateStandardShapes_m9CC1CFFF6C277183A8D0EBC1649A61874CFA5893,
-	CinemachineImpulseDefinition_GetStandardCurve_mE731DEA10655DF32977EB36CA7695CD19DD89597,
+	CinemachineImpulseDefinition_CreateStandardShapes_m0D05D8A81C5CE6473AC7F8A52BFD502FFECB2924,
+	CinemachineImpulseDefinition_GetStandardCurve_mDFBFBA8FDF8DCC1BCC7F7498E1908DB4189D40E7,
 	CinemachineImpulseDefinition_get_ImpulseCurve_mAA1558EAB001196015FCCE60BB8DF3200AEC5C4E,
 	CinemachineImpulseDefinition_CreateEvent_m12158346403D3428D6DBC0D3D22DDDCF551E5B41,
 	CinemachineImpulseDefinition_CreateAndReturnEvent_mCBF4EF79D6393E9D33F9504D30E876AA479C22A0,
@@ -3693,15 +3693,15 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachineImpulseEnvelopePropertyAttribute__ctor_m62808EE32019CC07FAB95B0A2DB0E20A61D5DDF5,
 	CinemachineImpulseChannelPropertyAttribute__ctor_m26E7D8A1C8D42789392B0CBC9BF4755CA01D2E49,
 	CinemachineImpulseManager__ctor_m29FD2A34BDDE38151BEEADBEDE5A966E91FFC143,
-	CinemachineImpulseManager_get_Instance_m60CAF899B8E71E36C8DF7072CAB6448A970E7D02,
-	CinemachineImpulseManager_InitializeModule_m8F194C4BB5A26A4A66390EA192D3CF9DF16648A6,
-	CinemachineImpulseManager_EvaluateDissipationScale_m9210CFEA7341A4025B8164E415A7C4789F265D4C,
+	CinemachineImpulseManager_get_Instance_mCBBB7EE190D29704E4F44241A50BC2F6F23EB179,
+	CinemachineImpulseManager_InitializeModule_m7383E0726196C358A3DBC6574F9082010E318FEE,
+	CinemachineImpulseManager_EvaluateDissipationScale_m0913FA74400EE4645D1F48867FED336DD6C03239,
 	CinemachineImpulseManager_GetImpulseAt_m60503248A6E51D9CB74F28148A982D8FA5C57D04,
 	CinemachineImpulseManager_get_CurrentTime_m67D3ABCDB387670ECEF30D37A8E3CBDA5EB530F4,
 	CinemachineImpulseManager_NewImpulseEvent_m10EB7672F67FB33CD98758F3CED27E168241508C,
 	CinemachineImpulseManager_AddImpulseEvent_m248DA95ECD499D4B501E282B5886389C02F0D223,
 	CinemachineImpulseManager_Clear_mA6DC571A238EB0C4C7B07C06D2263B5743FB82BA,
-	EnvelopeDefinition_Default_m0400FA6F5054C586ADBC8512A1205D09A5933C80,
+	EnvelopeDefinition_Default_m57F738873D011A83AAC0BFF7DCED3A74BAC13E06,
 	EnvelopeDefinition_get_Duration_m3CF863DC6B71344BE096AD9CBFC6C86AD2FF634C,
 	EnvelopeDefinition_GetValueAt_mAF39D22894C1B21FDA3A5D7C50AF4AEB393BEE6D,
 	EnvelopeDefinition_ChangeStopTime_mFE038CADEFEBC54B1262B69139C2C8C209CE1196,
@@ -3751,22 +3751,22 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	Int128__ctor_m8C6D7B59F2A217F10B2117D900C9890B7BA677B5,
 	Int128__ctor_mC6B960C84486E99631A6B965A0D0357EFC13756D,
 	Int128_IsNegative_mC7705DD6A31CD27D6F86081FB8E63A61FC51DBEE,
-	Int128_op_Equality_m4213DBECB5B0D867316A921C301F89330CBE72A7,
-	Int128_op_Inequality_mD56DECF94879844FD4C3451844817E221BC65EC7,
+	Int128_op_Equality_mF1F30DB2596C14A9FC5571B629156D0AEFE92456,
+	Int128_op_Inequality_m02FCB8EE852ED36C0C9E915C42641CA84C436328,
 	Int128_Equals_m3A1780C1A972388F69135020EA85391611CF4777,
 	Int128_GetHashCode_m03339EA88F9C7443DD7F84339389F35A70703484,
-	Int128_op_GreaterThan_m86776EE35DA00299DB3DFE8F89758509D8C19937,
-	Int128_op_LessThan_m8D2130B4CF29E2B6F2D30C58A76C01172CC10273,
-	Int128_op_Addition_mE1B37A27AD3D001ABCE1757DA9F27038809FCC8D,
-	Int128_op_Subtraction_m823EAD0286231EDAA181B020180996EB26CED077,
-	Int128_op_UnaryNegation_m566DB2DF4E563B1C50E57C16CB042A10AE08AC2D,
-	Int128_op_Explicit_m335077E70DBA14588E839D8669F373F67329EE85,
-	Int128_Int128Mul_m2EBA5FEC3A0EB6AFDF8FE42EB49602773294EA2A,
+	Int128_op_GreaterThan_m849AB9CDB36CF25794F5FE1A318FAFA40D0DCBE1,
+	Int128_op_LessThan_m9FE58A2EBB1CDB6B8B25FC546BEDF387F0C7AC39,
+	Int128_op_Addition_mD0A0D022CBA36F57EA01A2AFBAE91041818348F8,
+	Int128_op_Subtraction_m3786F47F422FA9FD0AD62DC0B102B065704BCF24,
+	Int128_op_UnaryNegation_m5D1CBD65C37A7819B4F2B398F894768719D043D7,
+	Int128_op_Explicit_m76E4BD7F4E70AD040E37C08649DCBB9FDA5D89AD,
+	Int128_Int128Mul_m09B7DC6DFEAFA7226B5B0DC71BA6EDE669E48EBB,
 	IntPoint__ctor_mD85ED4713EDE2C713D37C9CD776B791F21C048E1,
 	IntPoint__ctor_mA161A7BD0009BE271681C45C59B291FDB224616E,
 	IntPoint__ctor_m64D954CC64AF3DEB13E5E64F544E46789983BDEB,
-	IntPoint_op_Equality_mE7276E6304261E4207A7FF656A31C67256DDE17C,
-	IntPoint_op_Inequality_m5D488DA15469145E5AEA5579A373F1D43A5F4470,
+	IntPoint_op_Equality_m1895B2D711859DD40BE3B629806686F2EB454FC5,
+	IntPoint_op_Inequality_m6755E58DA3258E1041F8C8C1A0DBB6AA20497EC4,
 	IntPoint_Equals_m6E23677EC9306F8D66DD717865D49A3E9A9BAB5E,
 	IntPoint_GetHashCode_m19A1D74A3CD370690B8C8751C6762CDB47736788,
 	IntRect__ctor_mE1409649D5D928E097BE8C8B4B771DC881052464,
@@ -3781,17 +3781,17 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	OutRec__ctor_mE1E0B900C419695A0EC929A77C823DD7B806D715,
 	OutPt__ctor_mB35AA5D0B77A19A8611ED4C8B748BE311B413C80,
 	Join__ctor_m0275B6A7878993163832BBF4D62AEDAB9058D665,
-	ClipperBase_near_zero_mFEFFF680DB2394C3A2B9E7191EA79B8645204A1F,
+	ClipperBase_near_zero_mDAFA25942FF6D795F79D917BD5A178F5085E0504,
 	ClipperBase_get_PreserveCollinear_mF23688F07E4141A6BB90080B464208DF71B73328,
 	ClipperBase_set_PreserveCollinear_m53E7942B8B6AE1A1C850791D7FB63C094BD3AB63,
 	ClipperBase_Swap_mF999B5BD7A715214B574ED4F7A74092F67F9A836,
-	ClipperBase_IsHorizontal_mC5D18FBAFCA54F1668FFEB484E6CA7B2D4ED79F7,
+	ClipperBase_IsHorizontal_m018DF969F9BD306E460CBA58013819081441C411,
 	ClipperBase_PointIsVertex_m59600D27C1BACB19FC117EF15967FA90933D8A33,
 	ClipperBase_PointOnLineSegment_m0FD505D256EC78BFBAFEC71564228375FFF90D18,
 	ClipperBase_PointOnPolygon_m0D2EBFA14EEFE915C44B56321B5BBD18DC44D536,
-	ClipperBase_SlopesEqual_m9D0E26E50A1B1296BEE322044378BBD3639C7469,
-	ClipperBase_SlopesEqual_m299542D589A2D9F996A3950CFBEF1AB9F6DBE80A,
-	ClipperBase_SlopesEqual_m799422401A99E18BD3B0349CD4995E1C5F67DB4E,
+	ClipperBase_SlopesEqual_m2FD334595102DCBC8C3DEBCD7A84BCF4A30F8A4F,
+	ClipperBase_SlopesEqual_mAA286348A715F1648DDF94B0D6D79AA678A438F7,
+	ClipperBase_SlopesEqual_mFEBD4FD4B503A8D4CB75DD1E0B870B71E1BC580B,
 	ClipperBase__ctor_mDD73F9BB8C4F62B9182AD325A825ECFC5B0FC2B8,
 	ClipperBase_Clear_m3392AC2BFE9E6F6F31BE1302250A427D6B067619,
 	ClipperBase_DisposeLocalMinimaList_mAAE9BA56E0950FF2C34D33C4D5DBA769E028F939,
@@ -3809,7 +3809,7 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	ClipperBase_PopLocalMinima_m4E164FB1C3B362046B58791AC93C616A5E054247,
 	ClipperBase_ReverseHorizontal_m763FCD506B30C857C7C100FD33F2CB0BBEC75444,
 	ClipperBase_Reset_mC6F18D6EBC923A5D2BDBCAACDCCF2BA3E6A70B52,
-	ClipperBase_GetBounds_m7972B5C443FD66D5DC548B321A12EDA89E813F39,
+	ClipperBase_GetBounds_mC13AB297ABF4C0D5C98672C33C9B8358242A0ED7,
 	ClipperBase_InsertScanbeam_m69EAA6C8EF670077B1CA2FE21CE5CC8060294417,
 	ClipperBase_PopScanbeam_mD7D3E1613AE0AD4A4E1C317C5A3B60D9142F40FF,
 	ClipperBase_LocalMinimaPending_m5D90C289A0E26A71881F938546EB817F038B0ACF,
@@ -3859,8 +3859,8 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	Clipper_GetOutRec_mA981F566088446A10C95006E435C4BFB43A98BC1,
 	Clipper_AppendPolygon_m737BF9DD8CA443E80402E3E7ABC2C32EFD839F1C,
 	Clipper_ReversePolyPtLinks_m10B9631CBBD7C03F36B509D8F5BDA2BE7B6D6FC5,
-	Clipper_SwapSides_m24D413651468CE3C48AFC58D4881F156E56B41A4,
-	Clipper_SwapPolyIndexes_m5285F90D21E3F79EEF808E1D578BDA4C91E5A5A2,
+	Clipper_SwapSides_mD8D5422E34AAED12D88D5FAEC03E3562FDFE4413,
+	Clipper_SwapPolyIndexes_m8D0C37CBD6054A5AD310E5FA0642D0EFFF32D445,
 	Clipper_IntersectEdges_m38A4C149A9CAA52BBB887233919F6D3770B0C6CB,
 	Clipper_DeleteFromSEL_m1E414DF925CB7E80E8C88B7208954F86CD6BAC6E,
 	Clipper_ProcessHorizontals_m2D749E6B682EB52D3815374C4C1194B40E81315A,
@@ -3875,16 +3875,16 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	Clipper_ProcessIntersections_m561C929E8754747190448077F511FC1B74093FD3,
 	Clipper_BuildIntersectList_m6B5DA2A81AF660F5471A530B97383E223BEECB66,
 	Clipper_EdgesAdjacent_m8CB2FDA541E506262090D1B39A8585158A4CDD50,
-	Clipper_IntersectNodeSort_m92A9DE90C7A7BB9F7D5B24E8DA206F88C4E33ACC,
+	Clipper_IntersectNodeSort_m7D01712EAA690EC202397BBA1ACD1844C762DDBB,
 	Clipper_FixupIntersectionOrder_m11A6732B2BAE536BDCEFD38A652944B153C2BE9F,
 	Clipper_ProcessIntersectList_mB3ADFF851F65B6F8CC05E1E5CB46265779E862E1,
-	Clipper_Round_m78ACE5F3E2024496D033C4573B6815ED5F07BA47,
-	Clipper_TopX_mBE390994D85F273792EB61B438ABB1979436F6E1,
+	Clipper_Round_m045C6DD247A771A5626C5E50CA5C133836D294B2,
+	Clipper_TopX_mEAAE42DE6C0AD711F8BC435773AD506749A62102,
 	Clipper_IntersectPoint_mE17B6245017EAD8BEA10EDBAF03A182AEABCCFEE,
 	Clipper_ProcessEdgesAtTopOfScanbeam_m7AF18AD101770BC5E9FF00A769F2AA855D803866,
 	Clipper_DoMaxima_mFAFCF9A9E0A4CB22C57EBDEC6564493006160F18,
-	Clipper_ReversePaths_mDAD0E86A5CF0B7B0D5F77EFC8A948C5DEF88E250,
-	Clipper_Orientation_mD13687369D060652D837C17410C20FD2A4076907,
+	Clipper_ReversePaths_m2BF00831C6F40C9DA37A2EA51B2E5E7735E9F2E2,
+	Clipper_Orientation_mCCFCAC82598BB2359FAC352A25CC7CD9DF71E406,
 	Clipper_PointCount_m5DAEA2750B49726731544F0F61B694295D5A4FC8,
 	Clipper_BuildResult_m8DEC825FFD16A1CBFAE17FEB01E21A6010850DF8,
 	Clipper_BuildResult2_m115358F60E247678C58F113E4AADB97BFA2789A0,
@@ -3894,48 +3894,48 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	Clipper_GetOverlap_m40BDFF02F99393EC15CA74B5C6F680F2198D05D7,
 	Clipper_JoinHorz_mA2DA78D8763F8883DEB40BA70E79D306CB306FF4,
 	Clipper_JoinPoints_m8DE3553CA0E63A41839CCECB808BAAD4CD30CA70,
-	Clipper_PointInPolygon_m6F2F0393CA62314927E50B596E77A458B9E25F2B,
-	Clipper_PointInPolygon_mD7A60FC46720ADBD0F3CD0F9797F926BD4962052,
-	Clipper_Poly2ContainsPoly1_m9C29D2A89382A0EF84C0CBFD3D9EF0BC38CDA952,
+	Clipper_PointInPolygon_mBEDDABD4FDE3DCA3142EE3D6341E5B41E243ADB6,
+	Clipper_PointInPolygon_m6B65511BF890F9C19B1CE324C3F4A7016EF3404B,
+	Clipper_Poly2ContainsPoly1_mB4ACD78F9B8E488BF07BF33B77C7494796A22ED4,
 	Clipper_FixupFirstLefts1_m65E2AA48CBB7DF4953C93306CC38293E73751B37,
 	Clipper_FixupFirstLefts2_m3628DAEB783FFA0C15CC88FE7D5A43031780BD19,
 	Clipper_FixupFirstLefts3_m5FE8223D4C067F2405FB9E5397CAC2E91B799EBB,
-	Clipper_ParseFirstLeft_m88BDBE29115710E575C61F507816C2C661B32C86,
+	Clipper_ParseFirstLeft_mB314AD38EE3F6A8E49A1D7889FA2F60EF818F3AD,
 	Clipper_JoinCommonEdges_m1144D7D13B127B352BEE7B56E194E6FA5223144E,
 	Clipper_UpdateOutPtIdxs_mC571A93028E6202AB3531A1F6583EDEF411E70AB,
 	Clipper_DoSimplePolygons_m2B00FD05078E3E8689721DC7C62FA9EEBF9744A4,
-	Clipper_Area_m2760354539B085C806907E2409045FAA37B13222,
+	Clipper_Area_mA39460C41233FBD033C7222201D33F5A56DC4661,
 	Clipper_Area_mF674418737AC1594BFB2CD37162839CBC117A13E,
 	Clipper_Area_mFA662DAA8CD3045CAAE005E591ACC6782AB49164,
-	Clipper_SimplifyPolygon_mE00CBD86233FDD967053DFC58571C3AD062F927D,
-	Clipper_SimplifyPolygons_m102A12285CCD7F2BD21FB4D463E2B0CAE4DE7C18,
-	Clipper_DistanceSqrd_m8D133FBDA90C2BA3F10945FADEFB97DDEDF73B36,
-	Clipper_DistanceFromLineSqrd_m154C0881754023004941826C24EB5EAC2092C5BB,
-	Clipper_SlopesNearCollinear_m1B48785099E9646E7AF9E6E03928008E7C89C9CB,
-	Clipper_PointsAreClose_m5D399E5605835F6491FE2CC4ACCFA4AC76BAA151,
-	Clipper_ExcludeOp_mD10FABCFA590AEBF84F3A5E4050AF63F8FD745E8,
-	Clipper_CleanPolygon_m857A36C7AA73F1E088EEBEC414A563CFC798C59D,
-	Clipper_CleanPolygons_m0929BD05F5F7CB9B57AFE24406AB96493A2D6EC3,
-	Clipper_Minkowski_mA4C45C4324C560BA2AC6FFCEAFC597117F732711,
-	Clipper_MinkowskiSum_mA05B8CB7C4ABEC214C970B2A4DC97D59BA7F2E76,
-	Clipper_TranslatePath_m4724076FB0E44F9E061E764C5C8CDB1024735DA0,
-	Clipper_MinkowskiSum_mA035DFEC207008FB955B19295DB4CC735F4995E3,
-	Clipper_MinkowskiDiff_m0A3C6B6DFB0CD8FDFDEE49F556EC486DCB81E8DE,
-	Clipper_PolyTreeToPaths_mE7E47A2D8887702322A0CF5CEE28CC643C3442FC,
-	Clipper_AddPolyNodeToPaths_m32516A640091C709C3A461CF3FCB76DA576E4CD5,
-	Clipper_OpenPathsFromPolyTree_m60B3BD586C2DF182BA041DB0C925AA5DDD66C4C0,
-	Clipper_ClosedPathsFromPolyTree_m463AA287E42AE952B8A574B513F94FEBE953B669,
+	Clipper_SimplifyPolygon_m5D964DFAFE6251CB5230892673D1825829A41608,
+	Clipper_SimplifyPolygons_mC43520F605202A488565AB6AC98609C829BC27B7,
+	Clipper_DistanceSqrd_mE09149587060D3E1E2613F6A466F22BFAC784871,
+	Clipper_DistanceFromLineSqrd_m83EB8AD5E4740D6D2C9E05A3A50B6AB7B93125C2,
+	Clipper_SlopesNearCollinear_m995CC508199595093168D5AE1B06C6B029092DE4,
+	Clipper_PointsAreClose_mB37FFCEA3A853FD6D1FB9EB698C6ED444B5438DB,
+	Clipper_ExcludeOp_m0BF04A50C9B809D52528BA1C2F3E1488B1D4A469,
+	Clipper_CleanPolygon_m983259D79EA94E281D1F6EC14BEFDC191BBDEAEA,
+	Clipper_CleanPolygons_mAB8185A21A022A9A5240A2378F651D8A34B8FBB1,
+	Clipper_Minkowski_mD85E9DDB9CAF5B69BBA8B4DC2E4E2D58FB81F32A,
+	Clipper_MinkowskiSum_m29ABD52399BCF104E8685795B86F0E1A2A28C1C1,
+	Clipper_TranslatePath_mF158D477E0B6F15F4A22EC080212529506ECB08E,
+	Clipper_MinkowskiSum_m02D0DB720CCF4A9A76EFC0BFF6B0BA477D1B6D3C,
+	Clipper_MinkowskiDiff_mE2847469BCCD1BD028179E51C352DF12D9473C04,
+	Clipper_PolyTreeToPaths_m9E06A3B3F6527EF442C636FB195AC7E67A0C38AF,
+	Clipper_AddPolyNodeToPaths_m94EC1CD2E0DBD0759A9C448163D82A373025BEE4,
+	Clipper_OpenPathsFromPolyTree_mF1221E00B6D25AFAECFA106E1CFC43137BB42EE4,
+	Clipper_ClosedPathsFromPolyTree_mFDF300DCFD546952007701D71C87A90E86CE0874,
 	ClipperOffset_get_ArcTolerance_m25B298CB94489BE792C4EF8870B396D2158C3E92,
 	ClipperOffset_set_ArcTolerance_mF1025B552D6EB0FA28D7E6807397DC0DC4DC93B0,
 	ClipperOffset_get_MiterLimit_m12626F15B3A2B944F81E05ADBB263C8C3479D7DD,
 	ClipperOffset_set_MiterLimit_m81F85F0942E5A1B4A131627D7E7DFCF46BFCD859,
 	ClipperOffset__ctor_mEC075A2F9B5E587A9D06CF9E45A555417C69D158,
 	ClipperOffset_Clear_mED8C219339D64A95987DB230DFE13C32FEC9CF87,
-	ClipperOffset_Round_m640ABD2308C0D4D924AC941921904B24E1F6F00C,
+	ClipperOffset_Round_m5FB50144D5D0ABDE18741EC99B86BAF660F25F4F,
 	ClipperOffset_AddPath_m30CDF70BFA54E89D99CBDD267D513347A6D46EEA,
 	ClipperOffset_AddPaths_m48B4B426171D6EEAE676FCDA8E55F6FBBCEE66A8,
 	ClipperOffset_FixOrientations_m32685E41D88FB8B7FC06282DA7C128E197C7C518,
-	ClipperOffset_GetUnitNormal_m0B59615A1CC0761BF616DF887B144FE6502FC528,
+	ClipperOffset_GetUnitNormal_mE79775AAC5E47077FE6EC3003830E30BA5D42786,
 	ClipperOffset_DoOffset_m21188ACCDBCEA566BFD6DEE0D03F9B5340CEF009,
 	ClipperOffset_Execute_mB6E649005853A610D808D8E5F0CBB8EDE436D7C7,
 	ClipperOffset_Execute_mAD1CC573A536C2365E3AE2290B6AB3EDA1D2FA03,
@@ -3947,10 +3947,10 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	CinemachinePostProcessing_PostPipelineStageCallback_m4E796F5B2758A2E4DB5CCE4FCFCF6545BC248033,
 	CinemachinePostProcessing__ctor_mCB4146D6BBBE2356147A9DB6D2E0F349B89A908A,
 	CinemachineVolumeSettings__ctor_mB23ECA31DF611267B81182121229A3B5EF12014B,
-	CinemachineDebug_ReleaseScreenPos_mFF92D5D7AF6902FE80339C872BE9DDEB7517BDF9,
-	CinemachineDebug_GetScreenPos_m83EB9F49FA225AE0A22A4B7FA9BACB94FB1C4A3D,
-	CinemachineDebug_SBFromPool_m6F20FF73A5A0C5B5CD7D53ADC0887782A70DB5E5,
-	CinemachineDebug_ReturnToPool_m486386674DD5B04481BC7B3FAB351E6122EE8630,
+	CinemachineDebug_ReleaseScreenPos_m6C54E91372A22F7D171D8D91C454DF06E95A6593,
+	CinemachineDebug_GetScreenPos_m1C7476476BC6BB8D907CCF2D4B946C8B029872D8,
+	CinemachineDebug_SBFromPool_mAA83D56A38ECFD61FC135792DC0778A7B152938D,
+	CinemachineDebug_ReturnToPool_mBFBCCF1AEE29E2BD115AF5BCD172BBB8B95C5EA7,
 	CinemachineDebug__ctor_mAF77C21C69B520883959BEC3DE58BBDD83CE5F8E,
 	OnGUIDelegate__ctor_mB8767C1FEE32279209BC7F763E7C133C62B92FB0,
 	OnGUIDelegate_Invoke_mA8B9CF3C0FA6CD716557C7E66D18F061E6410464,
@@ -3983,47 +3983,47 @@ static Il2CppMethodPointer s_methodPointers[1358] =
 	PositionPredictor_PredictPositionDelta_mC16231F75C5C088B5CC2444D3C2FA12F6DACC4AD,
 	PositionPredictor_PredictPosition_mB280F23A4D236037F339758BDEC4AD2DE89AB18F,
 	PositionPredictor__ctor_m98DC334F817608D8CA4FA09966193AA59A16DB25,
-	Damper_DecayConstant_m2B4374D14857EA333A14F8642E911A9CA67932B9,
-	Damper_DecayedRemainder_mA6F8C7A10DA912B47DB78DA8A892734AA7EC6FD8,
-	Damper_Damp_mFB62278C063E2CAA706D30E8D68AF55D50AE95D2,
-	Damper_Damp_mC9AFD35CB8F0ADFC8A169489A0F839CE52891D62,
-	Damper_Damp_mF0862EDA3BDC1B7119E3E6310B12B2DA72420E47,
+	Damper_DecayConstant_m66A0B4920185F5E89CB4ACA436BBA7DDDB7AFBBC,
+	Damper_DecayedRemainder_mFDDE3E237019D299FCB912A50836D5B89714F048,
+	Damper_Damp_m3245F3453DB74DE11801C6EE15F163D5EAFC0CE4,
+	Damper_Damp_m3FF6416E2538374C5805A252094351151793F5E7,
+	Damper_Damp_mBBBCCE7F67FF9678EE42AA0B0EBD7BC4FFEF2FB9,
 	HeadingTracker__ctor_m65E930C6FC3B44B9DE66B61332E4A960A14BE25B,
 	HeadingTracker_get_FilterSize_mEF06A6674D9D5FE8F1802922DECACF11BA7BE151,
 	HeadingTracker_ClearHistory_m220EDE26052383AFAD5F74F885541BF3797352A5,
-	HeadingTracker_Decay_m66C3EA4E1471E7B820E2A15BF950BF959865655A,
+	HeadingTracker_Decay_mCBB06FF8B9BC4A154A4EFC9DA910854ED0FB25F8,
 	HeadingTracker_Add_m9FC794FA982A8598BC1FA0DB46EFAA7507CB861D,
 	HeadingTracker_PopBottom_mCB0D0A7AE4238580CB7FFAAD17497F7B532B57AE,
 	HeadingTracker_DecayHistory_m9E2B8A0731C6C492AE78B36925860F4A3EFA1BB7,
 	HeadingTracker_GetReliableHeading_m3277A5C1F94F1269E38655527EB71AACF594F695,
-	SplineHelpers_Bezier3_m935102CE5B6C97AD8712C946E3D8C0CB83FBB724,
-	SplineHelpers_BezierTangent3_m72E63A4B34652A914979345566179CBC3719FB62,
-	SplineHelpers_Bezier1_m246A08965553DC26A27A1F63929FC22FA93D7561,
-	SplineHelpers_BezierTangent1_mFEDEF82B9449F9CD6D69E9CB93B5F3A28B28E053,
-	SplineHelpers_ComputeSmoothControlPoints_m6D9485358028E3E22A2C17DF2DEFFAF3C02553C2,
-	SplineHelpers_ComputeSmoothControlPointsLooped_m3CAA020B6DAF02B0E35C3E36835DC8EE0FF80B51,
-	UnityVectorExtensions_IsNaN_m7D80634831EFB70EAA220F8BC40AED2DA1AACD1F,
-	UnityVectorExtensions_IsNaN_mFD2329D414446624BFC5A378316DA3C37DB46B6F,
-	UnityVectorExtensions_ClosestPointOnSegment_m61531154C237946B52BAA9A92209350D56870B0E,
-	UnityVectorExtensions_ClosestPointOnSegment_mA7F89705FAF6FECD7E45FDD22C88F8F236010955,
-	UnityVectorExtensions_ProjectOntoPlane_mBBA5D8DA7E6B626A800731A0FE6BADF7C4220D9B,
-	UnityVectorExtensions_SquareNormalize_m6200661A3E987197C3C7AEAC3516E96F6D11F63E,
-	UnityVectorExtensions_FindIntersection_m2FBBF63C229F43CEBB7C8064784C3C481BEF3DFD,
-	UnityVectorExtensions_Cross_mF6C7F58D98C3F8A51FFAB0EF9E4CD77DB2BBBD39,
-	UnityVectorExtensions_Abs_m4E617236E1CCFE843CA67854AC8E48AC22323BA9,
-	UnityVectorExtensions_Abs_mC5D24C3B25D65CE0B41D778567319DBB0BD0C1D0,
-	UnityVectorExtensions_IsUniform_m60E6BF69A0D7B561224DD99B3208090F396CAABE,
-	UnityVectorExtensions_IsUniform_mE448507F84485223FD26D1D1927F3D6679FE6899,
-	UnityVectorExtensions_AlmostZero_mB3A4F32774344F1374F65D503CC29C569F5F7D24,
-	UnityVectorExtensions_Angle_m531A3EF1C1C1F49B637BB83F3795128D571A2B93,
-	UnityVectorExtensions_SignedAngle_mEC66BAD4357C0F5F7ADE082AD38AD1FE70649315,
-	UnityVectorExtensions_SafeFromToRotation_mD10BFD5052B69EE3D1DE2FE9B74181BD797ACC03,
-	UnityVectorExtensions_SlerpWithReferenceUp_m83DA374F7A9CB98FF5ECE51C91805F11F76E2372,
-	UnityQuaternionExtensions_SlerpWithReferenceUp_m462C015C97FF4D2E7B7E83B6C1E4A29ED4DD1474,
-	UnityQuaternionExtensions_Normalized_mECDA291E5D4B3D2D610FE74D89D7F2F7ED0B5E68,
-	UnityQuaternionExtensions_GetCameraRotationToTarget_mDA1EF1466263B671B863D70DABBD50DF9785C2B7,
-	UnityQuaternionExtensions_ApplyCameraRotation_m75753B356C2E3BC79192192C8C2FC1F512643506,
-	UnityRectExtensions_Inflated_m11DB3C1DCB766C1D1D5F3CA244BC1F61B66D9568,
+	SplineHelpers_Bezier3_mB25BD7261EDA22A9FB162738403E6DC66F70F326,
+	SplineHelpers_BezierTangent3_m0CAB33B99E4DD03F36C592C5A95BCDC52C16BF27,
+	SplineHelpers_Bezier1_mAA7872DF66FA529E419AE4B19F25BDD9B28A7041,
+	SplineHelpers_BezierTangent1_m41F1633A4094E5701EB543B445C8C1051CC4AA21,
+	SplineHelpers_ComputeSmoothControlPoints_mF56B274A09DF5E4E77BC1BD1903C423FE9F1391A,
+	SplineHelpers_ComputeSmoothControlPointsLooped_m8B1901AC903B71584D7A4F381F723F2DF41D319F,
+	UnityVectorExtensions_IsNaN_m9E064699098E04ADD8B174395C1902E85BBCC179,
+	UnityVectorExtensions_IsNaN_mAED27A1EFF752377901140C13A7B586561F23745,
+	UnityVectorExtensions_ClosestPointOnSegment_m5AF0D62D87EF8EF307260D87EA85BE2A4C35B85D,
+	UnityVectorExtensions_ClosestPointOnSegment_m53E511FE9498F8B6FE6A0A001F2EE476BF4235A5,
+	UnityVectorExtensions_ProjectOntoPlane_m7B4042CE802D9E43593F9290EBCFFC1E1F1568A6,
+	UnityVectorExtensions_SquareNormalize_mA45A9518904E5EF647E7D598B9ADA28EBF5D8E03,
+	UnityVectorExtensions_FindIntersection_m679EF9DB24788CA733A9B241B305BF94A1E9ACC8,
+	UnityVectorExtensions_Cross_m4ABE9CEBFA9687AB7A79F2287ABA20A011A514C0,
+	UnityVectorExtensions_Abs_m0091B636E0155F99A8DA16B61C9372C03BB67EDC,
+	UnityVectorExtensions_Abs_m00E8851E28863473A992945FDA86B4CA0F388D3E,
+	UnityVectorExtensions_IsUniform_mD55546C76B4A999CE446261E535AF27FC7AD76AB,
+	UnityVectorExtensions_IsUniform_mAC18FF2205B1497324CFF4EF53ACF5D2D64A89E5,
+	UnityVectorExtensions_AlmostZero_mDE7F8E130BF5949DFF14AE437C47F086F3E05652,
+	UnityVectorExtensions_Angle_mFA715DF39B2BA00E0236B1DD527A53CE159A4C8C,
+	UnityVectorExtensions_SignedAngle_mA8EE238FB571BF476038E19AAF311CB42605282D,
+	UnityVectorExtensions_SafeFromToRotation_m911F765BB02BF6A73073D9FEF708ACED0D55E564,
+	UnityVectorExtensions_SlerpWithReferenceUp_m7F71658D673D705E004E2C256CBF33911519A1EC,
+	UnityQuaternionExtensions_SlerpWithReferenceUp_m8D94F55CE71358BD2A6B38511E97BAB9EDC55464,
+	UnityQuaternionExtensions_Normalized_m62143839CCE5FA1B02E7953C1ABBB217CD9465FC,
+	UnityQuaternionExtensions_GetCameraRotationToTarget_mFD825219F752B2C979529CDCD655530685428FE5,
+	UnityQuaternionExtensions_ApplyCameraRotation_m608B85CD86C6BE2FDD571446FA8CA596142C437C,
+	UnityRectExtensions_Inflated_mF5A4FB7F7E25389F1CCB0B0F77C550BECC5ED031,
 };
 extern void ShapeCache_Invalidate_m5D7E303E5E807F2388F06AD1054E5CCD8D36D6C3_AdjustorThunk (void);
 extern void ShapeCache_ValidateCache_m0FB1EF3CA08CBFD350910EC17B62CAD499D76431_AdjustorThunk (void);
@@ -4228,1364 +4228,1364 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[99] =
 };
 static const int32_t s_InvokerIndices[1358] = 
 {
-	794,
-	4709,
-	4709,
-	4709,
-	1113,
-	794,
-	4709,
-	4709,
-	3420,
-	4709,
-	3775,
-	2184,
-	1166,
-	3421,
-	4709,
-	2159,
-	4613,
-	1688,
-	3350,
-	1701,
-	2162,
-	4709,
-	4529,
-	4709,
-	984,
-	4709,
-	4702,
-	3845,
-	4709,
-	4709,
-	901,
-	3770,
-	1748,
-	1748,
-	794,
-	4709,
-	4613,
-	4709,
-	4613,
-	3770,
-	1290,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	2175,
-	2233,
-	1165,
-	2234,
-	4709,
-	4709,
-	4709,
-	4709,
-	4613,
-	4529,
-	4709,
-	4709,
-	4709,
-	3805,
-	4709,
-	4613,
-	7191,
-	7060,
-	7164,
-	4702,
-	4709,
-	4709,
-	2197,
-	3803,
-	4709,
-	4709,
-	4613,
-	4709,
-	4709,
-	3416,
-	1994,
-	4613,
-	6867,
-	2688,
-	4529,
-	4613,
-	3116,
-	206,
-	3748,
-	3805,
-	3805,
-	1770,
-	1290,
-	4530,
-	3691,
-	4613,
-	1438,
-	3681,
-	4709,
-	7227,
-	4709,
-	4709,
-	4529,
-	4709,
-	3748,
-	4709,
-	4529,
-	4613,
-	4709,
-	4613,
-	4613,
-	4613,
-	3770,
-	4530,
-	1290,
-	4613,
-	3770,
-	4613,
-	3770,
-	2175,
-	2233,
-	2234,
-	4709,
-	4709,
-	4709,
-	4709,
-	4529,
-	4613,
-	4709,
-	4709,
-	4709,
-	3361,
-	3350,
-	1438,
-	1165,
-	4709,
-	7227,
-	4709,
-	1587,
-	2688,
-	2688,
-	3420,
-	4709,
-	4709,
-	4613,
-	4655,
-	794,
-	1741,
-	710,
-	58,
-	439,
-	703,
-	5878,
-	1750,
-	2610,
-	6681,
-	4709,
-	7227,
-	3845,
-	1727,
-	3805,
-	3805,
-	4709,
-	2688,
-	3420,
-	4709,
-	3690,
-	4529,
-	4655,
-	794,
-	4709,
-	4529,
-	3497,
-	3493,
-	4709,
-	4709,
-	4709,
-	2723,
-	794,
-	1710,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	424,
-	852,
-	4709,
-	4709,
-	4709,
-	4709,
-	3805,
-	4709,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	2234,
-	4709,
-	4709,
-	4655,
-	794,
-	4709,
-	4709,
-	4709,
-	3345,
-	7191,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4529,
-	3690,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	1290,
-	2175,
-	2233,
-	2234,
-	1165,
-	4529,
-	1728,
-	4709,
-	4709,
-	3350,
-	4709,
-	1504,
-	994,
-	4709,
-	4655,
-	1436,
-	3496,
-	4709,
-	4709,
-	4709,
-	2203,
-	2159,
-	972,
-	320,
-	3350,
-	2159,
-	3770,
-	972,
-	3770,
-	3419,
-	1994,
-	3420,
-	2166,
-	4613,
-	3770,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	2175,
-	2233,
-	4709,
-	4709,
-	4709,
-	1290,
-	4613,
-	4709,
-	4709,
-	1165,
-	2234,
-	4709,
-	4655,
-	4655,
-	4529,
-	4709,
-	4589,
-	995,
-	3496,
-	3496,
-	3387,
-	4709,
-	4709,
-	4709,
-	4709,
-	4655,
-	4655,
-	4529,
-	4589,
-	4709,
-	4709,
-	4709,
-	4709,
-	995,
-	3496,
-	3496,
-	3387,
-	3387,
-	4709,
-	4703,
-	7076,
-	4613,
-	4613,
-	3770,
-	1290,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	2175,
-	2233,
-	1165,
-	2234,
-	4709,
-	4709,
-	4709,
-	4709,
-	4613,
-	4529,
-	6271,
-	1488,
-	4709,
-	4709,
-	4709,
-	4613,
-	1488,
-	1438,
-	4709,
-	1951,
-	794,
-	4709,
-	3690,
-	4613,
-	3770,
-	1683,
-	3770,
-	4709,
-	2166,
-	7060,
-	7227,
-	4709,
-	4709,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4613,
-	4528,
-	3689,
-	4527,
-	4529,
-	1161,
-	3770,
-	3136,
-	2425,
-	2427,
-	5658,
-	4709,
-	2426,
-	3493,
-	4630,
-	1212,
-	4709,
-	4709,
-	4709,
-	4709,
-	760,
-	4709,
-	4530,
-	4613,
-	3770,
-	4613,
-	3770,
-	4655,
-	2234,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	3350,
-	4709,
-	4613,
-	4613,
-	3345,
-	0,
-	0,
-	0,
-	4709,
-	7060,
-	1436,
-	2175,
-	2233,
-	3845,
-	1165,
-	4529,
-	4709,
-	4709,
-	2159,
-	972,
-	320,
-	3350,
-	2159,
-	3770,
-	972,
-	3770,
-	7227,
-	4709,
-	1507,
-	2688,
-	4709,
-	4709,
-	4709,
-	4529,
-	4589,
-	4655,
-	1773,
-	2175,
-	1773,
-	1024,
-	6373,
-	400,
-	332,
-	4709,
-	4529,
-	4589,
-	1773,
-	4709,
-	4709,
-	4709,
-	4529,
-	4589,
-	4702,
-	3845,
-	1008,
-	2175,
-	2233,
-	4655,
-	1773,
-	1773,
-	4637,
-	3791,
-	4637,
-	3791,
-	97,
-	407,
-	4709,
-	759,
-	700,
-	4637,
-	3791,
-	4637,
-	3791,
-	4709,
-	4529,
-	4589,
-	4529,
-	4702,
-	3845,
-	2175,
-	2233,
-	4655,
-	425,
-	989,
-	1749,
-	4528,
-	3689,
-	4606,
-	3763,
-	1773,
-	3423,
-	1743,
-	5659,
-	4709,
-	4709,
-	4528,
-	3689,
-	4606,
-	3763,
-	4655,
-	1773,
-	3423,
-	5660,
-	4709,
-	4529,
-	4589,
-	4655,
-	1773,
-	4709,
-	4529,
-	4589,
-	1773,
-	4709,
-	4709,
-	997,
-	328,
-	4709,
-	4709,
-	2175,
-	2233,
-	425,
-	1728,
-	1773,
-	3497,
-	4529,
-	1726,
-	4709,
-	1089,
-	2159,
-	994,
-	322,
-	3420,
-	7227,
-	4709,
-	994,
-	4529,
-	4589,
-	4709,
-	4709,
-	4709,
-	1773,
-	1773,
-	4700,
-	6958,
-	2233,
-	425,
-	4529,
-	3784,
-	4709,
-	4529,
-	4589,
-	4655,
-	1773,
-	4709,
-	4529,
-	4589,
-	4655,
-	1773,
-	1704,
-	4702,
-	4709,
-	733,
-	4709,
-	4529,
-	3690,
-	4702,
-	4529,
-	4589,
-	4655,
-	1773,
-	2175,
-	2233,
-	1773,
-	398,
-	334,
-	4702,
-	4702,
-	3497,
-	3388,
-	4709,
-	26,
-	4709,
-	4709,
-	1971,
-	4529,
-	2723,
-	3421,
-	1332,
-	4655,
-	4529,
-	3690,
-	4529,
-	3690,
-	0,
-	1042,
-	4709,
-	3681,
-	4709,
-	4709,
-	1033,
-	1233,
-	4529,
-	4702,
-	4630,
-	4702,
-	4630,
-	7162,
-	4589,
-	3748,
-	3978,
-	3136,
-	3862,
-	5715,
-	5189,
-	4978,
-	4973,
-	333,
-	7227,
-	2166,
-	4655,
-	4529,
-	4529,
-	4613,
-	2688,
-	383,
-	2234,
-	4530,
-	4655,
-	1994,
-	4709,
-	4613,
-	1785,
-	3691,
-	4613,
-	3770,
-	4613,
-	4589,
-	3748,
-	4613,
-	3770,
-	4613,
-	3770,
-	4530,
-	3691,
-	4613,
-	4529,
-	4613,
-	1290,
-	2234,
-	2234,
-	1165,
-	2175,
-	3770,
-	4613,
-	3770,
-	4613,
-	4613,
-	4589,
-	3748,
-	4613,
-	3770,
-	4613,
-	3770,
-	4530,
-	3691,
-	4613,
-	4529,
-	4613,
-	1290,
-	2887,
-	2234,
-	2234,
-	1165,
-	2175,
-	921,
-	4709,
-	4613,
-	4613,
-	4613,
-	4613,
-	4613,
-	4702,
-	4630,
-	4613,
-	4613,
-	4702,
-	4630,
-	4530,
-	0,
-	1773,
-	0,
-	4529,
-	0,
-	425,
-	2175,
-	2233,
-	4655,
-	4529,
-	4709,
-	7191,
-	7216,
-	7216,
-	4589,
-	3345,
-	3770,
-	3770,
-	4589,
-	3345,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	1100,
-	1165,
-	7227,
-	6867,
-	3136,
-	2688,
-	2688,
-	2162,
-	3770,
-	3350,
-	2175,
-	4709,
-	7227,
-	2159,
-	3420,
-	972,
-	3420,
-	2159,
-	443,
-	154,
-	2888,
-	4709,
-	7227,
-	4709,
-	1507,
-	4613,
-	4709,
-	4709,
-	4709,
-	4709,
-	3690,
-	1113,
-	794,
-	0,
-	2175,
-	2233,
-	901,
-	4655,
-	4529,
-	0,
-	0,
-	4709,
-	4709,
-	4709,
-	1331,
-	1331,
-	1711,
-	0,
-	0,
-	0,
-	3421,
-	0,
-	0,
-	0,
-	705,
-	3419,
-	3419,
-	1724,
-	1745,
-	1745,
-	1705,
-	0,
-	4709,
-	4529,
-	4655,
-	3421,
-	1724,
-	1724,
-	3748,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	3690,
-	4589,
-	3748,
-	3748,
-	4589,
-	3748,
-	4655,
-	996,
-	1008,
-	1007,
-	996,
-	1008,
-	1007,
-	3770,
-	3770,
-	4613,
-	3770,
-	794,
-	1113,
-	901,
-	4613,
-	4613,
-	4589,
-	3748,
-	1770,
-	4613,
-	4529,
-	0,
-	4613,
-	1290,
-	0,
-	0,
-	0,
-	0,
-	4529,
-	3690,
-	2234,
-	0,
-	1165,
-	4709,
-	4709,
-	4709,
-	4529,
-	4709,
-	4613,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	3350,
-	3350,
-	4709,
-	4709,
-	2175,
-	2233,
-	684,
-	1435,
-	4709,
-	4529,
-	3690,
-	4529,
-	3690,
-	4709,
-	4613,
-	4613,
-	4613,
-	4613,
-	4709,
-	4709,
-	3748,
-	4709,
-	4709,
-	7227,
-	4709,
-	2688,
-	1027,
-	3352,
-	4589,
-	3748,
-	1027,
-	3805,
-	6923,
-	3681,
-	4655,
-	189,
-	4709,
-	2723,
-	3489,
-	2803,
-	5883,
-	6028,
-	1381,
-	5321,
-	6235,
-	4655,
-	2203,
-	3492,
-	3492,
-	2589,
-	4529,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	4529,
-	3690,
-	4700,
-	3843,
-	4655,
-	4529,
-	3690,
-	6823,
-	3770,
-	3681,
-	397,
-	5799,
-	4709,
-	7227,
-	5911,
-	4655,
-	1173,
-	4709,
-	1727,
-	1746,
-	7060,
-	6689,
-	5043,
-	4903,
-	7191,
-	7227,
-	5823,
-	7227,
-	0,
-	0,
-	0,
-	0,
-	4709,
-	7183,
-	7056,
-	7161,
-	7161,
-	7161,
-	7234,
-	7161,
-	7227,
-	7227,
-	7037,
-	6918,
-	4709,
-	4589,
-	1176,
-	3962,
-	1191,
-	4133,
-	6033,
-	7237,
-	1174,
-	4709,
-	4709,
-	4529,
-	2723,
-	7234,
-	3805,
-	7227,
-	7056,
-	6789,
-	7056,
-	4709,
-	7227,
-	4589,
-	3748,
-	1965,
-	1087,
-	3419,
-	1675,
-	4709,
-	4709,
-	6313,
-	4709,
-	2688,
-	2688,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	3770,
-	4709,
-	4709,
-	3748,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	3770,
-	3770,
-	1716,
-	2175,
-	3770,
-	3770,
-	1716,
-	2175,
-	4709,
-	4655,
-	3420,
-	1173,
-	1720,
-	4709,
-	4709,
-	4709,
-	7227,
-	6863,
-	4613,
-	2235,
-	1697,
-	1697,
-	4709,
-	2175,
-	4655,
-	1173,
-	2175,
-	4655,
-	1173,
-	4709,
-	794,
-	4709,
-	4709,
-	436,
-	4709,
-	4709,
-	4709,
-	7191,
-	7227,
-	6401,
-	202,
-	4655,
-	4613,
-	3770,
-	4709,
-	7229,
-	4655,
-	3421,
-	2201,
-	4709,
-	4709,
-	4529,
-	2201,
-	3421,
-	438,
-	4709,
-	4709,
-	4709,
-	4709,
-	2235,
-	3845,
-	3805,
-	4709,
-	2235,
-	3845,
-	3805,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	1792,
-	3873,
-	3875,
-	4709,
-	4613,
-	4589,
-	4709,
-	4529,
-	4589,
-	4613,
-	3770,
-	4613,
-	4613,
-	4613,
-	4613,
-	4529,
-	4529,
-	3690,
-	4709,
-	3749,
-	2134,
-	3874,
-	4529,
-	6201,
-	6201,
-	2688,
-	4589,
-	6201,
-	6201,
-	6556,
-	6556,
-	7077,
-	6745,
-	6555,
-	2131,
-	1792,
-	3875,
-	6202,
-	6202,
-	2688,
-	4589,
-	757,
-	3876,
-	4709,
-	4709,
-	1507,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	4709,
-	6683,
-	4529,
-	3690,
-	1767,
-	6689,
-	1380,
-	440,
-	915,
-	5697,
-	5312,
-	5052,
-	4709,
-	4709,
-	4709,
-	2236,
-	820,
-	2157,
-	3350,
-	1683,
-	889,
-	889,
-	916,
-	3350,
-	3770,
-	3770,
-	1272,
-	3770,
-	4709,
-	7078,
-	3749,
-	2589,
-	4529,
-	4613,
-	3748,
-	3681,
-	2162,
-	3770,
-	3748,
-	3749,
-	4529,
-	3690,
-	4529,
-	3690,
-	866,
-	866,
-	414,
-	414,
-	3770,
-	4529,
-	4709,
-	1155,
-	2176,
-	3749,
-	2162,
-	1297,
-	2688,
-	2688,
-	2688,
-	3770,
-	3770,
-	2589,
-	4709,
-	2162,
-	1155,
-	975,
-	1689,
-	3350,
-	1767,
-	415,
-	2162,
+	1143,
+	6447,
+	6447,
+	6447,
+	1604,
+	1143,
+	6447,
+	6447,
+	4679,
+	6447,
+	5165,
+	2989,
+	1668,
+	4680,
+	6447,
+	2959,
+	6323,
+	2336,
+	4595,
+	2355,
+	2963,
+	6447,
+	6224,
+	6447,
 	1442,
-	1297,
-	3350,
-	1688,
-	1297,
-	3345,
-	2162,
-	3770,
-	6524,
-	6524,
-	1155,
-	3770,
-	4709,
-	761,
-	3770,
-	1686,
-	2688,
-	1293,
-	1293,
-	3350,
-	3350,
-	2664,
-	3749,
-	2688,
-	6277,
-	4529,
-	4709,
-	6801,
-	6296,
-	1144,
-	3749,
-	3770,
-	7060,
-	6689,
-	3136,
-	3770,
-	3770,
-	3770,
-	3770,
-	1683,
-	136,
-	140,
-	893,
-	6289,
-	6289,
-	6147,
-	2162,
-	2162,
-	2162,
-	6867,
-	4709,
-	3770,
-	4709,
-	6738,
-	2922,
-	2922,
-	6331,
-	6331,
-	6235,
-	5733,
-	5313,
-	5714,
-	6867,
-	6328,
-	6328,
-	5485,
-	5832,
-	6341,
-	5832,
-	6334,
-	6867,
-	5993,
-	6867,
-	6867,
-	4549,
-	3713,
-	4549,
-	3713,
-	1792,
-	4709,
-	6801,
-	1128,
-	1128,
-	4709,
-	6554,
-	3713,
-	1769,
-	1769,
-	1077,
-	1951,
-	1084,
-	1951,
-	3770,
-	794,
-	4709,
-	4709,
-	7060,
-	5860,
-	7191,
-	7060,
-	4709,
-	2159,
-	4709,
-	1688,
-	3770,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
+	6447,
+	6439,
+	5260,
+	6447,
+	6447,
+	1304,
+	5160,
+	2404,
+	2404,
+	1143,
+	6447,
+	6323,
+	6447,
+	6323,
+	5160,
+	1843,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	2978,
+	3042,
+	1666,
+	3043,
+	6447,
+	6447,
+	6447,
+	6447,
+	6323,
+	6224,
+	6447,
+	6447,
+	6447,
+	5197,
+	6447,
+	6323,
+	9731,
+	9567,
+	9701,
+	6439,
+	6447,
+	6447,
+	3001,
+	5195,
+	6447,
+	6447,
+	6323,
+	6447,
+	6447,
+	4675,
+	2730,
+	6323,
+	9292,
+	3684,
+	6224,
+	6323,
+	4264,
+	340,
+	5133,
+	5197,
+	5197,
+	2432,
+	1843,
+	6225,
+	5065,
+	6323,
+	2005,
+	5051,
+	6447,
+	9771,
+	6447,
+	6447,
+	6224,
+	6447,
+	5133,
+	6447,
+	6224,
+	6323,
+	6447,
+	6323,
+	6323,
+	6323,
+	5160,
+	6225,
+	1843,
+	6323,
+	5160,
+	6323,
+	5160,
+	2978,
+	3042,
+	3043,
+	6447,
+	6447,
+	6447,
+	6447,
+	6224,
+	6323,
+	6447,
+	6447,
+	6447,
+	4609,
+	4595,
+	2005,
+	1666,
+	6447,
+	9771,
+	6447,
 	2202,
-	3494,
-	2202,
-	3384,
-	2202,
-	3490,
-	4529,
-	3845,
-	4709,
-	1188,
-	3496,
-	3496,
-	4709,
-	6401,
-	5879,
-	5879,
-	5913,
-	5912,
-	3748,
-	4589,
-	4709,
-	6958,
-	3845,
-	4709,
-	4709,
-	4702,
-	5193,
-	5193,
-	5189,
-	5189,
-	5923,
-	5923,
+	3684,
+	3684,
+	4679,
+	6447,
+	6447,
+	6323,
+	6367,
+	1143,
+	2399,
+	1029,
+	85,
+	668,
+	1020,
+	8012,
+	2406,
+	3595,
+	9042,
+	6447,
+	9771,
+	5260,
+	2378,
+	5197,
+	5197,
+	6447,
+	3684,
+	4679,
+	6447,
+	5064,
+	6224,
+	6367,
+	1143,
+	6447,
+	6224,
+	4786,
+	4782,
+	6447,
+	6447,
+	6447,
+	3722,
+	1143,
+	2364,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	653,
+	1233,
+	6447,
+	6447,
+	6447,
+	6447,
+	5197,
+	6447,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	3043,
+	6447,
+	6447,
+	6367,
+	1143,
+	6447,
+	6447,
+	6447,
+	4590,
+	9731,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6224,
+	5064,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	1843,
+	2978,
+	3042,
+	3043,
+	1666,
+	6224,
+	2379,
+	6447,
+	6447,
+	4595,
+	6447,
+	2112,
+	1455,
+	6447,
+	6367,
+	2003,
+	4785,
+	6447,
+	6447,
+	6447,
+	3008,
+	2959,
+	1429,
+	497,
+	4595,
+	2959,
+	5160,
+	1429,
+	5160,
+	4678,
+	2730,
+	4679,
+	2969,
+	6323,
+	5160,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	2978,
+	3042,
+	6447,
+	6447,
+	6447,
+	1843,
+	6323,
+	6447,
+	6447,
+	1666,
+	3043,
+	6447,
+	6367,
+	6367,
+	6224,
+	6447,
+	6293,
+	1456,
+	4785,
+	4785,
+	4637,
+	6447,
+	6447,
+	6447,
+	6447,
+	6367,
+	6367,
+	6224,
+	6293,
+	6447,
+	6447,
+	6447,
+	6447,
+	1456,
+	4785,
+	4785,
+	4637,
+	4637,
+	6447,
+	6440,
+	9586,
+	6323,
+	6323,
+	5160,
+	1843,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	2978,
+	3042,
+	1666,
+	3043,
+	6447,
+	6447,
+	6447,
+	6447,
+	6323,
+	6224,
+	8498,
+	2089,
+	6447,
+	6447,
+	6447,
+	6323,
+	2089,
+	2005,
+	6447,
+	2680,
+	1143,
+	6447,
+	5064,
+	6323,
+	5160,
+	2328,
+	5160,
+	6447,
+	2969,
+	9567,
+	9771,
+	6447,
+	6447,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6323,
+	6223,
+	5063,
+	6222,
+	6224,
+	1658,
+	5160,
+	4289,
+	3339,
+	3342,
+	7732,
+	6447,
+	3340,
+	4782,
+	6339,
+	1736,
+	6447,
+	6447,
+	6447,
+	6447,
+	1103,
+	6447,
+	6225,
+	6323,
+	5160,
+	6323,
+	5160,
+	6367,
+	3043,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	4595,
+	6447,
+	6323,
+	6323,
+	4590,
+	0,
+	0,
+	0,
+	6447,
+	9567,
+	2003,
+	2978,
+	3042,
+	5260,
+	1666,
+	6224,
+	6447,
+	6447,
+	2959,
+	1429,
+	497,
+	4595,
+	2959,
+	5160,
+	1429,
+	5160,
+	9771,
+	6447,
+	2115,
+	3684,
+	6447,
+	6447,
+	6447,
+	6224,
+	6293,
+	6367,
+	2437,
+	2978,
+	2437,
+	1498,
+	8624,
+	604,
+	508,
+	6447,
+	6224,
+	6293,
+	2437,
+	6447,
+	6447,
+	6447,
+	6224,
+	6293,
+	6439,
+	5260,
+	1477,
+	2978,
+	3042,
+	6367,
+	2437,
+	2437,
+	6346,
+	5180,
+	6346,
+	5180,
+	144,
+	620,
+	6447,
+	1102,
+	1016,
+	6346,
+	5180,
+	6346,
+	5180,
+	6447,
+	6224,
+	6293,
+	6224,
+	6439,
+	5260,
+	2978,
+	3042,
+	6367,
+	654,
+	1448,
+	2405,
+	6223,
+	5063,
+	6315,
+	5153,
+	2437,
+	4682,
+	2400,
+	7733,
+	6447,
+	6447,
+	6223,
+	5063,
+	6315,
+	5153,
+	6367,
+	2437,
+	4682,
+	7734,
+	6447,
+	6224,
+	6293,
+	6367,
+	2437,
+	6447,
+	6224,
+	6293,
+	2437,
+	6447,
+	6447,
+	1458,
+	505,
+	6447,
+	6447,
+	2978,
+	3042,
+	654,
+	2379,
+	2437,
+	4786,
+	6224,
+	2377,
+	6447,
+	1573,
+	2959,
+	1455,
+	498,
+	4679,
+	9771,
+	6447,
+	1455,
+	6224,
+	6293,
+	6447,
+	6447,
+	6447,
+	2437,
+	2437,
+	6437,
+	9387,
+	3042,
+	654,
+	6224,
+	5173,
+	6447,
+	6224,
+	6293,
+	6367,
+	2437,
+	6447,
+	6224,
+	6293,
+	6367,
+	2437,
+	2358,
+	6439,
+	6447,
+	1070,
+	6447,
+	6224,
+	5064,
+	6439,
+	6224,
+	6293,
+	6367,
+	2437,
+	2978,
+	3042,
+	2437,
+	601,
+	510,
+	6439,
+	6439,
+	4786,
+	4638,
+	6447,
+	51,
+	6447,
+	6447,
+	2705,
+	6224,
+	3722,
+	4680,
+	1886,
+	6367,
+	6224,
+	5064,
+	6224,
+	5064,
+	0,
+	1522,
+	6447,
+	5051,
+	6447,
+	6447,
+	1511,
+	1771,
+	6224,
+	6439,
+	6339,
+	6439,
+	6339,
+	9699,
+	6293,
+	5133,
+	5438,
+	4289,
+	5283,
+	7809,
+	7096,
+	6818,
+	6810,
+	509,
+	9771,
+	2969,
+	6367,
+	6224,
+	6224,
+	6323,
+	3684,
+	587,
+	3043,
+	6225,
+	6367,
+	2730,
+	6447,
+	6323,
+	2452,
+	5065,
+	6323,
+	5160,
+	6323,
+	6293,
+	5133,
+	6323,
+	5160,
+	6323,
+	5160,
+	6225,
+	5065,
+	6323,
+	6224,
+	6323,
+	1843,
+	3043,
+	3043,
+	1666,
+	2978,
+	5160,
+	6323,
+	5160,
+	6323,
+	6323,
+	6293,
+	5133,
+	6323,
+	5160,
+	6323,
+	5160,
+	6225,
+	5065,
+	6323,
+	6224,
+	6323,
+	1843,
+	3945,
+	3043,
+	3043,
+	1666,
+	2978,
+	1329,
+	6447,
+	6323,
+	6323,
+	6323,
+	6323,
+	6323,
+	6439,
+	6339,
+	6323,
+	6323,
+	6439,
+	6339,
+	6225,
+	0,
+	2437,
+	0,
+	6224,
+	0,
+	654,
+	2978,
+	3042,
+	6367,
+	6224,
+	6447,
+	9731,
+	9758,
+	9758,
+	6293,
+	4590,
+	5160,
+	5160,
+	6293,
+	4590,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	1587,
+	1666,
+	9771,
+	9292,
+	4289,
+	3684,
+	3684,
+	2963,
+	5160,
+	4595,
+	2978,
+	6447,
+	9771,
+	2959,
+	4679,
+	1429,
+	4679,
+	2959,
+	672,
+	226,
+	3947,
+	6447,
+	9771,
+	6447,
+	2115,
+	6323,
+	6447,
+	6447,
+	6447,
+	6447,
+	5064,
+	1604,
+	1143,
+	0,
+	2978,
+	3042,
+	1304,
+	6367,
+	6224,
+	0,
+	0,
+	6447,
+	6447,
+	6447,
+	1885,
+	1885,
+	2365,
+	0,
+	0,
+	0,
+	4680,
+	0,
+	0,
+	0,
+	1022,
+	4678,
+	4678,
+	2375,
+	2401,
+	2401,
+	2359,
+	0,
+	6447,
+	6224,
+	6367,
+	4680,
+	2375,
+	2375,
+	5133,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	5064,
+	6293,
+	5133,
+	5133,
+	6293,
+	5133,
+	6367,
+	1457,
+	1477,
+	1476,
+	1457,
+	1477,
+	1476,
+	5160,
+	5160,
+	6323,
+	5160,
+	1143,
+	1604,
+	1304,
+	6323,
+	6323,
+	6293,
+	5133,
+	2432,
+	6323,
+	6224,
+	0,
+	6323,
+	1843,
+	0,
+	0,
+	0,
+	0,
+	6224,
+	5064,
+	3043,
+	0,
+	1666,
+	6447,
+	6447,
+	6447,
+	6224,
+	6447,
+	6323,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	4595,
+	4595,
+	6447,
+	6447,
+	2978,
+	3042,
+	994,
+	2002,
+	6447,
+	6224,
+	5064,
+	6224,
+	5064,
+	6447,
+	6323,
+	6323,
+	6323,
+	6323,
+	6447,
+	6447,
+	5133,
+	6447,
+	6447,
+	9771,
+	6447,
+	3684,
+	1501,
+	4598,
+	6293,
+	5133,
+	1501,
+	5197,
+	9350,
+	5051,
+	6367,
+	294,
+	6447,
+	3722,
+	4777,
+	3829,
+	8017,
+	8206,
+	1939,
+	7311,
+	8453,
+	6367,
+	3008,
+	4781,
+	4781,
+	3570,
+	6224,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6224,
+	5064,
+	6437,
+	5258,
+	6367,
+	6224,
+	5064,
+	9210,
+	5160,
+	5051,
+	600,
+	7914,
+	6447,
+	9771,
+	8052,
+	6367,
+	1676,
+	6447,
+	2378,
+	2402,
+	9567,
+	9050,
+	6901,
 	6701,
-	6702,
-	5882,
-	5881,
-	6449,
-	7033,
-	5054,
-	6402,
-	7033,
-	7040,
-	6701,
-	6702,
-	6702,
-	6403,
-	5882,
-	5857,
-	5518,
-	5505,
-	6919,
-	5905,
-	5855,
-	6386,
+	9731,
+	9771,
+	7949,
+	9771,
+	0,
+	0,
+	0,
+	0,
+	6447,
+	9723,
+	9563,
+	9698,
+	9698,
+	9698,
+	9781,
+	9698,
+	9771,
+	9771,
+	9542,
+	9345,
+	6447,
+	6293,
+	1680,
+	5414,
+	1706,
+	5627,
+	8212,
+	9784,
+	1677,
+	6447,
+	6447,
+	6224,
+	3722,
+	9781,
+	5197,
+	9771,
+	9563,
+	9175,
+	9563,
+	6447,
+	9771,
+	6293,
+	5133,
+	2699,
+	1571,
+	4678,
+	2317,
+	6447,
+	6447,
+	8550,
+	6447,
+	3684,
+	3684,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	5160,
+	6447,
+	6447,
+	5133,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	5160,
+	5160,
+	2368,
+	2978,
+	5160,
+	5160,
+	2368,
+	2978,
+	6447,
+	6367,
+	4679,
+	1676,
+	2372,
+	6447,
+	6447,
+	6447,
+	9771,
+	9288,
+	6323,
+	3044,
+	2350,
+	2350,
+	6447,
+	2978,
+	6367,
+	1676,
+	2978,
+	6367,
+	1676,
+	6447,
+	1143,
+	6447,
+	6447,
+	664,
+	6447,
+	6447,
+	6447,
+	9731,
+	9771,
+	8655,
+	332,
+	6367,
+	6323,
+	5160,
+	6447,
+	9776,
+	6367,
+	4680,
+	3005,
+	6447,
+	6447,
+	6224,
+	3005,
+	4680,
+	667,
+	6447,
+	6447,
+	6447,
+	6447,
+	3044,
+	5260,
+	5197,
+	6447,
+	3044,
+	5260,
+	5197,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	2466,
+	5294,
+	5296,
+	6447,
+	6323,
+	6293,
+	6447,
+	6224,
+	6293,
+	6323,
+	5160,
+	6323,
+	6323,
+	6323,
+	6323,
+	6224,
+	6224,
+	5064,
+	6447,
+	5134,
+	2927,
+	5295,
+	6224,
+	8410,
+	8410,
+	3684,
+	6293,
+	8410,
+	8410,
+	8873,
+	8873,
+	9587,
+	9123,
+	8872,
+	2924,
+	2466,
+	5296,
+	8411,
+	8411,
+	3684,
+	6293,
+	1100,
+	5297,
+	6447,
+	6447,
+	2115,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	6447,
+	9044,
+	6224,
+	5064,
+	2429,
+	9050,
+	1938,
+	669,
+	1322,
+	7783,
+	7296,
+	6914,
+	6447,
+	6447,
+	6447,
+	3046,
+	1186,
+	2957,
+	4595,
+	2328,
+	1289,
+	1289,
+	1323,
+	4595,
+	5160,
+	5160,
+	1823,
+	5160,
+	6447,
+	9588,
+	5134,
+	3570,
+	6224,
+	6323,
+	5133,
+	5051,
+	2963,
+	5160,
+	5133,
+	5134,
+	6224,
+	5064,
+	6224,
+	5064,
+	1261,
+	1261,
+	630,
+	630,
+	5160,
+	6224,
+	6447,
+	1653,
+	2980,
+	5134,
+	2963,
+	1851,
+	3684,
+	3684,
+	3684,
+	5160,
+	5160,
+	3570,
+	6447,
+	2963,
+	1653,
+	1432,
+	2338,
+	4595,
+	2429,
+	632,
+	2963,
+	2015,
+	1851,
+	4595,
+	2336,
+	1851,
+	4590,
+	2963,
+	5160,
+	8835,
+	8835,
+	1653,
+	5160,
+	6447,
+	1104,
+	5160,
+	2334,
+	3684,
+	1847,
+	1847,
+	4595,
+	4595,
+	3655,
+	5134,
+	3684,
+	8505,
+	6224,
+	6447,
+	9188,
+	8529,
+	1640,
+	5134,
+	5160,
+	9567,
+	9050,
+	4289,
+	5160,
+	5160,
+	5160,
+	5160,
+	2328,
+	198,
+	206,
+	1296,
+	8520,
+	8520,
+	8349,
+	2963,
+	2963,
+	2963,
+	9292,
+	6447,
+	5160,
+	6447,
+	9116,
+	3999,
+	3999,
+	8579,
+	8579,
+	8453,
+	7830,
+	7297,
+	7808,
+	9292,
+	8576,
+	8576,
+	7522,
+	7959,
+	8592,
+	7959,
+	8584,
+	9292,
+	8166,
+	9292,
+	9292,
+	6246,
+	5089,
+	6246,
+	5089,
+	2466,
+	6447,
+	9188,
+	1623,
+	1623,
+	6447,
+	8871,
+	5089,
+	2431,
+	2431,
+	1559,
+	2680,
+	1568,
+	2680,
+	5160,
+	1143,
+	6447,
+	6447,
+	9567,
+	7995,
+	9731,
+	9567,
+	6447,
+	2959,
+	6447,
+	2336,
+	5160,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	3006,
+	4783,
+	3006,
+	4635,
+	3006,
+	4779,
+	6224,
+	5260,
+	6447,
+	1699,
+	4785,
+	4785,
+	6447,
+	8655,
+	8013,
+	8013,
+	8055,
+	8054,
+	5133,
+	6293,
+	6447,
+	9387,
+	5260,
+	6447,
+	6447,
+	6439,
+	7102,
+	7102,
+	7096,
+	7096,
+	8081,
+	8081,
+	9063,
+	9064,
+	8016,
+	8015,
+	8738,
+	9537,
+	6917,
+	8656,
+	9537,
+	9545,
+	9063,
+	9064,
+	9064,
+	8657,
+	8016,
+	7992,
+	7569,
+	7549,
+	9346,
+	8046,
+	7990,
+	8638,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[6] = 
 {
@@ -5600,7 +5600,7 @@ extern const uint32_t g_rgctx_T_t80D63D3CC381640E7ED160608C847023393F613E;
 extern const uint32_t g_rgctx_GameObject_AddComponent_TisT_tE262FA7B9B0B8DC1124EA9EE63AFC7F6FB77691E_mD9D0AAAA47166E9BCCD05B16E0C0A58DA37C0E99;
 extern const uint32_t g_rgctx_T_tE262FA7B9B0B8DC1124EA9EE63AFC7F6FB77691E;
 extern const uint32_t g_rgctx_T_tFD17E229B2AAE61ABD98D6D28D935B4703761F3E;
-extern const uint32_t g_rgctx_Activator_CreateInstance_TisT_tD49875D8FA4360D1459824E7E8724BFB4945B370_m6C9322FF26BA671C63C3BF06B449F55EB4E21A37;
+extern const uint32_t g_rgctx_Activator_CreateInstance_TisT_tD49875D8FA4360D1459824E7E8724BFB4945B370_m9DA46CBE6729BD3A9F1E82ABA9F323C4C97DE7C6;
 extern const uint32_t g_rgctx_T_tD49875D8FA4360D1459824E7E8724BFB4945B370;
 extern const uint32_t g_rgctx_List_1_tFC6CCFCEAB64A7DD52E88FC7489CE14D01B3ABC1;
 extern const uint32_t g_rgctx_List_1__ctor_mCFE7FCC4B9FF46EE21CE8628FD816CE500A30B06;
@@ -5620,7 +5620,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[18] =
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_GameObject_AddComponent_TisT_tE262FA7B9B0B8DC1124EA9EE63AFC7F6FB77691E_mD9D0AAAA47166E9BCCD05B16E0C0A58DA37C0E99 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE262FA7B9B0B8DC1124EA9EE63AFC7F6FB77691E },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tFD17E229B2AAE61ABD98D6D28D935B4703761F3E },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Activator_CreateInstance_TisT_tD49875D8FA4360D1459824E7E8724BFB4945B370_m6C9322FF26BA671C63C3BF06B449F55EB4E21A37 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Activator_CreateInstance_TisT_tD49875D8FA4360D1459824E7E8724BFB4945B370_m9DA46CBE6729BD3A9F1E82ABA9F323C4C97DE7C6 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tD49875D8FA4360D1459824E7E8724BFB4945B370 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_tFC6CCFCEAB64A7DD52E88FC7489CE14D01B3ABC1 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_List_1__ctor_mCFE7FCC4B9FF46EE21CE8628FD816CE500A30B06 },

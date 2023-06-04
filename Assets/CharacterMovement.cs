@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Photon.Pun;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement : MonoBehaviourPunCallbacks 
 {
 
-    Animator animator;
+    public Animator animator;
     Animator headAnim;
 
     PlayerInput input;
 
-    CharacterController characterController;
+    public CharacterController characterController;
 
     int isWalkingHash;
     int raiseHandHash;
@@ -44,7 +45,8 @@ public class CharacterMovement : MonoBehaviour
         input = new PlayerInput();
         characterController = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-        interactionsLayerIndex = animator.GetLayerIndex("Interactions");
+        if(photonView.IsMine)
+         {interactionsLayerIndex = animator.GetLayerIndex("Interactions");
         isWalkingHash = Animator.StringToHash("isWalking");
         raiseHandHash = Animator.StringToHash("raiseHand");
         sitHash = Animator.StringToHash("isSitting");
@@ -71,18 +73,19 @@ public class CharacterMovement : MonoBehaviour
 
         input.Interactions.Clap.started += onClapInput;
         input.Interactions.Clap.performed += onClapInput;
-        input.Interactions.Clap.canceled += onClapInput;
+        input.Interactions.Clap.canceled += onClapInput;}
     }
 
     void onMovementInput(InputAction.CallbackContext ctx)
     {
-        currentMovementInput = ctx.ReadValue<Vector2>();
+        if(photonView.IsMine)
+       { currentMovementInput = ctx.ReadValue<Vector2>();
         if (!isSitting)
         {
             currentMovement.x = currentMovementInput.x;
             currentMovement.z = currentMovementInput.y;
         }
-        
+        }
         
     }
     void onSitInput(InputAction.CallbackContext ctx)
@@ -98,7 +101,7 @@ public class CharacterMovement : MonoBehaviour
                 // Do something with the object
                 Debug.Log("Chair found: " + hitColliders[i].gameObject.name);
                 // Move the player to the chair position
-                transform.position = hitColliders[i].transform.position + new Vector3(0, 0, 0.2f);
+                transform.position = hitColliders[i].transform.position ;
                 transform.rotation = hitColliders[i].transform.rotation;
                 transform.Rotate(90, 0, 0);
                 if(sitInput && !isWalking && !isRaisingHand)
@@ -125,7 +128,7 @@ public class CharacterMovement : MonoBehaviour
         if(standInput && isSitting)
         {
             animator.SetBool(sitHash, false);
-            Invoke("resetCharacterControllerCenter", 1.5f);
+            Invoke("resetCharacterControllerCenter", 0.5f);
         }
     }
 
@@ -245,11 +248,11 @@ public class CharacterMovement : MonoBehaviour
         }
         */
         //Debug.Log(isSitting);
-
-        updateParameters();
+    if(photonView.IsMine)
+      {  updateParameters();
         handleWalking();
         handleRotation();
-        handleGravity();
+        handleGravity();}
         //characterController.Move(currentMovement * Time.deltaTime);
 
     }

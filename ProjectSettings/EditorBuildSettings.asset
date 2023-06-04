@@ -4,5 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/EXPERIMENT/SceneClassroom.unity
+    guid: c441ec01bd28a9340a0be391ef3c95be
+  - enabled: 1
+    path: Assets/Scenes/Formulaire.unity
+    guid: 93bfed15253c8b840a9705ce21e653c2
+  - enabled: 1
+    path: Assets/Scenes/SceneClassroom.unity
+    guid: 1037dfd506f8d194c8ac62facba42d74
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 6c81e0e41b213004a850d50d8a0671d8, type: 2}
